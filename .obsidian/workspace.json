@@ -1,0 +1,319 @@
+{
+  "main": {
+    "id": "d9b6004c02c327ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "c42407f33ff79a13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b499a5bfa192d50c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "353e9f9b23c74225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PMFG - Planar Maximally filtered Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PMFG - Planar Maximally filtered Graphs"
+            }
+          },
+          {
+            "id": "3d90aeb528062c58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shrinkage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shrinkage"
+            }
+          },
+          {
+            "id": "01e9d55abb5491e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "autocorrelation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "autocorrelation"
+            }
+          },
+          {
+            "id": "1b29a2b43fce5edf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Betweenness.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Betweenness"
+            }
+          },
+          {
+            "id": "f33a1bbf1a723d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eccentricity in graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eccentricity in graphs"
+            }
+          },
+          {
+            "id": "8ec2ab5ad7308924",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eigenvector Centrality.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eigenvector Centrality"
+            }
+          },
+          {
+            "id": "fe4c428ca5f83f1a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "12416dec327a515c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8801818ed44fbe8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73fa907c93919dc5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7532902be0142393",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ffd3896fd2b27847",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c4e69628e3567807",
+    "type": "split",
+    "children": [
+      {
+        "id": "74c48248546d6d1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb644a8ca4386907",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "f18d3c2cbc3a1e40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "e2cbc19d0e509c22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9570bd97807a195e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a9a7e98925041332",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fe4c428ca5f83f1a",
+  "lastOpenFiles": [
+    "Markowitz Weighting.md",
+    "Eigenvector Centrality.md",
+    "Eccentricity in graphs.md",
+    "Betweenness.md",
+    "autocorrelation.md",
+    "Shrinkage.md",
+    "PMFG - Planar Maximally filtered Graphs.md",
+    "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
+    "MolecularNotes-master/_templates/molecule.md",
+    "MolecularNotes-master/_templates/infomedia.md",
+    "MolecularNotes-master/_templates/book.md",
+    "MolecularNotes-master/_templates/author.md",
+    "MolecularNotes-master/_templates/atom.md",
+    "Welcome.md",
+    "MolecularNotes-master/_templates/topic.md",
+    "MolecularNotes-master/_templates/textbook.md",
+    "MolecularNotes-master/_templates/academic.md",
+    "MolecularNotes-master/Topics/Management.md",
+    "create a link.md",
+    "MolecularNotes-master/Sources/The Everything Store, Stone.md",
+    "MolecularNotes-master/README.md",
+    "MolecularNotes-master/_scripts/obsidian_util.py",
+    "MolecularNotes-master/_scripts/dashboard.py",
+    "MolecularNotes-master/_attachments/logo.png",
+    "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
+    "MolecularNotes-master/Authors/Brad Stone.md",
+    "MolecularNotes-master/_templates",
+    "MolecularNotes-master/_scripts",
+    "MolecularNotes-master/_attachments",
+    "MolecularNotes-master/__OBSIDIAN_META__.md",
+    "MolecularNotes-master/Topics",
+    "MolecularNotes-master/Sources",
+    "MolecularNotes-master/Molecules",
+    "MolecularNotes-master/LICENSE",
+    "MolecularNotes-master/Authors"
+  ]
+}
