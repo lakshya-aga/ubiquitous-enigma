@@ -128,9 +128,23 @@
               "icon": "diff",
               "title": "Diff: Shrinkage  (Working Tree)"
             }
+          },
+          {
+            "id": "47f1a39c1c8b1e8a",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -303,8 +317,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7cd9f374d0880a53",
+  "active": "73fa907c93919dc5",
   "lastOpenFiles": [
+    "Double integrals.md",
+    "C++ rvalues.md",
+    "conflict-files-obsidian-git.md",
     "CUSUM filter.md",
     "Shrinkage.md",
     "Markowitz Weighting.md",
@@ -332,11 +349,9 @@
     "MolecularNotes-master/_scripts/dashboard.py",
     "MolecularNotes-master/_attachments/logo.png",
     "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
-    "MolecularNotes-master/Authors/Brad Stone.md",
     "MolecularNotes-master/_templates",
     "MolecularNotes-master/_scripts",
     "MolecularNotes-master/_attachments",
-    "MolecularNotes-master/__OBSIDIAN_META__.md",
     "MolecularNotes-master/Topics",
     "MolecularNotes-master/Sources",
     "MolecularNotes-master/Molecules",
