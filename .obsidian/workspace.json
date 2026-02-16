@@ -317,11 +317,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73fa907c93919dc5",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Double integrals.md",
     "C++ rvalues.md",
-    "conflict-files-obsidian-git.md",
     "CUSUM filter.md",
     "Shrinkage.md",
     "Markowitz Weighting.md",
