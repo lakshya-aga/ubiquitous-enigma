@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shrinkage.md",
+                "file": "MolecularNotes-master/Molecules/Shrinkage.md",
                 "mode": "source",
                 "source": false
               },
@@ -114,9 +114,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "7cd9f374d0880a53",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "MolecularNotes-master/Molecules/Shrinkage.md",
+                "bFile": "MolecularNotes-master/Molecules/Shrinkage.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Shrinkage  (Working Tree)"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -259,13 +273,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "f521cbe80ecfeb3c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,17 +299,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe4c428ca5f83f1a",
+  "active": "7cd9f374d0880a53",
   "lastOpenFiles": [
+    "CUSUM filter.md",
+    "Shrinkage.md",
     "Markowitz Weighting.md",
     "Eigenvector Centrality.md",
     "Eccentricity in graphs.md",
     "Betweenness.md",
     "autocorrelation.md",
-    "Shrinkage.md",
+    "MolecularNotes-master/Molecules/Shrinkage.md",
     "PMFG - Planar Maximally filtered Graphs.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_templates/molecule.md",
