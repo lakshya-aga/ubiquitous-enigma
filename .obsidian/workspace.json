@@ -349,13 +349,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Archimedian Copulas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Archimedian Copulas"
             }
           },
           {
@@ -387,7 +387,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac2028fe9f0e44b5",
+  "active": "a9a7e98925041332",
   "lastOpenFiles": [
     "Elliptical Copulas.md",
     "Archimedian Copulas.md",
