@@ -219,12 +219,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markowitz Weighting.md",
+                "file": "Sklar's Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markowitz Weighting"
+              "title": "Sklar's Theorem"
             }
           }
         ],
@@ -363,13 +363,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markowitz Weighting.md",
+                "file": "Sklar's Theorem.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Markowitz Weighting"
+              "title": "Outline of Sklar's Theorem"
             }
           },
           {
@@ -403,7 +403,8 @@
   },
   "active": "ddfc369ed2d1c234",
   "lastOpenFiles": [
-    "One piece.md",
+    "Markowitz Weighting.md",
+    "Sklar's Theorem.md",
     "Archimedian Copulas.md",
     "Elliptical Copulas.md",
     "Eigenvector Centrality.md",
@@ -416,7 +417,6 @@
     "C++ rvalues.md",
     "CUSUM filter.md",
     "Shrinkage.md",
-    "Markowitz Weighting.md",
     "Eccentricity in graphs.md",
     "Betweenness.md",
     "autocorrelation.md",
