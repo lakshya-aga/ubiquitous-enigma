@@ -212,9 +212,23 @@
               "icon": "lucide-file",
               "title": "Archimedian Copulas"
             }
+          },
+          {
+            "id": "ddfc369ed2d1c234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markowitz Weighting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Markowitz Weighting"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -349,13 +363,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archimedian Copulas.md",
+                "file": "Markowitz Weighting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Archimedian Copulas"
+              "title": "Outline of Markowitz Weighting"
             }
           },
           {
@@ -387,10 +401,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9a7e98925041332",
+  "active": "ddfc369ed2d1c234",
   "lastOpenFiles": [
-    "Elliptical Copulas.md",
+    "One piece.md",
     "Archimedian Copulas.md",
+    "Elliptical Copulas.md",
     "Eigenvector Centrality.md",
     "PMFG - Planar Maximally filtered Graphs.md",
     "Joint Probability Distribution.md",
@@ -415,7 +430,6 @@
     "Welcome.md",
     "MolecularNotes-master/_templates/topic.md",
     "MolecularNotes-master/_templates/textbook.md",
-    "MolecularNotes-master/_templates/academic.md",
     "MolecularNotes-master/_scripts/obsidian_util.py",
     "MolecularNotes-master/_scripts/dashboard.py",
     "MolecularNotes-master/_attachments/logo.png",
