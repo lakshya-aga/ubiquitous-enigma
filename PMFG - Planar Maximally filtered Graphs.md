@@ -8,9 +8,9 @@
 Algorithm to build:
 - Sort edges by weights high to low
 - Add one by one 
-- Check Planarity
-- If planarity holds, keep and continue for next node
-- If planarity violated, remove and continue for next node
+	- Check Planarity
+	- If planarity holds, keep and continue for next node
+	- If planarity violated, remove and continue for next node
 - Continue till 3N-6 edges or edges exhausted
 ---
 
