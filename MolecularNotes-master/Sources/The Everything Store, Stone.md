@@ -1,7 +1,7 @@
 Author: [[Brad Stone]]
 Type: #source #book
 Link: [notion](https://robertreads.notion.site/The-Everything-Store-9d6aa5221bed4899a606df442828652a)
-Topics: [[Management]]
+Topics: [[Agentic AI]]
 
 ---
 
