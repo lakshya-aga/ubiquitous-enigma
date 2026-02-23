@@ -16,4 +16,5 @@ Current status:
 - MCP for library code setup
 To do:
 - Add MCP connection tool for the research agent
-- Simulate the probability of backtesting overfitting
+- Add a tool for researcher to request 
+- Simulate the probability of backtesting overfitting paper
