@@ -15,6 +15,8 @@ Desired Setup:
 Current status:
 - MCP for library code setup
 To do:
-- Add MCP connection tool for the research agent
-- Add a tool for researcher to request 
+- High Priority
+	- Add MCP connection tool for the research agent
+- Low Priori
+- Add a tool for researcher to request new function to be added to library if implementation would be more than 10 lines and reusability is high
 - Simulate the probability of backtesting overfitting paper
