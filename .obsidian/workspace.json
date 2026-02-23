@@ -261,12 +261,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Topics/Agentic AI for Quant Finance.md",
+                "file": "github.com/lakshya-aga/fruit-thrower.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentic AI for Quant Finance"
+              "title": "fruit-thrower"
             }
           }
         ],
@@ -405,13 +405,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MolecularNotes-master/Topics/Agentic AI for Quant Finance.md",
+                "file": "github.com/lakshya-aga/fruit-thrower.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Agentic AI for Quant Finance"
+              "title": "Outline of fruit-thrower"
             }
           },
           {
@@ -445,13 +445,16 @@
   },
   "active": "8d762116d8282747",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/Agentic AI for Quant Finance.md",
+    "github.com/lakshya-aga/fruit-thrower.md",
+    "github.com/lakshya-aga",
+    "github.com",
     "MolecularNotes-master/Topics/Volatility Trading.md",
     "MolecularNotes-master/Topics/C++.md",
     "Shrinkage.md",
     "MolecularNotes-master/Sources/The Everything Store, Stone.md",
     "MolecularNotes-master/Molecules/MST vs PMFG in Peripheral trading.md",
     "MolecularNotes-master/Molecules/When to use Shrinkage.md",
-    "MolecularNotes-master/Topics/Agentic AI for Quant Finance.md",
     "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
     "Sklar's Theorem.md",
     "Markowitz Weighting.md",
@@ -471,7 +474,6 @@
     "autocorrelation.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_templates/molecule.md",
-    "MolecularNotes-master/_templates/infomedia.md",
     "MolecularNotes-master/_scripts/obsidian_util.py",
     "MolecularNotes-master/_scripts/dashboard.py",
     "MolecularNotes-master/_attachments/logo.png",
@@ -480,8 +482,6 @@
     "MolecularNotes-master/_attachments",
     "MolecularNotes-master/Topics",
     "MolecularNotes-master/Sources",
-    "MolecularNotes-master/Molecules",
-    "MolecularNotes-master/LICENSE",
-    "MolecularNotes-master/Authors"
+    "MolecularNotes-master/Molecules"
   ]
 }
