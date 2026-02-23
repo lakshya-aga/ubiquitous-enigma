@@ -219,16 +219,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sklar's Theorem.md",
+                "file": "MolecularNotes-master/Topics/Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sklar's Theorem"
+              "title": "Management"
+            }
+          },
+          {
+            "id": "ceb6bf8e394a60c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -363,13 +377,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sklar's Theorem.md",
+                "file": "C++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sklar's Theorem"
+              "title": "Outline of C++"
             }
           },
           {
@@ -401,10 +415,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ddfc369ed2d1c234",
+  "active": "ceb6bf8e394a60c4",
   "lastOpenFiles": [
-    "Markowitz Weighting.md",
+    "MolecularNotes-master/Topics/Management.md",
+    "C++.md",
+    "MolecularNotes-master/Sources/The Everything Store, Stone.md",
+    "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
     "Sklar's Theorem.md",
+    "Markowitz Weighting.md",
     "Archimedian Copulas.md",
     "Elliptical Copulas.md",
     "Eigenvector Centrality.md",
@@ -426,10 +444,6 @@
     "MolecularNotes-master/_templates/infomedia.md",
     "MolecularNotes-master/_templates/book.md",
     "MolecularNotes-master/_templates/author.md",
-    "MolecularNotes-master/_templates/atom.md",
-    "Welcome.md",
-    "MolecularNotes-master/_templates/topic.md",
-    "MolecularNotes-master/_templates/textbook.md",
     "MolecularNotes-master/_scripts/obsidian_util.py",
     "MolecularNotes-master/_scripts/dashboard.py",
     "MolecularNotes-master/_attachments/logo.png",
