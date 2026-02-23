@@ -343,14 +343,12 @@
             "id": "26e91034216b7afb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CFA.md",
-                "mode": "source",
-                "source": false
+                "file": "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png"
               },
-              "icon": "lucide-file",
-              "title": "CFA"
+              "icon": "lucide-image",
+              "title": "Screenshot 2026-02-15 at 9.09.41 PM"
             }
           }
         ],
@@ -489,13 +487,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CFA.md",
+                "file": "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CFA"
+              "title": "Outline of Screenshot 2026-02-15 at 9.09.41 PM"
             }
           },
           {
@@ -529,8 +527,9 @@
   },
   "active": "26e91034216b7afb",
   "lastOpenFiles": [
+    "MolecularNotes-master/_attachments/logo.png",
+    "MolecularNotes-master/Topics/CFA.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
-    "CFA.md",
     "MolecularNotes-master/Topics/Multivariate Calculus.md",
     "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
     "MolecularNotes-master/Sources/Effective Modern C++.md",
@@ -556,11 +555,9 @@
     "Eigenvector Centrality.md",
     "PMFG - Planar Maximally filtered Graphs.md",
     "Joint Probability Distribution.md",
-    "Marginal Probability Function.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_scripts/obsidian_util.py",
     "MolecularNotes-master/_scripts/dashboard.py",
-    "MolecularNotes-master/_attachments/logo.png",
     "MolecularNotes-master/_templates",
     "MolecularNotes-master/_scripts",
     "MolecularNotes-master/_attachments",
