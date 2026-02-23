@@ -15,4 +15,5 @@ Desired Setup:
 Current status:
 - MCP for library code setup
 To do:
-- Add MCP connection tool
+- Add MCP connection tool for the research agent
+- Simulate the probability of backtesting overfitting
