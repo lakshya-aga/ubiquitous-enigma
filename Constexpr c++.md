@@ -1,0 +1,1 @@
+Compile time evaluation of variables in c++. Introduced in c++11
