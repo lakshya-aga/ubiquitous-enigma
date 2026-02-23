@@ -10,4 +10,9 @@ Desired Setup:
 	- Agents currently use raw numbers via MCPs to make trade decisions. We get rid of guessing and give a ***trader agent*** access to proprietary quant research which it can pick, choose and execute to get information via graphs, p-values etc.
 	- We give ***Research agents*** access to internal libraries and data via MCP to find, generate and test hypothesis.
 	- We give a ***Developer agent*** access to any piece of literature that we come across to build tools e.g. Advances in financial machine learning, Hudson and thames Libraries
-	- The trickiest part is to get the Research agent right - leakage, lookahead bias, overfitting are silent killers which will trickle down 
+	- The trickiest part is to get the Research agent right - leakage, lookahead bias, overfitting are silent killers which will trickle down to trader as well
+
+Current status:
+- MCP for library code setup
+To do:
+- Add MCP connection tool
