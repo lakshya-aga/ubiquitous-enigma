@@ -1,1 +1,1 @@
-Compile time evaluation of variables in c++. Introduced in c++11
+Compile time evaluation of variables in c++. Introduced in c++11. Can be virtual since c++20
