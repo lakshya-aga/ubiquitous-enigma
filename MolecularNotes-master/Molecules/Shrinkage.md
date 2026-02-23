@@ -1,6 +1,0 @@
-
----
-
-Topics:
-Reference:
-Type: #atom
