@@ -10,9 +10,13 @@ It assumes a constant risk free rate r
 
 It also assumes a constant volatility $$ \sigma $$
 The Option PDE is given as follows:
-$$ \frac{\delta V}{\delta T}
-+ \frac{1}{2}.\sigma ^ 2 . S_t ^2
+$$ \frac{\partial V}{\partial T}
++ \frac{1}{2}\sigma ^ 2  S_t ^2. \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0
 $$
+
+It can logically be broken down into Theta decay, gamma related term with volatility, risk neutral drift term, and discounting based on the risk free rate
+
+---
 Topics:
 Reference:
 Type: #atom
