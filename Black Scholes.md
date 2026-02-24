@@ -9,8 +9,9 @@ $$
 It assumes a constant risk free rate r
 
 It also assumes a constant volatility $$ \sigma $$
-The Option 
-
+The Option PDE is given as follows:
+$$ frac(\delta V, \delta T)
+$$
 Topics:
 Reference:
 Type: #atom
