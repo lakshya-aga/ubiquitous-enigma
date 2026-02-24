@@ -1,6 +1,6 @@
 
 ---
 
-Topics: [[C++]]
+Topics:
 Reference:
 Type: #atom
