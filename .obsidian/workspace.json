@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constexpr c++.md",
+                "file": "Eigenvector Centrality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Constexpr c++"
+              "title": "Eigenvector Centrality"
             }
           }
         ]
@@ -196,14 +196,14 @@
   },
   "active": "6972b31dbccea3e8",
   "lastOpenFiles": [
+    "Elliptical Copulas.md",
+    "Constexpr c++.md",
     "Noexcept in C++.md",
     "Move semantics c++.md",
-    "Constexpr c++.md",
     "Copula.md",
     "CUSUM filter.md",
     "Eccentricity in graphs.md",
     "Eigenvector Centrality.md",
-    "Elliptical Copulas.md",
     "Json Web Tokens or JWT.md",
     "Joint Probability Distribution.md",
     "Markowitz Weighting.md",
