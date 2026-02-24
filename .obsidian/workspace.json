@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Copula.md",
+                "file": "Constexpr c++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Copula"
+              "title": "Constexpr c++"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "6972b31dbccea3e8",
   "lastOpenFiles": [
+    "Noexcept in C++.md",
+    "Move semantics c++.md",
     "Constexpr c++.md",
     "Copula.md",
     "CUSUM filter.md",
@@ -205,8 +207,6 @@
     "Json Web Tokens or JWT.md",
     "Joint Probability Distribution.md",
     "Markowitz Weighting.md",
-    "Move semantics c++.md",
-    "Noexcept in C++.md",
     "PMFG - Planar Maximally filtered Graphs.md",
     "Reverse Proxy.md",
     "Shrinkage.md",
