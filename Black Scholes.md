@@ -9,7 +9,7 @@ $$
 It assumes a constant risk free rate r
 
 It also assumes a constant volatility $$ \sigma $$
-To solve this equation:
+The Option 
 
 Topics:
 Reference:
