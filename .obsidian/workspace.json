@@ -11,14 +11,10 @@
             "id": "6972b31dbccea3e8",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "MolecularNotes-master/Sources/A tour of C++.md",
-                "bFile": "MolecularNotes-master/Sources/A tour of C++.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: A tour of C++  (Working Tree)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -196,15 +192,19 @@
   },
   "active": "6972b31dbccea3e8",
   "lastOpenFiles": [
-    "Marginal Probability Function.md",
     "Welcome.md",
+    "MolecularNotes-master/__OBSIDIAN_META__.md",
+    "Vine Copula.md",
     "PMFG - Planar Maximally filtered Graphs.md",
+    "Markowitz Weighting.md",
+    "Json Web Tokens or JWT.md",
+    "Joint Probability Distribution.md",
+    "Eccentricity in graphs.md",
+    "Marginal Probability Function.md",
     "autocorrelation.md",
     "Betweenness.md",
-    "Eccentricity in graphs.md",
     "Eigenvector Centrality.md",
     "Copula.md",
-    "Joint Probability Distribution.md",
     "Elliptical Copulas.md",
     "Archimedian Copulas.md",
     "MolecularNotes-master/Topics/Agentic AI for Quant Finance.md",
@@ -216,13 +216,9 @@
     "MolecularNotes-master/Topics/Multivariate Calculus.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "Vine Copula.md",
     "Black Scholes.md",
     "MolecularNotes-master/Topics/Option Spreads.md",
     "MolecularNotes-master/Topics/Microservices.md",
-    "Reverse Proxy.md",
-    "Json Web Tokens or JWT.md",
-    "Noexcept in C++.md",
     "MolecularNotes-master/_attachments/logo.png",
     "github.com/lakshya-aga",
     "github.com",
