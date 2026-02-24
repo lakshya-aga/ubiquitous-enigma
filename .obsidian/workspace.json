@@ -251,8 +251,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bcba6bc33b03b2de",
+  "active": "73fa907c93919dc5",
   "lastOpenFiles": [
+    "package-lock.json",
     "Matrix inversion.md",
     "Positive Semi-definite matrix.md",
     "Cholesky's Decomposition.md",
@@ -278,7 +279,6 @@
     "Marginal Probability Function.md",
     "autocorrelation.md",
     "Betweenness.md",
-    "Archimedian Copulas.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
     "github.com/lakshya-aga",
