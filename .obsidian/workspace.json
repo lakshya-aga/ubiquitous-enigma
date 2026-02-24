@@ -609,8 +609,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ff48b94aee85898",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
+    "Noexcept in C++.md",
+    "Constexpr c++.md",
     "MolecularNotes-master/Topics/Microservices.md",
     "Reverse Proxy.md",
     "MolecularNotes-master/Topics/Option Spreads.md",
@@ -639,8 +641,6 @@
     "MolecularNotes-master/Topics/Volatility Trading.md",
     "Shrinkage.md",
     "MolecularNotes-master/Molecules/MST vs PMFG in Peripheral trading.md",
-    "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
-    "Sklar's Theorem.md",
     "MolecularNotes-master/_scripts/obsidian_util.py",
     "MolecularNotes-master/_scripts/dashboard.py",
     "MolecularNotes-master/_templates",
