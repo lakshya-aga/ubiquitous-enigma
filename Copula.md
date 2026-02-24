@@ -12,6 +12,6 @@ What Happens if 2 functions already have a joint cumulative probability function
 
 ---
 
-Topics: Sklar's theorem, Probabilities, 
+Topics: Sklar's theorem, Probabilities
 Reference:
 Type: #atom
