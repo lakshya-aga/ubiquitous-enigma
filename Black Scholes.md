@@ -4,8 +4,11 @@ Most commonly used closed form solution to the pricing of options where underlyi
 
 It start with the assumption of the change in asset price being modelled as a combination of 2 terms:
 $$
-dS_t = \mu . S_t. dt + \sigma . dW_t
+dS_t = \mu . S_t. dt + \sigma . S_t. dW_t
 $$
+It a
+To solve this equation:
+
 Topics:
 Reference:
 Type: #atom
