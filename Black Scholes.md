@@ -10,7 +10,8 @@ It assumes a constant risk free rate r
 
 It also assumes a constant volatility $$ \sigma $$
 The Option PDE is given as follows:
-$$ frac(\delta V, \delta T)
+$$ \frac{\delta V}{\delta T}
++ \frac{1}{}
 $$
 Topics:
 Reference:
