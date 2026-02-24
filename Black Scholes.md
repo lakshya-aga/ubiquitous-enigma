@@ -16,6 +16,12 @@ $$
 
 It can logically be broken down into Theta decay, gamma related term with volatility, risk neutral drift term, and discounting based on the risk free rate
 
+To derive:
+
+Let price = V(S_t, t)
+$$ d V= \frac{\partial V}{\partial t}. dt
++ \frac{1}{2}\frac{\partial^2 V}{\partial S^2}. dS^2+ \frac{\partial S}{\partial S}.dS
+$$
 ---
 Topics:
 Reference:
