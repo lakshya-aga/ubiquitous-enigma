@@ -6,7 +6,9 @@ It start with the assumption of the change in asset price being modelled as a co
 $$
 dS_t = \mu . S_t. dt + \sigma . S_t. dW_t
 $$
-It a
+It assumes a constant risk free rate r
+
+It also assumes a constant volatility $$ \sigma $$
 To solve this equation:
 
 Topics:
