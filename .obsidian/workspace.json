@@ -125,8 +125,8 @@
                 "bFile": "MolecularNotes-master/Molecules/Shrinkage.md",
                 "aRef": ""
               },
-              "icon": "diff",
-              "title": "Diff: Shrinkage  (Working Tree)"
+              "icon": "lucide-ghost",
+              "title": "split-diff-view"
             }
           },
           {
@@ -139,8 +139,8 @@
                 "bFile": "conflict-files-obsidian-git.md",
                 "aRef": ""
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+              "icon": "lucide-ghost",
+              "title": "split-diff-view"
             }
           },
           {
