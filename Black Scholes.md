@@ -11,7 +11,7 @@ It assumes a constant risk free rate r
 It also assumes a constant volatility $$ \sigma $$
 The Option PDE is given as follows:
 $$ \frac{\delta V}{\delta T}
-+ \frac{1}{}
++ \frac{1}{2}.\sigma
 $$
 Topics:
 Reference:
