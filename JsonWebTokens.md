@@ -2,6 +2,6 @@ Authentication method that encodes crucial information like user.id or user.emai
 
 ---
 
-Topics:" Backend, Microservices"
+Topics: "Backend, Microservices"
 Reference: https://auth0.com/blog/demystifying-jose-jwt-family/
 Type: #atom

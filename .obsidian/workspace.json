@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PlanarMaximallyfilteredGraphs.md",
+                "file": "JsonWebTokens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PlanarMaximallyfilteredGraphs"
+              "title": "JsonWebTokens"
             }
           }
         ]
@@ -196,8 +196,9 @@
   },
   "active": "92a8ced1985ddaee",
   "lastOpenFiles": [
-    "NoexceptC++.md",
+    "MoveSemanticsC++.md",
     "PlanarMaximallyfilteredGraphs.md",
+    "NoexceptC++.md",
     "PositiveSemi-definitematrix.md",
     "ReverseProxy.md",
     "Shrinkage.md",
@@ -221,7 +222,6 @@
     "MarginalProbabilityFunction.md",
     "MarkowitzWeighting.md",
     "MatrixInversion.md",
-    "MoveSemanticsC++.md",
     "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
