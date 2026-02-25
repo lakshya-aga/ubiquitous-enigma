@@ -15,7 +15,7 @@ To derive:
 Let $$price = V(S_t, t) $$
 Applying Ito's Lemma
 $$ d V= \frac{\partial V}{\partial t}. dt
-+ \frac{\partial S}{\partial S}.dS + \frac{1}{2}\frac{\partial^2 V}{\partial S^2}. dS^2
++ \frac{\partial V}{\partial S}.dS + \frac{1}{2}\frac{\partial^2 V}{\partial S^2}. dS^2
 $$
 
 But: from the asset price equation we can substitute dS dW.dW = dt and all other combinations are zero. This one rearrangement, we get
