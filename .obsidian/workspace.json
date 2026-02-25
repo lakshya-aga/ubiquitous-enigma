@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
+              "title": "index"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "92a8ced1985ddaee",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Topics/C++.md",
     "MolecularNotes-master/Topics/CFA.md",
     "MolecularNotes-master/Topics/DerivativePricing.md",
@@ -212,7 +213,7 @@
     "Shrinkage.md",
     "Sklar'sTheorem.md",
     "VineCopula.md",
-    "Welcome.md",
+    "index.md",
     "Copula.md",
     "CUSUM_filter.md",
     "ArchimedianCopulas.md",
@@ -221,7 +222,6 @@
     "BlackScholes.md",
     "Cholesky'sDecomposition.md",
     "ConstexprC++.md",
-    "EccentricityInGraphs.md",
     "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
