@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Topics/VolatilityTrading.md",
+                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VolatilityTrading"
+              "title": "AgenticAIforQuantFinance"
             }
           }
         ]
@@ -196,6 +196,13 @@
   },
   "active": "92a8ced1985ddaee",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/C++.md",
+    "MolecularNotes-master/Topics/CFA.md",
+    "MolecularNotes-master/Topics/DerivativePricing.md",
+    "MolecularNotes-master/Topics/Microservices.md",
+    "MolecularNotes-master/Topics/MultivariateCalculus.md",
+    "MolecularNotes-master/Topics/OptionSpreads.md",
+    "MolecularNotes-master/Topics/VolatilityTrading.md",
     "JsonWebTokens.md",
     "MoveSemanticsC++.md",
     "PlanarMaximallyfilteredGraphs.md",
@@ -215,13 +222,6 @@
     "Cholesky'sDecomposition.md",
     "ConstexprC++.md",
     "EccentricityInGraphs.md",
-    "EigenvectorCentrality.md",
-    "EllipticalCopulas.md",
-    "JointProbabilityDistribution.md",
-    "LUdecomposition.md",
-    "MarginalProbabilityFunction.md",
-    "MarkowitzWeighting.md",
-    "MatrixInversion.md",
     "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
