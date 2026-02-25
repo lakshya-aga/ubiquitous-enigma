@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.md"
+              "title": "index"
             }
           }
         ]
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73fa907c93919dc5",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Topics/C++.md",
@@ -213,7 +213,7 @@
     "Shrinkage.md",
     "Sklar'sTheorem.md",
     "VineCopula.md",
-    "index.md.md",
+    "index.md",
     "Copula.md",
     "CUSUM_filter.md",
     "ArchimedianCopulas.md",
