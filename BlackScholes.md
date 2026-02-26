@@ -17,7 +17,7 @@ $$ d V= \frac{\partial V}{\partial t}. dt
 + \frac{\partial V}{\partial S}.dS + \frac{1}{2}\frac{\partial^2 V}{\partial S^2}. dS^2
 $$
 
-But: from the asset price equation we can substitute dS dW.dW = dt and all other combinations are zero. This one rearrangement, we get
+But: from the asset price equation we can substitute $dS$ and $dW.dW = dt$ and all other combinations are zero. This one rearrangement, we get
 
 
 
