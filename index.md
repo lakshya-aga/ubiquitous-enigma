@@ -1,11 +1,8 @@
 
 ---
-Topics:
-Reference:
-Type: #atom This is your new *vault*.
+Topics: Introduction
+Reference: 
+Type: #atom 
 
 ---
-
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
+This page is the Landing page for my notes. The system is using Molecular notes. The outermost folder consists of atoms - standalone topics that 
