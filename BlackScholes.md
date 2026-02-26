@@ -11,9 +11,12 @@ It also assumes a constant volatility: $\sigma$
 
 To derive:
 
-Let $$price = V(S_t, t) $$
+Let $$
+price = V(S_t, t)
+$$
 Applying Ito's Lemma
-$$ d V= \frac{\partial V}{\partial t}. dt
+$$
+d V= \frac{\partial V}{\partial t}. dt
 + \frac{\partial V}{\partial S}.dS + \frac{1}{2}\frac{\partial^2 V}{\partial S^2}. dS^2
 $$
 
