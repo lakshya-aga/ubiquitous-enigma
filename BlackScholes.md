@@ -19,7 +19,7 @@ $$
 
 But: from the asset price equation we can substitute dS dW.dW = dt and all other combinations are zero. This one rearrangement, we get
 
----
+
 
 The Option PDE is given as follows:
 $$ \frac{\partial V}{\partial T}
@@ -27,6 +27,9 @@ $$ \frac{\partial V}{\partial T}
 $$
 
 It can logically be broken down into Theta decay, gamma related term with volatility, risk neutral drift term, and discounting based on the risk free rate
+
+---
+
 
 Topics:
 Reference:

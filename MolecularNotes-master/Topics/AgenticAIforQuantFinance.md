@@ -1,5 +1,7 @@
 Type: #topic
 
+---
+
 The Current Problem of agentic AI in quant finance is identified as follows:
 - Quant researchers using AI for trading are limited by the scope of documentation and reusability of internal tools
 - For example a researcher understands his or her own process of processing a problem - they generally throw clustering algorithms like [[OPTICS]] or [[Hierarchical Clustering]] based on some [[greedy heuristics]]. That is they sort of know a path to be taken in the Maze
@@ -21,3 +23,4 @@ To do:
 	- Add a tool for researcher to request new function to be added to library if implementation would be more than 10 lines and reusability is high
 - Target
 	- Simulate the probability of backtesting overfitting paper
+

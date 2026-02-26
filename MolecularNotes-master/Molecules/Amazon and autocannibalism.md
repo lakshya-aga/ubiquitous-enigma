@@ -1,4 +1,4 @@
-One of the key reasons for Amazon's success, as described in [[The Everything Store, Stone]] has been its willingness to autocannibalise:
+One of the key reasons for Amazon's success, as described in [[TheEverythingStore,Stone]] has been its willingness to autocannibalise:
 
 > It is far better to cannibalize yourself than have someone else do it
 
@@ -6,5 +6,5 @@ This reflects a keen awareness (and rejection) of what is typically a major issu
 
 ---
 Topics: [[Agentic AI]]
-Reference: [[The Everything Store, Stone]]
+Reference: [[TheEverythingStore,Stone]]
 Type: #molecule 

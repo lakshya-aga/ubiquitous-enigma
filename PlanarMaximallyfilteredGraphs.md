@@ -14,7 +14,7 @@ Algorithm to build:
 - Continue till 3N-6 edges or edges exhausted
 ---
 
-Topics: Topology, Clustering, Outlier Detection
-Reference: _Tumminello, M., Aste, T., Di Matteo, T. & Mantegna, R. N. A tool for filtering information in complex systems. Proceedings of the National Academy of Sciences
-102/30, 10421–10426 (2005).
+Topics: "Topology, Clustering, Outlier Detection"
+Reference: "Tumminello, M., Aste, T., Di Matteo, T. & Mantegna, R. N. A tool for filtering information in complex systems. Proceedings of the National Academy of Sciences
+102/30, 10421–10426 (2005)."
 Type: #atom
