@@ -11,7 +11,8 @@ It also assumes a constant volatility: $\sigma$
 
 To derive:
 
-Let $$
+Let 
+$$
 price = V(S_t, t)
 $$
 Applying Ito's Lemma
