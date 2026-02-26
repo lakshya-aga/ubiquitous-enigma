@@ -25,7 +25,8 @@ But: from the asset price equation we can substitute $dS$ and $dW.dW = dt$ and a
 
 
 The Option PDE is given as follows:
-$$ \frac{\partial V}{\partial T}
+$$
+\frac{\partial V}{\partial T}
 + \frac{1}{2}\sigma ^ 2  S_t ^2. \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0
 $$
 
