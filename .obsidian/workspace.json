@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "BlackScholes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "BlackScholes"
             }
           }
         ]
@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f521cbe80ecfeb3c",
+  "active": "92a8ced1985ddaee",
   "lastOpenFiles": [
+    "index.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Topics/C++.md",
     "MolecularNotes-master/Topics/CFA.md",
@@ -213,7 +214,6 @@
     "Shrinkage.md",
     "Sklar'sTheorem.md",
     "VineCopula.md",
-    "index.md",
     "Copula.md",
     "CUSUM_filter.md",
     "ArchimedianCopulas.md",
