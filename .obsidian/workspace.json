@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92a8ced1985ddaee",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
+    "Ebbinghaus_forgetting_curve.md",
     "Cholesky'sDecomposition.md",
     "BlackScholes.md",
     "index.md",
@@ -221,7 +222,6 @@
     "ArchimedianCopulas.md",
     "autocorrelation.md",
     "Betweenness.md",
-    "ConstexprC++.md",
     "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
