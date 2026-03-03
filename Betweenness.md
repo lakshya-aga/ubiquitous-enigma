@@ -5,8 +5,8 @@ $$
 C_B(v)=\sum_{s \ne v \ne t}\frac{\sigma_{st}(v)}{\sigma_{st}}
 $$
 where:
-- \(\sigma_{st}\): number of shortest paths from \(s\) to \(t\)
-- \(\sigma_{st}(v)\): those paths passing through \(v\)
+- $(\sigma_{st})$: number of shortest paths from \(s\) to \(t\)
+- $(\sigma_{st}(v)$): those paths passing through \(v\)
 
 Interpretation:
 - High betweenness nodes are bridges/bottlenecks.

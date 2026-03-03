@@ -1,4 +1,4 @@
-Archimedean copulas are defined through a generator function \(\phi\):
+Archimedean copulas are defined through a generator function ($\phi$):
 $$
 C(u,v)=\phi^{-1}(\phi(u)+\phi(v))
 $$
