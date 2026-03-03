@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ebbinghaus_forgetting_curve.md",
+                "file": "ArchimedianCopulas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ebbinghaus_forgetting_curve"
-            }
-          },
-          {
-            "id": "764eaddfc238d07d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Sources/MathPrimerforFinancialEngineering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MathPrimerforFinancialEngineering"
+              "title": "ArchimedianCopulas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,10 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "764eaddfc238d07d",
+  "active": "92a8ced1985ddaee",
   "lastOpenFiles": [
-    "MolecularNotes-master/Sources/How To Unlearn.md",
     "Ebbinghaus_forgetting_curve.md",
+    "ArchimedianCopulas.md",
+    "autocorrelation.md",
+    "MolecularNotes-master/Sources/MathPrimerforFinancialEngineering.md",
+    "MolecularNotes-master/Sources/How To Unlearn.md",
     "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
     "MolecularNotes-master/Sources/MLinpairsTrading.md",
     "MolecularNotes-master/Sources/TheEverythingStore,Stone.md",
@@ -234,9 +222,6 @@
     "PositiveSemi-definitematrix.md",
     "ReverseProxy.md",
     "Shrinkage.md",
-    "Sklar'sTheorem.md",
-    "VineCopula.md",
-    "Copula.md",
     "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
