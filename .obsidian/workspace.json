@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cholesky'sDecomposition.md",
+                "file": "Shrinkage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cholesky'sDecomposition"
+              "title": "Shrinkage"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "92a8ced1985ddaee",
   "lastOpenFiles": [
+    "PositiveSemi-definitematrix.md",
+    "Cholesky'sDecomposition.md",
     "BlackScholes.md",
     "Betweenness.md",
     "autocorrelation.md",
@@ -206,7 +208,6 @@
     "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
     "MolecularNotes-master/Sources/MLinpairsTrading.md",
     "MolecularNotes-master/Sources/TheEverythingStore,Stone.md",
-    "Cholesky'sDecomposition.md",
     "index.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Topics/C++.md",
@@ -220,7 +221,6 @@
     "MoveSemanticsC++.md",
     "PlanarMaximallyfilteredGraphs.md",
     "NoexceptC++.md",
-    "PositiveSemi-definitematrix.md",
     "ReverseProxy.md",
     "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
