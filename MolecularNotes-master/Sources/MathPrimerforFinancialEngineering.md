@@ -1,16 +1,22 @@
-Author: Dan Stefanica
+Author: Dr. Dan Stefanica
 Type: #source #book
 Link: 
-Topics:
+Topics: Calculus, Bonds, Options, Finance, Math
 
 ---
 
-## Theme 1
+## Bonds
 
-- Key idea 1 
-- Key idea 2
+- Yield 
+- Variseck Model
+- Duration: $\frac{}{}$
+- Convexity
+- Par Yield
+- Instantaneous Interest rate
 
-## Theme 2
+## Numerical methods for integral estimation
 
-- Key idea 3
-- Key idea 4
+- Midpoint method: $\sum{h.f(x+\frac{h}{2})}$
+- Trapezoid method: $\sum{\frac{h}{2}.(f(x)+f(x+h)})$ 
+- Linear Method: 
+
