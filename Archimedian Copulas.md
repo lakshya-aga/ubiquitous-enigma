@@ -1,3 +1,0 @@
-Clayton Copula:
-
-Gumbel Copula:
