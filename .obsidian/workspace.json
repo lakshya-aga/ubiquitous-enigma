@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIDR (Classless Inter-Domain Routing.md",
+                "file": "CIDR (Classless Inter-Domain Routing).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIDR (Classless Inter-Domain Routing"
+              "title": "CIDR (Classless Inter-Domain Routing)"
             }
           }
         ],
@@ -209,10 +209,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6203fef4b036a9af",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
     "Shrinkage.md",
-    "CIDR (Classless Inter-Domain Routing.md",
+    "CIDR (Classless Inter-Domain Routing).md",
     "Untitled",
     "Numerical Methods for Computing Definite Integrals.md",
     "Midpoint Rule.md",
