@@ -9,7 +9,7 @@ where:
 - \(T\): target matrix (e.g., diagonal or constant-correlation)
 - \(\delta \in [0,1]\): shrinkage intensity
 
-Why use it:
+Why use it
 - Improves conditioning and invertibility.
 - Reduces estimation error in high dimensions.
 - Stabilizes [[MarkowitzWeighting]] outputs.
