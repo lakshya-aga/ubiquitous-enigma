@@ -5,50 +5,11 @@ Example: No. of coin tosses to get a heads in coin flip or number of dice rolls 
 
 
 
-
-
-
 Expected value calculation is trivial
 $$
 E[X] = \sum_{i=1}^{ \infty} X.P(X)
 = \sum_{i=1}^{ \infty} X . (q)^{i-1}.p
 $$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
