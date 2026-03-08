@@ -24,4 +24,4 @@ To do:
 - Target
 	- Simulate the probability of backtesting overfitting paper
 
-Full AI powered hedge fund below![[IMG_20260308_125014565.jpg]]
+Full AI powered hedge fund below![[IMG_20260308_125014565 (1) (1) (1).jpg]]
