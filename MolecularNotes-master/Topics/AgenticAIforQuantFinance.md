@@ -104,9 +104,10 @@ Steroid Loaded Team of agents with Firm specific data engineering capabilities a
 
 
 To do in order:
-- Switch to langgraph
-- Add a tool creation agent
+- Switch to LangGraph
+- Add a Tool creation agent that adds to the internal library for data manipulation
 - Add Factor Validation agent
 - Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available
 - Feature provenance and visualisation
+- Add a collaboration centric AI that lets you add comments in web interface to improve model and communicate with peers
 - 
