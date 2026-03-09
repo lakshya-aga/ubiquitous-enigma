@@ -31,9 +31,15 @@ Next Goals:
 	- Signal Extraction
 	- Tool building
 	- Regime Modelling
-	- Setup an event monitoring, insight generator and possibly trade executioner - such as earnings release, tariff announcements or a missile launch 
+	- Setup an event monitoring, insight generator and possibly trade executioner - such as 
+		- earnings release,
+		- tariff announcements
+		- missile launch 
 	- Execution cost / Hypothetical Trade analysis with liquidity constraints
 		- order logs
 		- fill data
 		- quote/trade market data
 		- clear benchmark definition, such as arrival price, VWAP, implementation shortfall
+	- Factor validation
+		- Use backtests, robustness and Probability of overfitting
+	- 
