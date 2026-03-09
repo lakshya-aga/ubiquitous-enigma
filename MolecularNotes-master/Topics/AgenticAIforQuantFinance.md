@@ -42,4 +42,7 @@ Next Goals:
 		- clear benchmark definition, such as arrival price, VWAP, implementation shortfall
 	- Factor validation
 		- Use backtests, robustness and Probability of overfitting
+		- Check correlation with known factors
+		- Test across time, sectors, regions, liquidity buckets
+		- Evaluate turnover, decay, implementation feasibility
 	- 
