@@ -83,3 +83,10 @@ Test with forward walk
 Test with CV
 Test against known benchmarks
 Autocorrelation
+
+## Collaboration
+
+A unified interface where all team members can scrutinise the research output, point out mistakes, flag bad code, flag look ahead bias, flag, data snooping or overfitting etc. - Critical / preference mapped as configured options
+Benefit: Structured feedback generates data for improvement as well as saves time for researchers if they trust their colleagues
+
+
