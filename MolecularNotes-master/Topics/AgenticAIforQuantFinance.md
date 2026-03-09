@@ -31,3 +31,5 @@ Next Goals:
 	- Signal Extraction
 	- Tool building
 	- Regime Modelling
+	- Setup an event monitoring and insight generator
+	- 
