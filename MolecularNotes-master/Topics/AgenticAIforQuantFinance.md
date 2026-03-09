@@ -26,23 +26,31 @@ To do:
 
 Full AI powered hedge fund below![[IMG_20260308_125014565 (1) (1) (1).jpg]]
 
-Next Goals:
+Next Improvements:
+## Adding New Workflows
 - Add an extraction and classifier layer first - fetches the content as per user request and breaks down into 1 of the following workflows:
-	- Signal Extraction
-	- Tool building
-	- Regime Modelling
-	- Setup an event monitoring, insight generator and possibly trade executioner - such as 
+	1. Signal Extraction
+	2. Tool building
+	3. Regime Modelling
+	4. Setup an event monitoring, insight generator and possibly trade executioner - such as 
 		- earnings release,
 		- tariff announcements
 		- missile launch 
-	- Execution cost / Hypothetical Trade analysis with liquidity constraints
+	5. Execution cost / Hypothetical Trade analysis with liquidity constraints
 		- order logs
 		- fill data
 		- quote/trade market data
 		- clear benchmark definition, such as arrival price, VWAP, implementation shortfall
-	- Factor validation
+	6. Factor validation
 		- Use backtests, robustness and Probability of overfitting
 		- Check correlation with known factors
 		- Test across time, sectors, regions, liquidity buckets
 		- Evaluate turnover, decay, implementation feasibility
-	- 
+## Switching to LangGraph
+
+- More models - apparently GPT is moving backwards
+
+## Building Tests that Claude code cannot do
+
+
+
