@@ -27,4 +27,7 @@ To do:
 Full AI powered hedge fund below![[IMG_20260308_125014565 (1) (1) (1).jpg]]
 
 Next Goals:
-- Add an extraction and classifier layer
+- Add an extraction and classifier layer first - fetches the content as per user request and breaks down into 1 of the following workflows:
+	- Signal Extraction
+	- Tool building
+	- Regime Modelling
