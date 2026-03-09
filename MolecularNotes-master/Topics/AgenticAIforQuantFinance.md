@@ -66,7 +66,7 @@ Not just editing cells, but understanding the notebook as a research object.
 
 For example:
 
-- which cells are data loading, feature engineering, labeling, modeling, evaluation
+- which cells are data loading, feature engineering, labelling, modelling, evaluation
 - which variables are “authoritative” outputs
 - whether a change invalidates downstream cells
 - whether results shown later were produced before or after a material code change
@@ -108,4 +108,5 @@ To do in order:
 - Add a tool creation agent
 - Add Factor Validation agent
 - Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available
+- Feature provenance and visualisation
 - 
