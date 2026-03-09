@@ -46,6 +46,7 @@ Next Improvements:
 		- Check correlation with known factors
 		- Test across time, sectors, regions, liquidity buckets
 		- Evaluate turnover, decay, implementation feasibility
+		- Compare against benchmarks with similar risk profiles
 ## Switching to LangGraph
 
 - More models - apparently GPT is moving backwards
@@ -75,4 +76,10 @@ Feature Provenance. Find a way? Any other way: track dependency till API call to
 
 See the feature provenance to check if the information was available at the time. Would the same universe be chose if it was done today.
 
+## Evaluation System
 
+P of backtest overfitting
+Test with forward walk
+Test with CV
+Test against known benchmarks
+Autocorrelation
