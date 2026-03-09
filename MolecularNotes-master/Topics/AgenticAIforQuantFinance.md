@@ -31,5 +31,5 @@ Next Goals:
 	- Signal Extraction
 	- Tool building
 	- Regime Modelling
-	- Setup an event monitoring and insight generator
+	- Setup an event monitoring, insight generator and possibly trade executioner - such as earnings release, tariff announcements or a missile launch 
 	- 
