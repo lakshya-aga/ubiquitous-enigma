@@ -89,4 +89,13 @@ Autocorrelation
 A unified interface where all team members can scrutinise the research output, point out mistakes, flag bad code, flag look ahead bias, flag, data snooping or overfitting etc. - Critical / preference mapped as configured options
 Benefit: Structured feedback generates data for improvement as well as saves time for researchers if they trust their colleagues
 
+Standardise Data naming convention across board to prevent trivial Failure like "close" not found did you mean "CLOSE"
+
+
+## Final Product:
+
+Steroid Loaded Team of agents with Firm specific data engineering capabilities and internal tools that can build signals, apply models, model market regimes, perform trade analysis, flag any sins of quantitative trading, extract underlying assumptions and provide provenance graphs.
+
+
+
 
