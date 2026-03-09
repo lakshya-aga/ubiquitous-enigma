@@ -33,3 +33,6 @@ Next Goals:
 	- Regime Modelling
 	- Setup an event monitoring, insight generator and possibly trade executioner - such as earnings release, tariff announcements or a missile launch 
 	- Execution cost / Hypothetical Trade analysis with liquidity constraints
+		- order logs
+		- fill data
+		- quote/trade market data
