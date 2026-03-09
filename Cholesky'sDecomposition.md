@@ -4,13 +4,17 @@ A = LL^\top
 $$
 where \(L\) is lower triangular.
 
-Why it is preferred (when applicable):
-- Roughly half the cost of generic LU on symmetric systems.
-- Numerically stable for SPD matrices.
 
 Common quant use-cases:
-- Sampling correlated Gaussian vectors.
+- Sampling correlated Gaussian vectors - correlated returns
 - Fast solves in covariance-based models.
+
+```python
+import numpy as np
+X = pd.read_csv("prices.csv")
+A = X.corr() # or X.cov()
+L = np.linalg.cholesky(A)
+```
 
 Prerequisite:
 Matrix must be symmetric and strictly positive-definite (not just PSD).
