@@ -109,5 +109,5 @@ To do in order:
 - Add Factor Validation agent
 - Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available
 - Feature provenance and visualisation
-- Add a collaboration centric AI that lets you add comments in web interface to improve model and communicate with peers
+- Add a collaboration centric UI that lets you add comments in web interface to improve model and communicate with peers
 - 
