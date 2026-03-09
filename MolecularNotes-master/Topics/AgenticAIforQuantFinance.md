@@ -36,3 +36,4 @@ Next Goals:
 		- order logs
 		- fill data
 		- quote/trade market data
+		- clear benchmark definition, such as arrival price, VWAP, implementation shortfall
