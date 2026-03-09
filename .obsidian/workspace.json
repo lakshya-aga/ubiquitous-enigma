@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0598b66bedfb198b",
+        "id": "30d8ae02ed713135",
         "type": "tabs",
         "children": [
           {
-            "id": "7c18a86143184deb",
+            "id": "92a8ced1985ddaee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BlackScholes.md",
+                "file": "Shrinkage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BlackScholes"
+              "title": "Shrinkage"
             }
           },
           {
-            "id": "3b310c69969b593a",
+            "id": "6203fef4b036a9af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dupire Model.md",
+                "file": "Geometric Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dupire Model"
+              "title": "Geometric Distribution"
             }
           }
         ],
@@ -166,22 +166,32 @@
             }
           },
           {
-            "id": "75fc5027f6920b27",
+            "id": "a9a7e98925041332",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "BlackScholes.md",
+                "file": "Reverse Proxy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BlackScholes"
+              "title": "Outline of Reverse Proxy"
+            }
+          },
+          {
+            "id": "f521cbe80ecfeb3c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -199,38 +209,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b310c69969b593a",
+  "active": "6203fef4b036a9af",
   "lastOpenFiles": [
-    "CUSUM_filter.md",
-    "BlackScholes.md",
-    "Dupire Model.md",
-    "conflict-files-obsidian-git.md",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
+    "Dupire Model.md",
+    "CIDR (Classless Inter-Domain Routing).md",
     "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg",
     "Geometric Distribution.md",
-    "CIDR (Classless Inter-Domain Routing).md",
-    "Cholesky'sDecomposition.md",
-    "Copula.md",
-    "Ebbinghaus_forgetting_curve.md",
-    "autocorrelation.md",
-    "Betweenness.md",
-    "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "MolecularNotes-master/Topics/Microservices.md",
+    "Shrinkage.md",
+    "Untitled",
     "Numerical Methods for Computing Definite Integrals.md",
     "Midpoint Rule.md",
-    "ConstexprC++.md",
-    "Matrix inversion.md",
-    "index.md",
-    "VineCopula.md",
-    "Sklar'sTheorem.md",
-    "ReverseProxy.md",
+    "Convexity of bonds.md",
     "PositiveSemi-definitematrix.md",
-    "PlanarMaximallyfilteredGraphs.md",
-    "NoexceptC++.md",
-    "MoveSemanticsC++.md",
-    "MolecularNotes-master/Topics/VolatilityTrading.md",
-    "MolecularNotes-master/Topics/OptionSpreads.md",
+    "Cholesky'sDecomposition.md",
+    "BlackScholes.md",
+    "Betweenness.md",
+    "autocorrelation.md",
+    "ArchimedianCopulas.md",
+    "Ebbinghaus_forgetting_curve.md",
+    "MolecularNotes-master/Sources/MathPrimerforFinancialEngineering.md",
+    "MolecularNotes-master/Sources/How To Unlearn.md",
+    "MolecularNotes-master/Molecules/Amazon and autocannibalism.md",
+    "MolecularNotes-master/Sources/MLinpairsTrading.md",
+    "MolecularNotes-master/Sources/TheEverythingStore,Stone.md",
+    "index.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "MolecularNotes-master/Topics/C++.md",
+    "MolecularNotes-master/Topics/CFA.md",
+    "MolecularNotes-master/Topics/DerivativePricing.md",
+    "MolecularNotes-master/Topics/Microservices.md",
+    "package-lock.json",
+    "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "MolecularNotes-master/_attachments/logo.png",
     "github.com/lakshya-aga",
     "github.com",
@@ -239,8 +250,6 @@
     "MolecularNotes-master/_templates",
     "MolecularNotes-master/_scripts",
     "MolecularNotes-master/_attachments",
-    "MolecularNotes-master/Topics",
-    "MolecularNotes-master/Sources",
-    "MolecularNotes-master/Molecules"
+    "MolecularNotes-master/Topics"
   ]
 }
