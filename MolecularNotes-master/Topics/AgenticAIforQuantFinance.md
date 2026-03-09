@@ -54,3 +54,25 @@ Next Improvements:
 
 
 
+
+## Research-state awareness across a notebook
+
+Not just editing cells, but understanding the notebook as a research object.
+
+For example:
+
+- which cells are data loading, feature engineering, labeling, modeling, evaluation
+- which variables are “authoritative” outputs
+- whether a change invalidates downstream cells
+- whether results shown later were produced before or after a material code change
+- whether the notebook is still internally consistent
+
+## Auditable
+
+Feature Provenance. Find a way? Any other way: track dependency till API call top-down
+
+## Lookahead Bias flagging
+
+See the feature provenance to check if the information was available at the time. Would the same universe be chose if it was done today.
+
+
