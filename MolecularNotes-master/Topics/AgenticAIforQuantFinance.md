@@ -110,4 +110,3 @@ To do in order:
 - Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available
 - Feature provenance and visualisation
 - Add a collaboration centric UI that lets you add comments in web interface to improve model and communicate with peers
-- 
