@@ -82,10 +82,10 @@ See the feature provenance to check if the information was available at the time
 
 ## Evaluation System
 
-P of backtest overfitting
+Probability of backtest overfitting
 Test with forward walk
-Test with CV
-Test against known benchmarks
+Test with Cross Validation as backtest
+Test against known benchmarks like spy 500 for equities
 Autocorrelation
 
 ## Collaboration
