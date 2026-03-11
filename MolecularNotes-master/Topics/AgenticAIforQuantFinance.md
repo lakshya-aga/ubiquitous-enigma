@@ -110,3 +110,5 @@ To do in order:
 - Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available
 - Feature provenance and visualisation
 - Add a collaboration centric UI that lets you add comments in web interface to improve model and communicate with peers
+- once everything is stable - add in a proactive agent that actively goes out, fetches new data sets or research papers for user to review
+- 
