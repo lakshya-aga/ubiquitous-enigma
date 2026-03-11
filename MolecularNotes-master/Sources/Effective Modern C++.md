@@ -1,4 +1,4 @@
-Author:
+Author: Scott Meyers
 Type: #source #book
 Link: 
 Topics:

@@ -1,4 +1,4 @@
-Author:
+Author: Lopez de Prado
 Type: #source #book
 Link: 
 Topics:
