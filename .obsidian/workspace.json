@@ -11,10 +11,14 @@
             "id": "17c6be275d34296e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MolecularNotes-master/Topics/C++.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "C++"
             }
           }
         ]
@@ -152,16 +156,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MolecularNotes-master/Topics/C++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of C++"
+            }
+          },
+          {
+            "id": "58b8da0a963ef0d6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -179,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75fc5027f6920b27",
+  "active": "17c6be275d34296e",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
