@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "30d8ae02ed713135",
+        "id": "9ce8c5f7295e8097",
         "type": "tabs",
         "children": [
           {
-            "id": "92a8ced1985ddaee",
+            "id": "17c6be275d34296e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shrinkage.md",
+                "file": "MolecularNotes-master/Topics/C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shrinkage"
-            }
-          },
-          {
-            "id": "6203fef4b036a9af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
-            }
-          },
-          {
-            "id": "280c3a05b9891946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
-            }
-          },
-          {
-            "id": "265a40fb0d22598c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux"
-            }
-          },
-          {
-            "id": "5b96961b9c7c4ff6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Math Primer for Financial Engineering"
+              "title": "C++"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for AgenticAIforQuantFinance"
             }
           },
           {
@@ -170,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from AgenticAIforQuantFinance"
             }
           },
           {
@@ -208,22 +151,22 @@
             }
           },
           {
-            "id": "a9a7e98925041332",
+            "id": "75fc5027f6920b27",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reverse Proxy.md",
+                "file": "MolecularNotes-master/Topics/C++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reverse Proxy"
+              "title": "Outline of C++"
             }
           },
           {
-            "id": "f521cbe80ecfeb3c",
+            "id": "58b8da0a963ef0d6",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -237,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,40 +195,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b96961b9c7c4ff6",
+  "active": "17c6be275d34296e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "BlackScholes.md",
+    "MolecularNotes-master/Sources/A Tour of C++.md",
+    "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
     "MolecularNotes-master/Sources/Effective Modern C++.md",
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
-    "MolecularNotes-master/Sources/A Tour of C++.md",
-    "MolecularNotes-master/Sources/How To Unlearn.md",
-    "Bash Command - sed.md",
     "MolecularNotes-master/Topics/Linux.md",
-    "Linux Command - sed",
-    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
-    "MolecularNotes-master/Topics/C++.md",
-    "MolecularNotes-master/Topics/CFA.md",
-    "MolecularNotes-master/Topics/DerivativePricing.md",
-    "MolecularNotes-master/Topics/Microservices.md",
-    "MolecularNotes-master/Topics/MultivariateCalculus.md",
-    "MolecularNotes-master/Topics/OptionSpreads.md",
-    "MolecularNotes-master/Topics/VolatilityTrading.md",
     "Market Completeness.md",
-    "Cholesky'sDecomposition.md",
-    "Geometric Distribution.md",
+    "Bash Command - sed.md",
+    "Dupire Model.md",
+    "Untitled.md",
+    "CUSUM_filter.md",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
-    "Dupire Model.md",
-    "CIDR (Classless Inter-Domain Routing).md",
     "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg",
-    "Shrinkage.md",
+    "Geometric Distribution.md",
+    "CIDR (Classless Inter-Domain Routing).md",
+    "Cholesky'sDecomposition.md",
+    "Copula.md",
+    "Ebbinghaus_forgetting_curve.md",
+    "autocorrelation.md",
+    "Betweenness.md",
+    "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
+    "MolecularNotes-master/Topics/Microservices.md",
     "Numerical Methods for Computing Definite Integrals.md",
     "Midpoint Rule.md",
-    "Convexity of bonds.md",
-    "PositiveSemi-definitematrix.md",
-    "BlackScholes.md",
-    "Betweenness.md",
-    "package-lock.json",
-    "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
+    "ConstexprC++.md",
+    "Matrix inversion.md",
+    "index.md",
     "MolecularNotes-master/_attachments/logo.png",
     "github.com/lakshya-aga",
     "github.com",
@@ -293,6 +235,8 @@
     "MolecularNotes-master/_templates",
     "MolecularNotes-master/_scripts",
     "MolecularNotes-master/_attachments",
-    "MolecularNotes-master/Topics"
+    "MolecularNotes-master/Topics",
+    "MolecularNotes-master/Sources",
+    "MolecularNotes-master/Molecules"
   ]
 }
