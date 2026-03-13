@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1d481b7d44667a12",
+        "id": "9ce8c5f7295e8097",
         "type": "tabs",
         "children": [
           {
-            "id": "8c6d821a05ea8693",
+            "id": "17c6be275d34296e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
+              "title": "New tab"
             }
           }
         ]
@@ -156,27 +152,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AgenticAIforQuantFinance"
-            }
-          },
-          {
-            "id": "40b00c4b71286d72",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,14 +179,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "40b00c4b71286d72",
+  "active": "75fc5027f6920b27",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "BlackScholes.md",
+    "MolecularNotes-master/Sources/A Tour of C++.md",
+    "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
+    "MolecularNotes-master/Sources/Effective Modern C++.md",
+    "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Topics/Linux.md",
     "Market Completeness.md",
     "Bash Command - sed.md",
     "Dupire Model.md",
-    "conflict-files-obsidian-git.md",
-    "BlackScholes.md",
     "Untitled.md",
     "CUSUM_filter.md",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
@@ -221,11 +211,6 @@
     "ConstexprC++.md",
     "Matrix inversion.md",
     "index.md",
-    "VineCopula.md",
-    "Sklar'sTheorem.md",
-    "ReverseProxy.md",
-    "PositiveSemi-definitematrix.md",
-    "PlanarMaximallyfilteredGraphs.md",
     "MolecularNotes-master/_attachments/logo.png",
     "github.com/lakshya-aga",
     "github.com",
