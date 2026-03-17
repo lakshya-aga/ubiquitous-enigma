@@ -143,3 +143,21 @@ Dashboard: Whenever a new signal is added via research notebooks, it should be a
 
 Trading agent: To access the signals from the APIs and give a final trade decisions.
 ```
+
+```
+1) add an agent for evaluating lookahead bias, survivorship, data snooping after validation: it will only add warnings for potential "sins" After that there will be a human gate to give the green light. Adding to dashboard will happen after that. 
+
+2) The trading agent is only a suggestion system for now. I will add proper details, risk management, position sizing later. I will also give the trading agent a comprehensive suite for microstructure analysis, signals to determine when to use stop losses etc. But that is quite far for now.
+
+3) For the dev agent, we will have a guardrail to make it commit to an agent branch (create one if not there). Then a human gate to approve merge request.
+
+4) Use a detailed extraction pipeline. Search the web for current implementations. I am sure there must be some good parsing tools out there that we can copy.
+
+5) Let us add live PnL on the dashboard for each signal. Also add another agent to see the pnL, analyse it thoroughly + the research notebook(s) that produce it + current events to justify what is going right, what is going wrong and why. it should also suggest whether the strategy needs review or pause temporarily.
+
+6) Add the suggested feature of notebook to py after the testing agent passes.
+
+7)You can implement the docstring quality using the prompts.
+
+8) Add a user after the classifier to route workflow below certain confidence threshold.
+```
