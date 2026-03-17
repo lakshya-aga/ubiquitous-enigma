@@ -112,3 +112,34 @@ To do in order:
 - Add a collaboration centric UI that lets you add comments in web interface to improve model and communicate with peers
 - once everything is stable - add in a proactive agent that actively goes out, fetches new data sets or research papers for user to review
 - 
+
+AI Prompt description
+```
+I want to build a full agentic AI ecosystem for quant finance that takes in a user request in the form of text + any files. We can support pdf, txt, ipynb and py files.
+
+There are several resources. First: a clear library for code manipulation like mlfinlab by Hudson and Thames. This library will be implemented in python and have docstrings. The doc strings will be used to generate documentation which in turn will be vectorised and searchable via an mcp. Additionally, the MCP will also have a function to request addition of a new tool. The request will require some sample code to be provided which the mcp will route to an agentic AI system to modularise and integrate into the ecosystem.
+
+Second is a similar library which consolidates all data available in the organisation such as prices, alternate data etc. They are essentially wrapper functions that give a predictable output. It includes yfinance, blpapi, Fama Fetch factors etc. They are again exposed as MCPs to read the documentation around them. This too will have an agentic setup to request addition of new data sources.
+
+Thirdly we will have a store of knowledge base which should have the pdf and txt documents. Agent should be able to look up information from this store as well.
+
+Fourth, there will be a set of growing md files, which will extract useful insights which are good as general practice in Quant. Such as Shrinkage should be applied to covariance matrices because large number of combinations will appear to have some relationship at random.
+
+Now for the setup.
+
+The artifact uploaded will be classified as a research paper (send to vector store), research tool (send relevant code to the internal lib MCP), signal (save to research notebooks after validation).
+
+We will have one developer agent to develop the internal data library.
+
+One developer agent to develop new tools for the data manipulation library.
+
+One planning agent to plan the notebook from user request: read access to the knowledgebase. Restrict output format to follow a structure for clear outline
+
+One coding agent to build the notebook: will have access to the MCPs for read only, general good practices MD files, write_cell, delete_cell, edit_cell.
+
+One test and edit agent that will run the notebook and edit notebook until notebook can run with a single run all command without errors. will have access to the MCPs for read only, general good practices MD files, write_cell, delete_cell, edit_cell. It will be allowed to install packages in the python environment as well.
+
+Dashboard: Whenever a new signal is added via research notebooks, it should be available as an API to the dashboard to display both as a timeseries and as the current value.
+
+Trading agent: To access the signals from the APIs and give a final trade decisions.
+```
