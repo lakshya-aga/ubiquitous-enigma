@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+                "file": "MolecularNotes-master/Topics/C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
+              "title": "C++"
             }
           }
         ],
@@ -253,6 +253,7 @@
   },
   "active": "5b96961b9c7c4ff6",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
     "MolecularNotes-master/Sources/Effective Modern C++.md",
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
@@ -261,7 +262,6 @@
     "Bash Command - sed.md",
     "MolecularNotes-master/Topics/Linux.md",
     "Linux Command - sed",
-    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Topics/C++.md",
     "MolecularNotes-master/Topics/CFA.md",
     "MolecularNotes-master/Topics/DerivativePricing.md",

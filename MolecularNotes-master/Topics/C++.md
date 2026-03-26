@@ -13,7 +13,12 @@ Pointers:
 
 
 
+strings:
 
+Key Topics:
+
+Short string optimisations
+advantages over 
 
 
 
