@@ -18,7 +18,13 @@ strings:
 Key Topics:
 
 Short string optimisations
-advantages over 
+Regex expressions into state machine for optimised execution
+
+Classes:
+const_cast
+operator overloading
+explicit to prevent constructor/destructor call by default
+
 
 
 
