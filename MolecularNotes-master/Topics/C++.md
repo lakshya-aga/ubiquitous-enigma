@@ -23,9 +23,14 @@ Regex expressions into state machine for optimised execution
 Classes:
 const_cast
 operator overloading
-explicit to prevent constructor/destructor call by default
+explicit to prevent constructor/destructor call by accident
+=delete
+=default
 
 
+Concepts:
+
+To constraint the use of generic programming templates to certain types only. e.g. 1 bed + 1 bed does not make sense but asset1 + asset2 does in a portfolio sense
 
 
 Type: #topic

@@ -33,6 +33,8 @@ $$
 
 It can logically be broken down into Theta decay, gamma related term with volatility, risk neutral drift term, and discounting based on the risk free rate
 
+
+
 ---
 
 
