@@ -35,7 +35,7 @@ public:
      // ...
 };
 ```
-In fact, every standard-library container provides value_type as the name for the type of its elements
+In fact, every standard-library container provides `value_type` as the name for the type of its elements
 The standard library uses variable templates to provide mathematical constants, such as pi and log2e
 `is_assignable<T&,T2>::value`
 `static_asserts` custom checks that are used to terminate prematurely. compile time or runtime? compile time. Only where constexpr can be used
@@ -51,7 +51,7 @@ Core Guidelines Support Library (the GSL)
 explicit
 attribute [[nodiscard]] to ensure that users do not forget to copy a generated Final_action into the scope for which its action is intended
 nodiscard
-auto act = finally([&]{free(p);});  
+`auto act = finally([&]{free(p);}); 
 when act goes out of scope
 We can define a function, finally() that takes an action to be executed on the exit from the scope
 generally used when destructor cannot be used like C associated programs and structs
