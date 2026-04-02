@@ -146,3 +146,44 @@ To use string-view literals:
 Example:
 
 `auto sv = "hello"sv;`
+
+## Function interface design
+
+### Using `const string&`
+
+A function like:
+
+compose(const string&)
+
+accepts a string by reference without copying.
+
+### Using `string_view`
+
+In many cases, `string_view` is even more flexible because it accepts:
+
+- `std::string`
+- string literals
+- substrings
+- character arrays
+
+---
+
+##  Character manipulation
+
+For manipulations such as converting to lower or upper case:
+
+`name[0] = toupper(name[0]);`
+
+This works because `std::string` is mutable.
+
+---
+
+## 6. Summary
+
+- `std::string` owns character data.
+- `std::string_view` refers to character data without owning it.
+- `string` is an alias for `basic_string<char>`.
+- `basic_string` can be specialized for other character types.
+- `<regex>` provides regex support through matching, searching, replacing, and iterators.
+- Returning strings by value is efficient because of move semantics.
+- `string_view` is useful for flexible, low-overhead argument passing.
