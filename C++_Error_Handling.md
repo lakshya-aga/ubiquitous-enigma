@@ -1,7 +1,9 @@
-iota(&v[0],&v[sz],1);
+`iota(&v[0],&v[sz],1);`
 What does this do?
+`iota(v.begin(), v.end(), 1);`
+Fills with unit increments starting from 1.
 
-However, we can also perform simple checks on most properties that are known at compile time and report failures to meet our expectations as compiler error messages.
+The standard library offers the debug macro, assert(). we can also perform simple checks on most properties that are known at compile time and report failures to meet our expectations as compiler error messages.
 If an error can be found at compile time, it is usually preferable to do so.
 If not in debug mode, the assert() is not checked
 If the condition of an assert() fails in “debug mode,” the program terminates
@@ -12,11 +14,11 @@ void f(const char* p)
      // ...
 }
 ```
-The standard library offers the debug macro, assert()
 
-constexpr double C = 299792.458;                        // km/s
+
+
 ```
-
+constexpr double C = 299792.458;                        // km/s
 void f(double speed)
 {
      constexpr double local_max = 160.0/(60*60);        // 160 km/h == 160.0/(60*60) km/s
@@ -32,11 +34,10 @@ void f(double speed)
 
 `static_assert(assert, "string" | default_system_message)
 The static_assert mechanism can be used for anything that can be expressed in terms of constant expressions
+We call such statements of expectations assertions.
 
+Example: This will write integers are too small `if 4<=sizeof(int)` does not hold; that is, if an int on this system does not have at least 4 bytes. 
 
-
-This will write integers are too small `if 4<=sizeof(int)` does not hold; that is, if an int on this system does not have at least 4 bytes. 
-### We call such statements of expectations assertions.
 
 `static_assert(4<=sizeof(int), "integers are too small");  // check integer size`
 
