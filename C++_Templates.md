@@ -1,3 +1,4 @@
+This `template<Element T>` prefix is C++’s version of mathematic’s “for all T such that Element(T)”; that is, Element is a predicate that checks whether T has all the properties that a Vector requires. Such a predicate is called a concept (§8.2). A
 modern program representation techniques (such as “abstract syntax trees”).
 The `is_trivially_copyable_v<T>` is a type predicate
 compile-time
@@ -24,7 +25,7 @@ void algo(Container& c)
 }
 ```
 
-see more concrete examples and alternatives of doing this
+
 is very common for a parameterized type to provide an alias for types related to their template arguments. For example:
 ```
 template<typename T>
@@ -212,4 +213,4 @@ Value arguments are useful in many contexts. For example, Buffer allows us to cr
 Concept checking is a purely compile-time mechanism and the code generated is as good as that from unconstrained templates.
 Thus, concepts lets the compiler to do type checking at the point of use, giving better error messages far earlier than is possible with unconstrained template arguments. C++ did not officially support concepts before C++20, so older code uses unconstrained template
 template argument for which a concept is specified is called a constrained argument and a template for which an argument is constrained is called a constrained template.
-This template<Element T> prefix is C++’s version of mathematic’s “for all T such that Element(T)”; that is, Element is a predicate that checks whether T has all the properties that a Vector requires. Such a predicate is called a concept (§8.2). A 
+ 
