@@ -1,7 +1,8 @@
 modern program representation techniques (such as “abstract syntax trees”).
-The is_trivially_copyable_v<T> is a type predicate
+The `is_trivially_copyable_v<T>` is a type predicate
 compile-time
 no runtime overhead. if is not evaluated at runtime
+```
 template<typename T>
 void update(T& target)
 {
@@ -21,21 +22,22 @@ void algo(Container& c)
      Vector<Value_type<Container>> vec;       // keep results here
      // ...
 }
+```
+
 see more concrete examples and alternatives of doing this
 is very common for a parameterized type to provide an alias for types related to their template arguments. For example:
-
+```
 template<typename T>
 class Vector {
 public:
      using value_type = T;
      // ...
 };
-In fact, every standard-library container provides value_type as the name for the type of its elements (Chapter 12). T
-why?
+```
+In fact, every standard-library container provides value_type as the name for the type of its elements
 The standard library uses variable templates to provide mathematical constants, such as pi and log2e
 is_assignable<T&,T2>::value
-static_asserts
-custom checks that are used to terminate prematurely. compile time or runtime? compile time. ony where constexpr can be used
+static_asserts custom checks that are used to terminate prematurely. compile time or runtime? compile time. ony where constexpr can be used
 Values dependent on a type: variable templates (§7.4.1).
 
 Aliases for types and templates: alias templates (§7.4.2).
