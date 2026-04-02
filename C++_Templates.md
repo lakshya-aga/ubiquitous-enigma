@@ -37,22 +37,27 @@ public:
 ```
 In fact, every standard-library container provides `value_type` as the name for the type of its elements
 The standard library uses variable templates to provide mathematical constants, such as pi and log2e
-`is_assignable<T&,T2>::value`
-`static_asserts` custom checks that are used to terminate prematurely. compile time or runtime? compile time. Only where constexpr can be used
+`is_assignable<T&,T2>::value static_asserts` custom checks that are used to terminate prematurely. compile time or runtime? compile time. Only where `constexpr` can be used
 Values dependent on a type: variable templates 
 
-Aliases for types and templates: alias templates
+| Use case                                                                      | tool                  |
+| ----------------------------------------------------------------------------- | --------------------- |
+| Aliases for types and templates:                                              | alias templates       |
+| A compile-time selection mechanism                                            | if constexpr          |
+| A compile-time mechanism to inquire about properties of types and expressions | requires-expressions  |
 
-A compile-time selection mechanism: if constexpr 
 
-A compile-time mechanism to inquire about properties of types and expressions: requires-expressions 
-scope_exit
-Core Guidelines Support Library (the GSL)
-explicit
-attribute [[nodiscard]] to ensure that users do not forget to copy a generated Final_action into the scope for which its action is intended
-nodiscard
-`auto act = finally([&]{free(p);}); 
-when act goes out of scope
+
+
+
+`scope_exit`
+Core Guidelines Support Library (the GSL) explicit attribute `nodiscard` to ensure that users do not forget to copy a generated "Final_action" into the scope for which its action is intended
+Implemented using finally
+```cpp
+auto act = finally([&]{free(p);}); 
+```
+Triggers free: when act goes out of scope
+
 We can define a function, finally() that takes an action to be executed on the exit from the scope
 generally used when destructor cannot be used like C associated programs and structs
 Instead, we could convert it to a lambda used as an initializer:
@@ -145,7 +150,7 @@ The [&] is a capture list specifying that all local names used in the lambda bod
 The notation [&](int a){ return a<x; } is called a lambda expressio
 Given concepts (§8.2), we can formalize count()’s assumptions about its argument and check them at compile time.
 
-A predicate is something that we can invoke to return true or false. Fo
+A predicate is something that we can invoke to return true or false.
 predicate
 can call such an object, just as we call a function:
 function object (sometimes called a functor),
@@ -214,3 +219,11 @@ Concept checking is a purely compile-time mechanism and the code generated is as
 Thus, concepts lets the compiler to do type checking at the point of use, giving better error messages far earlier than is possible with unconstrained template arguments. C++ did not officially support concepts before C++20, so older code uses unconstrained template
 template argument for which a concept is specified is called a constrained argument and a template for which an argument is constrained is called a constrained template.
  
+
+Definitions:
+
+Predicate:
+
+nodiscard:
+
+vbtl:
