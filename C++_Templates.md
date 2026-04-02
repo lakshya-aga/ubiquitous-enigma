@@ -51,7 +51,15 @@ Values dependent on a type: variable templates
 
 
 `scope_exit`
-Core Guidelines Support Library (the GSL) explicit attribute `nodiscard` to ensure that users do not forget to copy a generated "Final_action" into the scope for which its action is intended
+Core Guidelines Support Library (the GSL) explicit attribute `[[nodiscard]]` to ensure that users do not forget to copy a generated "Final_action" into the scope for which its action is intended
+```
+[[nodiscard]] int get_some(){ return 1;}
+
+auto x = get_some(); //okay
+get_some(); //not okay
+```
+
+
 Implemented using finally
 ```cpp
 auto act = finally([&]{free(p);}); 
@@ -219,7 +227,7 @@ template argument for which a concept is specified is called a constrained argum
 
 Predicate: True or false evaluation statement
 
-nodiscard: keyword to mark 
+`[[nodiscard]]`: keyword to mark a function as a returning function. i.e. compiler will throw errors when used without use of returned value.
 
 vbtl:
 
