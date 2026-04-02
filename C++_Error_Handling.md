@@ -1,6 +1,18 @@
 iota(&v[0],&v[sz],1);
 What does this do?
 
+However, we can also perform simple checks on most properties that are known at compile time and report failures to meet our expectations as compiler error messages.
+If an error can be found at compile time, it is usually preferable to do so.
+If not in debug mode, the assert() is not checked
+If the condition of an assert() fails in “debug mode,” the program terminates
+```
+void f(const char* p)
+{
+     assert(p!=nullptr);  // p must not be the nullptr
+     // ...
+}
+```
+The standard library offers the debug macro, assert()
 
 constexpr double C = 299792.458;                        // km/s
 ```
@@ -20,26 +32,18 @@ void f(double speed)
 
 `static_assert(assert, "string" | default_system_message)
 The static_assert mechanism can be used for anything that can be expressed in terms of constant expressions
-This will write integers are too small `if 4<=sizeof(int)` does not hold; that is, if an int on this system does not have at least 4 bytes. We call such statements of expectations assertions.
+
+
+
+This will write integers are too small `if 4<=sizeof(int)` does not hold; that is, if an int on this system does not have at least 4 bytes. 
+### We call such statements of expectations assertions.
 
 `static_assert(4<=sizeof(int), "integers are too small");  // check integer size`
 
 
-However, we can also perform simple checks on most properties that are known at compile time and report failures to meet our expectations as compiler error messages.
-If an error can be found at compile time, it is usually preferable to do so.
-If not in debug mode, the assert() is not checked
-If the condition of an assert() fails in “debug mode,” the program terminates
-```
-void f(const char* p)
-{
-     assert(p!=nullptr);  // p must not be the nullptr
-     // ...
-}
-```
-The standard library offers the debug macro, assert()
+
 source_location
-used to identify where exactly is the peice of code
-usage 
+used to identify where exactly is the piece of code usage 
 ```
 auto location = std::source_location::current();
     std::cout << "File: " << location.file_name() << std::endl;
@@ -66,7 +70,7 @@ An error is of a kind from which we cannot recover
 The system is one where error-handling is based on restarting a thread, process, or computer whenever a non-trivial error is detected.
 function can indicate that it cannot perform its allotted task by:
 
-throwing an exception
+### Throwing an exception:
 somehow returning a value indicating failure
 terminating the program (by invoking a function like terminate(), exit(), or abort() (§16.8)).
-It properly initialized the Vector members, but it failed to check that the arguments passed to it made sense.
+Example case: Program properly initialized the Vector members, but it failed to check that the arguments passed to it made sense.
