@@ -1,4 +1,5 @@
 For full portability, use the character class names rather than these abbreviations.
+
 |Abbreviation |Meaning |POSIX Equivalent |
 |---|---|---|
 |`\d`|A decimal digit|`[[:digit:]]`|
