@@ -47,9 +47,6 @@ Values dependent on a type: variable templates
 | A compile-time mechanism to inquire about properties of types and expressions | requires-expressions |
 
 
-
-
-
 `scope_exit`
 Core Guidelines Support Library (the GSL) explicit attribute `[[nodiscard]]` to ensure that users do not forget to copy a generated "Final_action" into the scope for which its action is intended
 ```cpp
