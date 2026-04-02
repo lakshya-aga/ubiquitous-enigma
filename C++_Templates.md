@@ -52,11 +52,20 @@ Values dependent on a type: variable templates
 
 `scope_exit`
 Core Guidelines Support Library (the GSL) explicit attribute `[[nodiscard]]` to ensure that users do not forget to copy a generated "Final_action" into the scope for which its action is intended
-```
-[[nodiscard]] int get_some(){ return 1;}
+```cpp
 
-auto x = get_some(); //okay
-get_some(); //not okay
+#include <iostream>
+using namespace std;
+[[nodiscard]] int  get_some(){
+    return 1;
+    
+}
+int main()
+{
+get_some(); // compiler warning
+int x = get_some(); //okay
+cout<<x<<endl;
+}
 ```
 
 
