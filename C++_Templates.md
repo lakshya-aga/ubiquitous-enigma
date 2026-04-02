@@ -3,7 +3,7 @@ modern program representation techniques (such as “abstract syntax trees”).
 The `is_trivially_copyable_v<T>` is a type predicate
 compile-time
 no runtime overhead. if is not evaluated at runtime
-```
+```cpp
 template<typename T>
 void update(T& target)
 {
@@ -27,7 +27,7 @@ void algo(Container& c)
 
 
 is very common for a parameterized type to provide an alias for types related to their template arguments. For example:
-```
+```cpp
 template<typename T>
 class Vector {
 public:
@@ -40,11 +40,11 @@ The standard library uses variable templates to provide mathematical constants, 
 `is_assignable<T&,T2>::value static_asserts` custom checks that are used to terminate prematurely. compile time or runtime? compile time. Only where `constexpr` can be used
 Values dependent on a type: variable templates 
 
-| Use case                                                                      | tool                  |
-| ----------------------------------------------------------------------------- | --------------------- |
-| Aliases for types and templates:                                              | alias templates       |
-| A compile-time selection mechanism                                            | if constexpr          |
-| A compile-time mechanism to inquire about properties of types and expressions | requires-expressions  |
+| Use case                                                                      | tool                 |
+| ----------------------------------------------------------------------------- | -------------------- |
+| Aliases for types and templates:                                              | alias templates      |
+| A compile-time selection mechanism                                            | if constexpr (1==2)  |
+| A compile-time mechanism to inquire about properties of types and expressions | requires-expressions |
 
 
 
@@ -115,7 +115,6 @@ void user(Init_mode m, int n, vector<int>& arg, Iterator p, Iterator q)
 ```
 When needed, we can constrain the parameter with a concept (§8.2). For example, we could define Pointer_to_class to require * and -> and write:
 
-Click here to view code image
 
 `for_each(v,[](Pointer_to_class auto& s){ s->rotate(r); s->draw(); });`
 
@@ -131,8 +130,6 @@ void for_each(C& c, Oper op)   // assume that C is a container of pointers
 This is a simplified version of the standard-library for_each algorithm.
 
 Now, we can write a version of user() from §5.5 without writing a set of _all functions:
-
-
 ```cpp
 void user()
 {
@@ -160,9 +157,7 @@ There are three ways of expressing an operation parameterized by types or values
 
 A function template
 
-A function object: an object that can carry data and be called like a function
 
-A lambda expression: a shorthand notation for a function object
 For those, we need a way of saying “a pair of values of the same type should be considered iterators.” Adding a deduction guide after the declaration of Vector does exactly that:
 
 
@@ -220,10 +215,14 @@ Thus, concepts lets the compiler to do type checking at the point of use, giving
 template argument for which a concept is specified is called a constrained argument and a template for which an argument is constrained is called a constrained template.
  
 
-Definitions:
+## Definitions:
 
-Predicate:
+Predicate: True or false evaluation statement
 
-nodiscard:
+nodiscard: keyword to mark 
 
 vbtl:
+
+A function object: an object that can carry data and be called like a function
+
+A lambda expression: a shorthand notation for a function object
