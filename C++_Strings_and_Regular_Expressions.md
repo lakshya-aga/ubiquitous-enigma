@@ -1,41 +1,15 @@
 For full portability, use the character class names rather than these abbreviations.
-Character Class Abbreviations
+|Abbreviation |Meaning |POSIX Equivalent |
+|---|---|---|
+|`\d`|A decimal digit|`[[:digit:]]`|
+|`\s`|A space (space, tab, etc.)|`[[:space:]]`|
+|`\w`|A letter (`a-z`) or digit (`0-9`) or underscore (`_`)|`[_[:alnum:]]`|
+|`\D`|Not `\d`|`[^[:digit:]]`|
+|`\S`|Not `\s`|`[^[:space:]]`|
+|`\W`|Not `\w`|`[^_[:alnum:]]`|
 
-\d
 
-A decimal digit
 
-[[:digit:]]
-
-\s
-
-A space (space, tab, etc.)
-
-[[:space:]]
-
-\w
-
-A letter (a-z) or digit (0-9) or underscore (_)
-
-[_[:alnum:]]
-
-\D
-
-Not \d
-
-[^[:digit:]]
-
-\S
-
-Not \s
-
-[^[:space:]]
-
-\W
-
-Not \w
-
-[^_[:alnum:]]
 Furthermore, they must be used within a [ ] pair defining a character class.
 In a regular expression, a character class name must be bracketed by [: :]. For example, [:digit:] 
 suffix ? after any of the repetition notations (?, *, +, and { }) makes the pattern matcher “lazy” or “non-greedy.” That is, when looking for a pattern, it will look for the shortest match rather than the longest

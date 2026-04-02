@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++_Templates.md",
+                "file": "C++_Strings_and_Regular_Expressions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++_Templates"
+              "title": "C++_Strings_and_Regular_Expressions"
             }
           }
         ],
@@ -253,6 +253,7 @@
   },
   "active": "5b96961b9c7c4ff6",
   "lastOpenFiles": [
+    "C++_Templates.md",
     "C++_Error_Handling.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/_attachments/9_Library_Overview.md",
@@ -264,7 +265,6 @@
     "MolecularNotes-master/_attachments/3_Modularity.md",
     "MolecularNotes-master/_attachments/15_Pointers_and_Containers.md",
     "MolecularNotes-master/_attachments/10_Strings_and_Regular_Expressions.md",
-    "C++_Templates.md",
     "C++_Strings_and_Regular_Expressions.md",
     "C++_Pointers_and_Containers.md",
     "C++_Modularity.md",
