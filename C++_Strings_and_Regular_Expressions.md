@@ -11,12 +11,30 @@ For full portability, use the character class names rather than these abbreviati
 
 
 
-Furthermore, they must be used within a [ ] pair defining a character class.
-In a regular expression, a character class name must be bracketed by [: :]. For example, [:digit:] 
-suffix ? after any of the repetition notations (?, *, +, and { }) makes the pattern matcher “lazy” or “non-greedy.” That is, when looking for a pattern, it will look for the shortest match rather than the longest
-By default, the pattern matcher always looks for the longest match; this is known as the Max Munch rule
-A pattern can be optional or repeated (the default is exactly once) by adding a suffix:
-The regex library can recognize several variants of the notation
+Character class names must be used inside a bracket expression. For example:
+
+```cpp
+[[:digit:]]
+```
+
+Not:
+```cpp
+[:digit:]
+```
+
+## Greedy and lazy matching
+
+A suffix `?` after a repetition operator such as `?`, `*`, `+`, or `{}` makes the matcher lazy or non-greedy.
+
+This means it looks for the shortest match rather than the longest.
+
+By default, regex matching is greedy: it prefers the longest possible match. This is often called the **Max Munch** rule.
+
+## Repetition and optional patterns
+
+A pattern can be optional or repeated by adding a suffix. The default is exactly one occurrence.
+
+Common repetition forms include:
 The regular expression syntax and semantics are designed so that regular expressions can be compiled into ```
 ```
 
