@@ -36,15 +36,15 @@ public:
 ```
 In fact, every standard-library container provides value_type as the name for the type of its elements
 The standard library uses variable templates to provide mathematical constants, such as pi and log2e
-is_assignable<T&,T2>::value
-static_asserts custom checks that are used to terminate prematurely. compile time or runtime? compile time. ony where constexpr can be used
-Values dependent on a type: variable templates (§7.4.1).
+`is_assignable<T&,T2>::value`
+`static_asserts` custom checks that are used to terminate prematurely. compile time or runtime? compile time. Only where constexpr can be used
+Values dependent on a type: variable templates 
 
-Aliases for types and templates: alias templates (§7.4.2).
+Aliases for types and templates: alias templates
 
-A compile-time selection mechanism: if constexpr (§7.4.3).
+A compile-time selection mechanism: if constexpr 
 
-A compile-time mechanism to inquire about properties of types and expressions: requires-expressions (§8.2.3).
+A compile-time mechanism to inquire about properties of types and expressions: requires-expressions 
 scope_exit
 Core Guidelines Support Library (the GSL)
 explicit
@@ -56,20 +56,22 @@ We can define a function, finally() that takes an action to be executed on the e
 generally used when destructor cannot be used like C associated programs and structs
 Instead, we could convert it to a lambda used as an initializer:
 
-Click here to view code image
+
+```C++
 
 void user(Init_mode m, int n, vector<int>& arg, Iterator p, Iterator q)
 {
      vector<int> v = [&] {
           switch (m) {
-          case zero:     return vector<int>(n);         // n elements initialized to 0
-          case seq:      return vector<int>{p,q};       // copy from sequence [p:q)
+          case zero:     return vector<int>(n); // n elements initialized to 0
+          case seq:      return vector<int>{p,q}; // copy from sequence [p:q)
           case cpy:      return arg;
           }
      }();
 
      // ...
 }
+```
 Such code is often messy, deemed essential “for efficiency,” and a source of bugs:
 
 The variable could be used before it gets its intended value.
@@ -81,6 +83,7 @@ When “initialization code” is mixed with other code it is easier to forget a
 This isn’t initialization, it’s assignment (§1.9.2).
 enum class Init_mode { zero, seq, cpy, patrn };    // initializer alternatives
 
+```cpp
 void user(Init_mode m, int n, vector<int>& arg, Iterator p, Iterator q)
 {
      vector<int> v;
@@ -103,25 +106,28 @@ void user(Init_mode m, int n, vector<int>& arg, Iterator p, Iterator q)
 
      // ...
 }
+```
 When needed, we can constrain the parameter with a concept (§8.2). For example, we could define Pointer_to_class to require * and -> and write:
 
 Click here to view code image
 
-for_each(v,[](Pointer_to_class auto& s){ s->rotate(r); s->draw(); });
+`for_each(v,[](Pointer_to_class auto& s){ s->rotate(r); s->draw(); });`
 
 Like a function, a lambda can be generic
+```cpp
 template<typename C, typename Oper>
-void for_each(C& c, Oper op)   // assume that C is a container of pointers (see also §8.2.1)
+void for_each(C& c, Oper op)   // assume that C is a container of pointers
 {
      for (auto& x : c)
            op(x);       // pass op() a reference to each element pointed to
 }
-This is a simplified version of the standard-library for_each algorithm (§13.5).
+```
+This is a simplified version of the standard-library for_each algorithm.
 
 Now, we can write a version of user() from §5.5 without writing a set of _all functions:
 
-Click here to view code image
 
+```cpp
 void user()
 {
      vector<unique_ptr<Shape>> v;
@@ -130,6 +136,7 @@ void user()
      for_each(v,[](unique_ptr<Shape>& ps){ ps->draw(); });       // draw_all()
      for_each(v,[](unique_ptr<Shape>& ps){ ps->rotate(45); });   // rotate_all(45)
 }
+```
 Capture nothing is [ ], capture all local names used by reference is [&], and capture all local names used by value is [=].
 Had we wanted to give the generated object a copy of x, we could have said so: [x]
 Had we wanted to “capture” only x, we could have said so: [&x].
@@ -152,24 +159,28 @@ A function object: an object that can carry data and be called like a function
 A lambda expression: a shorthand notation for a function object
 For those, we need a way of saying “a pair of values of the same type should be considered iterators.” Adding a deduction guide after the declaration of Vector does exactly that:
 
-Click here to view code image
 
+
+```
 template<typename Iter>
     Vector(Iter,Iter) -> Vector<typename Iter::value_type>;
+```
 Like all other powerful mechanisms, deduction can cause surprises. Consider:
 
-Click here to view code image
 
+
+```
 Vector<string> vs {"Hello", "World"};   // OK: Vector<string>
 Vector vs1 {"Hello", "World"};          // OK: deduces to Vector<const char[6]> (Surprise?)
 Vector vs2 {"Hello"s, "World"s};        // OK: deduces to Vector<string>
 Vector vs3 {"Hello"s, "World"};         // error: the initializer list is not homogenous
 Vector<string> vs4 {"Hello"s, "World"}; // OK: the element type is explicit
-
+```
 parameterize with string values is critically important. Fortunately, we can use an array holding the characters of a string:
 
-Click here to view code image
 
+
+```
 template<char* s>
 void outs() { cout << s; }
 
@@ -180,18 +191,23 @@ void use()
      outs<"straightforward use">();    // error (for now)
      outs<arr>();                      // writes: Weird workaround!
 }
+```
 Unfortunately, for obscure technical reasons, a string literal cannot yet be a template value argument.
+```
 Buffer<char,1024> glob; // 
+```
 In addition to type arguments, a template can take value arguments. For example:
 
 Click here to view code image
 
+```
 template<typename T, int N>
 struct Buffer {
      constexpr int size() { return N; }
      T elem[N];
      // ...
 };
+```
 Value arguments are useful in many contexts. For example, Buffer allows us to create arbitrarily sized buffers with no use of the free store (dynamic memory):
 Concept checking is a purely compile-time mechanism and the code generated is as good as that from unconstrained templates.
 Thus, concepts lets the compiler to do type checking at the point of use, giving better error messages far earlier than is possible with unconstrained template arguments. C++ did not officially support concepts before C++20, so older code uses unconstrained template
