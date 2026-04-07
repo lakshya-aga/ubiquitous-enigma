@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feller Condition.md",
+                "file": "MolecularNotes-master/Sources/A Tour of C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feller Condition"
+              "title": "A Tour of C++"
             }
           }
         ],
@@ -195,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feller Condition.md",
+                "file": "MolecularNotes-master/Sources/A Tour of C++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Feller Condition"
+              "title": "Outline of A Tour of C++"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "f930289f9bed3f16",
   "lastOpenFiles": [
-    "Hetson Model.md",
     "Feller Condition.md",
+    "Hetson Model.md",
     "C++_Classes.md",
     "MolecularNotes-master/Topics/DerivativePricing.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
