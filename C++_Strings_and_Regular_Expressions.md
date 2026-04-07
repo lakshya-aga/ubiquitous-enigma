@@ -1,3 +1,9 @@
+Important topics to review:
+- Short string optimisations
+- Mutable strings in C++
+- string views
+- What is basic string
+
 For full portability, use the character class names rather than these abbreviations.
 
 |Abbreviation |Meaning |POSIX Equivalent |
