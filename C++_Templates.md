@@ -161,19 +161,14 @@ void user()
      for_each(v,[](unique_ptr<Shape>& ps){ ps->rotate(45); });   // rotate_all(45)
 }
 ```
-Capture nothing is [ ], capture all local names used by reference is [&], and capture all local names used by value is [=].
-Had we wanted to give the generated object a copy of x, we could have said so: [x]
-Had we wanted to “capture” only x, we could have said so: [&x].
-The [&] is a capture list specifying that all local names used in the lambda body (such as x) will be accessed through references. 
-The notation [&](int a){ return a<x; } is called a lambda expressio
-Given concepts (§8.2), we can formalize count()’s assumptions about its argument and check them at compile time.
+
 
 A predicate is something that we can invoke to return true or false.
 predicate
-can call such an object, just as we call a function:
-function object (sometimes called a functor),
-The compiler would not know all instantiations of such a template in a program, so it could not generate a vtbl (§5.4).
+
 A function template can be a member function, but not a virtual member.
+The compiler would not know all instantiations of such a template in a program, so it could not generate a vtbl (§5.4).
+
 There are three ways of expressing an operation parameterized by types or values:
 
 A function template
