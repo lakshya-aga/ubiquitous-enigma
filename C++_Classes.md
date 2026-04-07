@@ -1,6 +1,8 @@
 const_cast for “casting away const.”
+
 reinterpret_cast and bit_cast (§16.7) for treating an object as simply a sequence of bytes
 reinterpret_cast and bit_cast
+
 Unfortunately, the standard-library uses unsigned integers for sizes and subscripts, so we need to use the ugly static_cast to explicitly convert the size of the initializer list to an int. This is pedantic because the chance that the number of elements in a handwritten list is larger than the largest integer (32,767 for 16-bit integers and 2,147,483,647 for 32-bit integers) is rather low
 A static_cast does not check the value it is converting; the programmer is trusted to use it correctly.
 Note that the member destructor (~Vector()) is implicitly invoked by its class’s destructor (~Vector_container()).

@@ -1,7 +1,14 @@
-This `template<Element T>` prefix is C++’s version of mathematic’s “for all T such that Element(T)”; that is, Element is a predicate that checks whether T has all the properties that a Vector requires. Such a predicate is called a concept (§8.2). A
+Important things to revise:
+- Type Predicates: restrict template usage
+- 
+
+This `template<Element T>` prefix is C++’s version of mathematic’s “for all T such that Element(T)”; 
+
+
+
 modern program representation techniques (such as “abstract syntax trees”).
 The `is_trivially_copyable_v<T>` is a type predicate
-compile-time
+
 no runtime overhead. if is not evaluated at runtime
 ```cpp
 template<typename T>
