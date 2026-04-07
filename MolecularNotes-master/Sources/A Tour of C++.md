@@ -7,7 +7,7 @@ Topics: Programming
 
 ## 5. Classes
 
-- Key idea 1 
+- Types of classes: abstract, concrete, classes in class heirarchies
 - Key idea 2
 
 ## Theme 2
