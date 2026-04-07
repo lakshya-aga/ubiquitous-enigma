@@ -1,6 +1,8 @@
-Important things to revise:
+Important things to review:
 - Type Predicates: restrict template usage
-- 
+- functors
+- general syntax
+- What can be parameterised - value, type, even functions including lambda
 
 This `template<Element T>` prefix is C++’s version of mathematic’s “for all T such that Element(T)”; 
 
@@ -9,6 +11,7 @@ This `template<Element T>` prefix is C++’s version of mathematic’s “for al
 modern program representation techniques (such as “abstract syntax trees”).
 The `is_trivially_copyable_v<T>` is a type predicate
 
+## benefit of constexpr
 no runtime overhead. if is not evaluated at runtime
 ```cpp
 template<typename T>
@@ -33,29 +36,8 @@ void algo(Container& c)
 ```
 
 
-is very common for a parameterized type to provide an alias for types related to their template arguments. For example:
-```cpp
-template<typename T>
-class Vector {
-public:
-     using value_type = T;
-     // ...
-};
-```
-In fact, every standard-library container provides `value_type` as the name for the type of its elements
-The standard library uses variable templates to provide mathematical constants, such as pi and log2e
-`is_assignable<T&,T2>::value static_asserts` custom checks that are used to terminate prematurely. compile time or runtime? compile time. Only where `constexpr` can be used
-Values dependent on a type: variable templates 
 
-| Use case                                                                      | tool                 |
-| ----------------------------------------------------------------------------- | -------------------- |
-| Aliases for types and templates:                                              | alias templates      |
-| A compile-time selection mechanism                                            | if constexpr (1==2)  |
-| A compile-time mechanism to inquire about properties of types and expressions | requires-expressions |
-
-
-`scope_exit`
-Core Guidelines Support Library (the GSL) explicit attribute `[[nodiscard]]` to ensure that users do not forget to copy a generated "Final_action" into the scope for which its action is intended
+## nodiscard:
 ```cpp
 
 #include <iostream>
@@ -73,6 +55,8 @@ cout<<x<<endl;
 ```
 
 
+
+## Avoiding leak using finally and managing resources 
 Implemented using finally
 ```cpp
 auto act = finally([&]{free(p);}); 
@@ -84,62 +68,10 @@ generally used when destructor cannot be used like C associated programs and str
 Instead, we could convert it to a lambda used as an initializer:
 
 
-```C++
-
-void user(Init_mode m, int n, vector<int>& arg, Iterator p, Iterator q)
-{
-     vector<int> v = [&] {
-          switch (m) {
-          case zero:     return vector<int>(n); // n elements initialized to 0
-          case seq:      return vector<int>{p,q}; // copy from sequence [p:q)
-          case cpy:      return arg;
-          }
-     }();
-
-     // ...
-}
-```
-Such code is often messy, deemed essential “for efficiency,” and a source of bugs:
-
-The variable could be used before it gets its intended value.
-
-The “initialization code” could be mixed with other code, making it hard to comprehend.
-
-When “initialization code” is mixed with other code it is easier to forget a case.
-
-This isn’t initialization, it’s assignment (§1.9.2).
-enum class Init_mode { zero, seq, cpy, patrn };    // initializer alternatives
-
-```cpp
-void user(Init_mode m, int n, vector<int>& arg, Iterator p, Iterator q)
-{
-     vector<int> v;
-
-     // messy initialization code:
-
-     switch (m) {
-     case zero:
-          v = vector<int>(n);  // n elements initialized to 0
-          break;
-     case cpy:
-           v = arg;
-           break;
-     };
-
-     // ...
-
-     if (m == seq)
-           v.assign(p,q);    // copy from sequence [p:q)
-
-     // ...
-}
-```
-When needed, we can constrain the parameter with a concept (§8.2). For example, we could define Pointer_to_class to require * and -> and write:
 
 
-`for_each(v,[](Pointer_to_class auto& s){ s->rotate(r); s->draw(); });`
 
-Like a function, a lambda can be generic
+## Like a function, a lambda can be generic
 ```cpp
 template<typename C, typename Oper>
 void for_each(C& c, Oper op)   // assume that C is a container of pointers
@@ -148,76 +80,24 @@ void for_each(C& c, Oper op)   // assume that C is a container of pointers
            op(x);       // pass op() a reference to each element pointed to
 }
 ```
-This is a simplified version of the standard-library for_each algorithm.
-
-Now, we can write a version of user() from §5.5 without writing a set of _all functions:
-```cpp
-void user()
-{
-     vector<unique_ptr<Shape>> v;
-     while (cin)
-         v.push_back(read_shape(cin));
-     for_each(v,[](unique_ptr<Shape>& ps){ ps->draw(); });       // draw_all()
-     for_each(v,[](unique_ptr<Shape>& ps){ ps->rotate(45); });   // rotate_all(45)
-}
-```
 
 
-A predicate is something that we can invoke to return true or false.
-predicate
+## Restrictions
 
 A function template can be a member function, but not a virtual member.
 The compiler would not know all instantiations of such a template in a program, so it could not generate a vtbl (§5.4).
 
-There are three ways of expressing an operation parameterized by types or values:
-
-A function template
 
 
-For those, we need a way of saying “a pair of values of the same type should be considered iterators.” Adding a deduction guide after the declaration of Vector does exactly that:
-
-
-
-```
-template<typename Iter>
-    Vector(Iter,Iter) -> Vector<typename Iter::value_type>;
-```
-Like all other powerful mechanisms, deduction can cause surprises. Consider:
-
-
-
-```
-Vector<string> vs {"Hello", "World"};   // OK: Vector<string>
-Vector vs1 {"Hello", "World"};          // OK: deduces to Vector<const char[6]> (Surprise?)
-Vector vs2 {"Hello"s, "World"s};        // OK: deduces to Vector<string>
-Vector vs3 {"Hello"s, "World"};         // error: the initializer list is not homogenous
-Vector<string> vs4 {"Hello"s, "World"}; // OK: the element type is explicit
-```
-parameterize with string values is critically important. Fortunately, we can use an array holding the characters of a string:
-
-
-
-```
-template<char* s>
-void outs() { cout << s; }
-
-char arr[] = "Weird workaround!";
-
-void use()
-{
-     outs<"straightforward use">();    // error (for now)
-     outs<arr>();                      // writes: Weird workaround!
-}
-```
 Unfortunately, for obscure technical reasons, a string literal cannot yet be a template value argument.
 ```
 Buffer<char,1024> glob; // 
 ```
 In addition to type arguments, a template can take value arguments. For example:
 
-Click here to view code image
 
-```
+
+```c++
 template<typename T, int N>
 struct Buffer {
      constexpr int size() { return N; }
@@ -226,10 +106,13 @@ struct Buffer {
 };
 ```
 Value arguments are useful in many contexts. For example, Buffer allows us to create arbitrarily sized buffers with no use of the free store (dynamic memory):
+
+
+## Endnotes:
 Concept checking is a purely compile-time mechanism and the code generated is as good as that from unconstrained templates.
 Thus, concepts lets the compiler to do type checking at the point of use, giving better error messages far earlier than is possible with unconstrained template arguments. C++ did not officially support concepts before C++20, so older code uses unconstrained template
 template argument for which a concept is specified is called a constrained argument and a template for which an argument is constrained is called a constrained template.
- 
+
 
 ## Definitions:
 
@@ -242,3 +125,5 @@ vbtl:
 A function object: an object that can carry data and be called like a function
 
 A lambda expression: a shorthand notation for a function object
+
+Functor: any object that can be called as if calling a function. Generally by implementing the `bool operator()(const T& x){...}` 
