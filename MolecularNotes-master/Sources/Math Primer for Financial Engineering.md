@@ -30,7 +30,7 @@ h(y) = \frac{1}{something}.e^{-\frac{something}{something}}
 $$
 ### Helpful Derivations:
 
-E(x^3) when x follows a Normal Distributions
+$E(x^3)$ when x follows a Normal Distribution ~N(0, 1)
 $$
 E(X^3) = \int x^3 e^{-\frac{-x^2}{2}} dx 
 $$
