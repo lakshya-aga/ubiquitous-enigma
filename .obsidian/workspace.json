@@ -83,30 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Authors/Brad Stone.md",
+                "file": "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brad Stone"
-            }
-          },
-          {
-            "id": "01a7370f95daa3d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Authors/Richard Heur.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Richard Heur"
+              "title": "Psychology of Intelligence Analysis"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -279,8 +265,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01a7370f95daa3d1",
+  "active": "9fbf49d5e1733b2a",
   "lastOpenFiles": [
+    "Richards Heur.md",
+    "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
+    "MolecularNotes-master/Authors/Richard Heur.md",
+    "MolecularNotes-master/Authors/Brad Stone.md",
+    "MolecularNotes-master/Sources/TheEverythingStore,Stone.md",
     "Bash Command - sed.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
     "MolecularNotes-master/Sources/MLinpairsTrading.md",
@@ -288,8 +279,6 @@
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Topics/VolatilityTrading.md",
     "MolecularNotes-master/Authors/Bjarne Stroustoup.md",
-    "MolecularNotes-master/Authors/Richard Heur.md",
-    "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "MolecularNotes-master/Topics/Linux.md",
     "MolecularNotes-master/Topics/OptionSpreads.md",
     "MolecularNotes-master/Topics/MultivariateCalculus.md",
@@ -302,11 +291,8 @@
     "Hetson Model.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "OPTICS.md",
-    "MolecularNotes-master/Authors/Brad Stone.md",
     "MolecularNotes-master/Sources/PeripheraltradingwithPMFGs.md",
     "C++_Strings_and_Regular_Expressions.md",
-    "C++_Templates.md",
-    "C++_Error_Handling.md",
     "Linux Command - sed",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
