@@ -4,5 +4,5 @@ Limits the exception to the function. If a function with noexcept throws excepti
 ---
 
 Topics: [[C++]]
-Reference: [[A Tour of C++]] + Gemini
+Reference: [[A tour of C++]] + Gemini
 Type: #atom

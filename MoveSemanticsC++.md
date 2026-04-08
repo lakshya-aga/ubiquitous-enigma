@@ -15,5 +15,5 @@ Rule of thumb:
 ---
 
 Topics: [[C++]], Performance, Resource Management
-Reference: [[Effective Modern C++]] + [[A Tour of C++]]
+Reference: [[Effective Modern C++]] + [[A tour of C++]]
 Type: #atom
