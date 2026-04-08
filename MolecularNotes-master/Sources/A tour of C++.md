@@ -12,4 +12,6 @@ The second half of the book deals with STL. It has general suggestions such as u
 
 One thing I feel could complement the study of this book greatly is an end of chapter quiz for each chapter and a final exam.
 
-There is a lot of irrelevant (searchable) information such as different predicates and so on. 
+There is a lot of irrelevant (searchable) information such as different predicates and so on. Some very niche features which a developer will certainly always lookup. But to be fair the book is supposed to be a quick over view covering as much breadth as possible.
+
+It also 
