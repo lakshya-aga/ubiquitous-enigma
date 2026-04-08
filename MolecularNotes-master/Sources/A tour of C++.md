@@ -12,4 +12,4 @@ The second half of the book deals with STL. It has general suggestions such as u
 
 One thing I feel could complement the study of this book greatly is an end of chapter quiz for each chapter and a final exam.
 
-There is a lot of irrelevant (searchable) information such as different predicates
+There is a lot of irrelevant (searchable) information such as different predicates and so on. 
