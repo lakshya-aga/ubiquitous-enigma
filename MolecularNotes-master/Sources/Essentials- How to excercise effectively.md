@@ -1,4 +1,4 @@
-Author: Dr. Andrew Huberman
+Author: [[Dr. Andrew Huberman]]
 Type: #source #podcast
 Link: 
 Topics: Workout
