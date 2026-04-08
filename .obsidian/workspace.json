@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Sources/How To Unlearn.md",
+                "file": "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How To Unlearn"
+              "title": "Advances in Financial machine learning"
             }
           }
         ],
@@ -267,8 +267,9 @@
   },
   "active": "9fbf49d5e1733b2a",
   "lastOpenFiles": [
-    "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
+    "MolecularNotes-master/Sources/A tour of C++.md",
     "MolecularNotes-master/Sources/How To Unlearn.md",
+    "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "Richards Heur.md",
     "MolecularNotes-master/Authors/Richard Heur.md",
@@ -285,7 +286,6 @@
     "MolecularNotes-master/Topics/Microservices.md",
     "MolecularNotes-master/Topics/DerivativePricing.md",
     "MolecularNotes-master/Topics/CFA Level 1.md",
-    "MolecularNotes-master/Sources/A tour of C++.md",
     "EigenvectorCentrality.md",
     "Feller Condition.md",
     "Hetson Model.md",

@@ -5,12 +5,5 @@ Topics:
 
 ---
 
-## Theme 1
-
-- Key idea 1 
-- Key idea 2
-
-## Theme 2
-
-- Key idea 3
-- Key idea 4
+## Review
+I like the width and cases of how some of these techniques are useful. Code snippets really get rid of any ambiguity. Although the author seems to get a little lazy with semantic explanations and relies on code to actually get the algorithms across. 
