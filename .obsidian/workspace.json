@@ -279,8 +279,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8124b1cc59a0b4d6",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
+    "MolecularNotes-master/_scripts/polymer.py",
+    "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
     "MolecularNotes-master/_attachments/7_Templates.md",
     "MolecularNotes-master/_attachments/3_Modularity.md",
     "MolecularNotes-master/_attachments/6_Essential_Operations.md",
@@ -306,7 +308,6 @@
     "Bash Command - sed.md",
     "MolecularNotes-master/Sources/MLinpairsTrading.md",
     "MolecularNotes-master/Topics/VolatilityTrading.md",
-    "MolecularNotes-master/Authors/Bjarne Stroustoup.md",
     "Linux Command - sed",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
@@ -320,7 +321,6 @@
     "MolecularNotes-master/_scripts/dashboard.py",
     "MolecularNotes-master/_templates",
     "MolecularNotes-master/_scripts",
-    "MolecularNotes-master/_attachments",
-    "MolecularNotes-master/Topics"
+    "MolecularNotes-master/_attachments"
   ]
 }
