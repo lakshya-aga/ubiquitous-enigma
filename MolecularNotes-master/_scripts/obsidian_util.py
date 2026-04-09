@@ -128,6 +128,7 @@ def notes_to_review():
 
     for f in all_files:
         file_contents = read_file(vault_path + f)
+        print(f)
         if "#todo" in file_contents:
             todos.append(f.replace(".md", "").replace(vault_path, "").strip("/"))
         # Find words in [[...]] and add to mentioned
