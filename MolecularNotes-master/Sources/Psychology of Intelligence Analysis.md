@@ -23,7 +23,7 @@ Longer exposure is also detrimental in a similar way, as longer exposure leads t
 An analyst may be at an advantage when starting late due to this cognitive bias. Thus, delay giving verdict for as long as possible. Because going against a verdict is resisted by both organisation and individual
 
 One of the pitfalls is analysts see what they "expect to see". This encompasses the notion of they see what they want to see.
-
+In the Image below: if you start from the picture of a man, you are much more likely to classify the 
 ![[ImpressionsResist Change.png]]
 
 Key takeaways:
