@@ -24,6 +24,7 @@ An analyst may be at an advantage when starting late due to this cognitive bias
 
 One of the pitfalls is analyst see what they "expect to see" rather than want.
 
+
 Key takeaways:
 - When new information comes in, reassess the information in its entirety, not just in increments
 - A new analyst may find insights seasoned analyst did not simply because of incremental vs full information assimilation
