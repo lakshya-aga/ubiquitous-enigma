@@ -28,4 +28,4 @@ Key takeaways:
 - When new information comes in, reassess the information in its entirety, not just in increments
 - A new analyst may find insights seasoned analyst did not simply because of incremental vs full information assimilation
 - It is delusional to think we can analyse with an empty mind. To counter the effects of biases: 
-	- Be as explicit as possible in your assumptions and reasoning. Explicit chain of thought invites questions by self and other analysts to catch errors early.
+	- Be as explicit as possible in your assumptions and reasoning. Explicit chain of thought invites questions by self and other analysts to catch errors/fallacies.
