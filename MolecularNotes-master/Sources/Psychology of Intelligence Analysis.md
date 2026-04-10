@@ -22,7 +22,7 @@ A more ambiguous start leads to less favourable outcomes as more information is 
 Longer exposure is also detrimental in a similar way, as longer exposure leads to longer confirmation reasoning by analyst
 An analyst may be at an advantage when starting late due to this cognitive bias. Thus, delay giving verdict for as long as possible. Because going against a verdict is resisted by both organisation and individual
 
-One of the pitfalls is analysts see what they "expect to see" rather than want.
+One of the pitfalls is analysts see what they "expect to see". This encompasses the notion of they see what they want to see.
 
 ![[ImpressionsResist Change.png]]
 
