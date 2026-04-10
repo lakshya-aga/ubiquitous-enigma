@@ -24,7 +24,7 @@ An analyst may be at an advantage when starting late due to this cognitive bias.
 
 One of the pitfalls is analysts see what they "expect to see" rather than want.
 
-[Insert man to woman transition picture for demo]
+![[ImpressionsResist Change.png]]
 
 Key takeaways:
 - When new information comes in, reassess the information in its entirety, not just in increments
