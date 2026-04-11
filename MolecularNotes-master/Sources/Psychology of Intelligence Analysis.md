@@ -32,7 +32,7 @@ Key takeaways:
 - It is delusional to think we can analyse with an empty mind. To counter the effects of biases: 
 	- Be as explicit as possible in your assumptions and reasoning. Explicit chain of thought invites questions by self and other analysts to catch errors/fallacies.
 
-## Chapter 3  - How we remember things
+## Chapter 3  - How to remember what you know
 
 This chapter talks about 3 stages of information flow:
 - Sensory Information Storage
