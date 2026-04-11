@@ -209,21 +209,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++_Strings_and_Regular_Expressions.md",
+                "file": "Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of C++_Strings_and_Regular_Expressions"
+              "title": "Outline of Learning"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
