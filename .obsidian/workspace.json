@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning.md",
+                "file": "BlackScholes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning"
+              "title": "BlackScholes"
             }
           }
         ],
@@ -211,6 +211,7 @@
   },
   "active": "9b765c4fa349e29a",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/Learning.md",
     "MolecularNotes-master/Sources/How To Unlearn.md",
     "MolecularNotes-master/Sources/A tour of C++.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
@@ -222,7 +223,6 @@
     "Untitled.base",
     "MolecularNotes-master/Topics/MultivariateCalculus.md",
     "Untitled 1.base",
-    "Learning.md",
     "2026-04-10.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
