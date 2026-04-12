@@ -4,3 +4,4 @@ Link: snipd podcast with Dr. Kannaujia (7 year monk practitioner and Psychiatris
 Topics: Psychology
 
 ---
+Not any practical insights. Just one good meditation trick - breathe in, breathe out - and look for the void part, where you have no breath and are neither inhaling, nor exhaling
