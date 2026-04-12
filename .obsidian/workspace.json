@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Sources/How To Unlearn.md",
+                "file": "Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How To Unlearn"
+              "title": "Learning"
             }
           }
         ],
@@ -211,6 +211,7 @@
   },
   "active": "9b765c4fa349e29a",
   "lastOpenFiles": [
+    "MolecularNotes-master/Sources/How To Unlearn.md",
     "MolecularNotes-master/Sources/A tour of C++.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
     "MolecularNotes-master/Sources/MLinpairsTrading.md",
@@ -228,7 +229,6 @@
     "MolecularNotes-master/Sources/Essentials - How to set goals and achieve them.md",
     "MolecularNotes-master/Authors/Ray Dalio.md",
     "How to set goals and achieve them.md",
-    "MolecularNotes-master/Sources/How To Unlearn.md",
     "MolecularNotes-master/Sources/Essentials- How to excercise effectively.md",
     "MolecularNotes-master/Authors/Dr. Andrew Huberman.md",
     "C++_Strings_and_Regular_Expressions.md",
