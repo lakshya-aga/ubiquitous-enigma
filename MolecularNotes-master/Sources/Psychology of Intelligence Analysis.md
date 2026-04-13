@@ -15,7 +15,7 @@ Perception is reconstruction of reality, not merely recording it. Perception is 
 - Past experience
 - Cultural values
 - education and 2 other factors I cannot recollect
-
+---
 ## Chapter 2:
 Demonstrates how trajectory of information matters
 A more ambiguous start leads to less favourable outcomes as more information is needed to directly contradict the wrong perspective.
@@ -31,7 +31,7 @@ Key takeaways:
 - A new analyst may find insights seasoned analyst did not simply because of incremental vs full information assimilation
 - It is delusional to think we can analyse with an empty mind. To counter the effects of biases: 
 	- Be as explicit as possible in your assumptions and reasoning. Explicit chain of thought invites questions by self and other analysts to catch errors/fallacies.
-
+---
 ## Chapter 3  - How to remember what you know
 
 This chapter talks about 3 stages of information flow:
@@ -58,7 +58,31 @@ Another problem in memory is highlighted. We can at best keep 5-9 in our memory 
  - give a word that rhymes with each word,
  - make a mental image of each word, 
  - make up a story that incorporates each word.
-
+---
 ## Chapter 4
 
 The most productive uses of comparative analysis are to suggest hypotheses and to highlight diferences, not to draw conclusions.
+
+There are a few ways of Generating and evaluating hypothesis:
+
+- Applying theory: Basic idea is to form ideas. Example: when autocratic countries have influx of foreign ideals, the autocracy falls. Then test this hypothesis if it applies to the current situation
+- Situational Logic: What is happening now should lead to this based on decision maker's information, misconceptions and state of mind
+- Historical analogy: Grawing similarity between situation today and old situation to find the theorise what will happen next and form optimal policy accordingly.
+- Data Immersion: This is data snooping mechanism where in you simply can't have an opinion or hypothesis so you just go around look into the data and form a hypothesis rather than form the ht and prove it wrong.
+
+Tips: It is generally a good idea to actually try disproving your theory like the scientific method rather than focus on proving it. This is because of the diagnosticity of results: Temprature of body tells you are ill, not what you have and has very little information otherwise.
+One false data is enough to discredit a hypothesis many times, so seek them. Example:
+what is the sequence rule : 2-4-6; might say increasing even. but can actually be increasing numbers in general. Can't know unless 1-2-3 is tested. Search Wason Experiment for more info.
+
+Ideally, full set of hypothesis and testing is beneficial but generally unrealising.
+### Satisficing: first good enough appearing hypothesis
+Thus, analysts use this to cull the herd. Generally, analysts organise data looking to prove this thesis. This is very dangerous as discussed above and has 3 weaknesses:
+- Selective Perception: You see what you expect
+- Failure to generate good hypothesis
+- Failure to consider diagnoticity of evidence
+
+The essence of this is, negative proving information is discarded more frequently with this approach and often has more information than the conforming one.
+## "no conforming instance of a law is a verifying instance, but that any disconforming instance is a falsifying instance."
+
+---
+## Chapter 5: Do You Really Need More Information?
