@@ -1,3 +1,9 @@
+
+Topics: [[C++]]
+Reference: [[A tour of C++]]
+Type: #atom
+
+---
 Important things to review:
 - Type Predicates: restrict template usage
 - functors

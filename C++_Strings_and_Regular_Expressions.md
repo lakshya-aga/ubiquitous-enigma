@@ -1,9 +1,8 @@
 
----
-
 Topics: [[C++]]
-Reference:
+Reference: [[A tour of C++]]
 Type: #atom
+
 
 ---
 Important topics to review:

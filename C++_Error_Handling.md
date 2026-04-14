@@ -2,7 +2,7 @@
 ---
 
 Topics: [[C++]]
-Reference:
+Reference: [[A tour of C++]]
 Type: #atom
 
 The standard library offers the debug macro, `assert()`. we can also perform simple checks on most properties that are known at compile time and report failures to meet our expectations as compiler error messages.

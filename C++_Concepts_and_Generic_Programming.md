@@ -1,3 +1,10 @@
+
+---
+
+Topics: [[C++]]
+Reference: [[A tour of C++]]
+Type: #atom
+
 The standard-library function forward() (§16.6) is used to move the arguments unchanged from the InputChannel constructor to the Transport constructor.
 
 The point here is that the writer of InputChannel can construct an object of type Transport without having to know what arguments are required to construct a particular Transport. The implementer of InputChannel needs only to know the common user interface for all Transport objects.
