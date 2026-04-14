@@ -1,3 +1,11 @@
+
+---
+
+Topics: [[C++]]
+Reference:
+Type: #atom
+
+---
 Important topics to review:
 - Short string optimisations
 - Mutable strings in C++
