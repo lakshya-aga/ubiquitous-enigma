@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++_Strings_and_Regular_Expressions.md",
+                "file": "C++_Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++_Strings_and_Regular_Expressions"
+              "title": "C++_Templates"
             }
           }
         ],
@@ -267,11 +267,11 @@
   },
   "active": "a53aacb5f6b9b556",
   "lastOpenFiles": [
-    "C++_Templates.md",
+    "C++_Strings_and_Regular_Expressions.md",
     "C++_Error_Handling.md",
     "C++_Concepts_and_Generic_Programming.md",
+    "C++_Templates.md",
     "MolecularNotes-master/Sources/Effective Modern C++.md",
-    "C++_Strings_and_Regular_Expressions.md",
     "MolecularNotes-master/Topics/C++.md",
     "Ebbinghaus_forgetting_curve.md",
     "CIDR (Classless Inter-Domain Routing).md",
