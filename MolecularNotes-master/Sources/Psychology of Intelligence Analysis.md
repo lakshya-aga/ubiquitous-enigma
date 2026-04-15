@@ -95,4 +95,4 @@ There are a few cases where new information actually changes analysis:
 - Additional detail about a variable already in analysis
 
 
-People Tend to think of their reasoning process as more complex than it actually is
+People Tend to think of their reasoning process as more complex than it actually is, overestimating the utility of underused variables and underestimating the effect from a small subsets.
