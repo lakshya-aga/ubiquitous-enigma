@@ -87,3 +87,12 @@ The essence of this is, negative proving information is discarded more frequentl
 ---
 ## Chapter 5: Do You Really Need More Information?
 
+The author lays out the idea that more information "rarely" improves decision outcomes or analysis. This is only after a threshold information is achieved.
+More information -> gives more confidence to analyst and reduces second guessing even when they are wrong.
+
+There are a few cases where new information actually changes analysis:
+- Numerical change to one of the independent variables
+- Additional detail about a variable already in analysis
+
+
+People Tend to think of their reasoning process as more complex than it actually is
