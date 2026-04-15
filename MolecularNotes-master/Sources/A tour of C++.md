@@ -21,4 +21,4 @@ Some of my highlights:
 - [[C++_Templates]]: Generic programming which is very useful for extendable and reusable code
 - [[C++_Error_Handling]]: Best C++ practices for bigger codebases
 - [[C++_Strings_and_Regular_Expressions]]: Short string optimisation was particularly insightful
-- [[MoveSemanticsC++]]: Must know for C++. If someone doesn't know this topic well, they know programming, not C++
+- [[MoveSemanticsC++]]: Must know for C++. If someone doesn't know this topic well, they may know programming, but not C++
