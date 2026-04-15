@@ -93,6 +93,8 @@ More information -> gives more confidence to analyst and reduces second guessing
 There are a few cases where new information actually changes analysis:
 - Numerical change to one of the independent variables
 - Additional detail about a variable already in analysis
+- Identification of additional variables
+- Information relating to what variables may be important (Example: if I want to think of US policies and am considering Kamala Harris state of mind vs Trump state of mind. Kamala Harris doesn't matter if Trump is president)
 
 
 People Tend to think of their reasoning process as more complex than it actually is, overestimating the utility of underused variables and underestimating the effect from a small subsets.
