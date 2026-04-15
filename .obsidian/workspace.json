@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Sources/ML in pairs Trading.md",
+                "file": "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ML in pairs Trading"
+              "title": "Psychology of Intelligence Analysis"
             }
           }
         ],
@@ -265,8 +265,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f521cbe80ecfeb3c",
+  "active": "a53aacb5f6b9b556",
   "lastOpenFiles": [
+    "MolecularNotes-master/Sources/ML in pairs Trading.md",
     "ConstexprC++.md",
     "2026-04-10.md",
     "MolecularNotes-master/Sources/A tour of C++.md",
@@ -281,7 +282,6 @@
     "Ebbinghaus_forgetting_curve.md",
     "CIDR (Classless Inter-Domain Routing).md",
     "Convexity of bonds.md",
-    "MolecularNotes-master/Sources/ML in pairs Trading.md",
     "MolecularNotes-master/Sources/PeripheraltradingwithPMFGs.md",
     "MolecularNotes-master/Sources/Principles.md",
     "MolecularNotes-master/Sources/Essentials- How to excercise effectively.md",
