@@ -104,35 +104,34 @@ Steroid Loaded Team of agents with Firm specific data engineering capabilities a
 
 
 To do in order:
-- Switch to LangGraph
-- Add a Tool creation agent that adds to the internal library for data manipulation
+- Switch to LangGraph (not needed)
+- Add a Tool creation agent that adds to the internal library for data manipulation (done)
 - Add Factor Validation agent
-- Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available
-- Feature provenance and visualisation
-- Add a collaboration centric UI that lets you add comments in web interface to improve model and communicate with peers
+- Understand the difficulty of Trade analysis include VWAP etc. implement if possible and sample data is available (to do)
+- Feature provenance and visualisation (to do)
+- Add a collaboration centric UI that lets you add comments in web interface to improve model and communicate with peers (skipping)
 - once everything is stable - add in a proactive agent that actively goes out, fetches new data sets or research papers for user to review
-- 
 
 
+2026/04/16
+To do:
+___
+Website deployed: improve UI for execution trace and CoT.
 
-## Tech Stack (Planned)
+Marketing strategy: psychology of intelligence analysis says, being interpretable is very important to avoid pitfalls of mind set. The most effective way of doing so is to be explicit about the thinking process. Claude and other agents show some thought but not nearly enough to bet billions of dollars on them. Lookahead bias prevention mechanisms.
 
-  
+Learning playground: we recognise that some ideas may be nascent and may not be one shottable. We also will provide a playground where you can pick and drop existing signals, data sets as nodes to develop a no code research strategy. This can be passed to the agent to review which can identify gaps. Such as shrinkage missing before use of covariance matrix.
 
-| **Component**      | **Technology**                              |
-| ------------------ | ------------------------------------------- |
-| Agent framework    | Claude Agent SDK                            |
-| MCP servers        | Python (FastMCP or similar)                 |
-| PDF parsing        | GROBID + Docling + Nougat                   |
-| Vector store       | TBD (ChromaDB / Qdrant / Weaviate)          |
-| Notebook execution | nbformat + nbconvert / Jupyter kernel       |
-| Dashboard          | React                                       |
-| Signal API         | FastAPI                                     |
+Adding human gates in data addition tool so proprietary data/ pay walled data may be accessed
+
+Existing notebook upload to analyse and update parameters from hypothesis, in the same way that RD agent from Microsoft does
+
+GUI for notebook creation as a no code workflow with AI analysis for improvement.
 
 
-
-Additional Firms to take inspiration from:
+Additional Firms to take inspiration from that are using AI in finance
 
 fiscal.ai
+Rogo
 
 
