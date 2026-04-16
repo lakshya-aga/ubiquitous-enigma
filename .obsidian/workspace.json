@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
+                "file": "LiDAR - Cableman.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Psychology of Intelligence Analysis"
+              "title": "LiDAR - Cableman"
             }
           }
         ],
@@ -211,9 +211,10 @@
   },
   "active": "9b765c4fa349e29a",
   "lastOpenFiles": [
+    "Jokes.md",
+    "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "Untitled.md",
     "LiDAR - Cableman.md",
-    "Jokes.md",
     "MolecularNotes-master/Sources/ML in pairs Trading.md",
     "MolecularNotes-master/Topics/C++.md",
     "MolecularNotes-master/Sources/Effective Modern C++.md",
@@ -226,7 +227,6 @@
     "MolecularNotes-master/Sources/MLinpairsTrading.md",
     "MolecularNotes-master/Sources/PeripheraltradingwithPMFGs.md",
     "MolecularNotes-master/Sources/Principles.md",
-    "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "Depth Of processing Information.md",
     "Untitled.base",
     "MolecularNotes-master/Topics/MultivariateCalculus.md",
