@@ -58,6 +58,7 @@ Another problem in memory is highlighted. We can at best keep 5-9 in our memory 
  - give a word that rhymes with each word,
  - make a mental image of each word, 
  - make up a story that incorporates each word.
+ 
 ---
 ## Chapter 4
 
