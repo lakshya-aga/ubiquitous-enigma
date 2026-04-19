@@ -160,9 +160,23 @@
               "icon": "lucide-file",
               "title": "Original Issue Tax Discount"
             }
+          },
+          {
+            "id": "ca7fb304d1e2ef78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Live Data Server.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Live Data Server"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -335,10 +349,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b720bf913cdf943f",
+  "active": "ca7fb304d1e2ef78",
   "lastOpenFiles": [
-    "Physics.md",
     "Original Issue Tax Discount.md",
+    "Live Data Server.md",
+    "Physics.md",
     "Reith Lectures on Black Holes.md",
     "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "LiDAR - Cableman.md",
@@ -362,7 +377,6 @@
     "Convexity of bonds.md",
     "MolecularNotes-master/Sources/PeripheraltradingwithPMFGs.md",
     "MolecularNotes-master/Sources/Principles.md",
-    "MolecularNotes-master/Sources/Essentials- How to excercise effectively.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
