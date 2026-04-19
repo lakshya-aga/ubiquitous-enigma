@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Live Data Server.md",
+                "file": "Original Issue Tax Discount.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Live Data Server"
+              "title": "Original Issue Tax Discount"
             }
           }
         ],
@@ -351,6 +351,9 @@
   },
   "active": "ca7fb304d1e2ef78",
   "lastOpenFiles": [
+    "OPTICS.md",
+    "Numerical Methods for Computing Definite Integrals.md",
+    "NoexceptC++.md",
     "Original Issue Tax Discount.md",
     "Live Data Server.md",
     "Physics.md",
@@ -374,9 +377,6 @@
     "MolecularNotes-master/Topics/C++.md",
     "Ebbinghaus_forgetting_curve.md",
     "CIDR (Classless Inter-Domain Routing).md",
-    "Convexity of bonds.md",
-    "MolecularNotes-master/Sources/PeripheraltradingwithPMFGs.md",
-    "MolecularNotes-master/Sources/Principles.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
