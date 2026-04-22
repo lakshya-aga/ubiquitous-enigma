@@ -101,3 +101,9 @@ People Tend to think of their reasoning process as far more complex than it actu
 
 ---
 ## Chpater 6:
+
+Ideas presented include:
+- How to break out of a mental rut: speak out the purpose. speaking and thinking activate different parts of your brain. Disengage for a while
+- Do not build psychological barriers: often times we create our own imaginary boundations
+- Adopt the idea of the devil's advocate to find flaws in an analysis
+- True diversity is actually different thought processes. 
