@@ -118,4 +118,11 @@ Ideas presented include:
 - Always helpful to write things down
 - For example try to see multiplication of 46x78 in mind and on paper
 - Even Joseph Priestly and Ben Franklin had a conversation about how decision making is aided by writing pros-cons to have a full picture always available
-- 
+- A matrix example is given for deciding on car purchase:
+	- First Attribute to the factors, how important you feel each is such as price, style, operating costs (weight each from a pool of 100)
+	- Then divide amongst the cars a score of 10 or 100.
+	- Multiply component wise and sum for each car.
+	- Choose the one with the highest output.
+
+## Chapter 8: Analysing Competing Hypothesis
+
