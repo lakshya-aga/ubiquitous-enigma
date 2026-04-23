@@ -45,4 +45,8 @@ $ModDuration * PresentValueOfBond$
 
 Note to use full value including accrued interest
 
+*Convexity of Bond*: 
+$$
+\frac{PV_+ + PV_- - 2 PV}{\Delta bps_{fromOrignal}*100}
+$$
 
