@@ -26,4 +26,21 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 
 ## Fixed Income
 
+Macaulay Duration: 
+$$
+\sum\frac{t.CF}{{(1+r)}^t}
+$$
+Modified Duration:
+Defined as the change in bond price for change in yield
+$$
+price  = \sum\frac{CF}{{(1+r)}^i}
+$$
+$$
+\frac{dP}{dr} = \sum{\frac{t.CF}{(1+r)^{(t+1)}}}
+$$
+Note huge part can be substituted with MCD
+
+Dollar Value:
+$ModDuration * PresentValueOfBond$
+
 
