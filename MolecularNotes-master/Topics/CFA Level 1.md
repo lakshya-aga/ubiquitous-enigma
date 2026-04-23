@@ -50,3 +50,9 @@ $$
 \frac{PV_+ + PV_- - 2 PV}{\Delta bps_{fromOrignal}^2*PV}
 $$
 
+actual:
+
+$$
+\frac{1}{P}\frac{dp^2}{d^2y}
+$$
+
