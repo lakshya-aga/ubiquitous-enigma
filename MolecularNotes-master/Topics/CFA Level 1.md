@@ -41,6 +41,8 @@ $$
 Note huge part can be substituted with MCD
 
 Dollar Value:
-$ModDuration * PresentValueOfBond$
+$ModDuration * PresentValueOfBond$ 
+
+Note to use full value including accrued interest
 
 
