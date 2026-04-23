@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -297,8 +296,9 @@
   },
   "active": "8c0fedbfda44480a",
   "lastOpenFiles": [
-    "LiDAR - Cableman.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
+    "LiDAR - Cableman.md",
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Sources/How To Unlearn.md",
     "Jokes.md",
@@ -308,7 +308,6 @@
     "2026-04-10.md",
     "MolecularNotes-master/Sources/A tour of C++.md",
     "MolecularNotes-master/Sources/Effective Modern C++.md",
-    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "C++_Templates.md",
     "C++_Concepts_and_Generic_Programming.md",
     "C++_Error_Handling.md",
