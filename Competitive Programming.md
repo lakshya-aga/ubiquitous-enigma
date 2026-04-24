@@ -4,4 +4,15 @@ Generally use c++
 
 Some C++ functions that come in handy for speed:
 
-rotate(v.start(), v.end(), num)
+```cpp
+
+rotate(v.begin(), v.begin()+2, v.end())
+
+lower_bound(beg, end, val);
+
+min_element(beg, end); //-> returns iterator
+
+1<<3; // bitwise shift
+```
+
+Binary search problems:
