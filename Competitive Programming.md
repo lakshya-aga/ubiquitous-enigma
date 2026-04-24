@@ -15,4 +15,9 @@ min_element(beg, end); //-> returns iterator
 1<<3; // bitwise shift
 ```
 
+```cpp
+#include <iomanip>
+fixed<<setprecision(10); // 
+```
+
 Binary search problems:
