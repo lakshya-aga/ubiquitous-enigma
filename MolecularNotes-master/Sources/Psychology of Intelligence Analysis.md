@@ -127,3 +127,13 @@ Ideas presented include:
 
 ## Chapter 8: Analysing Competing Hypothesis
 
+This Chapter provides insights into a proven / tested method for analysing and testing hypothesis
+
+- Creating all possible Hypothesis
+- Gathering evidence
+- Arrange in a matrix with hypothesis at the top, followed by evidence as rows
+- Mark +/-/NA in each cell to indicate what the evidence indicates about the hypothesis
+- Strike off diagnostically irrelevant evidence and pick some hypothesis that you now see as probable
+- Try to disprove it
+- Publish report with a set of hypothesis that are likely with the analytical assumptions about the evidence
+- Set milestones and track them to see if model is performing as expected.
