@@ -1,16 +1,24 @@
-Author: Bjarne Stroustrup
+Author: [[Bjarne Stroustoup]]
 Type: #source #book
 Link: 
-Topics:
+Topics: C++, Programming
 
 ---
+Last read: March 2026
 
-## Theme 1
+### For a seasoned programmer, I think this is the most high ROI read to learn C++.
 
-- Key idea 1 
-- Key idea 2
+The book covers basic concepts of C++ well. It is a very good deep dive into actual C++ once you are familiar with the basic syntax. It contains quite a few code samples that show example usage (sometimes even innovative). 
+First 10 chapters deal with language nuances such as templates, generic programming, overloading operators, `const`, move semantics (`lvalue` and `rvalue`), `constexpr` and so on. It also talks briefly about designing functions and classes effectively from the lens of generic programming.
 
-## Theme 2
+The second half of the book deals with STL. It has general suggestions such as use STL instead of custom whenever possible and under the hood optimisations such as short string optimisation.
 
-- Key idea 3
-- Key idea 4
+One thing I feel could complement the study of this book greatly is an end of chapter quiz for each chapter and/or a final exam. I am yet to find anything good enough that tests C++ well. AI is a pretty good idea for this. I tried Gemini live to have a conversation with me on C++. It forces me to be more explicit about my understanding and easily identify gaps. eg. pointers vs reference and when to use one over the other
+
+There is a lot of condensed information such as different predicates and so on. Some very niche features which a developer will certainly always lookup. But to be fair the book is supposed to be a quick over view covering as much breadth as possible.
+
+Some of my highlights:
+- [[C++_Templates]]: Generic programming which is very useful for extendable and reusable code
+- [[C++_Error_Handling]]: Best C++ practices for bigger codebases
+- [[C++_Strings_and_Regular_Expressions]]: Short string optimisation was particularly insightful
+- [[MoveSemanticsC++]]: Must know for C++. If someone doesn't know this topic well, they may know programming, but not C++

@@ -31,7 +31,7 @@ def read_file(file_path):
     """
     Reads a file and returns the contents as a string
     """
-    with open(file_path, "r") as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         file_contents = f.read()
     return file_contents
 
@@ -128,6 +128,7 @@ def notes_to_review():
 
     for f in all_files:
         file_contents = read_file(vault_path + f)
+        # print(f)
         if "#todo" in file_contents:
             todos.append(f.replace(".md", "").replace(vault_path, "").strip("/"))
         # Find words in [[...]] and add to mentioned

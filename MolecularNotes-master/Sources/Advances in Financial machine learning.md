@@ -1,16 +1,11 @@
-Author:
+Author: Lopez de Prado
 Type: #source #book
 Link: 
-Topics:
+Topics: [[Finance]], Trading
 
 ---
 
-## Theme 1
+## Review
 
-- Key idea 1 
-- Key idea 2
+I like the width and cases of how some of these techniques are useful. Code snippets really get rid of any ambiguity. The book needs better semantic explanations. It relies on code to actually get the algorithms across and barely touches on the why and when. Too much focus on the "how" which can be found fairly easily on demand.
 
-## Theme 2
-
-- Key idea 3
-- Key idea 4
