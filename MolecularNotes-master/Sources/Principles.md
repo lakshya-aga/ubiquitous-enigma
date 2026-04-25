@@ -4,14 +4,5 @@ Link:
 Topics:
 
 ---
-
-## Theme 1
-
-- Key idea 1 
-- Key idea 2
-
-## Theme 2
-
-- Key idea 3
-- Key idea 4
-\
+Primarily a story book. Kind of motivational. Provides some examples of how unconventional thinking is Helpful.
+Example McDonald's Chicken nuggets were possible because of hay futures! Because price of chicken was volatile primarily due to chicken feed
