@@ -56,3 +56,22 @@ $$
 \frac{1}{P}\frac{dp^2}{d^2y}
 $$
 
+the one above can be derived using the definition of differentiation
+$$
+f''(x) = \frac{f(x+h)+f(x-h)-2f(x)}{h^2}
+
+
+$$
+$$
+Use: +h and -h in first and second order to get to the formula
+$$
+
+
+Price changes due to convexity and duration can be calculated using Taylor Formula
+
+$$
+\Delta P = \frac{dP}{dy}\Delta y + \frac1 2 \frac{d^2P}{dy^2}*\Delta y^2
+$$
+
+Effective Duration:
+
