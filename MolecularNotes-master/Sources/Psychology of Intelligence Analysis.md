@@ -135,5 +135,8 @@ This Chapter provides insights into a proven / tested method for analysing and t
 - Mark +/-/NA in each cell to indicate what the evidence indicates about the hypothesis
 - Strike off diagnostically irrelevant evidence and pick some hypothesis that you now see as probable
 - Try to disprove it
-- Publish report with a set of hypothesis that are likely with the analytical assumptions about the evidence
+- Publish report with a set of hypothesis with relative likeliness (more likely or less likely etc.) that are likely with the analytical assumptions about the evidence
 - Set milestones and track them to see if model is performing as expected.
+
+
+Part III on cognitive bias is skipped as most of it is an expansion of the previously mentioned pitfalls such as confirmation bias, observing the expected and so on.
