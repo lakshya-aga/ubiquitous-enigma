@@ -78,7 +78,7 @@ $$
 Change in rate of price wrt to yield
 but approximated as:
 $$
-\frac{P(v-x)+P(v+x)}{2P(v)x} | x=\Delta y
+\frac{P(v+x)-P(v-x)}{2P(v)x} | x=\Delta y
 $$
 
 
