@@ -26,11 +26,11 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 
 ## Fixed Income
 
-Macaulay Duration: 
+## Macaulay Duration: Weighted Average of time weighted by PV of cashflows on the timestamp
 $$
 \sum\frac{t.CF}{{(1+r)}^t}
 $$
-Modified Duration:
+## Modified Duration:
 Defined as the change in bond price for change in yield
 $$
 price  = \sum\frac{CF}{{(1+r)}^i}
@@ -40,12 +40,12 @@ $$
 $$
 Note huge part can be substituted with MCD
 
-Dollar Value:
+#### Dollar Value:
 $ModDuration * PresentValueOfBond$ 
 
 Note to use full value including accrued interest
 
-*Convexity of Bond*: 
+## *Convexity of Bond*: 
 $$
 \frac{PV_+ + PV_- - 2 PV}{\Delta bps_{fromOrignal}^2*PV}
 $$
@@ -73,5 +73,12 @@ $$
 \Delta P = \frac{dP}{dy}\Delta y + \frac1 2 \frac{d^2P}{dy^2}*\Delta y^2
 $$
 
-Effective Duration:
+## Effective Duration:
+
+Change in rate of price wrt to yield
+but approximated as:
+$$
+\frac{P(v-x)+P(v+x)}{2P(v)x} | x=\Delta y
+$$
+
 
