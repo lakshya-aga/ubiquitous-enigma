@@ -101,29 +101,4 @@ There are a few cases where new information actually changes analysis:
 People Tend to think of their reasoning process as far more complex than it actually is, overestimating the utility of underused variables and underestimating the effect from a small subsets.
 
 ---
-## Chapter 6 - Keeping an Open Mind: 
-
-Ideas presented include:
-- How to break out of a mental rut: speak out the purpose. speaking and thinking activate different parts of your brain. Disengage for a while
-- Do not build psychological barriers: often times we create our own imaginary boundations
-- Adopt the idea of the devil's advocate to find flaws in an analysis
-- True diversity is actually different thought processes. Groups are often good for ideation. This helps us get out the general ideas at once and move on to more creative ones. A diverse group has the following benefits: better critiquing from more angles. Quickness of basic ideas exhaustion.
-
-
-- QUANTITY leads to QUALITY.
-
-- Organisational structure is shown to provide more relevance with innovation than even creativity.
-
-## Chapter 7:  Structuring analytical problems
-
-- Always helpful to write things down
-- For example try to see multiplication of 46x78 in mind and on paper
-- Even Joseph Priestly and Ben Franklin had a conversation about how decision making is aided by writing pros-cons to have a full picture always available
-- A matrix example is given for deciding on car purchase:
-	- First Attribute to the factors, how important you feel each is such as price, style, operating costs (weight each from a pool of 100)
-	- Then divide amongst the cars a score of 10 or 100.
-	- Multiply component wise and sum for each car.
-	- Choose the one with the highest output.
-
-## Chapter 8: Analysing Competing Hypothesis
-
+## Chpater 6:
