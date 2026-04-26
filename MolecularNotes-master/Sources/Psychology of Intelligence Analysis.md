@@ -99,7 +99,7 @@ There are a few cases where new information actually changes analysis:
 People Tend to think of their reasoning process as far more complex than it actually is, overestimating the utility of underused variables and underestimating the effect from a small subsets.
 
 ---
-## ## Chapter 6 - Keeping an Open Mind: 
+## Chapter 6 - Keeping an Open Mind: 
 
 Ideas presented include:
 - How to break out of a mental rut: speak out the purpose. speaking and thinking activate different parts of your brain. Disengage for a while
