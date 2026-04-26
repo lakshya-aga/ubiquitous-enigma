@@ -10,6 +10,3 @@ Potential changes: change [[Shrinkage]]
 
 Change holding periods.
 
-Next steps:
-
-Replicate the full strategy backtest from the PMFG paper
