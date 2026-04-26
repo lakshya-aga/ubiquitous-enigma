@@ -24,13 +24,15 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 
 ## Equity
 
-## Fixed Income
+---
 
-## Macaulay Duration: Weighted Average of time weighted by PV of cashflows on the timestamp
+# <u>Fixed Income</u>
+
+### Macaulay Duration: Weighted Average of time weighted by PV of cashflows on the timestamp
 $$
 \sum\frac{t.CF}{{(1+r)}^t}
 $$
-## Modified Duration:
+### Modified Duration:
 Defined as the change in bond price for change in yield
 $$
 price  = \sum\frac{CF}{{(1+r)}^i}
@@ -39,13 +41,15 @@ $$
 \frac{dP}{dr} = \sum{\frac{t.CF}{(1+r)^{(t+1)}}}
 $$
 Note huge part can be substituted with MCD
-
+ $$
+ ModDuration = \frac {MCD}{1+r}
+ $$
 #### Dollar Value:
 $ModDuration * PresentValueOfBond$ 
 
 Note to use full value including accrued interest
 
-## *Convexity of Bond*: 
+### *Convexity of Bond*: 
 $$
 \frac{PV_+ + PV_- - 2 PV}{\Delta bps_{fromOrignal}^2*PV}
 $$
@@ -82,3 +86,32 @@ $$
 $$
 
 
+---
+
+## Portfolio Management
+
+Types of Funds:
+- Money Market funds
+- Mutual funds
+- Bond funds
+
+Formula for beta:
+ $$
+ \beta = \frac{\sigma_i}{\sigma_m}.\rho_{i,m}
+ $$
+Weighted average of risks
+
+Teynor Ratio
+$$
+-
+$$
+
+M2: Wight that would make the asset risk equal to market risk
+$$
+\frac{\sigma_i}{\sigma_m}
+$$
+
+Jensen's Alpha
+$$
+-
+$$
