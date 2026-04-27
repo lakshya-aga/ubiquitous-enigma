@@ -11,10 +11,14 @@
             "id": "90d7e28d8c6be1aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MolecularNotes-master/Topics/CFA Level 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CFA Level 1"
             }
           }
         ]
@@ -190,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f521cbe80ecfeb3c",
+  "active": "90d7e28d8c6be1aa",
   "lastOpenFiles": [
     "Gumbel Sinkhorn.md",
     "Shrinkage.md",

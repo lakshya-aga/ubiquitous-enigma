@@ -115,3 +115,51 @@ Jensen's Alpha
 $$
 -
 $$
+
+
+---
+
+## Portfolio Management
+
+Strategic Asset Allocation
+
+Tactical Asset Allocation
+
+Absolute Risk
+
+Total Risk
+
+Procedures in IPS
+
+Appendix in IPS
+
+##### Bias
+Endowment Bias
+Confirmation Bias
+Status Quo
+Regret Aversion
+Conservatism
+Framing
+Mental Accounting
+Halo Effect
+
+##### Risk Management
+
+Effective Risk Governance
+
+Risk management framework Components
+
+Risk Budgeting
+
+Risk Tolerance
+
+---
+
+## Equities
+
+Open end funds
+Closed end funds
+Warants
+
+
+
