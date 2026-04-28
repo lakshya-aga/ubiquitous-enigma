@@ -27,12 +27,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doubly Stochastic Matrix.md",
+                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Doubly Stochastic Matrix"
+              "title": "AgenticAIforQuantFinance"
+            }
+          },
+          {
+            "id": "ea9afda91f856db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stochastic Calculus and Modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stochastic Calculus and Modelling"
+            }
+          },
+          {
+            "id": "233a4ae87cb0bc87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra For Finance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Algebra For Finance"
             }
           },
           {
@@ -63,7 +91,8 @@
               "title": "OPTICS"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -236,23 +265,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59bd24988b9af21f",
+  "active": "233a4ae87cb0bc87",
   "lastOpenFiles": [
+    "Stochastic Calculus and Modelling.md",
+    "Linear Algebra For Finance.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "MolecularNotes-master/Topics/OptionSpreads.md",
+    "Doubly Stochastic Matrix.md",
+    "VineCopula.md",
     "OPTICS.md",
     "Sklar'sTheorem.md",
     "Shrinkage.md",
-    "VineCopula.md",
     "Gumbel Sinkhorn.md",
     "MarkowitzWeighting.md",
     "MolecularNotes-master/Topics/ML for finance.md",
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
-    "Doubly Stochastic Matrix.md",
     "Dupire Model.md",
     "Feller Condition.md",
     "Copula.md",
     "C++_Templates.md",
     "MolecularNotes-master/Sources/A tour of C++.md",
-    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "Ebbinghaus_forgetting_curve.md",
     "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "Physics.md",
@@ -263,9 +295,6 @@
     "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
     "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
     "Competitive Programming.md",
-    "Numerical Methods for Computing Definite Integrals.md",
-    "NoexceptC++.md",
-    "Live Data Server.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
