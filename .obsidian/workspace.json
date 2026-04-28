@@ -63,8 +63,7 @@
               "title": "OPTICS"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,8 +236,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc91f4cf455215a7",
+  "active": "59bd24988b9af21f",
   "lastOpenFiles": [
+    "OPTICS.md",
     "Sklar'sTheorem.md",
     "Shrinkage.md",
     "VineCopula.md",
@@ -263,7 +263,6 @@
     "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
     "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
     "Competitive Programming.md",
-    "OPTICS.md",
     "Numerical Methods for Computing Definite Integrals.md",
     "NoexceptC++.md",
     "Live Data Server.md",
