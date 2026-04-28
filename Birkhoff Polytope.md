@@ -45,6 +45,9 @@ $$
 0 & 0 & 1
 \end{bmatrix}
 $$
+
+So a convex combination of all possible perms makes up the Brikhoff Polytope
+
 ---
 
 Topics:
