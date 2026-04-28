@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dupire Model.md",
+                "file": "VineCopula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dupire Model"
+              "title": "VineCopula"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "59bd24988b9af21f",
   "lastOpenFiles": [
+    "Dupire Model.md",
     "Feller Condition.md",
     "Shrinkage.md",
     "Copula.md",
@@ -223,7 +224,6 @@
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Sources/How To Unlearn.md",
     "Jokes.md",
-    "MolecularNotes-master/Sources/ML in pairs Trading.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
