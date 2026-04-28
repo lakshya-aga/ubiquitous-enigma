@@ -53,6 +53,6 @@ For other cases, relax the row or column constraints. Try deviating from this to
 
 ---
 
-Topics:
+Topics: [[Probability And Statistics for Finance]]
 Reference:
 Type: #atom
