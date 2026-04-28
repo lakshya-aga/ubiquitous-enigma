@@ -317,11 +317,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,14 +338,14 @@
   },
   "active": "b720bf913cdf943f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Gumbel Sinkhorn.md",
     "Original Issue Tax Discount.md",
     "Untitled.base",
     "Untitled 1.base",
-    "Untitled.md",
     "MolecularNotes-master/Topics/CFA Level 1.md",
     "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
     "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
-    "Gumbel Sinkhorn.md",
     "Competitive Programming.md",
     "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
     "Physics.md",
