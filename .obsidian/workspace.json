@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
+                "file": "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability And Statistics for Finance"
+              "title": "Gumbel Sinkhorn"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -279,10 +279,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ef941de35c87d34",
+  "active": "d4b14f6be4e0d3f1",
   "lastOpenFiles": [
-    "Doubly Stochastic Matrix.md",
+    "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
+    "Untitled.md",
     "Birkhoff Polytope.md",
+    "Doubly Stochastic Matrix.md",
     "Linear Algebra For Finance.md",
     "Stochastic Calculus and Modelling.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
@@ -291,10 +293,9 @@
     "OPTICS.md",
     "Sklar'sTheorem.md",
     "Shrinkage.md",
-    "Gumbel Sinkhorn.md",
+    "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
     "MarkowitzWeighting.md",
     "MolecularNotes-master/Topics/ML for finance.md",
-    "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
     "Dupire Model.md",
     "Feller Condition.md",
     "Copula.md",
@@ -308,7 +309,6 @@
     "Untitled 1.base",
     "MolecularNotes-master/Topics/CFA Level 1.md",
     "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
-    "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
