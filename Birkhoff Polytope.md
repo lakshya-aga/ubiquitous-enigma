@@ -48,6 +48,9 @@ $$
 
 So a convex combination of all possible perms makes up the Brikhoff Polytope
 
+Note it only allows permutatiosn without repetitions
+For other cases, relax the row or column constraints. Try deviating from this to the combinations or permutations with repetitions
+
 ---
 
 Topics:
