@@ -14,6 +14,6 @@ Tradeoff:
 
 ---
 
-Topics: "[[Copula]], [[Sklar'sTheorem]], Multivariate Modeling"
+Topics: "[[Copula]], [[Sklar'sTheorem]], Multivariate Modeling", [[Probability And Statistics for Finance]]
 Reference: "Aas et al. (2009) Pair-copula constructions of multiple dependence"
 Type: #atom

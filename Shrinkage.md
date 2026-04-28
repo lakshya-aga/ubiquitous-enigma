@@ -16,6 +16,6 @@ Why use it
 
 ---
 
-Topics: "Portfolio Optimization, Covariance Estimation, Quant"
+Topics: "Portfolio Optimization, Covariance Estimation, Quant", [[Probability And Statistics for Finance]]
 Reference: "Ledoit, O. & Wolf, M. (2004) A well-conditioned estimator for large-dimensional covariance matrices"
 Type: #atom
