@@ -1,1 +1,1 @@
-Sinkhorn operator is used to soften hard permutations 
+Sinkhorn operator is used to soften hard permutations
