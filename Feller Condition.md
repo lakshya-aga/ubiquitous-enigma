@@ -7,6 +7,6 @@ In real conditions it can become < 1 implying volatility reaching 0
 
 ---
 
-Topics:
+Topics: [[VolatilityTrading]]
 Reference:
 Type: #atom
