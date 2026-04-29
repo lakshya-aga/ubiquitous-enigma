@@ -1,7 +1,7 @@
-Author: Dr. Dan Stefanica
+Author: [[Dr. Dan Stefanica]]
 Type: #source #book
 Link: 
-Topics: Calculus, Bonds, Options, Finance, Math
+Topics: [[Calculus, Bonds, Options, Finance, Math]]
 
 ---
 ## General Review:
