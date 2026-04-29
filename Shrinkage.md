@@ -27,6 +27,11 @@ E[F\_Norm(\delta F + (1 - \delta)S - \Sigma)]
 $$
 here $\Sigma$ is the actual covariance matrix
 
+$$
+||\delta(F-S) +(S - \Sigma)||\_F 
+
+$$
+
 ---
 
 Topics: "Portfolio Optimization, Covariance Estimation, Quant", [[Probability And Statistics for Finance]]
