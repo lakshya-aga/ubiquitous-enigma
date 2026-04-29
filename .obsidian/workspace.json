@@ -305,8 +305,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33fab936f6ea5d15",
+  "active": "73fa907c93919dc5",
   "lastOpenFiles": [
+    "MolecularNotes-master/_scripts/db.json",
     "Untitled.md",
     "Untitled 1.md",
     "Brief History of Time.md",
@@ -332,7 +333,6 @@
     "Copula.md",
     "C++_Templates.md",
     "MolecularNotes-master/Sources/A tour of C++.md",
-    "Ebbinghaus_forgetting_curve.md",
     "Untitled.base",
     "Untitled 1.base",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
