@@ -4,123 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6dffe9b0e9a77041",
+        "id": "30675d7f4e01118a",
         "type": "tabs",
         "children": [
           {
-            "id": "59bd24988b9af21f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VineCopula.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VineCopula"
-            }
-          },
-          {
-            "id": "b11d44b0e275a029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
-            }
-          },
-          {
-            "id": "ea9afda91f856db1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stochastic Calculus and Modelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stochastic Calculus and Modelling"
-            }
-          },
-          {
-            "id": "233a4ae87cb0bc87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Algebra For Finance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Algebra For Finance"
-            }
-          },
-          {
-            "id": "0ef941de35c87d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Birkhoff Polytope.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Birkhoff Polytope"
-            }
-          },
-          {
-            "id": "d4b14f6be4e0d3f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probability And Statistics for Finance"
-            }
-          },
-          {
-            "id": "37fc7eaf5184b001",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Birkhoff Polytope.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Birkhoff Polytope"
-            }
-          },
-          {
-            "id": "dc91f4cf455215a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AgenticAIforQuantFinance"
-            }
-          },
-          {
-            "id": "a39a418d562603b0",
+            "id": "90d7e28d8c6be1aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -132,79 +20,8 @@
               "icon": "lucide-file",
               "title": "CFA Level 1"
             }
-          },
-          {
-            "id": "d09be93fc8e34e0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Advances in Financial machine learning"
-            }
-          },
-          {
-            "id": "3b6accf4b37ab8fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stochastic Calculus and Modelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stochastic Calculus and Modelling"
-            }
-          },
-          {
-            "id": "a41eef5caf924cf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stochastic Calculus and Modelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stochastic Calculus and Modelling"
-            }
-          },
-          {
-            "id": "5f57de7a9c8a79cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MolecularNotes-master/Sources/Principles.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Principles"
-            }
-          },
-          {
-            "id": "939ffbf40df64b6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shrinkage.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Shrinkage"
-            }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VolatilityTrading",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -339,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shrinkage.md",
+                "file": "Reverse Proxy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Shrinkage"
+              "title": "Outline of Reverse Proxy"
             }
           },
           {
@@ -357,21 +174,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "33fab936f6ea5d15",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Shrinkage.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Shrinkage"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -389,41 +194,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "939ffbf40df64b6a",
+  "active": "90d7e28d8c6be1aa",
   "lastOpenFiles": [
-    "Frobenius norm.md",
-    "MolecularNotes-master/Sources/Principles.md",
+    "MolecularNotes-master/_scripts/test_obsidian_util.py",
+    "MolecularNotes-master/_scripts/db.json",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
-    "OPTICS.md",
-    "Stochastic Calculus and Modelling.md",
-    "Sklar'sTheorem.md",
-    "Physics.md",
-    "Heston Model.md",
-    "Midpoint Rule.md",
-    "MolecularNotes-master/Topics/DerivativePricing.md",
-    "How to set goals and achieve them.md",
     "MolecularNotes-master/Sources/Gumbel Sinkhorn.md",
-    "MolecularNotes-master/Topics/VolatilityTrading.md",
-    "Feller Condition.md",
+    "MolecularNotes-master/Authors/Lopez de Prado.md",
+    "MolecularNotes-master/Authors/Dr. Stephen Hawking.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
-    "MolecularNotes-master/_scripts/test_obsidian_util.py",
-    "MolecularNotes-master/Topics/MultivariateCalculus.md",
-    "MolecularNotes-master/Topics/C++.md",
-    "ArchimedianCopulas.md",
+    "Lopez de Prado.md",
+    "Heston Model.md",
+    "Frobenius norm.md",
+    "Finance.md",
+    "Dr. Dan Stefanica.md",
     "Calculus, Bonds, Options, Finance, Math.md",
-    "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
-    "MolecularNotes-master/Sources/ML in pairs Trading.md",
-    "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
+    "Brief History of Time.md",
+    "Untitled 1.md",
+    "Sinkhorn Trick.md",
+    "Programming interview questions.md",
+    "Untitled.md",
+    "Stochastic Calculus and Modelling.md",
+    "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
     "MolecularNotes-master/Topics/ML for finance.md",
-    "MolecularNotes-master/Molecules/MST vs PMFG in Peripheral trading.md",
-    "MolecularNotes-master/Topics/Finance.md",
-    "MolecularNotes-master/Topics/Learning.md",
-    "MolecularNotes-master/Molecules/When to use Shrinkage.md",
-    "MolecularNotes-master/_scripts/db.json",
-    "Untitled.base",
-    "Untitled 1.base",
+    "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
+    "Linear Algebra For Finance.md",
+    "Doubly Stochastic Matrix.md",
+    "Birkhoff Polytope.md",
+    "Gumbel Sinkhorn.md",
+    "Shrinkage.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
@@ -431,7 +233,10 @@
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
     "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg",
+    "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "MolecularNotes-master/_attachments/logo.png"
+    "MolecularNotes-master/_attachments/logo.png",
+    "github.com/lakshya-aga",
+    "github.com"
   ]
 }
