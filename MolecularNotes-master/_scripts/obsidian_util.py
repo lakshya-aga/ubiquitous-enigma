@@ -5,6 +5,7 @@ vault_path = "./"
 
 
 WIKILINK_RE = re.compile(r"\[\[([^\]]+?)\]\]")
+FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 
 def extract_wikilinks(text):
@@ -26,6 +27,77 @@ def extract_wikilinks(text):
         if target:
             targets.append(target)
     return targets
+
+
+def _strip_code_blocks(text):
+    """
+    Remove fenced code blocks (```...```) to avoid matching tags inside them.
+    """
+    return re.sub(r"```.*?```", "", text, flags=re.DOTALL)
+
+
+def has_obsidian_tag(text, tag):
+    """
+    Return True if the markdown text contains the given Obsidian tag.
+
+    Matches:
+    - inline tags: "... #topic ..."
+    - hierarchical tags: "#topic/sub"
+    - Type line: "Type: #topic"
+    - YAML frontmatter:
+      - tags: [topic, other]
+      - tags: topic
+      - type: topic
+      - type: "#topic"
+
+    Case-insensitive by default (Obsidian tags are generally case-insensitive).
+    """
+    if not tag:
+        return False
+
+    normalized = tag.lstrip("#")
+    if not normalized:
+        return False
+
+    searchable = _strip_code_blocks(text)
+
+    # Inline tag (including hierarchical tags)
+    inline_re = re.compile(rf"(?<![\w/])#{re.escape(normalized)}(?:/[-\w]+)*\b", re.IGNORECASE)
+    if inline_re.search(searchable):
+        return True
+
+    # Common "Type:" metadata line used in this vault
+    type_re = re.compile(rf"^Type:\s*#{re.escape(normalized)}\b", re.IGNORECASE | re.MULTILINE)
+    if type_re.search(searchable):
+        return True
+
+    # YAML frontmatter (best-effort parsing via regex)
+    fm_match = FRONTMATTER_RE.search(searchable)
+    if not fm_match:
+        return False
+
+    fm = fm_match.group(1)
+    # tags: [topic, other]  OR tags: topic
+    tags_re = re.compile(r"^tags:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+    m = tags_re.search(fm)
+    if m:
+        value = m.group(1).strip().strip('"').strip("'")
+        # strip surrounding [ ... ] if present
+        if value.startswith("[") and value.endswith("]"):
+            value = value[1:-1]
+        parts = [p.strip().strip('"').strip("'").lstrip("#") for p in value.split(",") if p.strip()]
+        if any(p.lower() == normalized.lower() or p.lower().startswith(normalized.lower() + "/") for p in parts):
+            return True
+
+    # type: topic  OR type: "#topic"
+    type_key_re = re.compile(r"^type:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+    m = type_key_re.search(fm)
+    if m:
+        value = m.group(1).strip().strip('"').strip("'").lstrip("#")
+        if value.lower() == normalized.lower() or value.lower().startswith(normalized.lower() + "/"):
+            return True
+
+    return False
 
 
 def list_files_in_directory(dir=vault_path):
@@ -69,14 +141,71 @@ def read_file_lines(file_path):
     return file_contents
 
 
+def _iter_markdown_files(root=vault_path, exclude_dirs=None):
+    exclude_dirs = set(exclude_dirs or [])
+    for current_root, dirs, files in os.walk(root):
+        # Skip excluded directories (in-place prune for performance)
+        dirs[:] = [d for d in dirs if d not in exclude_dirs and not d.startswith(".")]
+        for f in files:
+            if f.endswith(".md"):
+                yield os.path.join(current_root, f)
+
+
+def _safe_move(src_path, dst_dir):
+    os.makedirs(dst_dir, exist_ok=True)
+    filename = os.path.basename(src_path)
+    dst_path = os.path.join(dst_dir, filename)
+    if os.path.abspath(src_path) == os.path.abspath(dst_path):
+        return False
+    if os.path.exists(dst_path):
+        print(f"SKIP (exists): {dst_path}")
+        return False
+    os.rename(src_path, dst_path)
+    return True
+
+
 def move_selector_to_folder(selector, folder):
-    # e.g selector = "Type: #topic"
-    files = list_files_in_directory()
-    for f in files:
-        file_contents = read_file(vault_path + f)
-        if selector in file_contents:
-            print(f"{f.replace('.md', '')} --> {folder}")
-            os.rename(vault_path + f, f"{vault_path}{folder}/{f}")
+    """
+    Backwards-compatible helper.
+
+    Historically `selector` was a literal substring like "Type: #topic".
+    Now it also accepts a tag selector like "#topic" and will move notes
+    recursively across the vault (excluding system folders).
+    """
+    tag = None
+    m = re.search(r"#([A-Za-z0-9_-]+)", selector or "")
+    if m:
+        tag = "#" + m.group(1)
+
+    exclude_dirs = {
+        "_scripts",
+        "_templates",
+        "_attachments",
+        ".git",
+        folder,
+    }
+
+    moved_any = False
+    for path in _iter_markdown_files(vault_path, exclude_dirs=exclude_dirs):
+        try:
+            file_contents = read_file(path)
+        except UnicodeDecodeError:
+            # Skip non-UTF8 notes; they likely won't contain tags we care about.
+            continue
+
+        match = False
+        if tag and has_obsidian_tag(file_contents, tag):
+            match = True
+        elif selector and selector in file_contents:
+            match = True
+
+        if match:
+            note_name = os.path.splitext(os.path.basename(path))[0]
+            print(f"{note_name} --> {folder}")
+            if _safe_move(path, os.path.join(vault_path, folder)):
+                moved_any = True
+
+    return moved_any
 
 
 def create_authors():
