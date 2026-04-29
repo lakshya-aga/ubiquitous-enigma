@@ -4,6 +4,30 @@ import re
 vault_path = "./"
 
 
+WIKILINK_RE = re.compile(r"\[\[([^\]]+?)\]\]")
+
+
+def extract_wikilinks(text):
+    """
+    Extract Obsidian wikilink targets from a markdown string.
+
+    Supports common forms:
+    - [[Page]]
+    - [[Page|Alias]]
+    - [[Page#Heading]]
+    - [[Page#Heading|Alias]]
+    - [[Page^block-id]]
+    """
+    targets = []
+    for raw in WIKILINK_RE.findall(text):
+        target = raw.split("|", 1)[0].strip()
+        target = target.split("#", 1)[0].strip()
+        target = target.split("^", 1)[0].strip()
+        if target:
+            targets.append(target)
+    return targets
+
+
 def list_files_in_directory(dir=vault_path):
     """
     Reads all files in the directory and returns a list of the file paths
@@ -63,7 +87,7 @@ def create_authors():
         for line in lines:
             if "Author:" in line:
                 author_string = line.split(":")[1].strip()
-                for author_tag in re.findall("\[\[([\w'\s-]+)\]\]", author_string):
+                for author_tag in extract_wikilinks(author_string):
                     # check if author_tag is in Authors/ or in the main folder
                     # if not, create a new file in Authors/ containing the string "Type: #author"
                     if (
@@ -88,7 +112,7 @@ def create_topics():
         for line in lines:
             if "Topics:" in line:
                 cat_string = line.split(":")[1].strip()
-                for cat_tag in re.findall("\[\[([\w'\s-]+)\]\]", cat_string):
+                for cat_tag in extract_wikilinks(cat_string):
                     # check if cat_tag is in Authors/ or in the main folder
                     # if not, create a new file in Authors/ containing the string "Type: #author"
                     if (
@@ -132,7 +156,7 @@ def notes_to_review():
         if "#todo" in file_contents:
             todos.append(f.replace(".md", "").replace(vault_path, "").strip("/"))
         # Find words in [[...]] and add to mentioned
-        links = re.findall("\[\[([\w'\s-]+)\]\]", file_contents)
+        links = extract_wikilinks(file_contents)
         if len(links) == 0:
             # These notes don't link to anything
             not_linking.append(f.split("/")[-1].replace(".md", ""))
