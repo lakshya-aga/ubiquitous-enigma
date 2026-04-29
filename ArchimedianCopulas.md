@@ -17,6 +17,8 @@ Compare quickly:
 - Gumbel -> upside clustering.
 - Choose based on empirical tail behavior, not convenience.
 
+## Solved Example #todo
+
 ---
 
 Topics: "[[Copula]], [[Sklar'sTheorem]], Tail Dependence"
