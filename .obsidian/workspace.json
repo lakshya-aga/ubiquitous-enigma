@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sinkhorn Trick.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sinkhorn Trick"
+              "title": "Untitled 1"
             }
           },
           {
@@ -309,14 +309,14 @@
   },
   "active": "a5e43ada695636b9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Sinkhorn Trick.md",
     "Programming interview questions.md",
     "Untitled 1.md",
     "Birkhoff Polytope.md",
-    "Sinkhorn Trick.md",
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
     "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
     "MolecularNotes-master/Topics/Finance.md",
-    "Untitled.md",
     "Doubly Stochastic Matrix.md",
     "Linear Algebra For Finance.md",
     "Stochastic Calculus and Modelling.md",
