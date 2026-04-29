@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPTICS.md",
+                "file": "MolecularNotes-master/Sources/Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OPTICS"
+              "title": "Principles"
             }
           }
         ],
@@ -152,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "deriva",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -280,10 +280,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Birkhoff Polytope.md"
+                "file": "MolecularNotes-master/Sources/Principles.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Birkhoff Polytope"
+              "title": "File properties for Principles"
             }
           }
         ],
@@ -305,34 +305,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73fa907c93919dc5",
+  "active": "dc91f4cf455215a7",
   "lastOpenFiles": [
+    "MolecularNotes-master/Authors/Dr. Andrew Huberman.md",
+    "MolecularNotes-master/Authors/Ray Dalio.md",
+    "MolecularNotes-master/Authors/Richard Heur.md",
+    "OPTICS.md",
+    "Cholesky'sDecomposition.md",
+    "LUdecomposition.md",
+    "Linear Algebra For Finance.md",
+    "JointProbabilityDistribution.md",
+    "Hetson Model.md",
+    "Dupire Model.md",
+    "BlackScholes.md",
+    "MolecularNotes-master/Topics/DerivativePricing.md",
+    "Birkhoff Polytope.md",
     "MolecularNotes-master/_scripts/db.json",
     "Untitled.md",
     "Untitled 1.md",
     "Brief History of Time.md",
     "Sinkhorn Trick.md",
     "Programming interview questions.md",
-    "Birkhoff Polytope.md",
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
     "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
     "MolecularNotes-master/Topics/Finance.md",
     "Doubly Stochastic Matrix.md",
-    "Linear Algebra For Finance.md",
     "Stochastic Calculus and Modelling.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "MolecularNotes-master/Topics/OptionSpreads.md",
     "VineCopula.md",
-    "OPTICS.md",
-    "Sklar'sTheorem.md",
-    "Shrinkage.md",
-    "MarkowitzWeighting.md",
-    "MolecularNotes-master/Topics/ML for finance.md",
-    "Dupire Model.md",
-    "Feller Condition.md",
-    "Copula.md",
-    "C++_Templates.md",
-    "MolecularNotes-master/Sources/A tour of C++.md",
     "Untitled.base",
     "Untitled 1.base",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
@@ -347,7 +348,6 @@
     "MolecularNotes-master/_attachments/logo.png",
     "github.com/lakshya-aga",
     "github.com",
-    "MolecularNotes-master/_scripts/obsidian_util.py",
-    "MolecularNotes-master/_scripts/dashboard.py"
+    "MolecularNotes-master/_scripts/obsidian_util.py"
   ]
 }

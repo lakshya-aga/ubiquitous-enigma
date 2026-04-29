@@ -17,6 +17,6 @@ to improve numerical stability.
 
 ---
 
-Topics: "Linear Algebra, Numerical Methods, Quant"
+Topics:  [[Linear Algebra For Finance]]
 Reference: "Golub & Van Loan, Matrix Computations"
 Type: #atom

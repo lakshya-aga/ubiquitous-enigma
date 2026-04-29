@@ -8,6 +8,6 @@ Cumulative:
 $$ F(X_{1}, X_{2}, \cdots, X_{d}) = P(X_{1} \le x_{1}, X_{2} \le x_{2},\cdots, X_{d} \le x_{d}) $$
 
 ---
-Topics:
+Topics: [[Probability And Statistics for Finance]]
 Reference:
 Type: #atom

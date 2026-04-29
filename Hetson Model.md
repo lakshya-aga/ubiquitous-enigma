@@ -9,6 +9,6 @@ $$
 
 ---
 
-Topics:
+Topics: [[DerivativePricing]]
 Reference:
 Type: #atom

@@ -21,6 +21,6 @@ Matrix must be symmetric and strictly positive-definite (not just PSD).
 
 ---
 
-Topics: "Linear Algebra, Covariance Modeling, Quant"
+Topics: [[Linear Algebra For Finance]]
 Reference: "Golub & Van Loan, Matrix Computations"
 Type: #atom

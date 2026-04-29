@@ -38,6 +38,6 @@ It can logically be broken down into Theta decay, gamma related term with volati
 ---
 
 
-Topics:
+Topics: [[DerivativePricing]]
 Reference:
 Type: #atom
