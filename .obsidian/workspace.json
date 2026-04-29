@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brief History of Time.md",
+                "file": "ReverseProxy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brief History of Time"
+              "title": "ReverseProxy"
             }
           }
         ],
@@ -152,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "OptionSpreads",
+                "query": "micros",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +173,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -280,10 +281,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Brief History of Time.md"
+                "file": "ReverseProxy.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Brief History of Time"
+              "title": "File properties for ReverseProxy"
             }
           }
         ],
@@ -307,6 +308,10 @@
   },
   "active": "dc91f4cf455215a7",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/Microservices.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "MolecularNotes-master/Sources/Essentials- How to excercise effectively.md",
+    "Brief History of Time.md",
     "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
     "MolecularNotes-master/Authors/Dr. Stephen Hawking.md",
     "MolecularNotes-master/Authors/Brad Stone.md",
@@ -328,12 +333,8 @@
     "MolecularNotes-master/_scripts/db.json",
     "Untitled.md",
     "Untitled 1.md",
-    "Brief History of Time.md",
     "Sinkhorn Trick.md",
     "Programming interview questions.md",
-    "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
-    "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
-    "MolecularNotes-master/Topics/Finance.md",
     "Untitled.base",
     "Untitled 1.base",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
