@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frobenius norm.md",
+                "file": "Shrinkage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frobenius norm"
+              "title": "Shrinkage"
             }
           }
         ],
@@ -339,13 +339,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frobenius norm.md",
+                "file": "Shrinkage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Frobenius norm"
+              "title": "Outline of Shrinkage"
             }
           },
           {
@@ -364,10 +364,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Frobenius norm.md"
+                "file": "Shrinkage.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Frobenius norm"
+              "title": "File properties for Shrinkage"
             }
           }
         ],
@@ -391,8 +391,8 @@
   },
   "active": "939ffbf40df64b6a",
   "lastOpenFiles": [
-    "MolecularNotes-master/Sources/Principles.md",
     "Frobenius norm.md",
+    "MolecularNotes-master/Sources/Principles.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",

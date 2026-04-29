@@ -4,15 +4,28 @@ For covariance:
 $$
 \hat{\Sigma}_{shrink} = \delta T + (1-\delta)\hat{\Sigma}
 $$
-where:
-- \(\hat{\Sigma}\): sample covariance
-- \(T\): target matrix (e.g., diagonal or constant-correlation)
-- \(\delta \in [0,1]\): shrinkage intensity
 
 Why use it
 - Improves conditioning and invertibility.
 - Reduces estimation error in high dimensions.
 - Stabilizes [[MarkowitzWeighting]] outputs.
+
+Now the mechanics:
+
+Start with the sample Covariance matrix S
+
+Calculate F
+$$
+F = μI 
+$$
+(the scaled identity), where μ is the average eigenvalue of S
+
+Then we are looking for a solution to minimise the [[Frobenius norm]] 
+
+$$
+E[F\_Norm(\delta F + (1 - \delta)S - \Sigma)]
+$$
+here $\Sigma$ is the actual covariance matrix
 
 ---
 
