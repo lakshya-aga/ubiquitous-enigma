@@ -1,3 +1,6 @@
+---
+aliases:
+---
 This is an imaginary n-dimensional space containing all convex combinations of all permutations of a given scenario
 
 Imagine a sequence where the sequence can be 1,2,3 or any permutation of it
