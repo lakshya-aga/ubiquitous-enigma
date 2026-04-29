@@ -1,4 +1,4 @@
-Author: Dr. Stephen Hawking 
+Author: [[Dr. Stephen Hawking ]]
 Type: #source #book
 Link: 
 Topics: Physics

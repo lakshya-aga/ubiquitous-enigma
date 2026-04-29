@@ -1,4 +1,4 @@
-Author: Ray Dalio
+Author: [[Ray Dalio]]
 Type: #source #book
 Link: 
 Topics:
