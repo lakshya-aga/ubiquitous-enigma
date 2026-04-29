@@ -28,7 +28,8 @@ $$
 here $\Sigma$ is the actual covariance matrix
 
 $$
-||\delta(F-S) +(S - \Sigma)||\_F 
+||\delta(F-S) +(S - \Sigma)||\_F \\
+
 
 $$
 
