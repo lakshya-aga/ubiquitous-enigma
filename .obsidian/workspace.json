@@ -4,24 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "30675d7f4e01118a",
+        "id": "6dffe9b0e9a77041",
         "type": "tabs",
         "children": [
           {
-            "id": "90d7e28d8c6be1aa",
+            "id": "59bd24988b9af21f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Topics/CFA Level 1.md",
+                "file": "VineCopula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CFA Level 1"
+              "title": "VineCopula"
+            }
+          },
+          {
+            "id": "b11d44b0e275a029",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AgenticAIforQuantFinance"
+            }
+          },
+          {
+            "id": "ea9afda91f856db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stochastic Calculus and Modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stochastic Calculus and Modelling"
+            }
+          },
+          {
+            "id": "233a4ae87cb0bc87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra For Finance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Algebra For Finance"
+            }
+          },
+          {
+            "id": "0ef941de35c87d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Birkhoff Polytope.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Birkhoff Polytope"
+            }
+          },
+          {
+            "id": "d4b14f6be4e0d3f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Probability And Statistics for Finance"
+            }
+          },
+          {
+            "id": "37fc7eaf5184b001",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Birkhoff Polytope.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Birkhoff Polytope"
+            }
+          },
+          {
+            "id": "a5e43ada695636b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sinkhorn Trick.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sinkhorn Trick"
+            }
+          },
+          {
+            "id": "dc91f4cf455215a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OPTICS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OPTICS"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -194,34 +307,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90d7e28d8c6be1aa",
+  "active": "a5e43ada695636b9",
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Sinkhorn Trick.md",
     "Programming interview questions.md",
-    "Untitled.md",
-    "Stochastic Calculus and Modelling.md",
-    "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
-    "MolecularNotes-master/Topics/ML for finance.md",
-    "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
-    "Linear Algebra For Finance.md",
-    "Doubly Stochastic Matrix.md",
+    "Untitled 1.md",
     "Birkhoff Polytope.md",
-    "Gumbel Sinkhorn.md",
-    "Shrinkage.md",
+    "Sinkhorn Trick.md",
+    "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
+    "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
+    "MolecularNotes-master/Topics/Finance.md",
+    "Untitled.md",
+    "Doubly Stochastic Matrix.md",
+    "Linear Algebra For Finance.md",
+    "Stochastic Calculus and Modelling.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "MolecularNotes-master/Topics/OptionSpreads.md",
+    "VineCopula.md",
+    "OPTICS.md",
+    "Sklar'sTheorem.md",
+    "Shrinkage.md",
+    "MarkowitzWeighting.md",
+    "MolecularNotes-master/Topics/ML for finance.md",
+    "Dupire Model.md",
+    "Feller Condition.md",
+    "Copula.md",
+    "C++_Templates.md",
+    "MolecularNotes-master/Sources/A tour of C++.md",
     "Ebbinghaus_forgetting_curve.md",
     "MolecularNotes-master/Sources/Psychology of Intelligence Analysis.md",
-    "Physics.md",
-    "Original Issue Tax Discount.md",
-    "MolecularNotes-master/Topics/CFA Level 1.md",
-    "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
-    "MolecularNotes-master/Sources/Principles.md",
-    "MolecularNotes-master/Sources/ML in pairs Trading.md",
-    "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
-    "MolecularNotes-master/Sources/How To Unlearn.md",
-    "MolecularNotes-master/Sources/Essentials- How to excercise effectively.md",
-    "MolecularNotes-master/Sources/Essentials - How to set goals and achieve them.md",
+    "Untitled.base",
+    "Untitled 1.base",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_scripts/polymer.py",
     "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
@@ -235,8 +350,6 @@
     "github.com/lakshya-aga",
     "github.com",
     "MolecularNotes-master/_scripts/obsidian_util.py",
-    "MolecularNotes-master/_scripts/dashboard.py",
-    "MolecularNotes-master/_templates",
-    "MolecularNotes-master/_scripts"
+    "MolecularNotes-master/_scripts/dashboard.py"
   ]
 }
