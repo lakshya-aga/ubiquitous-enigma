@@ -1,3 +1,11 @@
+Author: [[Dr. Stephen Hawking]]
+Type: #source #book
+Link: 
+Topics:
+
+---
+
+
 The book is absolutely fantastic to get a glimpse of how our understanding of the universe evolved.
 It starts off with some theories primarily based in supernatural powers stating the geocentric theory. This was later replaced by the helio centric theory.
 

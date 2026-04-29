@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
+                "file": "Brief History of Time.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reith Lectures on Black Holes"
+              "title": "Brief History of Time"
             }
           }
         ],
@@ -280,10 +280,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md"
+                "file": "Brief History of Time.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Reith Lectures on Black Holes"
+              "title": "File properties for Brief History of Time"
             }
           }
         ],
@@ -307,6 +307,9 @@
   },
   "active": "dc91f4cf455215a7",
   "lastOpenFiles": [
+    "MolecularNotes-master/Sources/Reith Lectures on Black Holes.md",
+    "MolecularNotes-master/Authors/Dr. Stephen Hawking.md",
+    "MolecularNotes-master/Authors/Brad Stone.md",
     "MolecularNotes-master/Sources/Principles.md",
     "MolecularNotes-master/Topics/OptionSpreads.md",
     "MolecularNotes-master/Authors/Dr. Andrew Huberman.md",
@@ -331,9 +334,6 @@
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
     "MolecularNotes-master/Topics/Gumbel Sinkhorn.md",
     "MolecularNotes-master/Topics/Finance.md",
-    "Doubly Stochastic Matrix.md",
-    "Stochastic Calculus and Modelling.md",
-    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "Untitled.base",
     "Untitled 1.base",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
