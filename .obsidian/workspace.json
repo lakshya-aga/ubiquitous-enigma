@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ArchimedianCopulas.md",
+                "file": "Feller Condition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ArchimedianCopulas"
+              "title": "Feller Condition"
             }
           }
         ],
@@ -194,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mst",
+                "query": "VolatilityTrading",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -322,10 +322,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ArchimedianCopulas.md"
+                "file": "Feller Condition.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for ArchimedianCopulas"
+              "title": "File properties for Feller Condition"
             }
           }
         ],
@@ -349,15 +349,18 @@
   },
   "active": "3b6accf4b37ab8fe",
   "lastOpenFiles": [
+    "MolecularNotes-master/Topics/MultivariateCalculus.md",
+    "Feller Condition.md",
+    "MolecularNotes-master/Topics/VolatilityTrading.md",
+    "MolecularNotes-master/Topics/C++.md",
+    "ArchimedianCopulas.md",
     "Calculus, Bonds, Options, Finance, Math.md",
     "MolecularNotes-master/Sources/Math Primer for Financial Engineering.md",
     "MolecularNotes-master/Sources/ML in pairs Trading.md",
     "MolecularNotes-master/Sources/Peripheral trading with PMFGs.md",
     "MolecularNotes-master/Sources/Principles.md",
     "MolecularNotes-master/Topics/ML for finance.md",
-    "MolecularNotes-master/Topics/MultivariateCalculus.md",
     "MolecularNotes-master/Molecules/MST vs PMFG in Peripheral trading.md",
-    "MolecularNotes-master/Topics/C++.md",
     "MolecularNotes-master/Topics/Finance.md",
     "MolecularNotes-master/Topics/Learning.md",
     "MolecularNotes-master/Topics/DerivativePricing.md",
@@ -372,9 +375,6 @@
     "Finance.md",
     "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
     "Physics.md",
-    "Brief History of Time.md",
-    "MoveSemanticsC++.md",
-    "NoexceptC++.md",
     "MolecularNotes-master/_scripts/db.json",
     "Untitled.base",
     "Untitled 1.base",
