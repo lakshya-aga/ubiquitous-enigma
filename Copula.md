@@ -10,8 +10,13 @@ According to convention: Copula is made to be strictly non-decreasing. i.e. if a
 What Happens if 2 functions already have a joint cumulative probability function: 
 - One unique copula exists.
 
+Example:
+- [[VineCopula]]
+- [[EllipticalCopulas]]
+- [[ArchimedianCopulas]]
+
 ---
 
-Topics: "Sklar's theorem, Probabilities"
+Topics: [[Probability And Statistics for Finance]]
 Reference:
 Type: #atom

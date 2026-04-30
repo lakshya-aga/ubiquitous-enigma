@@ -21,6 +21,6 @@ Compare quickly:
 
 ---
 
-Topics: "[[Copula]], [[Sklar'sTheorem]], Tail Dependence"
+Topics: [[Probability And Statistics for Finance]], [[Copula]], [[Sklar'sTheorem]]
 Reference: "Nelsen, R. B. An Introduction to Copulas."
 Type: #atom
