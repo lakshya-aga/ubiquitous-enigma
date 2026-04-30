@@ -14,6 +14,6 @@ Interpretation:
 
 ---
 
-Topics: "Graph Theory, Networks, [[PlanarMaximallyfilteredGraphs]]"
+Topics: "Graph Theory, Networks, [[Planar Maximally Filtered Graphs]]"
 Reference: "Freeman, L. C. (1977) A set of measures of centrality based on betweenness"
 Type: #atom

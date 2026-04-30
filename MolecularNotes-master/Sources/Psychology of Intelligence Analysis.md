@@ -50,7 +50,7 @@ Factors that influence how well we remember:
 
 Another problem in memory is highlighted. We can at best keep 5-9 in our memory for retrieval at a time. So externalising a problem - breaking it down into components and explicitly marking how each part relates to one another is extremely helpful in maintaining sight of the whole picture.
 
- These are listed in order of the [[Depth Of processing Information]] required: 
+ These are listed in order of the [[Depth of Processing Information]] required: 
  - say how many letters there are in each word on the list,
  - give a word that rhymes with each word,
  - make a mental image of each word, 

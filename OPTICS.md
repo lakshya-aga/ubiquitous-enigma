@@ -1,6 +1,6 @@
 
 ---
 
-Topics: [[ML for finance]]
+Topics: [[ML for Finance]]
 Reference:
 Type: #atom

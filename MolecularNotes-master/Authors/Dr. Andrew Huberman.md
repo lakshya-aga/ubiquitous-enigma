@@ -1,6 +1,6 @@
 Type: #author
 
 [[How To Unlearn]]
-[[Essentials- How to excercise effectively]]
-[[Essentials - How to set goals and achieve them]]
+[[Essentials - How to Excercise Effectively]]
+[[Essentials - How to Set Goals and Achieve Them]]
 

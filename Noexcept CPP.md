@@ -3,6 +3,6 @@ Limits the exception to the function. If a function with noexcept throws excepti
 
 ---
 
-Topics: [[C++]]
-Reference: [[A tour of C++]] + Gemini
+Topics: [[CPP]]
+Reference: [[A Tour of CPP]] + Gemini
 Type: #atom

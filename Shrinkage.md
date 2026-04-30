@@ -8,7 +8,7 @@ $$
 Why use it
 - Improves conditioning and invertibility.
 - Reduces estimation error in high dimensions.
-- Stabilizes [[MarkowitzWeighting]] outputs.
+- Stabilizes [[Markowitz Weighting]] outputs.
 
 Now the mechanics:
 
@@ -20,7 +20,7 @@ F = μI
 $$
 (the scaled identity), where μ is the average eigenvalue of S
 
-Then we are looking for a solution to minimise the [[Frobenius norm]] 
+Then we are looking for a solution to minimise the [[Frobenius Norm]] 
 
 $$
 E[F\_Norm(\delta F + (1 - \delta)S - \Sigma)]
@@ -36,6 +36,6 @@ $$
 
 ---
 
-Topics: "Portfolio Optimization, Covariance Estimation, Quant", [[Probability And Statistics for Finance]]
+Topics: "Portfolio Optimization, Covariance Estimation, Quant", [[Probability and Statistics for Finance]]
 Reference: "Ledoit, O. & Wolf, M. (2004) A well-conditioned estimator for large-dimensional covariance matrices"
 Type: #atom

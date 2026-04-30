@@ -1,6 +1,6 @@
 citation:
 Type: #source #academic 
-Topics: [[ML for finance]]
+Topics: [[ML for Finance]]
 
 ---
 Interesting idea for pairs selection as an exhaustive search will lead to erroneous selection.

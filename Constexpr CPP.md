@@ -2,6 +2,6 @@ Compile time evaluation of variables in C++. Introduced in C++11. Can be virtual
 
 ---
 
-Topics: [[C++]]
-Reference: [[A tour of C++]]
+Topics: [[CPP]]
+Reference: [[A Tour of CPP]]
 Type: #atom

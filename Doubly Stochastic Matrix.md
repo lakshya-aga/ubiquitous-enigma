@@ -17,6 +17,6 @@ Generally achieved through iterative normalisation of rows and columns
 
 ---
 
-Topics: [[Probability And Statistics for Finance]]
+Topics: [[Probability and Statistics for Finance]]
 Reference: 
 Type: #atom

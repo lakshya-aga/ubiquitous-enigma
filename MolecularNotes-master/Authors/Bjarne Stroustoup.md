@@ -1,2 +1,2 @@
 Type: #author
-[[A tour of C++]]
+[[A Tour of CPP]]

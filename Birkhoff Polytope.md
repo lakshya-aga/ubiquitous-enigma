@@ -64,6 +64,6 @@ This is used in conjunction with Smoothening using $exp(X/\tau)$ and then feedin
 
 ---
 
-Topics: [[Probability And Statistics for Finance]]
+Topics: [[Probability and Statistics for Finance]]
 Reference:
 Type: #atom

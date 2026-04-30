@@ -1,2 +1,0 @@
-Type: #topic
-[[Advances in Financial machine learning]]

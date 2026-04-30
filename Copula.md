@@ -11,12 +11,12 @@ What Happens if 2 functions already have a joint cumulative probability function
 - One unique copula exists.
 
 Example:
-- [[VineCopula]]
-- [[EllipticalCopulas]]
-- [[ArchimedianCopulas]]
+- [[Vine Copula]]
+- [[Elliptical Copulas]]
+- [[Archimedian Copulas]]
 
 ---
 
-Topics: [[Probability And Statistics for Finance]]
+Topics: [[Probability and Statistics for Finance]]
 Reference:
 Type: #atom

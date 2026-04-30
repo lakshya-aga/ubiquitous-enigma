@@ -18,7 +18,7 @@ One thing I feel could complement the study of this book greatly is an end of ch
 There is a lot of condensed information such as different predicates and so on. Some very niche features which a developer will certainly always lookup. But to be fair the book is supposed to be a quick over view covering as much breadth as possible.
 
 Some of my highlights:
-- [[C++_Templates]]: Generic programming which is very useful for extendable and reusable code
-- [[C++_Error_Handling]]: Best C++ practices for bigger codebases
-- [[C++_Strings_and_Regular_Expressions]]: Short string optimisation was particularly insightful
-- [[MoveSemanticsC++]]: Must know for C++. If someone doesn't know this topic well, they may know programming, but not C++
+- [[CPP Templates]]: Generic programming which is very useful for extendable and reusable code
+- [[CPP Error Handling]]: Best C++ practices for bigger codebases
+- [[CPP Strings and Regular Expressions]]: Short string optimisation was particularly insightful
+- [[Move Semantics CPP]]: Must know for C++. If someone doesn't know this topic well, they may know programming, but not C++
