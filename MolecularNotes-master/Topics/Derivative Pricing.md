@@ -1,4 +1,4 @@
 Type: #topic
 [[Heston Model]]
-[[BlackScholes]]
+[[Black Scholes]]
 [[Dupire Model]]

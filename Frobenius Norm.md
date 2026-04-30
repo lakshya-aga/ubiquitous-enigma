@@ -7,6 +7,6 @@ F(A) = \sqrt{\Sigma _i \Sigma_j a_{ij}}
 $$
 ---
 
-Topics: [[Probability And Statistics for Finance]]
+Topics: [[Probability and Statistics for Finance]]
 Reference:
 Type: #atom

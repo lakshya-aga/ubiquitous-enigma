@@ -24,6 +24,6 @@ Methodology:
 
 ---
 
-Topics: Derivatives, Math, Financial Engineering, [[DerivativePricing]]
+Topics: Derivatives, Math, Financial Engineering, [[Derivative Pricing]]
 Reference:
 Type: #atom

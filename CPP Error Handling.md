@@ -1,5 +1,5 @@
-Topics: [[C++]]
-Reference: [[A tour of C++]]
+Topics: [[CPP]]
+Reference: [[A Tour of CPP]]
 Type: #atom
 
 ---

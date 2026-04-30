@@ -15,6 +15,6 @@ Use Gaussian for baseline simplicity, switch to t-copula when extreme co-movemen
 
 ---
 
-Topics: "[[Copula]], [[Sklar'sTheorem]], Risk Modeling, [[Probability And Statistics for Finance]]
+Topics: "[[Copula]], [[Sklar's Theorem]], Risk Modeling, [[Probability and Statistics for Finance]]
 Reference: "McNeil, Frey, Embrechts - Quantitative Risk Management"
 Type: #atom

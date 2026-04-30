@@ -19,6 +19,6 @@ Used in:
 
 ---
 
-Topics: "Graph Theory, Networks, [[PlanarMaximallyfilteredGraphs]]"
+Topics: "Graph Theory, Networks, [[Planar Maximally Filtered Graphs]]"
 Reference: "Newman, Networks: An Introduction"
 Type: #atom

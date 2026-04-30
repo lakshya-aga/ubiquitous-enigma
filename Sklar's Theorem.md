@@ -17,6 +17,6 @@ If \(C\) is a copula and \(F_1,\dots,F_d\) are valid marginals, the equation def
 
 ---
 
-Topics: "[[Copula]], Probability Theory, Quant Finance" [[Probability And Statistics for Finance]]
+Topics: "[[Copula]], Probability Theory, Quant Finance" [[Probability and Statistics for Finance]]
 Reference: "Sklar, A. (1959). Fonctions de repartition a n dimensions et leurs marges."
 Type: #atom

@@ -21,6 +21,6 @@ Compare quickly:
 
 ---
 
-Topics: [[Probability And Statistics for Finance]], [[Copula]], [[Sklar'sTheorem]]
+Topics: [[Probability and Statistics for Finance]], [[Copula]], [[Sklar's Theorem]]
 Reference: "Nelsen, R. B. An Introduction to Copulas."
 Type: #atom

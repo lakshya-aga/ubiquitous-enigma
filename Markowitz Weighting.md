@@ -18,6 +18,6 @@ Small estimation errors in \(\mu,\Sigma\) can create unstable weights, so this i
 
 ---
 
-Topics: "Portfolio Optimization, Quant Finance, Risk", [[Probability And Statistics for Finance]]
+Topics: "Portfolio Optimization, Quant Finance, Risk", [[Probability and Statistics for Finance]]
 Reference: "Markowitz, H. (1952) Portfolio Selection"
 Type: #atom
