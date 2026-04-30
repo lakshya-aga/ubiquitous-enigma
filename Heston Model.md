@@ -7,6 +7,7 @@ $$
 d\nu(t) = \kappa(\theta - \nu(t))dt + \sigma \sqrt{\nu (t)}dZ_2
 $$
 
+
 ---
 
 Topics: [[DerivativePricing]]

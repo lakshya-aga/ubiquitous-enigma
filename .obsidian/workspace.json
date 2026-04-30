@@ -11,10 +11,14 @@
             "id": "fa9b0e32fef5ba0b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Heston Model.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Heston Model"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "VolatilityTrading",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Heston Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Heston Model"
             }
           },
           {
@@ -175,9 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Heston Model.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Heston Model"
             }
           }
         ],
@@ -223,14 +230,13 @@
     "MolecularNotes-master/Topics/DerivativePricing.md",
     "How to set goals and achieve them.md",
     "MolecularNotes-master/Sources/Gumbel Sinkhorn.md",
-    "MolecularNotes-master/Authors/Lopez de Prado.md",
-    "MolecularNotes-master/Authors/Dr. Stephen Hawking.md",
+    "MolecularNotes-master/Topics/VolatilityTrading.md",
+    "Feller Condition.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
-    "Lopez de Prado.md",
-    "Heston Model.md",
-    "Frobenius norm.md",
-    "Finance.md",
-    "Dr. Dan Stefanica.md",
+    "MolecularNotes-master/_scripts/test_obsidian_util.py",
+    "MolecularNotes-master/Topics/MultivariateCalculus.md",
+    "MolecularNotes-master/Topics/C++.md",
+    "ArchimedianCopulas.md",
     "Calculus, Bonds, Options, Finance, Math.md",
     "MolecularNotes-master/_scripts/db.json",
     "Untitled.base",
@@ -242,10 +248,7 @@
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
     "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg",
-    "package-lock.json",
     "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "MolecularNotes-master/_attachments/logo.png",
-    "github.com/lakshya-aga",
-    "github.com"
+    "MolecularNotes-master/_attachments/logo.png"
   ]
 }
