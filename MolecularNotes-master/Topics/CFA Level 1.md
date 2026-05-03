@@ -180,4 +180,5 @@ Quant 89%
 
 Corp Finance 64%
 - DuPont
+- Modigliani and Miller’s
 
