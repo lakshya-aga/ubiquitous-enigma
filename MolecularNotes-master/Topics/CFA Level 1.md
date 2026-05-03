@@ -163,3 +163,19 @@ Warants
 
 
 
+## Mock 1 Feedback:
+
+Ethics: 59%
+-  Make a list of all the standards and memorise
+- GIPS study
+- Practice Questions
+Economics: 42%
+- monetary transmission mechanism channels
+FRA: 75%
+- Sarbanes Oxeley Act
+- Going Concern Projects
+Quant 89%
+
+Corp Finance 64%
+- DuPont
+

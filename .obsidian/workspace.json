@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shrinkage.md",
+                "file": "MolecularNotes-master/Topics/CFA Level 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shrinkage"
+              "title": "CFA Level 1"
             }
           }
         ]
@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f521cbe80ecfeb3c",
+  "active": "90d7e28d8c6be1aa",
   "lastOpenFiles": [
+    "Shrinkage.md",
     "Vine Copula.md",
     "Sklar's Theorem.md",
     "Reverse Proxy.md",
@@ -221,7 +222,6 @@
     "Marginal Probability Function.md",
     "LU Decomposition.md",
     "Json Web Tokens.md",
-    "Joint Probability Distribution.md",
     "MolecularNotes-master/_scripts/test_obsidian_util.py",
     "MolecularNotes-master/_scripts/db.json",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
