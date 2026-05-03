@@ -185,3 +185,6 @@ Corp Finance 64%
 Fixed income
 - Convenience Yield
 
+Derivatives
+- price of a pay-fixed receive-floating interest rate swap
+
