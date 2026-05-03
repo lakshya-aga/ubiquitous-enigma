@@ -193,3 +193,5 @@ Semi stong efficient
 
 Effective duration
 
+Sustainable growth rate
+
