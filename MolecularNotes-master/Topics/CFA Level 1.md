@@ -171,9 +171,11 @@ Ethics: 59%
 - Practice Questions
 Economics: 42%
 - monetary transmission mechanism channels
+- monopolistic competition
 FRA: 75%
 - Sarbanes Oxeley Act
 - Going Concern Projects
+- Organic Growth
 Quant 89%
 
 Corp Finance 64%
