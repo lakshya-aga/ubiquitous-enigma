@@ -191,3 +191,5 @@ Derivatives
 Mezannine debt'
 Semi stong efficient
 
+Effective duration
+
