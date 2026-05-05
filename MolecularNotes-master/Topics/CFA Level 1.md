@@ -163,3 +163,35 @@ Warants
 
 
 
+## Mock 1 Feedback:
+
+Ethics: 59%
+-  Make a list of all the standards and memorise
+- GIPS study
+- Practice Questions
+Economics: 42%
+- monetary transmission mechanism channels
+- monopolistic competition
+FRA: 75%
+- Sarbanes Oxeley Act
+- Going Concern Projects
+- Organic Growth
+Quant 89%
+
+Corp Finance 64%
+- DuPont
+- Modigliani and Miller’s
+
+Fixed income
+- Convenience Yield
+
+Derivatives
+- price of a pay-fixed receive-floating interest rate swap
+
+Mezannine debt'
+Semi stong efficient
+
+Effective duration
+
+Sustainable growth rate
+
