@@ -10,6 +10,13 @@ Why use it
 - Reduces estimation error in high dimensions.
 - Stabilizes [[Markowitz Weighting]] outputs.
 
+To get an idea of how noise creeps in such a case, take the example of the identity matrix. Meaning each eigenvalue is 1. However, Take a random sample from this matrix, [[Marchenko-Pastur Law]] States That as $N, T \rightarrow \infty$  and fixed $\frac{N}{T} = q$ , eigen values of sample covariance converges to $[\lambda_-, \lambda_+ ]$ where $λ±​={(1±\sqrt q)}^2$ 
+
+Plug in your numbers, N=500, T=1000, so q=0.5:
+
+- λ−=(1−0.5)^2≈0.086; λ−​=(1−0.5​)^2≈0.086
+- λ+=(1+0.5)^2≈2.914; λ+​=(1+0.5​)2≈2.914
+
 Now the mechanics:
 
 Start with the sample Covariance matrix S
