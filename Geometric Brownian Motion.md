@@ -25,4 +25,4 @@ dS_{t}= \mu S_{t}dt + \sigma S_{t}dB_t
 $$
 
 This differential sets the tone for different option pricing solutions. Most popularly the [[Black Scholes]]
-
+Also see [[Heston Model]], [[Dupire Model]]
