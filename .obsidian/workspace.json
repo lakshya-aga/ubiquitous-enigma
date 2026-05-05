@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fcb07ef6aab9bfa6",
+        "id": "250255734ca150a6",
         "type": "tabs",
         "children": [
           {
-            "id": "24aa29b723ec7e64",
+            "id": "2002e905252eacde",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -199,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24aa29b723ec7e64",
+  "active": "2002e905252eacde",
   "lastOpenFiles": [
     "MolecularNotes-master/Authors/Richard Heur.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
