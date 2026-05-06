@@ -22,3 +22,9 @@ Theory or relativity by gravity:
 
 Light bends around heavy objects like the sun. As spece time gets a curvature around such objects. So light loses energy in high gravity which means light can be imagined to have slowed down. But withing the same gravity, the observer sees the same speed of light. So between 2 events, one with lower gravity will see more time pass by.
 
+
+
+One "mera physical" tid bit. Singularities are unobservable by being too far in the past or, obscured such as big bang or the black holes.
+
+We also learnt about how protons and neutrons are made of quarks. There a few different type of quarks - upward, downward etc.
+Quarks are also 
