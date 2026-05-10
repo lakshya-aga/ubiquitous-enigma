@@ -23,6 +23,9 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 | Slowdown    | rising rates                  | Rising inv declining sales as prod can't slow as quick |
 | Contraction | High IR but falling           | Inv and sales ratio stable coz prod has Slowed         |
 
+### *Coincident, Leading, and Lagging Indicators:*
+
+
 
 ## Quantitative Methods
 - Time value of Money
