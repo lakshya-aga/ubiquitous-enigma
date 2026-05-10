@@ -19,8 +19,8 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 |             | Interest Rates                |     |     |     |     |     |
 | ----------- | ----------------------------- | --- | --- | --- | --- | --- |
 | Recovery    | Low and supporting investment |     |     |     |     |     |
-| Expansion   | Generally favourable          |     |     |     |     |     |
-| Slowdown    | High IR                       |     |     |     |     |     |
+| Expansion   | Low but rising                |     |     |     |     |     |
+| Slowdown    | rising rates                  |     |     |     |     |     |
 | Contraction | High IR but falling           |     |     |     |     |     |
 
 
