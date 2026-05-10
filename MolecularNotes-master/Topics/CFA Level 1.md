@@ -16,12 +16,12 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 
 ### *Business Cycles*
 
-|             | Employment | Inventory | Sales | Inventory to sales | Capital Spending |     |
-| ----------- | ---------- | --------- | ----- | ------------------ | ---------------- | --- |
-| Recovery    |            |           |       |                    |                  |     |
-| Expansion   |            |           |       |                    |                  |     |
-| Slowdown    |            |           |       |                    |                  |     |
-| Contraction |            |           |       |                    |                  |     |
+|             | Interest Rates                |     |     |     |     |     |
+| ----------- | ----------------------------- | --- | --- | --- | --- | --- |
+| Recovery    | Low and supporting investment |     |     |     |     |     |
+| Expansion   | Generally favourable          |     |     |     |     |     |
+| Slowdown    | High IR                       |     |     |     |     |     |
+| Contraction | High IR but falling           |     |     |     |     |     |
 
 
 ## Quantitative Methods
