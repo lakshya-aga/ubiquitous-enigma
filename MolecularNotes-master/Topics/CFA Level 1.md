@@ -16,12 +16,12 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 
 ### *Business Cycles*
 
-|             | Interest Rates                |     |     |     |     |     |
-| ----------- | ----------------------------- | --- | --- | --- | --- | --- |
-| Recovery    | Low and supporting investment |     |     |     |     |     |
-| Expansion   | Low but rising                |     |     |     |     |     |
-| Slowdown    | rising rates                  |     |     |     |     |     |
-| Contraction | High IR but falling           |     |     |     |     |     |
+|             | Interest Rates                | Inventory and Sales                                    |     |     |     |     |
+| ----------- | ----------------------------- | ------------------------------------------------------ | --- | --- | --- | --- |
+| Recovery    | Low and supporting investment | High Sales -> falling inv coz prod has low capacity    |     |     |     |     |
+| Expansion   | Low but rising                | Inv and sales ratio stable coz prod has caught up      |     |     |     |     |
+| Slowdown    | rising rates                  | Rising inv declining sales as prod can't slow as quick |     |     |     |     |
+| Contraction | High IR but falling           | Rising inv, declining sales                            |     |     |     |     |
 
 
 ## Quantitative Methods
