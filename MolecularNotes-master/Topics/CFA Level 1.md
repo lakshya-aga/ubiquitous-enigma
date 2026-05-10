@@ -8,9 +8,21 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 
 - Intro
 - Monetary Policy
+- Business Cycles
 - Fiscal Policy
 - FX
 - FX Caclculations
+
+
+### *Business Cycles*
+
+|             | Employment | Inventory | Sales | Inventory to sales | Capital Spending |     |
+| ----------- | ---------- | --------- | ----- | ------------------ | ---------------- | --- |
+| Recovery    |            |           |       |                    |                  |     |
+| Expansion   |            |           |       |                    |                  |     |
+| Slowdown    |            |           |       |                    |                  |     |
+| Contraction |            |           |       |                    |                  |     |
+
 
 ## Quantitative Methods
 - Time value of Money
