@@ -49,7 +49,12 @@ Functions of 3 orgs:
 - The World Bank’s main objective is to help developing countries fight poverty and enhance environmentally sound economic growth by providing investment funds. It does not intervene in balance-of-payments issues. (WB -> Helpful gov)
 - The World Trade Organization regulates cross-border trade on a global scale. It does not intervene in balance-of-payments issues. (WTO -> Regulator)
 -  The International Monetary Fund has the ability to lend foreign currencies to a country with an extreme current account deficit. (IMF -> Central bank)
+### International trade:
+Three types of Balance of Payments:
 
+- Current Account
+- Financial Account
+- Capital Account
 ## Quantitative Methods
 - Time value of Money
 

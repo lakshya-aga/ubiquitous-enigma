@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "30675d7f4e01118a",
+        "id": "b63f8003d9e0ed00",
         "type": "tabs",
         "children": [
           {
-            "id": "90d7e28d8c6be1aa",
+            "id": "e1de7cb1583621a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,9 +164,19 @@
               "icon": "lucide-list",
               "title": "Outline of CFA Level 1"
             }
+          },
+          {
+            "id": "e39fdeaa784baf8f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,11 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90d7e28d8c6be1aa",
+  "active": "e1de7cb1583621a4",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "MolecularNotes-master/Topics/CFA Level 1.md",
     "Change of variables to polar.md",
     "Gaussian Integral Derivation.md",
-    "MolecularNotes-master/Topics/CFA Level 1.md",
     "MolecularNotes-master/_attachments/IMG_20260510_175036965.jpg",
     "Portfolio Construction.md",
     "Marchenko-Pastur Law.md",
@@ -212,7 +223,6 @@
     "MolecularNotes-master/Sources/ML in Pairs Trading.md",
     "MolecularNotes-master/Sources/Essentials - How to Set Goals and Achieve Them.md",
     "MolecularNotes-master/Sources/Essentials - How to Excercise Effectively.md",
-    "MolecularNotes-master/Sources/Advances in Financial Machine Learning.md",
     "MolecularNotes-master/_scripts/test_obsidian_util.py",
     "MolecularNotes-master/_scripts/db.json",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
