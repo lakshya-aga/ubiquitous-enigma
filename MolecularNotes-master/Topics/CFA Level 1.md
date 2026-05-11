@@ -28,6 +28,14 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 Fiscal policy
 ![[IMG_20260510_175036965.jpg]]
 
+### Geopolitics
+
+Tools of geopolitics:
+- Financial
+- Economic
+- National Security
+
+Cabotage: Rights of a company to trade in another country regulated by multi lateral trade agreements
 ## Quantitative Methods
 - Time value of Money
 
