@@ -41,6 +41,10 @@ Risks:
 - Event: elections
 - Exogenous: Act of god
 - Thematic: Well-known and grow/ change over time. e.g. terrorism. think of it like general perpetual well known background risk
+Propertiers of risk:
+- Velocity
+- Probability
+- Size + nature of impact
 ## Quantitative Methods
 - Time value of Money
 
