@@ -54,7 +54,10 @@ Three types of Balance of Payments:
 
 - Current Account: Total trade volume with countries that determine deficit/surplus
 - Financial Account: Government and Private investments abroad
-- Capital Account: 
+- Capital Account: International Capital Transfers
+
+
+
 ## Quantitative Methods
 - Time value of Money
 
