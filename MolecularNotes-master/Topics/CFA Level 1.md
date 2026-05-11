@@ -57,6 +57,11 @@ Three types of Balance of Payments:
 - Capital Account: International Capital Transfers
 
 
+### *Customs union* ###
+An agreement between two or more countries to eliminate tariffs and quotas on goods traded among themselves while establishing a common external tariff (CET) on goods imported from non-member countries
+
+FTA ==Free Trade Agreements== are legally binding treaties between two or more economies designed to reduce or eliminate barriers to trade and investment, such as tariffs and quotas.
+
 
 ## Quantitative Methods
 - Time value of Money
