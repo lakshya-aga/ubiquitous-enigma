@@ -41,10 +41,15 @@ Risks:
 - Event: elections
 - Exogenous: Act of god
 - Thematic: Well-known and grow/ change over time. e.g. terrorism. think of it like general perpetual well known background risk
-Propertiers of risk:
+Properties of risk:
 - Velocity
 - Probability
 - Size + nature of impact
+Functions of 3 orgs:
+- The World Bank’s main objective is to help developing countries fight poverty and enhance environmentally sound economic growth by providing investment funds. It does not intervene in balance-of-payments issues. (WB -> Helpful gov)
+- The World Trade Organization regulates cross-border trade on a global scale. It does not intervene in balance-of-payments issues. (WTO -> Regulator)
+-  The International Monetary Fund has the ability to lend foreign currencies to a country with an extreme current account deficit. (IMF -> Central bank)
+
 ## Quantitative Methods
 - Time value of Money
 
