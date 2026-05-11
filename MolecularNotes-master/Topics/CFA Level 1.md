@@ -52,9 +52,9 @@ Functions of 3 orgs:
 ### International trade:
 Three types of Balance of Payments:
 
-- Current Account
-- Financial Account
-- Capital Account
+- Current Account: Total trade volume with countries that determine deficit/surplus
+- Financial Account: Government and Private investments abroad
+- Capital Account: 
 ## Quantitative Methods
 - Time value of Money
 
