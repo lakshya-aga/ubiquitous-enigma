@@ -36,6 +36,11 @@ Tools of geopolitics:
 - National Security
 
 Cabotage: Rights of a company to trade in another country regulated by multi lateral trade agreements
+
+Risks:
+- Event: elections
+- Exogenous: Act of god
+- Thematic: Well-known and grow/ change over time. e.g. terrorism. think of it like general perpetual well known background risk
 ## Quantitative Methods
 - Time value of Money
 
