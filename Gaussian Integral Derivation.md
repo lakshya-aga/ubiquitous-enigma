@@ -21,10 +21,9 @@ Substitute $t = -r^2$, so $dt = -2r, dr$:
 
 $$I^2 = \int_0^{2\pi} \left[ -\tfrac{1}{2} e^{-r^2} \right]_0^{\infty} d\theta = \int_0^{2\pi} \left(-\tfrac{1}{2}\right)(0 - 1), d\theta$$
 
-$$= \tfrac{1}{2} \cdot 2\pi \cdot 1 = \pi$$
+$$= \tfrac{1}{2} \cdot 2\pi \cdot 1 = \boxed{\pi}$$
 
 ## Result
 
-$$\boxed{,I = \sqrt{\pi},}$$
+$$\boxed{I = \sqrt{\pi}}$$
 
-One note: the substitution $x = r\sin\theta$, $y = r\cos\theta$ is swapped from the usual convention (typically $x = r\cos\theta$, $y = r\sin\theta$), but it doesn't affect the result since the integrand depends only on $r^2 = x^2 + y^2$.
