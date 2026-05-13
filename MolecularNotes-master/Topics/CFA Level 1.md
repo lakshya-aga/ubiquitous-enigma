@@ -75,6 +75,12 @@ FTA ==Free Trade Agreements== are legally binding treaties between two or more e
 
 ## Equity
 
+- **Broad Market Indexes:** Represent a large percentage of a specific market, offering a comprehensive view of overall performance, such as the Wilshire 5000 or Russell 3000.
+- **Sector Indexes:** Focus on specific economic sectors, such as the S&P Health Care Sector Index or Technology Select Sector Index, helping investors track specific industries.
+- **International/Global Indexes:** Track performance across different countries or regions, such as the MSCI World Index or FTSE Developed All Cap ex US Index.
+- **Bond indexes:** Monitor the performance of fixed-income securities like government or corporate bonds, with the Bloomberg U.S. Aggregate Bond Index being a common benchmark.
+- **[Style Indexes]:** Segment the market based on investment style, primarily separating growth stocks from value stock
+
 ---
 
 # <u>Fixed Income</u>
