@@ -81,6 +81,14 @@ FTA ==Free Trade Agreements== are legally binding treaties between two or more e
 - **Bond indexes:** Monitor the performance of fixed-income securities like government or corporate bonds, with the Bloomberg U.S. Aggregate Bond Index being a common benchmark.
 - **[Style Indexes]:** Segment the market based on investment style, primarily separating growth stocks from value stock
 
+PESTLE framework for analysing risks and opportunities
+Political
+Economic
+Social
+Tech
+Legal 
+Env
+
 ---
 
 # <u>Fixed Income</u>
