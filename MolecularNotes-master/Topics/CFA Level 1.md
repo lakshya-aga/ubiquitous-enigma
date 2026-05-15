@@ -255,9 +255,9 @@ Derivatives
 
 Mezannine debt'
 
-Weak efficient: can make profit with technical analysis
-Semi stong efficient
-Strign efficient: cannot make profit at all
+Weak efficiency: can make a profit with technical analysis
+Semi-strong efficient:  not much profit can be made from technical or fundamental analysis
+Strong efficient: cannot make a profit at all
 
 Effective duration
 
