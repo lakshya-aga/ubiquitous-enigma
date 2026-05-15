@@ -254,7 +254,10 @@ Derivatives
 - price of a pay-fixed receive-floating interest rate swap
 
 Mezannine debt'
+
+Weak efficient: can make profit with technical analysis
 Semi stong efficient
+Strign efficient: cannot make profit at all
 
 Effective duration
 
