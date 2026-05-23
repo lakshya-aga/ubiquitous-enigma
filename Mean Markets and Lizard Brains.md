@@ -7,4 +7,7 @@ Similarly, our brains are wired to be more backward looking to learn from mistak
 
 The general premise of the first part is to be greedy when everyone is fearful and fearful when everyone is greedy. This is even shown in a simulated environment when traders know the real price, they would artificially inflate prices.
 
-Another cause of irrationality is desire to conformity. I actually studied this in Consumer Insights back in College when learning about brand positioning and how it a
+Another cause of irrationality is desire to conformity. I actually studied this in Consumer Insights back in College when learning about brand positioning and how it relates to human Psychology.
+
+---
+
