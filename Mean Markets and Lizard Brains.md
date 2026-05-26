@@ -16,5 +16,10 @@ Terry warna about Seigels stats from Stocks for the long run as they only talk a
 Nonetheless stocks are a good investment because they keep step with inflation and provide tax benefits by allowing you to offset gains by losses.
 The biggest risk in bonds (US bonds) is the US can just print money and erode its value, and not that of default. Another is that USA simply can't be demanded to pay up like a loan shark can make one pay.
 Stocks have generally been profitable but don't drive while looking in the rearview mirror.
+
 ---
-The advice 
+The advice in the book is not particularly consistent but some consistent advice:
+- Sell losers early
+- hold onto the winners
+- EQ may be more relevant
+- When preparing for something, do not prepare in the same way as the majority as the insurance will likely fail for mass redemption.
