@@ -23,3 +23,4 @@ The advice in the book is not particularly consistent but some consistent advice
 - hold onto the winners
 - EQ may be more relevant
 - When preparing for something, do not prepare in the same way as the majority as the insurance will likely fail for mass redemption.
+- 
