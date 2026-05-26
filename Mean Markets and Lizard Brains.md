@@ -18,7 +18,7 @@ The biggest risk in bonds (US bonds) is the US can just print money and erode it
 Stocks have generally been profitable but don't drive while looking in the rearview mirror.
 
 ---
-The advice in the book is not particularly consistent but some consistent advice:
+The advice in the book is not particularly consistent but some consistent advice is there:
 - Sell losers early
 - hold onto the winners
 - EQ may be more relevant
