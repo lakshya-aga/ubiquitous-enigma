@@ -16,8 +16,23 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "a1e2b8c1f9a35934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Designing Data Intensive Applications"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,15 +214,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73fa907c93919dc5",
+  "active": "a1e2b8c1f9a35934",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Mean Markets and Lizard Brains.md",
+    "Geometric Brownian Motion.md",
+    "Designing Data Intensive Applications.md",
+    "MolecularNotes-master/Sources/Brief History of Time.md",
+    "MolecularNotes-master/Topics/CFA Level 1.md",
     "Shrinkage.md",
     "MolecularNotes-master/_attachments/IMG_20260510_175036965.jpg",
     "Gaussian Integral Derivation.md",
     "Change of variables to polar.md",
     "Marchenko-Pastur Law.md",
     "Portfolio Construction.md",
-    "Geometric Brownian Motion.md",
     "MolecularNotes-master/Authors/Richard Heur.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
@@ -221,15 +241,11 @@
     "Linear Algebra For Finance.md",
     "Birkhoff Polytope.md",
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
-    "MolecularNotes-master/Topics/CFA Level 1.md",
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Sources/Principles.md",
-    "Frobenius norm.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
-    "OPTICS.md",
-    "Sklar'sTheorem.md",
     "MolecularNotes-master/_scripts/test_obsidian_util.py",
     "MolecularNotes-master/_scripts/db.json",
     "Untitled.base",
