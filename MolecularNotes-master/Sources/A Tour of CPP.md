@@ -6,9 +6,9 @@ Topics: C++, Programming
 ---
 Last read: March 2026
 
-### For a seasoned programmer, I think this is the most high ROI read to learn C++.
+### For a programmer, I think this is the most high ROI read to learn C++.
 
-The book covers basic concepts of C++ well. It is a very good deep dive into actual C++ once you are familiar with the basic syntax. It contains quite a few code samples that show example usage (sometimes even innovative). 
+The book covers basic concepts of C++ well. It is a very good shallow deep dive into actual C++ once you are familiar with the basic syntax. It contains quite a few code samples that show example usage (sometimes even innovative). 
 First 10 chapters deal with language nuances such as templates, generic programming, overloading operators, `const`, move semantics (`lvalue` and `rvalue`), `constexpr` and so on. It also talks briefly about designing functions and classes effectively from the lens of generic programming.
 
 The second half of the book deals with STL. It has general suggestions such as use STL instead of custom whenever possible and under the hood optimisations such as short string optimisation.
