@@ -13,7 +13,7 @@ First 10 chapters deal with language nuances such as templates, generic programm
 
 The second half of the book deals with STL. It has general suggestions such as use STL instead of custom whenever possible and under the hood optimisations such as short string optimisation.
 
-One thing I feel could complement the study of this book greatly is an end of chapter quiz for each chapter and/or a final exam. I am yet to find anything good enough that tests C++ well. AI is a pretty good idea for this. I tried Gemini live to have a conversation with me on C++. It forces me to be more explicit about my understanding and easily identify gaps. eg. pointers vs reference and when to use one over the other
+One thing I feel could complement the study of this book greatly is an end of chapter quiz for each chapter and/or a final exam. AI is a pretty good idea for this. I tried Gemini live to have a conversation with me on C++. It forces me to be more explicit about my understanding and easily identify gaps. eg. pointers vs reference and when to use one over the other or 
 
 There is a lot of condensed information such as different predicates and so on. Some very niche features which a developer will certainly always lookup. But to be fair the book is supposed to be a quick over view covering as much breadth as possible.
 
