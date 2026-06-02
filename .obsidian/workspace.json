@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "32bbc9c87229d994",
+        "id": "1e2c83e0e77ddb5a",
         "type": "tabs",
         "children": [
           {
-            "id": "94a82b225a89a6a8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a1e2b8c1f9a35934",
+            "id": "c02d47c7d714ad72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Designing Data Intensive Applications.md",
+                "file": "MolecularNotes-master/Sources/Designing Data Intensive Applications.md",
                 "mode": "source",
                 "source": false
               },
@@ -31,8 +21,7 @@
               "title": "Designing Data Intensive Applications"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,20 +203,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1e2b8c1f9a35934",
+  "active": "c02d47c7d714ad72",
   "lastOpenFiles": [
     "Untitled.md",
     "Mean Markets and Lizard Brains.md",
-    "Geometric Brownian Motion.md",
-    "Designing Data Intensive Applications.md",
-    "MolecularNotes-master/Sources/Brief History of Time.md",
-    "MolecularNotes-master/Topics/CFA Level 1.md",
+    "MolecularNotes-master/Sources/Designing Data Intensive Applications.md",
     "Shrinkage.md",
     "MolecularNotes-master/_attachments/IMG_20260510_175036965.jpg",
     "Gaussian Integral Derivation.md",
     "Change of variables to polar.md",
     "Marchenko-Pastur Law.md",
     "Portfolio Construction.md",
+    "Geometric Brownian Motion.md",
     "MolecularNotes-master/Authors/Richard Heur.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
@@ -241,8 +228,10 @@
     "Linear Algebra For Finance.md",
     "Birkhoff Polytope.md",
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
+    "MolecularNotes-master/Topics/CFA Level 1.md",
     "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/Sources/Principles.md",
+    "Frobenius norm.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
