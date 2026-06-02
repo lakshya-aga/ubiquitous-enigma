@@ -1,6 +1,6 @@
 Author: [[Bjarne Stroustoup]]
 Type: #source #book
-Link: 
+Link: https://www.amazon.sg/Tour-C-Bjarne-Stroustrup-dp-0136816487/dp/0136816487/ref=dp_ob_image_bk
 Topics: C++, Programming
 
 ---
