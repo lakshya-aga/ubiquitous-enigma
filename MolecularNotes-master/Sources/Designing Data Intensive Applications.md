@@ -14,4 +14,8 @@ Topics: [[System Design]]
 
 ## Data transfer models
 
-Generally most data is transferred via JSON or XML. JSON, by virtue of being string oriented has trouble parsing non-standard values. For example handling numbers greater than $2^{53}$ in floating point. One way around it was to encode everything as string and convert to base 64.  
+Generally most data is transferred via JSON or XML. JSON, by virtue of being string oriented has trouble parsing non-standard values. For example handling numbers greater than $2^{53}$ in floating point. One way around it was to encode everything as string and convert to base64. 
+But Binary JSONs are generally preferred for space savings.
+However, we can do better using Protocol Buffers and Avro. With these, a single source read / write schema is sent with data and packets are simply encoded to lookup keys. leading to good space savings.
+
+XML is generally unliked due to verbosity.
