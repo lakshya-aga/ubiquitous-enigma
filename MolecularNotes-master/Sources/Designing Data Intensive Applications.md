@@ -12,10 +12,11 @@ Topics: [[System Design]]
 - However, the joins can sometimes(less often than you would think) prove to be expensive. Instead systems like MongoDB stores stuff as JSON which is a quicker lookup because all information is locally present in the database
 - Another tradeoff lies in ordering. JSON can simply have an array of JSON that preserves ordering. Underlying implementation using linked list can make it easy to reorder. For RDS, we need to have a numbering which may need to be redone for simple reordering.
 
-## Data transfer models
+## Data transfer models (Chapter 5)
 
 Generally most data is transferred via JSON or XML. JSON, by virtue of being string oriented has trouble parsing non-standard values. For example handling numbers greater than $2^{53}$ in floating point. One way around it was to encode everything as string and convert to base64. 
 But Binary JSONs are generally preferred for space savings.
 However, we can do better using Protocol Buffers and Avro. With these, a single source read / write schema is sent with data and packets are simply encoded to lookup keys. leading to good space savings.
 These systems have their own schema defining languages as well.
 XML is generally unliked due to verbosity.
+
