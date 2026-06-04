@@ -20,3 +20,7 @@ However, we can do better using Protocol Buffers and Avro. With these, a single 
 These systems have their own schema defining languages as well.
 XML is generally unliked due to verbosity.
 
+## Replication
+
+Replication is a very interesting problem and is probably more common than we realise. The basic principle is that one write to a database is propogated to other "replicas" in reduce user reponse time. It may be in different geographical locations altogether or in close vicinity just for load balancing. The leader(s) may write synchronously or asynchronously to the follower databases. Both have merits and demerits. Most commonly, we use half of each in one system.
+There are a multi-leader and single leader architectures. Multi-leader is way more complex and requires conflict resolution as well. An example of multi leader is an app that runs offline as well and may need to sync when network is available. I did not pay attention to the details of consistency levels and method
