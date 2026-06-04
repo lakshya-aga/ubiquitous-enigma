@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1e2c83e0e77ddb5a",
+        "id": "a44ecb3ed100732a",
         "type": "tabs",
         "children": [
           {
-            "id": "c02d47c7d714ad72",
+            "id": "29f7c9cd2398e8a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -203,10 +203,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c02d47c7d714ad72",
+  "active": "29f7c9cd2398e8a8",
   "lastOpenFiles": [
-    "MolecularNotes-master/Sources/A Tour of CPP.md",
+    "MolecularNotes-master/_attachments/Pasted image 20260604162418.png",
     "MolecularNotes-master/Sources/Designing Data Intensive Applications.md",
+    "MolecularNotes-master/Sources/A Tour of CPP.md",
     "MolecularNotes-master/Authors/Martin Kleppmann.md",
     "Untitled.md",
     "Mean Markets and Lizard Brains.md",
@@ -231,7 +232,6 @@
     "Birkhoff Polytope.md",
     "MolecularNotes-master/Topics/Probability And Statistics for Finance.md",
     "MolecularNotes-master/Topics/CFA Level 1.md",
-    "MolecularNotes-master/Sources/Advances in Financial machine learning.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
