@@ -27,3 +27,6 @@ There are a multi-leader and single leader architectures. Multi-leader is way mo
 One vulnerability that replication opens us up to is resolved by use of uuid instead of auto increment in database. Consider the following scenario: A user comes and writes some records, User B does the same. But due to network traffic, writes of B go first and writes of A go second, to a follower. But, the access of resources is mapped to the original order. This opens user A data to user B and vice versa. This actually did happen in an incident in github. The easiest work around is to write exact records.
 Automatic Conflict resolutions have 2 algorithms used commonly, OT - Operational transformation, and CRDT - conflict free replicated datatypes. CRDT encodes index and uses those "immutable" values. OT transforms indexes to account for changes.
 ![[Pasted image 20260604162418.png]]
+
+
+There is finally leaderless replication
