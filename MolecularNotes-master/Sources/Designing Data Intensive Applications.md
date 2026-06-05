@@ -29,4 +29,9 @@ Automatic Conflict resolutions have 2 algorithms used commonly, OT - Operational
 ![[Pasted image 20260604162418.png]]
 
 
-There is finally leaderless replication
+There is finally leaderless replication. Rarely used, leaderless replication has something called a quorum. The name is self-explanatory. A minimum number of reads and writes to ensure right data is recieved.
+
+General rule: $w + r > n$ 
+
+Here w is number of nodes synchronously written to and r is number of reads to return a value before marking a read is done, This condition ensures that at least 1 overlapping node will be read from and written to.
+
