@@ -9,4 +9,4 @@ This paper examines the simple conjecture that a machine-learning-guided policy 
 Program execution burst is a state transition. The Agent must choose what pages to load (policy). Next, the state will provide rewards, i.e., hit rates.
 It compares 2 setups. One is the old heuristics-based approach, and one is the "Oracle" which has a priori knowledge - an unrealistic best policy.
 
-The second algorithm proposed is the RNN, specifically LSTMs. 
+The second algorithm proposed is the RNN, specifically LSTMs. The input data is the sequence of page accesses from the memory (not from the cache - more on this).
