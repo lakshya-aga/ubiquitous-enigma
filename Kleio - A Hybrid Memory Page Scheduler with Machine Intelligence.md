@@ -10,3 +10,6 @@ Program execution burst is a state transition. The Agent must choose what pages 
 It compares 2 setups. One is the old heuristics-based approach, and one is the "Oracle" which has a priori knowledge - an unrealistic best policy.
 
 The second algorithm proposed is the RNN, specifically LSTMs. The input data is the sequence of page accesses from the memory (not from the cache - more on this).
+![[Screenshot 2026-06-07 at 7.11.51 PM.png]]
+
+This graph is essentially the aim. Looking at this, clearly the number of pages accessed for each time stamp are in the order of 1000s. For HPC apps, this can blow up very easily. So the paper takes a flipped approach and instead aims to predict each page's timestamp of being accessed. 
