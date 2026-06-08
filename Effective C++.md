@@ -5,12 +5,14 @@ Topics: [[CPP]]
 
 ---
 
-## Theme 1
+## Treat C++ as a confederation of 4 languages
 
-- Key idea 1 
-- Key idea 2
+- C
+- OOP
+- Templates
+- STL
 
-## Theme 2
+## Prefer const, enum, inline to `#define`
 
 - Key idea 3
 - Key idea 4
