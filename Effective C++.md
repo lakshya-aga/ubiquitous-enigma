@@ -42,3 +42,13 @@ extern int bar;
 int foo
 ```
 same principle applies above as well
+
+For older compiler we can use the _enum hack_ 
+
+  ```cpp
+  enum { NumTurns = 5 };        // "the enum hack" — makes  
+                                // NumTurns a symbolic name for 5  
+  
+  int scores[NumTurns];         // fine
+  ```
+  As we are allowed to actually use enums where int are expected
