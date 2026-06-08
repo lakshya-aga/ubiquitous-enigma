@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a44ecb3ed100732a",
+        "id": "080e284b2777cbb8",
         "type": "tabs",
         "children": [
           {
-            "id": "29f7c9cd2398e8a8",
+            "id": "4b9e3751f4fd6d98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MolecularNotes-master/Sources/Designing Data Intensive Applications.md",
+                "file": "Kleio - A Hybrid Memory Page Scheduler with Machine Intelligence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Designing Data Intensive Applications"
-            }
-          },
-          {
-            "id": "1f9f3336e1cf1775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Effective modern C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Effective modern C++"
-            }
-          },
-          {
-            "id": "0b96c9c7f5fd7bbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Effective C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Effective C++"
+              "title": "Kleio - A Hybrid Memory Page Scheduler with Machine Intelligence"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VolatilityTrading",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,41 +203,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0b96c9c7f5fd7bbf",
+  "active": "4b9e3751f4fd6d98",
   "lastOpenFiles": [
     "Effective modern C++.md",
     "Effective C++.md",
-    "MolecularNotes-master/Sources/Designing Data Intensive Applications.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
-    "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
+    "MolecularNotes-master/Sources/Gumbel Sinkhorn.md",
     "Kleio - A Hybrid Memory Page Scheduler with Machine Intelligence.md",
-    "Stochastic Calculus and Modelling.md",
-    "Portfolio Construction.md",
-    "Physics.md",
-    "Lopez de Prado.md",
-    "Linear Algebra For Finance.md",
-    "Finance.md",
-    "Competitive Programming.md",
-    "Calculus, Bonds, Options, Finance, Math.md",
-    "Molecules/Portfolio Construction.md",
-    "Authors/Lopez de Prado.md",
-    "Topics/Stochastic Calculus and Modelling.md",
-    "Topics/Physics.md",
-    "Topics/Linear Algebra For Finance.md",
-    "Topics/Finance.md",
-    "Topics/Competitive Programming.md",
-    "Topics/Calculus, Bonds, Options, Finance, Math.md",
-    "Molecules",
-    "Authors",
-    "Topics",
+    "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
+    "Geometric Brownian Motion.md",
+    "Designing Data Intensive Applications.md",
     "MolecularNotes-master/_attachments/Pasted image 20260604162418.png",
-    "MolecularNotes-master/Sources/A Tour of CPP.md",
+    "MolecularNotes-master/Sources/Designing Data Intensive Applications.md",
     "MolecularNotes-master/Authors/Martin Kleppmann.md",
     "Mean Markets and Lizard Brains.md",
+    "MolecularNotes-master/Sources/Brief History of Time.md",
+    "MolecularNotes-master/Topics/CFA Level 1.md",
     "Shrinkage.md",
     "MolecularNotes-master/_attachments/IMG_20260510_175036965.jpg",
     "Gaussian Integral Derivation.md",
     "Change of variables to polar.md",
+    "Marchenko-Pastur Law.md",
+    "Portfolio Construction.md",
+    "MolecularNotes-master/Authors/Richard Heur.md",
+    "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
+    "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
+    "ArchimedianCopulas.md",
+    "Copula.md",
+    "EllipticalCopulas.md",
+    "VineCopula.md",
+    "Heston Model.md",
+    "MolecularNotes-master/Topics/AgenticAIforQuantFinance.md",
+    "Stochastic Calculus and Modelling.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
@@ -275,6 +243,9 @@
     "Untitled.base",
     "Untitled 1.base",
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
+    "MolecularNotes-master/_scripts/polymer.py",
+    "MolecularNotes-master/_scripts/obsidian_util - Copy.py",
+    "Linux Command - sed",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
     "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg",
