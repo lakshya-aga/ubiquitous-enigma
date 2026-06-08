@@ -52,3 +52,6 @@ For older compiler we can use the _enum hack_
   int scores[NumTurns];         // fine
   ```
   As we are allowed to actually use enums where int are expected
+## Use const whenever Possible
+- `char const *p //const pointer
+- `const char *p //const data
