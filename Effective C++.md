@@ -53,5 +53,7 @@ For older compiler we can use the _enum hack_
   ```
   As we are allowed to actually use enums where int are expected
 ## Use const whenever Possible
-- `char const *p //const pointer
+- `char * const p //const pointer
+- `char const *p //const data
 - `const char *p //const data
+-
