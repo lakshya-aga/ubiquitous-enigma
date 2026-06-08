@@ -56,4 +56,4 @@ For older compiler we can use the _enum hack_
 - `char * const p //const pointer
 - `char const *p //const data
 - `const char *p //const data
--
+- Iterators are like `T* const iter`
