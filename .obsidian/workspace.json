@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "080e284b2777cbb8",
+        "id": "590d606413766121",
         "type": "tabs",
         "children": [
           {
-            "id": "4b9e3751f4fd6d98",
+            "id": "9a0c7360f5ee9aff",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Betweenness.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Betweenness"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Betweenness.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Betweenness"
             }
           },
           {
@@ -200,8 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b9e3751f4fd6d98",
+  "active": "9a0c7360f5ee9aff",
   "lastOpenFiles": [
+    "Autocorrelation.md",
+    "Birkhoff Polytope.md",
     "Archimedian Copulas.md",
     "ML and operating systems.md",
     "Kleio - A Hybrid Memory Page Scheduler with Machine Intelligence.md",
@@ -230,8 +236,6 @@
     "ArchimedianCopulas.md",
     "Copula.md",
     "EllipticalCopulas.md",
-    "VineCopula.md",
-    "Heston Model.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
