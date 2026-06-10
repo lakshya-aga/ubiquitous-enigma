@@ -57,3 +57,10 @@ For older compiler we can use the _enum hack_
 - `char const *p //const data
 - `const char *p //const data
 - Iterators are like `T* const iter`
+
+
+## Know C++ implicit constructors and destructors
+## Explicitly disallow use of compiler generated constructors/destructors by declaring them private
+
+## Use pure virtual destructors for polymorphic base classes
+

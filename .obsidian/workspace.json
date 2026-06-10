@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Betweenness.md",
+                "file": "Effective C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Betweenness"
+              "title": "Effective C++"
             }
           }
         ]
@@ -206,6 +206,7 @@
   },
   "active": "9a0c7360f5ee9aff",
   "lastOpenFiles": [
+    "Betweenness.md",
     "Autocorrelation.md",
     "Birkhoff Polytope.md",
     "Archimedian Copulas.md",
@@ -235,7 +236,6 @@
     "MolecularNotes-master/Authors/Dr. Dan Stefanica.md",
     "ArchimedianCopulas.md",
     "Copula.md",
-    "EllipticalCopulas.md",
     "MolecularNotes-master/_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__/obsidian_util.cpython-310.pyc",
     "MolecularNotes-master/_scripts/__pycache__",
