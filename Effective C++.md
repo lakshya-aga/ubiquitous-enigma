@@ -102,4 +102,19 @@ int main(){
 
 ---
 13. Use Objects to manage resources
-14. 
+14. i
+15. i
+16. Use same kind of new and delete e.g. `[]`
+17. Use Smart pointers in standalone statements because compilers can reorder function call order sometimes in C++
+```cpp
+int priority();  
+void processWidget(std::tr1::shared_ptr<Widget> pw, int priority);	
+
+...
+
+processWidget(std::tr1::shared_ptr<Widget>(new Widget), priority());
+
+```
+This may have the compiler generate code that calls priority between `Widget` creation and `shared_ptr` constructor call. If `priority` throws exception, we have undefined behaviour
+
+
