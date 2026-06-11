@@ -108,5 +108,6 @@ concept Equality_comparable =
          { a != b } -> Boolean;   // compare Ts with !=
     };
 ```
-If you see requires requires in your code, it is probably too low level and will eventually become a problem.
+
+If you see requires in your code, it is probably too low level and will eventually become a problem.
 
