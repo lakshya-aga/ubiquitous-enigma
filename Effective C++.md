@@ -5,14 +5,14 @@ Topics: [[CPP]]
 
 ---
 
-## Treat C++ as a confederation of 4 languages
+## 1. Treat C++ as a confederation of 4 languages
 
 - C
 - OOP
 - Templates
 - STL
 
-## Prefer const, enum, inline to `#define`
+## 2. Prefer const, enum, inline to `#define`
 
 We can create class constants as
 ```cpp
@@ -52,15 +52,15 @@ For older compiler we can use the _enum hack_
   int scores[NumTurns];         // fine
   ```
   As we are allowed to actually use enums where int are expected
-## Use const whenever Possible
+## 3. Use const whenever Possible
 - `char * const p //const pointer
 - `char const *p //const data
 - `const char *p //const data
 - Iterators are like `T* const iter`
 
 
-## Know C++ implicit constructors and destructors
-## Explicitly disallow use of compiler generated constructors/destructors by declaring them private
+## 4. Know C++ implicit constructors and destructors
+## 5. Explicitly disallow use of compiler generated constructors/destructors by declaring them private
 
-## Use pure virtual destructors for polymorphic base classes
+## 6. Use pure virtual destructors for polymorphic base classes
 
