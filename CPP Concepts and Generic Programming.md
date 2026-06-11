@@ -55,15 +55,25 @@ first, write a concrete version
 then, debug, test, and measure it
 
 finally, replace the concrete types with template arguments.
+
 The process of generalizing from a concrete piece of code (and preferably from several) while preserving performance is called lifting.
+
 A string is another example of a regular type. Like int, string is also totally_ordered (§14.5). That is, two strings can be compared using <, <=, >, >=, and <=> with the appropriate semantics.
+
 doesn’t suffer technical problems from overly clever programming tricks.
+
 can be compared using == and !=
+
 can be copied (with the usual semantics of copy, yielding two objects that are independent and compare equal) using a constructor or an assignment.
+
 can be default constructed.
+
 A type is regular when it behaves much like an int or a vector
+
 Good, useful concepts are fundamental and are discovered more than they are designed. Examples are integer and floating-point number (as defined even in Classic C [Kernighan,1978]), sequence, and more general mathematical concepts, such as ring and vector space. They represent the fundamental concepts of a field of application. That is why they are called “concepts.” Identifying and formalizing concepts to the degree necessary for effective generic programming can be a challenge.
+
 Unfortunately, the notational support for that is not yet perfect: we have to use a concept as an adjective, rather that a noun.
+
 Says nothing about the layout of the object
 Enables the use of a set of types
 Relies on function declarations and language rules
