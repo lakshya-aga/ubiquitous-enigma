@@ -59,8 +59,13 @@ For older compiler we can use the _enum hack_
 - Iterators are like `T* const iter`
 
 
-## 4. Know C++ implicit constructors and destructors
-## 5. Explicitly disallow use of compiler generated constructors/destructors by declaring them private
+## 5. Know C++ implicit constructors and destructors
+## 6. Explicitly disallow use of compiler generated constructors/destructors by declaring them private
+## 7. Use pure virtual destructors for polymorphic base classes
+## 8. Prevent Exceptions form leaving destructors
+## 9. Never call virtual functions inside constructors/destructors
+## 10. Have assignment operators return a reference to `*this`
 
-## 6. Use pure virtual destructors for polymorphic base classes
+## 11. Handle assignment to self in `operator=` 
+
 
