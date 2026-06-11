@@ -127,3 +127,8 @@ processWidget(std::tr1::shared_ptr<Widget>(new Widget), priority());
 This may have the compiler generate code that calls priority between `Widget` creation and `shared_ptr` constructor call. If `priority` throws exception, we have undefined behaviour
 
 
+---
+
+# Design and Declarations
+
+## 18. Make interfaces easy to use correctly and hard to use incorrectly
