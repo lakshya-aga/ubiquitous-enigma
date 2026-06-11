@@ -103,7 +103,12 @@ int main(){
 ---
 13. Use Objects to manage resources
 14. i
-15. i
+15. Allow access to raw resource when using resource management classes. E.g. 
+ ```cpp
+ public class FontHandle{
+ 
+ }
+ ```
 16. Use same kind of new and delete e.g. `[]`
 17. Use Smart pointers in standalone statements because compilers can reorder function call order sometimes in C++
 ```cpp
