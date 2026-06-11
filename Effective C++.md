@@ -106,7 +106,9 @@ int main(){
 15. Allow access to raw resource when using resource management classes. E.g. 
  ```cpp
  public class FontHandle{
- 
+	 public:
+	 Font f;
+	 const Font operator(){return f;}
  }
  ```
 16. Use same kind of new and delete e.g. `[]`
