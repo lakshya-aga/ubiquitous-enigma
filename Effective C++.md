@@ -100,3 +100,6 @@ int main(){
 ```
 
 
+---
+13. Use Objects to manage resources
+14. 
