@@ -72,15 +72,30 @@ For older compiler we can use the _enum hack_
 ## 12. Copy All parts of an object
 - Notoriously, for derived classes, if you write a copy constructor, it will not call the copy constructor by default for the base class. You have to call that manually using example
 ```cpp
-class Customer{
-string name;
-int id;
-Customer(const &Customer c): name(c.name) {}
-}
+#include <string>
 
-class PriorityCustomer : Customer{
-int priority;
-PriorityCustomer(const &PriorityCustomer pc) priority(pc.priority), Customer(pc){};
+using namespace std;
+
+class Customer{
+    public:
+    string name;
+    int id;
+    Customer(const Customer &c): name(c.name) {}
+    Customer() {}
+};
+
+class PriorityCustomer : public Customer{
+
+    public:
+    int priority;
+    PriorityCustomer(const PriorityCustomer &pc): priority(pc.priority), Customer(pc){};
+    PriorityCustomer() {};
+};
+
+  
+
+int main(){
+    PriorityCustomer person;
 }
 ```
 
