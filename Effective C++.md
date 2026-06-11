@@ -67,5 +67,8 @@ For older compiler we can use the _enum hack_
 ## 10. Have assignment operators return a reference to `*this`
 
 ## 11. Handle assignment to self in `operator=` 
+- Might accidentally delete `this` when deleting `rhs`
+- Copy and swap, identity check on top, and 
+12. Copy All parts of an object
 
 
