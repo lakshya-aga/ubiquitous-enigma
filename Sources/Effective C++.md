@@ -101,9 +101,9 @@ int main(){
 
 
 ---
-13. Use Objects to manage resources
-14. i
-15. Allow access to raw resource when using resource management classes. E.g. 
+## 13. Use Objects to manage resources
+## 14. Think carefully about copying behavior in resource-managing classes.
+## 15. Allow access to raw resource when using resource management classes. E.g. 
  ```cpp
  public class FontHandle{
 	 public:
@@ -111,8 +111,10 @@ int main(){
 	 const Font operator(){return f;}
  }
  ```
-16. Use same kind of new and delete e.g. `[]`
-17. Use Smart pointers in standalone statements because compilers can reorder function call order sometimes in C++
+ This makes use of language easier for other programmers
+## 16. Use same kind of new and delete e.g. `[]`
+## 17. Use Smart pointers in standalone statements 
+Because compilers can reorder function call order sometimes in C++
 ```cpp
 int priority();  
 void processWidget(std::tr1::shared_ptr<Widget> pw, int priority);	

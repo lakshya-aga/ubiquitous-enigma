@@ -1,6 +1,6 @@
 
 ---
-Topics: [[MolecularNotes-master/Topics/Finance|Finance]], [[Probability and Statistics for Finance]]
+Topics: [[Topics/Finance|Finance]], [[Probability and Statistics for Finance]]
 Reference:
 Type: #molecule
 
