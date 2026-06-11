@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constexpr CPP.md",
+                "file": "Sources/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Constexpr CPP"
+              "title": "Linux"
             }
           },
           {
@@ -246,18 +246,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa8200b1cdb5fad7",
+  "active": "73fa907c93919dc5",
   "lastOpenFiles": [
+    "Bash Command - Sed.md",
+    "Sources/Linux.md",
+    "Betweenness.md",
+    "Autocorrelation.md",
+    "Archimedian Copulas.md",
+    "Topics/Computer Networks.md",
     "CIDR (Classless Inter-Domain Routing).md",
     "Cholesky's Decomposition.md",
+    "Constexpr CPP.md",
     "Change of variables to polar.md",
     "Topics/Calculus, Bonds, Options, Finance, Math.md",
     "Black Scholes.md",
     "Birkhoff Polytope.md",
-    "Betweenness.md",
-    "Bash Command - Sed.md",
-    "Autocorrelation.md",
-    "Archimedian Copulas.md",
     "Shrinkage.md",
     "Topics/ML and operating systems.md",
     "Programming Interview Questions.md",
@@ -267,14 +270,11 @@
     "Sources/Effective modern C++.md",
     "Sources/A Tour of CPP.md",
     "Copula.md",
-    "Constexpr CPP.md",
     "Authors/Lopez de Prado.md",
     "Authors/Lopez de Prado 1.md",
     "Authors/Scott Meyers.md",
     "Competitive Programming.md",
     "Topics/Untitled",
-    "Original Issue Tax Discount.md",
-    "Sinkhorn Trick.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
     "Molecules",

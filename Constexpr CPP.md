@@ -1,5 +1,5 @@
 Compile time evaluation of variables in C++. Introduced in C++11. Can be virtual since C++20 - 
-
+// Todo
 See Additional benefits and when to use
 
 ---
