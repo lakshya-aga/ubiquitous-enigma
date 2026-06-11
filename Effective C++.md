@@ -68,7 +68,8 @@ For older compiler we can use the _enum hack_
 
 ## 11. Handle assignment to self in `operator=` 
 - Might accidentally delete `this` when deleting `rhs`
-- Copy and swap, identity check on top, and 
-12. Copy All parts of an object
+- Copy and swap, identity check on top, and careful ordering to prevent delete before assignment are some ways of achivieng this
+## 12. Copy All parts of an object
+
 
 
