@@ -70,6 +70,18 @@ For older compiler we can use the _enum hack_
 - Might accidentally delete `this` when deleting `rhs`
 - Copy and swap, identity check on top, and careful ordering to prevent delete before assignment are some ways of achivieng this
 ## 12. Copy All parts of an object
+- Notoriously, for derived classes, if you write a copy constructor, it will not call the copy constructor by default for the base class. You have to call that manually using example
+```cpp
+class Customer{
+string name;
+int id;
+Customer(const &Customer c): name(c.name) {}
+}
 
+class PriorityCustomer : Customer{
+int priority;
+PriorityCustomer(const &PriorityCustomer pc) priority(pc.priority), Customer(pc){};
+}
+```
 
 
