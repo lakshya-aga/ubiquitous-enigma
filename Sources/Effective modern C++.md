@@ -5,12 +5,9 @@ Topics: [[CPP]]
 
 ---
 
-## Theme 1
+## Item 1
+Understanding Template Type deduction
 
-- Key idea 1 
-- Key idea 2
-
-## Theme 2
-
-- Key idea 3
-- Key idea 4
+## item 2
+Understanding auto type deduction
+- The key difference really between template and auto type deduction is in deducing type of `{1,2,3}` as auto deduces as type initialiser list while Template throws error
