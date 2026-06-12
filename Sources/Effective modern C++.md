@@ -12,6 +12,9 @@ Understanding Template Type deduction
 Understanding auto type deduction
 - The key difference really between template and auto type deduction is in deducing type of `{1,2,3}` as auto deduces as type initialiser list while Template throws error
 
+## Item 3:
+Understanding `decltype` (declared type)
+Most useful in deducing type for return types and checking type properties in template programming
 
 
 ## Item 5:
