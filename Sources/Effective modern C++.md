@@ -18,7 +18,7 @@ Item 5:
 Use auto whenever possible
 
 The most important use of this is for closures( Lambda expressions ):
-The general function template may not suffice for a closure, thus it will allocate memory on the heap
+The general function template may not suffice in space allocation for a closure, thus it will allocate memory on the heap. This can somehow lead to 
 
 Item 6:
 
