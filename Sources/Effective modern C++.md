@@ -37,3 +37,8 @@ Instead we should use:
 ```cpp
 auto x = static_cast<bool>(temp[5]);
 ```
+
+
+## Item 7:
+
+Differentiate between braced and parenthesized initialization
