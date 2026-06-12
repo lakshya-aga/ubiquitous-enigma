@@ -17,8 +17,8 @@ Understanding auto type deduction
 Item 5:
 Use auto whenever possible
 
-The most important use of this is for function types:
-The general function template is bigger than it needs to be for a specific function, resulting in inefficient code. Auto takes that away and generates more efficient code.
+The most important use of this is for closures( Lambda expressions ):
+The general function template may not suffice for a closure, thus it will allocate memory on the heap
 
 Item 6:
 
