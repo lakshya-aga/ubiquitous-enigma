@@ -42,3 +42,21 @@ auto x = static_cast<bool>(temp[5]);
 ## Item 7:
 
 Differentiate between braced and parenthesized initialization
+
+
+Item 9:
+Defining special behaviour
+```cpp
+template<typename T>
+class Allocator<T>{
+Allocator<T>::type x;
+}
+
+// vs
+
+
+template<>
+class Allocator<Wine>{
+int type;
+}
+```
