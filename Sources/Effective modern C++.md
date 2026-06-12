@@ -8,6 +8,28 @@ Topics: [[CPP]]
 ## Item 1
 Understanding Template Type deduction
 
-## item 2
+## Item 2
 Understanding auto type deduction
 - The key difference really between template and auto type deduction is in deducing type of `{1,2,3}` as auto deduces as type initialiser list while Template throws error
+
+
+
+Item 5:
+Use auto whenever possible
+
+The most important use of this is for function types:
+The general function template is bigger than it needs to be for a specific function, resulting in inefficient code. Auto takes that away and generates more efficient code.
+
+Item 6:
+
+Understand when not to use auto or use it wisely
+Some calls return proxy classes. such as 
+```cpp
+vector<bool> temp(10);
+auto x = temp[5];
+```
+Other classes return T& but bool returns T::reference which does not behave quite the way you want it to
+Instead we should use:
+```cpp
+auto x = static_cast<bool>(temp[5]);
+```
