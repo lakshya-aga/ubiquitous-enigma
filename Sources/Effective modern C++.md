@@ -14,13 +14,14 @@ Understanding auto type deduction
 
 
 
-Item 5:
+## Item 5:
 Use auto whenever possible
 
 The most important use of this is for closures( Lambda expressions ):
-The general function template may not suffice in space allocation for a closure, thus it will allocate memory on the heap. This can somehow lead to 
+The general function template may not suffice in space allocation for a closure, thus it will allocate memory on the heap. This can somehow lead to slower times
+### _Item 5 may have changed in C++20_
 
-Item 6:
+## Item 6:
 
 Understand when not to use auto or use it wisely
 Some calls return proxy classes. such as 
