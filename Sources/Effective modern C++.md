@@ -49,7 +49,7 @@ Defining special behaviour
 ```cpp
 template<typename T>
 class Allocator<T>{
-Allocator<T>::type x;
+typename Allocator<T>::type x;
 }
 
 // vs
