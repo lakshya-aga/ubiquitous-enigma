@@ -44,7 +44,7 @@ auto x = static_cast<bool>(temp[5]);
 Differentiate between braced and parenthesized initialization
 
 
-Item 9:
+## Item 9:
 Defining special behaviour
 ```cpp
 template<typename T>
@@ -60,3 +60,10 @@ class Allocator<Wine>{
 int type;
 }
 ```
+
+
+---
+# Smart Pointers
+
+Item 18: Use `std::unique_ptr` for exclusive ownership
+- Assignment operation sets RHS to null
