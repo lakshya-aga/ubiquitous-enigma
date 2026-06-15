@@ -99,3 +99,25 @@ Item 18: Use `std::unique_ptr` for exclusive ownership
 unique ptrs (generally) have 2 items -> the pointer and the function pointer for deletion. Thus, they may differ in size as delete pointer may be stateless or stateful function and may grow to be arbitrarily large also. This is true for custom deleters only. For default delete, same size as raw pointer
 
 ## Item 19: How to use `shared_ptr`
+- They do not take deleters
+- They increment the number of `shared_ptr`s
+- Very easy to get Undefined behavior (free ride on the particle accelerator to undefined behavior) if you use same raw pointer to initialise 2 shared_ptrs
+- It has 2 objects. Raw pointer and control block (which has reference count, weal count, custom deleter, allocator etc.) so constant size
+- CRTP (Curiously recurring template pattern) is introduced. e.g.
+```cpp
+class Widget: public std::enable_shared_from_this<Widget>{
+	public:
+		void process()
+}
+// ...
+void Widget::process(){
+	processWidgets.emplace_back(shared_from_this());
+}
+```
+This is needed as 
+```cpp
+void process(){
+processWidgets.emplace_back(this); 
+}
+```
+would lead to undefined behavior
