@@ -96,5 +96,6 @@ Item 18: Use `std::unique_ptr` for exclusive ownership
   
   ```
   #todo learn perfect forwarding
+unique ptrs (generally) have 2 items -> the pointer and the function pointer for deletion. Thus, they may differ in size as delete pointer may be stateless or stateful function and may grow to be arbitrarily large also. This is true for custom deleters only. For default delete, same size as raw pointer
 
-Item 19: How to use `shared_ptr`
+## Item 19: How to use `shared_ptr`
