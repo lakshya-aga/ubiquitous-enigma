@@ -97,4 +97,4 @@ Item 18: Use `std::unique_ptr` for exclusive ownership
   ```
   #todo learn perfect forwarding
 
-Item 19: How to use shared_ptr
+Item 19: How to use `shared_ptr`
