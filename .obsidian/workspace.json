@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/CPP.md",
+                "file": "Sources/Effective modern C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPP"
+              "title": "Effective modern C++"
             }
           }
         ],
@@ -234,8 +234,9 @@
   },
   "active": "aa8200b1cdb5fad7",
   "lastOpenFiles": [
-    "Sources/Effective modern C++.md",
     "Sources/Effective C++.md",
+    "Topics/CPP.md",
+    "Sources/Effective modern C++.md",
     "CPP Concepts and Generic Programming.md",
     "Sources/Principles.md",
     "Sources/Gumbel Sinkhorn.md",
@@ -259,7 +260,6 @@
     "Noexcept CPP.md",
     "Move Semantics CPP.md",
     "Sources/A Tour of CPP.md",
-    "Copula.md",
     "Topics/Untitled",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",

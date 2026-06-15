@@ -120,4 +120,4 @@ void process(){
 processWidgets.emplace_back(this); 
 }
 ```
-would lead to undefined behavior
+would lead to undefined behavior due to multiple shared pointers from same raw pointer
