@@ -121,3 +121,13 @@ processWidgets.emplace_back(this);
 }
 ```
 would lead to undefined behavior due to multiple shared pointers from same raw pointer
+
+## Using Weak_ptr
+
+weak_ptrs do not update reference count
+You can check for expiry as
+`wpw.expired()` -> bool
+
+then create  a shared_ptr as
+
+`std::shared_ptr<Widget> spw1 = wpw.lock();`
