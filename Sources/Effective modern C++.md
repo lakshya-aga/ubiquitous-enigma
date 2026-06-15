@@ -68,5 +68,30 @@ int type;
 Item 18: Use `std::unique_ptr` for exclusive ownership
 - Assignment operation sets RHS to null
 - ```cpp
+  auto delInvmt = [](Investment* pInvestment){
+	  makeLogEntry(pInvestment);
+	  delete pInvestment;
+  };
+  
+  template <typename ...Ts>
+  std::unique_ptr<Investment, decltype(delInvmt)>
+  makeInvestment(Ts&& ...params){
+	  std::unique_ptr<Investment, decltype(delInvmt)> 
+	  pInv(new Investment, delInvmt);
+	  if ( /* a Stock object should be created */ )
+	  {
+	    pInv.reset(new Stock(std::forward<Ts>(params)...));
+	  }
+	  else if ( /* a Bond object should be created */ )
+	  {
+	    pInv.reset(new Bond(std::forward<Ts>(params)...));
+	  }
+	  else if ( /* a RealEstate object should be created */ )
+	  {
+	    pInv.reset(new RealEstate(std::forward<Ts>(params)...));
+	  }
+	  return pInv;
+  }
+  
   
   ```
