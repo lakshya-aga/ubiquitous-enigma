@@ -138,3 +138,5 @@ Make shared has an advantage of allocating control block together with the objec
 Additionally, we cannot use custom deleters. The advantage I can only understand to be avoiding code duplication. However, there is a case where exception may happen between object creation and `shared_ptr` creation, leading to a good case for `make_shared`/`make_unique`
 
 ## Item 22: When using the Pimpl idiom, define special member functions in the implementation file
+
+Pointer to Implementation (Pimpl)
