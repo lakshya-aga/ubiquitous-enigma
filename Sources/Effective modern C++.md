@@ -137,4 +137,4 @@ there are 3 make functions. `make_shared`, `make_unique` and `allocate_shared`.
 Make shared has an advantage of allocating control block together with the object which leads to compiler doing only one memory allocation. This is also a disadvantage. Because `shared_ptr` may be referenced to by `weak_ptr`. unless all `weak_ptr`s are deleted, the control block (+ the object) can not be deallocated.
 Additionally, we cannot use custom deleters. The advantage I can only understand to be avoiding code duplication. However, there is a case where exception may happen between object creation and `shared_ptr` creation, leading to a good case for `make_shared`/`make_unique`
 
-## Item 22: 
+## Item 22: When using the Pimpl idiom, define special member functions in the implementation file
