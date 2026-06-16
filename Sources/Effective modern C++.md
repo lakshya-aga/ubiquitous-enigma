@@ -147,4 +147,6 @@ Pointer to Implementation (Pimpl)
 ---
 # List of standalone items
 - A type that has been declared, but not defined, is known as an _incomplete type_
-- 
+- CRTP
+- Perfect forwarding
+- egress
