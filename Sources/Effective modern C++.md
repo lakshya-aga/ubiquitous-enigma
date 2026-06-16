@@ -122,7 +122,7 @@ processWidgets.emplace_back(this);
 ```
 would lead to undefined behavior due to multiple shared pointers from same raw pointer
 
-## Using Weak_ptr
+## Item 20: Using Weak_ptr
 
 weak_ptrs do not update reference count
 You can check for expiry as
@@ -131,3 +131,10 @@ You can check for expiry as
 then create  a shared_ptr as
 
 `std::shared_ptr<Widget> spw1 = wpw.lock();`
+
+## Item 21: Using make functions
+there are 3 make functions. `make_shared`, `make_unique` and `allocate_shared`.
+Make shared has an advantage of allocating control block together with the object which leads to compiler doing only one memory allocation. This is also a disadvantage. Because `shared_ptr` may be referenced to by `weak_ptr`. unless all `weak_ptr`s are deleted, the control block (+ the object) can not be deallocated.
+Additionally, we cannot use custom deleters. The advantage I can only understand to be avoiding code duplication. However, there is a case where exception may happen between object creation and `shared_ptr` creation, leading to a good case for `make_shared`/`make_unique`
+
+## Item 22: 
