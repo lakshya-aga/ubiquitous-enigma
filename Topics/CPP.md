@@ -22,6 +22,7 @@ Actual list
 7. std::call_once and it's cost attached 
 8. C++ syntax for shm and syncronization constructs!
 ```cpp
+// SHM in boost
 #include <boost/interprocess/managed_shared_memory.hpp>
 using namespace boost::interprocess;
 int main(){
@@ -35,7 +36,9 @@ int main(){
 	managed_shared_memory shm(open_only, "MySharedMemory");
 	std::pair <int*, managed_shared_memory::size_type> res = shm.find<int>("MyInt");
 	
-	if (res.first) { std::cout << "Found shared value: " << *(res.first) << std::endl; } return 0;
+	if (res.first) { 
+	std::cout << "Found shared value: " << *(res.first) << std::endl; 
+	}
 }
 
 
