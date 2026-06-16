@@ -43,7 +43,7 @@ int main(){
 
 
 ```
-
+Notes: no dynamic containers like vectors, stick to PODs, fixed size arrays
 9.  SFINAE, type traits and concepts!
 10.  CRTP and static interfaces
 11. std::construct_at / std::destroy_at
