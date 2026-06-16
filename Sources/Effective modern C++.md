@@ -140,3 +140,11 @@ Additionally, we cannot use custom deleters. The advantage I can only understand
 ## Item 22: When using the Pimpl idiom, define special member functions in the implementation file
 
 Pointer to Implementation (Pimpl)
+
+
+
+
+---
+# List of standalone items
+- A type that has been declared, but not defined, is known as an _incomplete type_
+- 
