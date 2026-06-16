@@ -65,4 +65,3 @@ Notes:
 24. unittesting basics
 25. Rough access numbers for all memory levels
 26. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
-27. forwarding
