@@ -15,6 +15,7 @@ Actual list
 1.  SPSC queues/lock free programming (lock free queus :'(, hazard ptr eww things in lockless stack and stuff)
 2.  Exception-free programming(why are exceptions garbage in c++)
 3.  stack unwiniding - 
+`for programmes that may throw exceptions, stack unwinding is the method to get out of the exception and terminate the programme`
 4.  memory fences in c++ (atomic_flag and atomic_fences)
 5.  TSO in x86
 6. Meyer's Pattern for static local initialization
