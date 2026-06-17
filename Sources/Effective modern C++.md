@@ -140,11 +140,35 @@ Additionally, we cannot use custom deleters. The advantage I can only understand
 ## Item 22: When using the Pimpl idiom, define special member functions in the implementation file
 
 Pointer to Implementation (Pimpl)
+## Item 27: Alternatives to overloading on universal refrences
+- Using `enable_if` to disable template functions conditionally
+```cpp
+class Person{
+public:
+template <typename T, 
+typename = std::enable_if_t<!std::is_base_of<Person, std::decay_t<T>>::value>
+explicit Person(T&& n);
+}
+```
 
 
+## Item 28: Refrence collapsing
+when using universal refrence i.e.
+```cpp
+template <typename T>
+void function_x(T&& param);
+```
+This will resolve T to `Widget&` or `Widget` if passed an `lvalue` or `rvalue` respectively. If resolved to `Widget&` internally, there will be reference collapsing to convert `W& &&` to `lvalue`.
+
+## Item 29: When does move fail
+- Some types such as SSO strings and std::array are stack allocated objects so move is essentially of a fully contained object which is not as efficient as moving a pointer.
 
 ## Item 30: When does Perfect Forwarding fail
-It fails when attempting to use function pointers of template functions or passing to functions that are templates as type deduction becomes 
+It fails when attempting to use function pointers of template functions or passing to functions that are templates as type deduction becomes impossible.
+
+Another failure point is using bit fields as they cannot have a pointer and must always be passed by valiue or reference to const which also does the copy under the hood.
+
+
 ---
 # List of standalone items
 - A type that has been declared, but not defined, is known as an _incomplete type_
