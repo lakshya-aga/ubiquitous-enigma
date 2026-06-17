@@ -144,6 +144,23 @@ Pointer to Implementation (Pimpl)
 - Do not use them for local variables, it will cause pre mature optimisation and actually end up handicapping the compiler
 - `forward` for universal references and `move` for rvalues
 ## Item 26: Avoid overloading on universal references
+take the code here:
+
+```cpp
+void function(int a){
+cout<<a+1<<"\n;
+}
+template<typename T>
+void function(T&& a){
+auto now = std::chrono::system_clock::now();
+cout<<"now"<<endl;
+// do something else;
+}
+
+short random_idx = 1;
+
+function(random_idx); // calls universal as it provides perfect match and int only provides match if radom_idx is "upgraded"
+```
 
 ## Item 27: Alternatives to overloading on universal references
 - Using `enable_if` to disable template functions conditionally
