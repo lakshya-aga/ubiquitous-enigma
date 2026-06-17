@@ -143,10 +143,11 @@ Pointer to Implementation (Pimpl)
 
 
 
-
+## Item 30: When does Perfect Forwarding fail
+It fails when attempting to use function pointers of template functions or passing to functions that are templates as type deductio
 ---
 # List of standalone items
 - A type that has been declared, but not defined, is known as an _incomplete type_
 - CRTP
-- Perfect forwarding
+- SFINAE
 - egress
