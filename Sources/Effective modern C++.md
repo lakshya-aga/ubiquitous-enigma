@@ -150,10 +150,28 @@ typename = std::enable_if_t<!std::is_base_of<Person, std::decay_t<T>>::value>
 explicit Person(T&& n);
 }
 ```
+- Use tag dispatch
+```cpp
+//implement 2 versions
+template<typename T>
+void logAndAddImpl(T&& param, std::false_type){
+blah do blah;
+}
 
+template<typename T>
+void logAndAddImpl(T&& param, std::true_type){
+blah do blah2;
+}
 
-## Item 28: Refrence collapsing
-when using universal refrence i.e.
+template<typename T>
+void logAndAdd(T&& param){
+logAndAddImpl(std::forward<T>(param), std::is_integral<T>()); //is_integral is type_trait
+}
+```
+- Pass by value: boringggg
+
+## Item 28: Reference collapsing
+when using universal reference i.e.
 ```cpp
 template <typename T>
 void function_x(T&& param);
