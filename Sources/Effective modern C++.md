@@ -65,7 +65,7 @@ int type;
 ---
 # Smart Pointers
 
-Item 18: Use `std::unique_ptr` for exclusive ownership
+## Item 18: Use `std::unique_ptr` for exclusive ownership
 - Assignment operation sets RHS to null
 - ```cpp
   auto delInvmt = [](Investment* pInvestment){
@@ -211,7 +211,11 @@ This will resolve T to `Widget&` or `Widget` if passed an `lvalue` or `rvalue` r
 ## Item 30: When does Perfect Forwarding fail
 It fails when attempting to use function pointers of template functions or passing to functions that are templates as type deduction becomes impossible.
 
-Another failure point is using bit fields as they cannot have a pointer and must always be passed by valiue or reference to const which also does the copy under the hood.
+Another failure point is using bit fields as they cannot have a pointer and must always be passed by value or reference to const which also does the copy under the hood.
+
+---
+# Lambda Expressions
+## Item 31:
 
 
 ---
