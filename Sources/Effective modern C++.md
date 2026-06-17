@@ -140,7 +140,12 @@ Additionally, we cannot use custom deleters. The advantage I can only understand
 ## Item 22: When using the Pimpl idiom, define special member functions in the implementation file
 
 Pointer to Implementation (Pimpl)
-## Item 27: Alternatives to overloading on universal refrences
+## Item 25: using `std::move` and `std::forward`
+- Do not use them for local variables, it will cause pre mature optimisation and actually end up handicapping the compiler
+- `forward` for universal references and `move` for rvalues
+## Item 26: Avoid overloading on universal references
+
+## Item 27: Alternatives to overloading on universal references
 - Using `enable_if` to disable template functions conditionally
 ```cpp
 class Person{
