@@ -147,21 +147,26 @@ Pointer to Implementation (Pimpl)
 take the code here:
 
 ```cpp
+#include <iostream>
+using namespace std;
+
 void function(int a){
-cout<<a+1<<"\n;
+    cout<<"a+1"<<"\n";
 }
+
 template<typename T>
 void function(T&& a){
-auto now = std::chrono::system_clock::now();
-cout<<"now"<<endl;
-// do something else;
+    cout<<"now"<<endl;
+}
+int main()
+{
+    short random_idx = 1;
+
+    function(random_idx);
 }
 
-short random_idx = 1;
-
-function(random_idx); // calls universal as it provides perfect match and int only provides match if radom_idx is "upgraded"
 ```
-
+function will execute universal reference as it provides perfect match, even though semantically int version is what you were likely going for
 ## Item 27: Alternatives to overloading on universal references
 - Using `enable_if` to disable template functions conditionally
 ```cpp
