@@ -15,7 +15,7 @@ Actual list
 1.  SPSC queues/lock free programming (lock free queus :'(, hazard ptr eww things in lockless stack and stuff)
 2.  Exception-free programming(why are exceptions garbage in c++)
 3.  stack unwiniding - 
-`for programs that may throw exceptions, stack unwinding is the method to get out of the exception and terminate the programme`
+`for programs that may throw exceptions, stack unwinding is the method to get out of the exception and terminate the program`
 4.  memory fences in c++ (atomic_flag and atomic_fences)
 5.  TSO in x86
 6. Meyer's Pattern for static local initialization
@@ -44,8 +44,8 @@ int main(){
 
 ```
 Notes: 
-	no dynamic containers like vectors, stick to PODs, fixed size arrays
-	 If not unlinked and process crashes, need to clear memory segment manually
+	no dynamic containers allowed like vectors, stick to PODs, fixed size arrays
+	If not unlinked and process crashes, need to clear memory segment manually
 9.  SFINAE, type traits and concepts!
 10.  CRTP and static interfaces
 11. std::construct_at / std::destroy_at
