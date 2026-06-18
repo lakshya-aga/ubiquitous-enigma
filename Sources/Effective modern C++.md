@@ -234,6 +234,8 @@ Another failure point is using bit fields as they cannot have a pointer and must
 ```cpp
 auto func = [](auto &&x){std::forward<decltype(x)>(x);};
 ```
+variadic equivalent:
+
 
 ---
 # List of standalone items
