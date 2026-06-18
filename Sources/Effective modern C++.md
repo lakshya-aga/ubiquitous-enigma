@@ -225,7 +225,7 @@ Another failure point is using bit fields as they cannot have a pointer and must
 ```
 
 
-## Item 33: Use `decltype` on `auto&&` parameters to `std::forward` them.
+## Item 33: Use `decltype` on `auto&&` parameters to `std::forward` them
 - My paranoia is telling me to use decay/remove_reference but that is a bad choice. Trust reference collapsing
 ```cpp
 auto func = [](auto &&x){std::forward<decltype(x)>(x);};
