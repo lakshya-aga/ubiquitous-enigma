@@ -216,7 +216,7 @@ Another failure point is using bit fields as they cannot have a pointer and must
 ---
 # Lambda Expressions
 ## Item 31: avoid default capture
-- default capture does not copy varibales inside classes as expected
+- default capture does not copy variables inside classes as expected. More problems can arise for static variable pointers. `int a = 10; [=](){return 1+a;}`
 
 
 
