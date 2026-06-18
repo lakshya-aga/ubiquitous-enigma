@@ -56,7 +56,7 @@ Notes:
 16. nic to user call(network packet in linux both ingress and egress path)
 17. user space networking(DPDK)
 18. _attribute_((packed)) and alignment costs in c++ structs 
-`Lakshya: Save memory by bit packing, probably costs more in programming terms as offset is specialised`
+`Lakshya: Save memory by bit packing, probably costs more in processing terms fixed alignment enables hardware specialised optimisations`
 19. RTTI and why is it evil?
 20. SSE, AVX — wide registers and parallel execution 
 21. std::ranges!!
