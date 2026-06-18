@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,11 +233,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa8200b1cdb5fad7",
+  "active": "1f9f3336e1cf1775",
   "lastOpenFiles": [
+    "Topics/CPP.md",
     "Sources/Effective modern C++.md",
     "Sources/Effective C++.md",
-    "Topics/CPP.md",
     "CPP Concepts and Generic Programming.md",
     "Sources/Principles.md",
     "Sources/Gumbel Sinkhorn.md",

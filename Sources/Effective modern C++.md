@@ -215,7 +215,9 @@ Another failure point is using bit fields as they cannot have a pointer and must
 
 ---
 # Lambda Expressions
-## Item 31:
+## Item 31: avoid default capture
+- default capture does not copy varibales inside classes as expected
+
 
 
 ---
