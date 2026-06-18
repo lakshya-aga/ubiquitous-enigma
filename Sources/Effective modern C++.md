@@ -227,7 +227,7 @@ Another failure point is using bit fields as they cannot have a pointer and must
 
 ## Item 33: Use `decltype` on `auto&&` parameters to `std::forward` them.
 ```cpp
-auto func = [](auto &&x){std::forward<dee}
+auto func = [](auto &&x){std::forward<decltype(x)>(x);};
 ```
 
 ---
