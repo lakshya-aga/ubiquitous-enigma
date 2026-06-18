@@ -241,3 +241,6 @@ auto func = [](auto &&x){std::forward<decltype(x)>(x);};
 - CRTP
 - SFINAE
 - egress
+- Network in c++
+- Lock free queues
+- Shared memory 
