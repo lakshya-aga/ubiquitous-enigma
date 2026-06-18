@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -233,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f9f3336e1cf1775",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
     "Topics/CPP.md",
     "Sources/Effective modern C++.md",
