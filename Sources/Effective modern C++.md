@@ -217,6 +217,12 @@ Another failure point is using bit fields as they cannot have a pointer and must
 # Lambda Expressions
 ## Item 31: avoid default capture
 - default capture does not copy variables inside classes as expected. More problems can arise for static variable pointers. `int a = 10; [=](){return 1+a;}`
+## Item 32: Use init captures to move variables into closures
+- ```cpp
+  auto func = [pw = std::move(pw)]               // init data mbr
+            { return pw->isValidated()         // in closure w/
+                     && pw->isArchived(); };
+  ```
 
 
 
