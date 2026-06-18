@@ -43,7 +43,8 @@ auto x = static_cast<bool>(temp[5]);
 
 Differentiate between braced and parenthesized initialization
 
-
+---
+# _Modern C++_
 ## Item 9:
 Defining special behaviour
 ```cpp
@@ -141,7 +142,8 @@ Additionally, we cannot use custom deleters. The advantage I can only understand
 
 Pointer to Implementation (Pimpl)
 
-# _Rvalue References, Move Semantics, and Perfect _Forwarding
+---
+# _Rvalue References, Move Semantics, and Perfect Forwarding_
 ## Item 25: using `std::move` and `std::forward`
 - Do not use them for local variables, it will cause pre mature optimisation and actually end up handicapping the compiler
 - `forward` for universal references and `move` for rvalues
