@@ -235,7 +235,11 @@ Another failure point is using bit fields as they cannot have a pointer and must
 auto func = [](auto &&x){std::forward<decltype(x)>(x);};
 ```
 variadic equivalent:
+```cpp
+auto f = [](auto&&... xs)
+         { return normalize(std::forward<decltype(xs)>(xs)...); };
 
+```
 
 ---
 # List of standalone items
