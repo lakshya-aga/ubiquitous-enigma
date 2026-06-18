@@ -63,7 +63,7 @@ int type;
 
 
 ---
-# Smart Pointers
+# _Smart Pointers_
 
 ## Item 18: Use `std::unique_ptr` for exclusive ownership
 - Assignment operation sets RHS to null
@@ -214,7 +214,7 @@ It fails when attempting to use function pointers of template functions or passi
 Another failure point is using bit fields as they cannot have a pointer and must always be passed by value or reference to const which also does the copy operation under the hood here.
 
 ---
-# Lambda Expressions
+# _Lambda Expressions_
 ## Item 31: avoid default capture
 - default capture does not copy variables inside classes as expected. More problems can arise for static variable pointers. `int a = 10; [=](){return 1+a;}`
 ## Item 32: Use init captures to move variables into closures
