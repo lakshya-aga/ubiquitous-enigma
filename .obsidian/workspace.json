@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/CPP.md",
+                "file": "Noexcept CPP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPP"
+              "title": "Noexcept CPP"
             }
           },
           {
@@ -234,8 +234,8 @@
   },
   "active": "1f9f3336e1cf1775",
   "lastOpenFiles": [
-    "Sources/Effective modern C++.md",
     "Topics/CPP.md",
+    "Sources/Effective modern C++.md",
     "Sources/Effective C++.md",
     "CPP Concepts and Generic Programming.md",
     "Sources/Principles.md",
