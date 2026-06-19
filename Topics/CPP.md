@@ -52,7 +52,7 @@ Notes:
 12. efficent allocators to avoid malloc calls: bump allocator, slab/slub, whatever kernel does for sk_buff things
 13. std::pmr
 14. tc_malloc and other malloc variants
-15. attempt iterators implemeation for a custom class with type traits
+15. attempt iterators implemention for a custom class with type traits
 16. nic to user call(network packet in linux both ingress and egress path)
 17. user space networking(DPDK)
 18. _attribute_((packed)) and alignment costs in c++ structs 
@@ -61,7 +61,9 @@ Notes:
 20. SSE, AVX — wide registers and parallel execution 
 21. std::ranges!!
 22. lambda capture performance gains and losses
+`Lakshya: Allow compilers to give inlining benefits by removing overhead of function calls. General pass by value and pass by reference, copy/move variants.`
 23. microbenchmarking and tools (perf, objdump, nm, readelf, gdb, valgrind)
 24. unittesting basics
 25. Rough access numbers for all memory levels
+`ns for cache L1, 100s of ns for L2, micro seconds for memory reads and millis for disk I/O based on drive type SSD or HDD`
 26. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
