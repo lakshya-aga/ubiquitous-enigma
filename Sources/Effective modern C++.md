@@ -96,11 +96,11 @@ int type;
   
   
   ```
-  #todo learn perfect forwarding
+  
 unique ptrs (generally) have 2 items -> the pointer and the function pointer for deletion. Thus, they may differ in size as delete pointer may be stateless or stateful function and may grow to be arbitrarily large also. This is true for custom deleters only. For default delete, same size as raw pointer
 
 ## Item 19: How to use `shared_ptr`
-- They do not take deleters
+- They take deleters
 - They increment the number of `shared_ptr`s
 - Very easy to get Undefined behavior (free ride on the particle accelerator to undefined behavior) if you use same raw pointer to initialise 2 shared_ptrs
 - It has 2 objects. Raw pointer and control block (which has reference count, weal count, custom deleter, allocator etc.) so constant size
@@ -145,7 +145,7 @@ Pointer to Implementation (Pimpl)
 ---
 # _Rvalue References, Move Semantics, and Perfect Forwarding_
 ## Item 25: using `std::move` and `std::forward`
-- Do not use them for local variables, it will cause pre mature optimisation and actually end up handicapping the compiler
+- Do not use them for returning local variables, it will cause pre mature optimisation and actually end up handicapping the compiler
 - `forward` for universal references and `move` for rvalues
 ## Item 26: Avoid overloading on universal references
 take the code here:
