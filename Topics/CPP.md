@@ -48,11 +48,16 @@ Notes:
 	If not unlinked and process crashes, need to clear memory segment manually
 9.  SFINAE, type traits and concepts!
 ```cpp
-using namespace std;
-template <typename T, enable_if<decltype(T.getone())==T>>
-{
-	return T{};
-}
+
+#include <type_traits>
+#include <utility>
+template <typename T,      
+typename = 
+std::enable_if_t<std::is_same_v<decltype(std::declval<T().getone()), T>>>
+    T make_one() {    
+    return T{};
+    }
+
 ```
 9.  CRTP and static interfaces
 10. std::construct_at / std::destroy_at
@@ -75,4 +80,4 @@ template <typename T, enable_if<decltype(T.getone())==T>>
 24. Rough access numbers for all memory levels
 `ns for cache L1, 100s of ns for L2, micro seconds for memory reads and millis for disk I/O based on drive type SSD or HDD`
 25. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
-
+26. NUMA (Non-unified memory access). Relevance in HFT
