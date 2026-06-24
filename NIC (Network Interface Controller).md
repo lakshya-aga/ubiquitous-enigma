@@ -6,6 +6,7 @@ It can be configured to offload tasks and perform a variety of things:
 - Hashkey lookup to route to the correct server -> load balancing (Receive side scaling)
 - Higher order synchronised timestamping using PTP (Precision time protocol)
 - TCP segmentation offloading -> divide big piece of data into smaller MTU (maximumm transferrable unit) packets to utilise throughput
+- Can be used to route to FPGA directly
 ---
 
 Topics: [[High Performance Computing]], [[CPP]]
