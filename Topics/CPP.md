@@ -47,25 +47,32 @@ Notes:
 	no dynamic containers allowed like vectors, stick to PODs, fixed size arrays
 	If not unlinked and process crashes, need to clear memory segment manually
 9.  SFINAE, type traits and concepts!
-10.  CRTP and static interfaces
-11. std::construct_at / std::destroy_at
-12. efficent allocators to avoid malloc calls: bump allocator, slab/slub, whatever kernel does for sk_buff things
-13. std::pmr
-14. tc_malloc and other malloc variants
-15. attempt iterators implemention for a custom class with type traits
-16. nic to user call(network packet in linux both ingress and egress path)
-17. user space networking(DPDK) 
-`Lakshya: Data plane development kit. configuring NIC to talk to programs directly`
-18. _attribute_((packed)) and alignment costs in c++ structs 
+```cpp
+using namespace std;
+template <typename T, enable_if<decltype(T.getone())==T>>
+{
+	return T{};
+}
+```
+9.  CRTP and static interfaces
+10. std::construct_at / std::destroy_at
+11. efficent allocators to avoid malloc calls: bump allocator, slab/slub, whatever kernel does for sk_buff things
+12. std::pmr
+13. tc_malloc and other malloc variants
+14. attempt iterators implemention for a custom class with type traits
+15. nic to user call(network packet in linux both ingress and egress path)
+16. user space networking(DPDK) 
+`Lakshya: Data plane development kit. configuring NIC to talk to programs directly. How? from what I understand: have a shared memory reource to implement a FIFO queue. Continously poll in the process to check for queue entry and write to this queue from NIC.`
+17. _attribute_((packed)) and alignment costs in c++ structs 
 `Lakshya: Save memory by bit packing, probably costs more in processing terms fixed alignment enables hardware specialised optimisations`
-19. RTTI and why is it evil?
-20. SSE, AVX — wide registers and parallel execution 
-21. std::ranges!!
-22. lambda capture performance gains and losses
+18. RTTI and why is it evil?
+19. SSE, AVX — wide registers and parallel execution 
+20. std::ranges!!
+21. lambda capture performance gains and losses
 `Lakshya: Allow compilers to give inlining benefits by removing overhead of function calls. General pass by value and pass by reference, copy/move variants.`
-23. microbenchmarking and tools (perf, objdump, nm, readelf, gdb, valgrind)
-24. unittesting basics
-25. Rough access numbers for all memory levels
+22. microbenchmarking and tools (perf, objdump, nm, readelf, gdb, valgrind)
+23. unittesting basics
+24. Rough access numbers for all memory levels
 `ns for cache L1, 100s of ns for L2, micro seconds for memory reads and millis for disk I/O based on drive type SSD or HDD`
-26. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
+25. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
 
