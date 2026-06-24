@@ -60,24 +60,40 @@ std::enable_if_t<std::is_same_v<decltype(std::declval<T().getone()), T>>>
 
 ```
 9.  CRTP and static interfaces
-10. std::construct_at / std::destroy_at
-11. efficent allocators to avoid malloc calls: bump allocator, slab/slub, whatever kernel does for sk_buff things
-12. std::pmr
-13. tc_malloc and other malloc variants
-14. attempt iterators implemention for a custom class with type traits
-15. nic to user call(network packet in linux both ingress and egress path)
-16. user space networking(DPDK) 
+```
+
+Why use CRTP?
+It gives you static polymorphism: polymorphism without `virtual`. We hate virtual because it creates a virtual table and adds an extra direction for compiler to follow (chhee in performance). 
+```
+
+
+9. std::construct_at / std::destroy_at
+10. efficent allocators to avoid malloc calls: bump allocator, slab/slub, whatever kernel does for sk_buff things
+11. std::pmr
+12. tc_malloc and other malloc variants
+13. attempt iterators implemention for a custom class with type traits
+14. nic to user call(network packet in linux both ingress and egress path)
+15. user space networking(DPDK) 
 `Lakshya: Data plane development kit. configuring NIC to talk to programs directly. How? from what I understand: have a shared memory reource to implement a FIFO queue. Continously poll in the process to check for queue entry and write to this queue from NIC.`
-17. _attribute_((packed)) and alignment costs in c++ structs 
+16. _attribute_((packed)) and alignment costs in c++ structs 
 `Lakshya: Save memory by bit packing, probably costs more in processing terms fixed alignment enables hardware specialised optimisations`
-18. RTTI and why is it evil?
-19. SSE, AVX — wide registers and parallel execution 
-20. std::ranges!!
-21. lambda capture performance gains and losses
+17. RTTI and why is it evil?
+18. SSE, AVX — wide registers and parallel execution 
+19. std::ranges!!
+20. lambda capture performance gains and losses
 `Lakshya: Allow compilers to give inlining benefits by removing overhead of function calls. General pass by value and pass by reference, copy/move variants.`
-22. microbenchmarking and tools (perf, objdump, nm, readelf, gdb, valgrind)
-23. unittesting basics
-24. Rough access numbers for all memory levels
+21. microbenchmarking and tools (perf, objdump, nm, readelf, gdb, valgrind)
+22. unittesting basics
+23. Rough access numbers for all memory levels
 `ns for cache L1, 100s of ns for L2, micro seconds for memory reads and millis for disk I/O based on drive type SSD or HDD`
-25. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
-26. NUMA (Non-unified memory access). Relevance in HFT
+24. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
+25. NUMA (Non-unified memory access). Relevance in HFT
+---
+Final questions / code implementations:
+
+- Given a base and derived pair, refactor the code to use CRTP to save that one virtual table jump
+- overload a function to certain behaviour based on the principle of SFINAE.
+- No compile time issues for function overloading based on whether a certain property is present or not
+- Shared memory management, read/write
+- How and when to use different allocation methods
+- 
