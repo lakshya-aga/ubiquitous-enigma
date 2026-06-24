@@ -54,7 +54,8 @@ Notes:
 14. tc_malloc and other malloc variants
 15. attempt iterators implemention for a custom class with type traits
 16. nic to user call(network packet in linux both ingress and egress path)
-17. user space networking(DPDK)
+17. user space networking(DPDK) 
+`Lakshya: Data plane development kit. configuring NIC to talk to programs directly`
 18. _attribute_((packed)) and alignment costs in c++ structs 
 `Lakshya: Save memory by bit packing, probably costs more in processing terms fixed alignment enables hardware specialised optimisations`
 19. RTTI and why is it evil?
@@ -67,3 +68,4 @@ Notes:
 25. Rough access numbers for all memory levels
 `ns for cache L1, 100s of ns for L2, micro seconds for memory reads and millis for disk I/O based on drive type SSD or HDD`
 26. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
+
