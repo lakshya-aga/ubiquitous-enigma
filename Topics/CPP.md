@@ -96,4 +96,4 @@ Final questions / code implementations:
 - No compile time issues for function overloading based on whether a certain property is present or not
 - Shared memory management, read/write
 - How and when to use different allocation methods
-- 
+- dynamic allocation code is given, use std::pmr to optimise it/make it predictable
