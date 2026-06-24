@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "c104c4a58d52e0d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NIC (Network Interface Controller).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NIC (Network Interface Controller)"
+            }
+          },
+          {
             "id": "aa8200b1cdb5fad7",
             "type": "leaf",
             "state": {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -260,10 +274,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03b9e4fcf89e052c",
+  "active": "c104c4a58d52e0d6",
   "lastOpenFiles": [
-    "Contracts C++.md",
     "CPP questions for performance.md",
+    "NIC (Network Interface Controller).md",
+    "Contracts C++.md",
     "Sources/Effective modern C++.md",
     "Noexcept CPP.md",
     "Topics/CPP.md",
@@ -287,7 +302,6 @@
     "Birkhoff Polytope.md",
     "Shrinkage.md",
     "Topics/ML and operating systems.md",
-    "Programming Interview Questions.md",
     "Topics/Untitled",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
