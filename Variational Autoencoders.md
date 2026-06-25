@@ -4,5 +4,5 @@ Example: take an image -> pass through encoder -> get the vector representation 
 ---
 
 Topics: [[Machine Learning]], [[Neural Networks]]
-Reference:
+Reference: https://www.geeksforgeeks.org/machine-learning/variational-autoencoders/
 Type: #atom
