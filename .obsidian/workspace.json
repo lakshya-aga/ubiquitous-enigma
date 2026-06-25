@@ -148,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -330,10 +330,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "515769b5fda3511d",
+  "active": "6f1727a497e99098",
   "lastOpenFiles": [
-    "Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
     "Variational Autoencoders.md",
+    "Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
     "Reinforcement Learning.md",
     "Dr. Mohit Prashant.md",
     "Topics/CPP.md",
