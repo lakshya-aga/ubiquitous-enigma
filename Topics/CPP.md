@@ -79,6 +79,7 @@ It gives you static polymorphism: polymorphism without `virtual`. We hate virtua
 `Lakshya: Save memory by bit packing, probably costs more in processing terms fixed alignment enables hardware specialised optimisations`
 17. RTTI and why is it evil?
 `Virtual functions, additional redirection resoled at runtime via a virtual table. dynamic_cast<Dog*>(a) -> will do a similar lookup to get the metadata`
+just use :  `-fno-rtti` during compile time
 18. SSE, AVX — wide registers and parallel execution 
 19. std::ranges!!
 20. lambda capture performance gains and losses
