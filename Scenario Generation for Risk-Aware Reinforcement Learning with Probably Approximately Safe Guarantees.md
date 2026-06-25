@@ -21,6 +21,12 @@ The paper formulates the problem as a CCP (Chance Constraint Programming) proble
 ![[Pasted image 20260625110030.png]]
 I don't quite get this part because safety of car in the example can be modelled as being at 100 kmph, 110 kmph as the state. Is it trying to say that 0-100 in 3 seconds is more dangerous than say 0-100 in 30 seconds and we can model that using this new methodology?
 
+
+Actual experiment is run on CartPole (simple balancing 4 variables) and ANT (more complex 27 variables) RL environments
+
+#todo algorithm tracing to understand methodology
+
+
 ---
 Author: [[Dr. Mohit Prashant]], [[Dr. Adrvind Easwaran]]
 Type: #source #academic
