@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fe12d4847151b294",
+        "id": "590d606413766121",
         "type": "tabs",
         "children": [
           {
-            "id": "58249db3e9eac392",
+            "id": "9a0c7360f5ee9aff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sources/Effective modern C++.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Effective modern C++"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mean",
+                "query": "gumbel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 300
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -200,39 +204,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58249db3e9eac392",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
-    "Topics/CPP.md",
-    "Authors/Dr. Adrvind Easwaran.md",
-    "Topics/Finance 1.md",
-    "Sources/Mean Markets and Lizard Brains.md",
-    "Authors/Terry Burnham.md",
-    "Sources/Effective modern C++.md",
-    "Sources/Fooled by Randomness.md",
-    "Authors/Dr. Mohit Prashant.md",
-    "Authors/Nassim Nicholas Taleb.md",
-    "Sources/Designing Data Intensive Applications.md",
-    "Contracts C++.md",
-    "CPP questions for performance.md",
-    "Sources/Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
-    "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
-    "Topics/Reinforcement Learning.md",
     "Variational Autoencoders.md",
+    "Topics/Reinforcement Learning.md",
+    "Topics/Finance 1.md",
+    "Sources/Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
+    "Sources/Mean Markets and Lizard Brains.md",
+    "Sources/Fooled by Randomness.md",
+    "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
     "MolecularNotes-master/_attachments/Pasted image 20260625110030.png",
+    "Authors/Terry Burnham.md",
+    "Authors/Nassim Nicholas Taleb.md",
+    "Authors/Dr. Mohit Prashant.md",
+    "Authors/Dr. Adrvind Easwaran.md",
+    "Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
+    "Reinforcement Learning.md",
+    "Dr. Mohit Prashant.md",
     "NIC (Network Interface Controller).md",
-    "Noexcept CPP.md",
-    "Sources/Effective C++.md",
-    "CPP Concepts and Generic Programming.md",
-    "Sources/Principles.md",
-    "Sources/Gumbel Sinkhorn.md",
-    "Doubly Stochastic Matrix.md",
-    "Topics/Linux.md",
-    "Bash Command - Sed.md",
+    "CPP questions for performance.md",
+    "Contracts C++.md",
     "Betweenness.md",
-    "Autocorrelation.md",
-    "Topics/Untitled",
-    "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
-    "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
+    "Effective C++.md",
+    "Topics/Volatility Trading.md",
+    "Topics/Probability and Statistics for Finance.md",
+    "Topics/Physics.md",
+    "Topics/ML for Finance.md",
+    "Topics/ML and operating systems.md",
+    "Topics/Linux.md",
+    "Topics/Learning.md",
+    "Topics/Finance.md",
+    "Topics",
+    "Sources",
     "Molecules",
     "Authors",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
