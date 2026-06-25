@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "088d5bf4631305a4",
+        "id": "fe12d4847151b294",
         "type": "tabs",
         "children": [
           {
-            "id": "bd81d7ba87876a32",
+            "id": "58249db3e9eac392",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/CPP.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CPP"
-            }
-          },
-          {
-            "id": "5683ad43c0748463",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Authors/Dr. Adrvind Easwaran.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dr. Adrvind Easwaran"
-            }
-          },
-          {
-            "id": "94e49b00f24c76c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Finance 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Finance 1"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,16 +199,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73fa907c93919dc5",
+  "active": "58249db3e9eac392",
   "lastOpenFiles": [
+    "Topics/CPP.md",
+    "Authors/Dr. Adrvind Easwaran.md",
+    "Topics/Finance 1.md",
     "Sources/Mean Markets and Lizard Brains.md",
     "Authors/Terry Burnham.md",
     "Sources/Effective modern C++.md",
     "Sources/Fooled by Randomness.md",
     "Authors/Dr. Mohit Prashant.md",
-    "Authors/Dr. Adrvind Easwaran.md",
     "Authors/Nassim Nicholas Taleb.md",
-    "Topics/CPP.md",
     "Sources/Designing Data Intensive Applications.md",
     "Contracts C++.md",
     "CPP questions for performance.md",
@@ -261,7 +229,6 @@
     "Bash Command - Sed.md",
     "Betweenness.md",
     "Autocorrelation.md",
-    "Archimedian Copulas.md",
     "Topics/Untitled",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
