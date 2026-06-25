@@ -11,10 +11,14 @@
             "id": "bd81d7ba87876a32",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Topics/CPP.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CPP"
             }
           }
         ]
