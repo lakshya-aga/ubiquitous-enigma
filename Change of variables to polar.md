@@ -1,5 +1,5 @@
 
-# Deriving $dx . dy = r. dr. d\theta$ via the Jacobian
+# Deriving $dx, dy = r, dr, d\theta$ via the Jacobian
 
 ## Setup
 
@@ -27,12 +27,11 @@ $$= -r(\sin^2\theta + \cos^2\theta) = -r$$
 
 The area element transforms as $dx, dy = |\det(J)|, dr, d\theta$:
 
-$$dx. dy = |-r|. dr. d\theta = r. dr. d\theta \qquad (r \geq 0)$$
+$$dx, dy = |-r|, dr, d\theta = r, dr, d\theta \qquad (r \geq 0)$$
 
-$$\boxed{dx. dy = r. dr. d\theta}$$
+$$\boxed{dx. dy = r. dr. d\theta}$$$$
 
 The negative sign just reflects orientation (this convention swaps the usual roles of sine and cosine); taking the absolute value gives the standard area element.
-
 ---
 
 Topics: [[Calculus, Bonds, Options, Finance, Math]]

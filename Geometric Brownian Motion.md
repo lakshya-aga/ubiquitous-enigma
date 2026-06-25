@@ -1,7 +1,7 @@
 
 ---
 
-Topics: [[Topics/Finance|Finance]]
+Topics: [[MolecularNotes-master/Topics/Finance|Finance]]
 Reference:
 Type: #atom
 

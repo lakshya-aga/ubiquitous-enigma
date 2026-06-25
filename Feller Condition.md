@@ -7,6 +7,6 @@ In real conditions it can become < 1 implying volatility reaching 0
 
 ---
 
-Topics: [[Topics/Finance|Finance]]
+Topics: [[MolecularNotes-master/Topics/Finance|Finance]]
 Reference:
 Type: #atom
