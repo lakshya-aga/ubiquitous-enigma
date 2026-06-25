@@ -24,6 +24,8 @@ I don't quite get this part because safety of car in the example can be modelled
 
 Actual experiment is run on CartPole (simple balancing 4 variables) and ANT (more complex 27 variables) RL environments
 
+![[Pasted image 20260625113711.png]]
+What is $U$ here?
 #todo algorithm tracing to understand methodology
 
 
