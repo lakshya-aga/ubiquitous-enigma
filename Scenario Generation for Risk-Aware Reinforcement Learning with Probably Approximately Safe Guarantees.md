@@ -17,7 +17,11 @@ The paper formulates the problem as a CCP (Chance Constraint Programming) proble
 - $\gamma$ is discount factor for discounting rewards for future times
 - H -> length of episode ( I guess number of steps agent is allowed to take or something)
 
+
+![[Pasted image 20260625110030.png]]
+I don't quite get this part because safety of car in the example can be modelled as being at 100 kmph, 110 kmph as the state. Is it trying to say that 0-100 in 3 seconds is more dangerous than say 0-100 in 30 seconds and we can model that using this new methodology?
+
 ---
-Author: [[Dr. Mohit Prashant]]
-Type: #source #textbook
+Author: [[Dr. Mohit Prashant]], [[Dr. Adrvind Easwaran]]
+Type: #source #academic
 Topics: [[Reinforcement Learning]]
