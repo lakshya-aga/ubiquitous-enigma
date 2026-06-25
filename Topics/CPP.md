@@ -78,6 +78,7 @@ It gives you static polymorphism: polymorphism without `virtual`. We hate virtua
 16. _attribute_((packed)) and alignment costs in c++ structs 
 `Lakshya: Save memory by bit packing, probably costs more in processing terms fixed alignment enables hardware specialised optimisations`
 17. RTTI and why is it evil?
+`Virtual functions, additional redirection resoled at runtime via a virtual table. dynamic_cast<Dog*>(a) -> will do a similar lookup to get the metadata`
 18. SSE, AVX — wide registers and parallel execution 
 19. std::ranges!!
 20. lambda capture performance gains and losses
@@ -88,6 +89,7 @@ It gives you static polymorphism: polymorphism without `virtual`. We hate virtua
 `ns for cache L1, 100s of ns for L2, micro seconds for memory reads and millis for disk I/O based on drive type SSD or HDD`
 24. x86 cache coherence protocol (some mesh thing is done now not common bus snooping)
 25. NUMA (Non-unified memory access). Relevance in HFT
+`Run time optimisation, memory and CPU on the same node as different nodes can cause significant latencies in memory access. Sidenote: NUMA was introduced because shared memory access was being bottlenecked by the shared bus linking CPU and memory.`
 ---
 Final questions / code implementations:
 
