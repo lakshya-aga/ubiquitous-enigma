@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/CPP.md",
+                "file": "CPP questions for performance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPP"
+              "title": "CPP questions for performance"
             }
           }
         ],
@@ -262,9 +262,9 @@
   },
   "active": "c104c4a58d52e0d6",
   "lastOpenFiles": [
+    "Topics/CPP.md",
     "Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
     "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
-    "Topics/CPP.md",
     "Dr. Mohit Prashant.md",
     "Reinforcement Learning.md",
     "Variational Autoencoders.md",

@@ -13,13 +13,27 @@ Low level programming language often used in finance for features such as speed 
 
 Actual list
 1.  SPSC queues/lock free programming (lock free queus :'(, hazard ptr eww things in lockless stack and stuff)
-2.  Exception-free programming(why are exceptions garbage in c++)
+2.  Exception-free programming(why are exceptions garbage in C++)
+`Have to call destructors, stack unwinding, more generated binary`
 3.  stack unwiniding - 
-`for programs that may throw exceptions, stack unwinding is the method to get out of the exception and terminate the program. i.e. calling destructors in reverse order of consttructor calls. noexcept promises no exception will be returned so compilers don't have to prepare code to catch exceptions`
+`for programs that may throw exceptions, stack unwinding is the method to get out of the exception and terminate the program. i.e. calling destructors in reverse order of constructor calls. noexcept promises no exception will be returned so compilers don't have to prepare code to catch exceptions -> resulting in smaller binaries and more inlining opportunities.`
 4.  memory fences in c++ (atomic_flag and atomic_fences)
-5.  TSO in x86
+
+
+
+
+
+
+5.  TSO in x86 
+I did not come across this naturally during my research -> ask Harsh where he found this topic
+
+
 6. Meyer's Pattern for static local initialization
+I did not come across this naturally during my research -> ask Harsh where he found this topic
+
 7. std::call_once and it's cost attached 
+I did not come across this naturally during my research -> ask Harsh where he found this topic
+
 8. C++ syntax for shm and syncronization constructs!
 ```cpp
 // SHM in boost
