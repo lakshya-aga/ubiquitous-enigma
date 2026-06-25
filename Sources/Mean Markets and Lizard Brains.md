@@ -1,3 +1,10 @@
+Author: [[Terry Burnham]]
+Type: #source #book
+Link: 
+Topics: [[Topics/Finance|Finance]] 
+
+---
+
 
 The first part of the book largely argues against the efficient market hypothesis and how irrationality may be capitalised on. The main argument for this is impirical. Such as why were tulip bulbs more expensive than a house in Amsterdam even though you can potentially produce infinite tulips from one, driving up supply.
 Warren buffet is another example of this argument as if markets were random, how is he able to beat it year after year?

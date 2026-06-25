@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "590d606413766121",
+        "id": "fe12d4847151b294",
         "type": "tabs",
         "children": [
           {
-            "id": "9a0c7360f5ee9aff",
+            "id": "58249db3e9eac392",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sources/Effective modern C++.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Effective modern C++"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gumbel",
+                "query": "mean",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 411.5
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -204,36 +200,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f521cbe80ecfeb3c",
+  "active": "58249db3e9eac392",
   "lastOpenFiles": [
-    "Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
-    "Reinforcement Learning.md",
-    "Dr. Mohit Prashant.md",
-    "NIC (Network Interface Controller).md",
-    "CPP questions for performance.md",
-    "Contracts C++.md",
-    "Betweenness.md",
-    "Effective C++.md",
-    "Topics/Volatility Trading.md",
-    "Topics/Probability and Statistics for Finance.md",
-    "Topics/Physics.md",
-    "Topics/ML for Finance.md",
-    "Topics/ML and operating systems.md",
-    "Topics/Linux.md",
-    "Topics/Learning.md",
-    "Topics/Finance.md",
-    "Topics/Derivative Pricing.md",
-    "Topics/Computer Networks.md",
-    "Topics/Calculus, Bonds, Options, Finance, Math.md",
     "Topics/CPP.md",
-    "Topics/CFA Level 1.md",
-    "Topics/Agentic AI for Quant Finance.md",
-    "Topics",
-    "Sources/Reith Lectures on Black Holes.md",
-    "Sources/Psychology of Intelligence Analysis.md",
+    "Authors/Dr. Adrvind Easwaran.md",
+    "Topics/Finance 1.md",
+    "Sources/Mean Markets and Lizard Brains.md",
+    "Authors/Terry Burnham.md",
+    "Sources/Effective modern C++.md",
+    "Sources/Fooled by Randomness.md",
+    "Authors/Dr. Mohit Prashant.md",
+    "Authors/Nassim Nicholas Taleb.md",
+    "Sources/Designing Data Intensive Applications.md",
+    "Contracts C++.md",
+    "CPP questions for performance.md",
+    "Sources/Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees.md",
+    "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
+    "Topics/Reinforcement Learning.md",
+    "Variational Autoencoders.md",
+    "MolecularNotes-master/_attachments/Pasted image 20260625110030.png",
+    "NIC (Network Interface Controller).md",
+    "Noexcept CPP.md",
+    "Sources/Effective C++.md",
+    "CPP Concepts and Generic Programming.md",
     "Sources/Principles.md",
-    "Sources/Peripheral Trading with PMFGs.md",
-    "Sources",
+    "Sources/Gumbel Sinkhorn.md",
+    "Doubly Stochastic Matrix.md",
+    "Topics/Linux.md",
+    "Bash Command - Sed.md",
+    "Betweenness.md",
+    "Autocorrelation.md",
+    "Topics/Untitled",
+    "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
+    "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
     "Molecules",
     "Authors",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
@@ -249,8 +248,6 @@
     "MolecularNotes-master/_attachments/ImpressionsResist Change.png",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565.jpg",
     "MolecularNotes-master/_attachments/IMG_20260308_125014565 (1) (1) (1).jpg",
-    "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg",
-    "MolecularNotes-master/_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "MolecularNotes-master/_attachments/logo.png"
+    "MolecularNotes-master/_attachments/IMG_20260306_003556517.jpg"
   ]
 }
