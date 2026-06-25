@@ -1,7 +1,7 @@
 Author: [[Ray Dalio]]
 Type: #source #book
 Link: 
-Topics: [[Finance]]
+Topics: [[Finance 1]]
 
 ---
 Primarily a story book. Kind of motivational. Provides some examples of how unconventional thinking is Helpful.
