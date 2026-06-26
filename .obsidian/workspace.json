@@ -35,8 +35,7 @@
               "title": "ACID Compliance"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,10 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d28e17ec803a2f28",
+  "active": "64a205000a69cf34",
   "lastOpenFiles": [
-    "Sources/Designing Data Intensive Applications.md",
     "ACID Compliance.md",
+    "Sources/Designing Data Intensive Applications.md",
     "Gossip Protocol.md",
     "Raft consensus protocol.md",
     "Consensus Algorithms.md",
