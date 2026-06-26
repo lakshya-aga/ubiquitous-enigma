@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fe12d4847151b294",
+        "id": "4a25c787824cc3b6",
         "type": "tabs",
         "children": [
           {
-            "id": "58249db3e9eac392",
+            "id": "c60aec7fe0221320",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".claude/worktrees/kind-greider-0ce47e",
-                "bFile": ".claude/worktrees/kind-greider-0ce47e",
-                "aRef": ""
+                "file": "Sources/Advances in Financial Machine Learning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: kind-greider-0ce47e  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Advances in Financial Machine Learning"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mean",
+                "query": "marche",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,17 +203,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58249db3e9eac392",
+  "active": "c60aec7fe0221320",
   "lastOpenFiles": [
+    "Sources/A Tour of CPP.md",
+    "Sources/Effective modern C++.md",
+    "Sources/Designing Data Intensive Applications.md",
+    "Sources/Brief History of Time.md",
+    "Sources/Advances in Financial Machine Learning.md",
+    "Molecules/Amazon and autocannibalism.md",
+    "Molecules/Portfolio Construction.md",
+    "Marchenko-Pastur Law.md",
+    "Copula.md",
+    "Authors/Terry Burnham.md",
+    "Authors/Scott Meyers.md",
+    "Authors/Richard Heur.md",
+    "Authors/Ray Dalio.md",
+    "Authors/Nassim Nicholas Taleb.md",
+    "Authors/Martin Kleppmann.md",
+    "Authors/Lopez de Prado.md",
+    "Authors/Dr. Stephen Hawking.md",
+    "Authors/Dr. Mohit Prashant.md",
+    "Authors/Dr. Dan Stefanica.md",
+    "Authors/Dr. Andrew Huberman.md",
+    "Authors/Dr. Adrvind Easwaran.md",
+    "Authors/Bjarne Stroustoup.md",
+    "Authors/Lopez de Prado 1.md",
+    "Topics/Probability and Statistics for Finance.md",
+    "Archimedian Copulas.md",
+    "_attachments/IMG_20260306_003556517.jpg",
+    "_attachments/IMG_20260510_175036965.jpg",
+    "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
+    "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
+    "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
+    "_attachments/Pasted image 20260625113711.png",
+    "_attachments/Pasted image 20260625110030.png",
+    "_attachments/Pasted image 20260604162418.png",
+    "_attachments/ImpressionsResist Change.png",
     "Original Issue Tax Discount.md",
-    "_templates/topic.md",
-    "_templates/textbook.md",
-    "_templates/molecule.md",
-    "_templates/infomedia.md",
-    "_templates/book.md",
-    "_templates/author.md",
-    "_templates/atom.md",
-    "_templates/academic.md",
     "_templates",
     "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
     "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
@@ -224,32 +250,6 @@
     "_scripts copy/db.json",
     "_scripts copy/dashboard.py",
     "_scripts copy",
-    "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
-    "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
-    "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "_attachments/Pasted image 20260625113711.png",
-    "_attachments/Pasted image 20260625110030.png",
-    "_attachments/Pasted image 20260604162418.png",
-    "_attachments/logo.png",
-    "_attachments/ImpressionsResist Change.png",
-    "_attachments/IMG_20260510_175036965.jpg",
-    "_attachments/IMG_20260306_003556517.jpg",
-    "Topics/Neural Networks.md",
-    "Topics/Machine Learning.md",
-    "Topics/Microservices.md",
-    "Topics/High Performance Computing.md",
-    "Topics/Finance.md",
-    "OPTICS.md",
-    "Authors/Lopez de Prado 1.md",
-    "Molecules/Portfolio Construction.md",
-    "Topics/Stochastic Calculus and Modelling.md",
-    "Topics/Linear Algebra For Finance.md",
-    "Molecules/Amazon and autocannibalism.md",
-    "Variational Autoencoders.md",
-    "Topics/Volatility Trading.md",
-    "Topics/Reinforcement Learning.md",
-    "Topics/Physics.md",
-    "Topics/Probability and Statistics for Finance.md",
-    "Topics/ML for Finance.md"
+    "_attachments/logo.png"
   ]
 }

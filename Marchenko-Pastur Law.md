@@ -1,13 +1,7 @@
 
----
-
-Topics:
-Reference:
-Type: #atom
-
 This Explains why Shrinkage and PCA are important for covariance matrices to be useful.
 
-AI generated summary: #todo replace with own
+AI generated summary- #todo replace with own
 Suppose the *true* covariance is the identity Σ=INΣ=IN​ (so the true eigenvalues are all exactly 1). You draw TT samples of NN i.i.d. standard-normal variables and form the sample covariance  
 
 Σ^=1TX⊤X.Σ^=T1​X⊤X.
@@ -45,3 +39,9 @@ So you have two options:
 2. Add structure (shrinkage, factor models, sparse estimation) — i.e., spend bias to buy variance.
 
 That's why shrinkage isn't a hack; it's a forced move.
+
+---
+
+Topics: 
+Reference:
+Type: #atom
