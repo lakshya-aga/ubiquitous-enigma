@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fb92c20ab888696e",
+        "id": "590d606413766121",
         "type": "tabs",
         "children": [
           {
-            "id": "64a205000a69cf34",
+            "id": "9a0c7360f5ee9aff",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".claude/worktrees/kind-greider-0ce47e",
-                "bFile": ".claude/worktrees/kind-greider-0ce47e",
-                "aRef": ""
+                "file": "Betweenness.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: kind-greider-0ce47e  (Working Tree)"
-            }
-          },
-          {
-            "id": "d28e17ec803a2f28",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "Betweenness"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "marche",
+                "query": "gumbel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 300
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -167,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Betweenness.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Betweenness"
             }
           },
           {
@@ -200,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,36 +204,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d28e17ec803a2f28",
+  "active": "f521cbe80ecfeb3c",
   "lastOpenFiles": [
-    "ACID Compliance.md",
-    "Sources/Designing Data Intensive Applications.md",
-    "Gossip Protocol.md",
-    "Raft consensus protocol.md",
-    "Consensus Algorithms.md",
-    "Sources/Advances in Financial Machine Learning.md",
-    "Sources/A Tour of CPP.md",
-    "Sources/Effective modern C++.md",
-    "Sources/Brief History of Time.md",
-    "Molecules/Amazon and autocannibalism.md",
-    "Molecules/Portfolio Construction.md",
-    "Marchenko-Pastur Law.md",
-    "Copula.md",
-    "Authors/Terry Burnham.md",
-    "Authors/Scott Meyers.md",
-    "Authors/Richard Heur.md",
-    "Authors/Ray Dalio.md",
-    "Authors/Nassim Nicholas Taleb.md",
-    "Authors/Martin Kleppmann.md",
-    "Authors/Lopez de Prado.md",
-    "Authors/Dr. Stephen Hawking.md",
-    "Authors/Dr. Mohit Prashant.md",
-    "Authors/Dr. Dan Stefanica.md",
-    "Authors/Dr. Andrew Huberman.md",
-    "Authors/Dr. Adrvind Easwaran.md",
-    "Authors/Bjarne Stroustoup.md",
-    "_attachments/IMG_20260306_003556517.jpg",
-    "_attachments/IMG_20260510_175036965.jpg",
+    "_templates/topic.md",
+    "_templates/textbook.md",
+    "_templates/molecule.md",
+    "_templates/infomedia.md",
+    "_templates/book.md",
+    "_templates/author.md",
+    "_templates/atom.md",
+    "_templates/academic.md",
+    "_templates",
+    "_scripts/__pycache__/test_obsidian_util.cpython-310.pyc",
+    "_scripts/__pycache__/obsidian_util.cpython-310.pyc",
+    "_scripts/test_obsidian_util.py",
+    "_scripts/polymer.py",
+    "_scripts/obsidian_util.py",
+    "_scripts/db.json",
+    "_scripts/dashboard.py",
+    "_scripts/__pycache__",
+    "_scripts",
+    "_attachments/logo.png",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
     "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
@@ -251,16 +232,25 @@
     "_attachments/Pasted image 20260625110030.png",
     "_attachments/Pasted image 20260604162418.png",
     "_attachments/ImpressionsResist Change.png",
-    "_templates",
-    "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
-    "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
-    "_scripts copy/__pycache__",
-    "_scripts copy/test_obsidian_util.py",
-    "_scripts copy/polymer.py",
-    "_scripts copy/obsidian_util.py",
-    "_scripts copy/db.json",
-    "_scripts copy/dashboard.py",
-    "_scripts copy",
-    "_attachments/logo.png"
+    "_attachments/IMG_20260510_175036965.jpg",
+    "_attachments/IMG_20260306_003556517.jpg",
+    "Variational Autoencoders.md",
+    "Topics/Volatility Trading.md",
+    "Topics/Stochastic Calculus and Modelling.md",
+    "Topics/Reinforcement Learning.md",
+    "Topics/Probability and Statistics for Finance.md",
+    "Topics/Physics.md",
+    "Topics/Neural Networks.md",
+    "Topics/Microservices.md",
+    "Topics/Machine Learning.md",
+    "Topics/ML for Finance.md",
+    "Topics/ML and operating systems.md",
+    "Topics/Linux.md",
+    "Topics/Linear Algebra For Finance.md",
+    "Topics/Learning.md",
+    "Topics/High Performance Computing.md",
+    "Topics/Finance.md",
+    "Topics/Finance 1.md",
+    "Topics/Derivative Pricing.md"
   ]
 }
