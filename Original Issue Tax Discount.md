@@ -3,6 +3,6 @@ Original issue Tax discount is a provision in some countries where for a bond, t
 
 ---
 
-Topics: [[Topics/Finance]], [[CFA Level 1]]
+Topics: [[Finance]], [[CFA Level 1]]
 Reference: CFA material
 Type: #atom

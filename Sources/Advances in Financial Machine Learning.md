@@ -1,7 +1,7 @@
 Author: [[Lopez de Prado 1]]
 Type: #source #book
 Link: 
-Topics: [[Topics/Finance]], Trading
+Topics: [[Finance]], Trading
 
 ---
 

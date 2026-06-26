@@ -1,7 +1,7 @@
 
 ---
 
-Topics: [[Topics/Finance|Finance]]
+Topics: [[Finance]]
 Reference:
 Type: #atom
 

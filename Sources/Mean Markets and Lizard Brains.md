@@ -1,7 +1,7 @@
 Author: [[Terry Burnham]]
 Type: #source #book
 Link: 
-Topics: [[Topics/Finance|Finance]] 
+Topics: [[Finance]] 
 
 ---
 
