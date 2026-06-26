@@ -11,14 +11,14 @@
             "id": "58249db3e9eac392",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Original Issue Tax Discount.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".claude/worktrees/kind-greider-0ce47e",
+                "bFile": ".claude/worktrees/kind-greider-0ce47e",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Original Issue Tax Discount"
+              "icon": "diff",
+              "title": "Diff: kind-greider-0ce47e  (Working Tree)"
             }
           }
         ]
@@ -205,6 +205,7 @@
   },
   "active": "58249db3e9eac392",
   "lastOpenFiles": [
+    "Original Issue Tax Discount.md",
     "_templates/topic.md",
     "_templates/textbook.md",
     "_templates/molecule.md",
@@ -238,7 +239,6 @@
     "Topics/Microservices.md",
     "Topics/High Performance Computing.md",
     "Topics/Finance.md",
-    "Original Issue Tax Discount.md",
     "OPTICS.md",
     "Authors/Lopez de Prado 1.md",
     "Molecules/Portfolio Construction.md",
