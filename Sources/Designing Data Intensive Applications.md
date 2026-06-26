@@ -43,5 +43,5 @@ Another problem is a co-ordinating node that provides information of which node 
 
 For secondary indexes use Global / local secondary index. Personally, local doesn't make sense. Global secondary index is basically storing the secondary index separately like the primary index and use it when required to do the lookup. Local is keeping secondary index for a shard within the shard itself. So will need to query each shard for reads on secondary index anyway but less update on updates as localised update is faster than global index update which may span a bigger chunk.
 
-## Transaction
+## Transactions
 
