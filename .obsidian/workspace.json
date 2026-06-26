@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecules/Portfolio Construction.md",
+                "file": "Sources/Effective modern C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Portfolio Construction"
+              "title": "Effective modern C++"
             }
           }
         ]
@@ -205,6 +205,12 @@
   },
   "active": "c60aec7fe0221320",
   "lastOpenFiles": [
+    "Sources/Designing Data Intensive Applications.md",
+    "Sources/Brief History of Time.md",
+    "Sources/Advances in Financial Machine Learning.md",
+    "Sources/A Tour of CPP.md",
+    "Molecules/Amazon and autocannibalism.md",
+    "Molecules/Portfolio Construction.md",
     "Marchenko-Pastur Law.md",
     "Copula.md",
     "Authors/Terry Burnham.md",
@@ -234,12 +240,6 @@
     "_attachments/ImpressionsResist Change.png",
     "Original Issue Tax Discount.md",
     "_templates/topic.md",
-    "_templates/textbook.md",
-    "_templates/molecule.md",
-    "_templates/infomedia.md",
-    "_templates/book.md",
-    "_templates/author.md",
-    "_templates/atom.md",
     "_templates",
     "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
     "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
