@@ -1,7 +1,7 @@
 
 This Explains why Shrinkage and PCA are important for covariance matrices to be useful.
 
-AI generated summary: #todo replace with own
+AI generated summary- #todo replace with own
 Suppose the *true* covariance is the identity Σ=INΣ=IN​ (so the true eigenvalues are all exactly 1). You draw TT samples of NN i.i.d. standard-normal variables and form the sample covariance  
 
 Σ^=1TX⊤X.Σ^=T1​X⊤X.
