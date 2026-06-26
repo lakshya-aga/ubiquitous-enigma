@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raft consensus protocol.md",
+                "file": "Sources/Designing Data Intensive Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raft consensus protocol"
+              "title": "Designing Data Intensive Applications"
             }
           }
         ]
@@ -205,8 +205,8 @@
   },
   "active": "64a205000a69cf34",
   "lastOpenFiles": [
-    "Sources/Designing Data Intensive Applications.md",
     "Raft consensus protocol.md",
+    "Sources/Designing Data Intensive Applications.md",
     "Consensus Algorithms.md",
     "Sources/Advances in Financial Machine Learning.md",
     "Sources/A Tour of CPP.md",
