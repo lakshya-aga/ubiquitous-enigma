@@ -1,7 +1,7 @@
 
 ---
 
-Topics: ComputerNetworks
+Topics: [[Computer Networks]]
 Reference: https://aws.amazon.com/what-is/cidr/
 Type: #atom
 

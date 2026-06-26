@@ -1,7 +1,7 @@
-Author: [[Lopez de Prado]]
+Author: [[Lopez de Prado 1]]
 Type: #source #book
 Link: 
-Topics: [[MolecularNotes-master/Topics/Finance]], Trading
+Topics: [[Topics/Finance]], Trading
 
 ---
 
