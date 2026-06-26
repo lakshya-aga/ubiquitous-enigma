@@ -37,4 +37,4 @@ Here w is number of nodes synchronously written to and r is number of reads to r
 
 ## Sharding
 
-Just dividing one database across mutiple nodes if it is too big. Complex solution but no other choice for such huge databases to be honest. Also known as region in CockroachDB and TiDB
+Just dividing one database across mutiple nodes if it is too big. Complex solution but no other choice for such huge databases to be honest. Also known as region in CockroachDB and TiDB. The most complex part of it in terms of design is to balance flexibility 
