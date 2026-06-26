@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Effective modern C++.md",
+                "file": "Sources/Advances in Financial Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Effective modern C++"
+              "title": "Advances in Financial Machine Learning"
             }
           }
         ]
@@ -205,10 +205,11 @@
   },
   "active": "c60aec7fe0221320",
   "lastOpenFiles": [
+    "Sources/A Tour of CPP.md",
+    "Sources/Effective modern C++.md",
     "Sources/Designing Data Intensive Applications.md",
     "Sources/Brief History of Time.md",
     "Sources/Advances in Financial Machine Learning.md",
-    "Sources/A Tour of CPP.md",
     "Molecules/Amazon and autocannibalism.md",
     "Molecules/Portfolio Construction.md",
     "Marchenko-Pastur Law.md",
@@ -239,7 +240,6 @@
     "_attachments/Pasted image 20260604162418.png",
     "_attachments/ImpressionsResist Change.png",
     "Original Issue Tax Discount.md",
-    "_templates/topic.md",
     "_templates",
     "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
     "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
