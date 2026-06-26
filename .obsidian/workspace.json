@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4a25c787824cc3b6",
+        "id": "fb92c20ab888696e",
         "type": "tabs",
         "children": [
           {
-            "id": "c60aec7fe0221320",
+            "id": "64a205000a69cf34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Sources/Advances in Financial Machine Learning.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".claude/worktrees/kind-greider-0ce47e",
+                "bFile": ".claude/worktrees/kind-greider-0ce47e",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Advances in Financial Machine Learning"
+              "icon": "diff",
+              "title": "Diff: kind-greider-0ce47e  (Working Tree)"
+            }
+          },
+          {
+            "id": "d28e17ec803a2f28",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,13 +214,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c60aec7fe0221320",
+  "active": "d28e17ec803a2f28",
   "lastOpenFiles": [
+    "ACID Compliance.md",
+    "Sources/Designing Data Intensive Applications.md",
+    "Gossip Protocol.md",
+    "Raft consensus protocol.md",
+    "Consensus Algorithms.md",
+    "Sources/Advances in Financial Machine Learning.md",
     "Sources/A Tour of CPP.md",
     "Sources/Effective modern C++.md",
-    "Sources/Designing Data Intensive Applications.md",
     "Sources/Brief History of Time.md",
-    "Sources/Advances in Financial Machine Learning.md",
     "Molecules/Amazon and autocannibalism.md",
     "Molecules/Portfolio Construction.md",
     "Marchenko-Pastur Law.md",
@@ -227,9 +242,6 @@
     "Authors/Dr. Andrew Huberman.md",
     "Authors/Dr. Adrvind Easwaran.md",
     "Authors/Bjarne Stroustoup.md",
-    "Authors/Lopez de Prado 1.md",
-    "Topics/Probability and Statistics for Finance.md",
-    "Archimedian Copulas.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
@@ -239,7 +251,6 @@
     "_attachments/Pasted image 20260625110030.png",
     "_attachments/Pasted image 20260604162418.png",
     "_attachments/ImpressionsResist Change.png",
-    "Original Issue Tax Discount.md",
     "_templates",
     "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
     "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
