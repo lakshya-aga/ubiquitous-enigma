@@ -42,6 +42,6 @@ That's why shrinkage isn't a hack; it's a forced move.
 
 ---
 
-Topics:
+Topics: 
 Reference:
 Type: #atom
