@@ -42,3 +42,6 @@ Just dividing one database across mutiple nodes if it is too big. Complex soluti
 Another problem is a co-ordinating node that provides information of which node has which shard based on key. Now during a split + request in flight what happens? Solution is to have a solution like Zookeeper or etcd. Then use [[Consensus Algorithms]] to provide fault tolerance and protection against split brain. Zookeeper maintains the authoritative information and the routing nodes subscribe to the zookeeper to get updates on shard mappings. TiDB uses [[Raft consensus protocol]]. Some others like Riak use [[Gossip Protocol]] where weak consistency is enough.
 
 For secondary indexes use Global / local secondary index. Personally, local doesn't make sense. Global secondary index is basically storing the secondary index separately like the primary index and use it when required to do the lookup. Local is keeping secondary index for a shard within the shard itself. So will need to query each shard for reads on secondary index anyway but less update on updates as localised update is faster than global index update which may span a bigger chunk.
+
+## Transaction
+
