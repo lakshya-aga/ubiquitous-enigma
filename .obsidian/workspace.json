@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bd97b9a795394a6a",
+        "id": "4a25c787824cc3b6",
         "type": "tabs",
         "children": [
           {
-            "id": "ba495526d1e592cc",
+            "id": "c60aec7fe0221320",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Authors/Lopez de Prado 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lopez de Prado 1"
             }
           }
         ]
@@ -199,8 +203,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba495526d1e592cc",
+  "active": "c60aec7fe0221320",
   "lastOpenFiles": [
+    "Authors/Lopez de Prado.md",
+    "Authors/Lopez de Prado 1.md",
+    "Topics/Probability and Statistics for Finance.md",
+    "Archimedian Copulas.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
@@ -236,15 +244,12 @@
     "Topics/High Performance Computing.md",
     "Topics/Finance.md",
     "OPTICS.md",
-    "Authors/Lopez de Prado 1.md",
     "Molecules/Portfolio Construction.md",
     "Topics/Stochastic Calculus and Modelling.md",
     "Topics/Linear Algebra For Finance.md",
     "Molecules/Amazon and autocannibalism.md",
     "Variational Autoencoders.md",
     "Topics/Volatility Trading.md",
-    "Topics/Reinforcement Learning.md",
-    "Topics/Physics.md",
-    "Topics/Probability and Statistics for Finance.md"
+    "Topics/Reinforcement Learning.md"
   ]
 }
