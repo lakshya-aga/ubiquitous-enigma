@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe12d4847151b294",
+        "id": "bd97b9a795394a6a",
         "type": "tabs",
         "children": [
           {
-            "id": "58249db3e9eac392",
+            "id": "ba495526d1e592cc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".claude/worktrees/kind-greider-0ce47e",
-                "bFile": ".claude/worktrees/kind-greider-0ce47e",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: kind-greider-0ce47e  (Working Tree)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -203,8 +199,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58249db3e9eac392",
+  "active": "ba495526d1e592cc",
   "lastOpenFiles": [
+    "_attachments/IMG_20260306_003556517.jpg",
+    "_attachments/IMG_20260510_175036965.jpg",
+    "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
+    "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
+    "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
+    "_attachments/Pasted image 20260625113711.png",
+    "_attachments/Pasted image 20260625110030.png",
+    "_attachments/Pasted image 20260604162418.png",
+    "_attachments/ImpressionsResist Change.png",
     "Original Issue Tax Discount.md",
     "_templates/topic.md",
     "_templates/textbook.md",
@@ -224,16 +229,7 @@
     "_scripts copy/db.json",
     "_scripts copy/dashboard.py",
     "_scripts copy",
-    "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
-    "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
-    "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "_attachments/Pasted image 20260625113711.png",
-    "_attachments/Pasted image 20260625110030.png",
-    "_attachments/Pasted image 20260604162418.png",
     "_attachments/logo.png",
-    "_attachments/ImpressionsResist Change.png",
-    "_attachments/IMG_20260510_175036965.jpg",
-    "_attachments/IMG_20260306_003556517.jpg",
     "Topics/Neural Networks.md",
     "Topics/Machine Learning.md",
     "Topics/Microservices.md",
@@ -249,7 +245,6 @@
     "Topics/Volatility Trading.md",
     "Topics/Reinforcement Learning.md",
     "Topics/Physics.md",
-    "Topics/Probability and Statistics for Finance.md",
-    "Topics/ML for Finance.md"
+    "Topics/Probability and Statistics for Finance.md"
   ]
 }
