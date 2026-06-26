@@ -6,17 +6,32 @@
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "colorGroups": [
+    {
+      "query": "tag:#book  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#source  ",
+      "color": {
+        "a": 1,
+        "rgb": 6021202
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.03151041666667,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.559895833333333,
+  "repelStrength": 14.0104166666667,
   "linkStrength": 1,
-  "linkDistance": 250,
+  "linkDistance": 119,
   "scale": 0.246824694081261,
   "close": true
 }
