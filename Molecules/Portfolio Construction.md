@@ -5,7 +5,6 @@ In order to estimate this better we employ [[Shrinkage]] which treats covariance
 
 [[Cholesky's Decomposition]] is particularly helpful in simulating price paths for correlated assets and helps do a better quantitative modelling or even price options on baskets whose constituents are correlated.
 
-
 ---
 Topics: [[Finance]], [[Probability and Statistics for Finance]]
 Reference:
