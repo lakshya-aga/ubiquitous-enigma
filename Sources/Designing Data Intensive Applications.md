@@ -38,3 +38,5 @@ Here w is number of nodes synchronously written to and r is number of reads to r
 ## Sharding
 
 Just dividing one database across mutiple nodes if it is too big. Complex solution but no other choice for such huge databases to be honest. Also known as region in CockroachDB and TiDB. The most complex part of it in terms of design is to balance flexibility with hot spots. Some shards may be overloaded and may need to be split. This rebalancing can be costly. We also need to decide automatic or manual rebalancing. Automatic can be unpredictable as it is an expensive operation, you might want to have control over it.
+
+Another problem is a c
