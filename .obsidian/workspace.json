@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Copula.md",
+                "file": "Marchenko-Pastur Law.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Copula"
+              "title": "Marchenko-Pastur Law"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mean",
+                "query": "marche",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,6 +206,7 @@
   },
   "active": "c60aec7fe0221320",
   "lastOpenFiles": [
+    "Copula.md",
     "Authors/Terry Burnham.md",
     "Authors/Scott Meyers.md",
     "Authors/Richard Heur.md",
@@ -249,7 +251,6 @@
     "_scripts copy/db.json",
     "_scripts copy/dashboard.py",
     "_scripts copy",
-    "_attachments/logo.png",
-    "Topics/Neural Networks.md"
+    "_attachments/logo.png"
   ]
 }
