@@ -205,8 +205,9 @@
   },
   "active": "64a205000a69cf34",
   "lastOpenFiles": [
-    "Raft consensus protocol.md",
+    "Gossip Protocol.md",
     "Sources/Designing Data Intensive Applications.md",
+    "Raft consensus protocol.md",
     "Consensus Algorithms.md",
     "Sources/Advances in Financial Machine Learning.md",
     "Sources/A Tour of CPP.md",
@@ -230,7 +231,6 @@
     "Authors/Dr. Adrvind Easwaran.md",
     "Authors/Bjarne Stroustoup.md",
     "Authors/Lopez de Prado 1.md",
-    "Topics/Probability and Statistics for Finance.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
