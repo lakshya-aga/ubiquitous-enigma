@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Designing Data Intensive Applications.md",
+                "file": "Raft consensus protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Designing Data Intensive Applications"
+              "title": "Raft consensus protocol"
             }
           }
         ]
@@ -205,8 +205,9 @@
   },
   "active": "64a205000a69cf34",
   "lastOpenFiles": [
-    "Consensus Algorithms.md",
     "Sources/Designing Data Intensive Applications.md",
+    "Raft consensus protocol.md",
+    "Consensus Algorithms.md",
     "Sources/Advances in Financial Machine Learning.md",
     "Sources/A Tour of CPP.md",
     "Sources/Effective modern C++.md",
@@ -230,7 +231,6 @@
     "Authors/Bjarne Stroustoup.md",
     "Authors/Lopez de Prado 1.md",
     "Topics/Probability and Statistics for Finance.md",
-    "Archimedian Copulas.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
