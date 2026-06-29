@@ -386,7 +386,7 @@ Questions:
 It is just a caste from lvalue to rvalue
 
 * Inside `f(int&& x)`, is `x` an lvalue or rvalue?
-
+x itself is an lvalue // Actually what would decltype((x)) resolve to
   
 
 Key point: named rvalue references are lvalues.
