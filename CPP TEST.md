@@ -55,7 +55,7 @@ Follow-ups:
 
 * What changes if `X(X&&)` is not marked `noexcept`?
 
-This makes the compiler generated code slightly bigger as without noexcept, compiler prepares for stack unwinding
+This makes the compiler generated code slightly bigger as without noexcept, compiler prepares for stack unwinding. Additionally, and more importantly, if code expects exceptions, it will copy instead of move for unwinding purposes.
 
 * What changes if we call `v.emplace_back()` instead?
 
