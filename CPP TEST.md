@@ -11,7 +11,11 @@ Topics: [[CPP]]
 
 ### Q1. What happens here?
 
-A1 default constructor will be called, a move operation then destructor on main function end as container's destructor will be called which will destroy internal elements.
+A1 default constructor will be called, a move operation then destructor on main function end as container's destructor will be called which will destroy internal elements. The temp object will also be destroyed but will not affect the object inside the vector. imagine code as : 
+```cpp
+this.val = rvalue.val;
+rvalue = nullptr;
+```
 
 ```cpp
 
