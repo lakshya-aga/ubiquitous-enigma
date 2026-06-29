@@ -668,26 +668,17 @@ public:
 
     Buffer(Buffer&&) noexcept = default;
 
-  
-
     Buffer& operator=(Buffer other) noexcept {
-
         swap(other);
-
         return *this;
-
     }
 
   
 
     void swap(Buffer& other) noexcept {
-
         using std::swap;
-
         swap(size_, other.size_);
-
         swap(data_, other.data_);
-
     }
 
   
