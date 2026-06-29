@@ -11,7 +11,7 @@ Topics: [[CPP]]
 
 ### Q1. What happens here?
 
-A1 default constructor will be called, a move operation then destructor on main function end as container's destructor will be called which wil destroy internal elements.
+A1 default constructor will be called, a move operation then destructor on main function end as container's destructor will be called which will destroy internal elements.
 
 ```cpp
 
