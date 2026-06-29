@@ -213,24 +213,26 @@ class FileHandler{
 		FILE* _f;
 	public:
 		~FileHandler(){
-		_f.close();
+		std::fclose(_f);
 		}
 		// FileHandler(FileHandler) = deleted; // can keep if elementwise copy is desirable
 		FileHandler(FileHandler& f) = deleted;
-		FileHandler(FileHandler&& f): _f(std::mve(f)) {};
-		FileHandler operator=(FileHandler& f) = deleted;
-		FileHandler operator=(FileHandler&& f){
+		FileHandler(FileHandler&& f): _f(std::move(f)) {};
+		FileHandler operator=(FileHandler& f) = delete;
+		FileHandler& operator=(FileHandler&& f){
 			_f = std::move(f);
+			return _f;
 		}
 
 		
-		FILE get(){
-		_f.open();
-		return _f;
+		FILE* get() const noexcept{
+			return _f;
 		}
 		
-		FILE release(){
-		_f.close();
+		FILE release() noexcept{
+			FILE* temp = f_;
+			f_= nullptr;
+			return temp;
 		}
 }
 
