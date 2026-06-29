@@ -111,7 +111,7 @@ Questions:
 
 * What happens if a `Widget` is copied?
 
-will fail as the creation of user defined constructors will prevent default copy constructor.
+shallow copy is made. Default copy constructor is made as 
 
 * Which special member functions should be written?
 
