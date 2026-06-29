@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,11 +234,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84b036896d151494",
+  "active": "d28e17ec803a2f28",
   "lastOpenFiles": [
+    "CPP TEST.md",
     "ChatGPT.md",
     "Topics/CPP.md",
-    "CPP TEST.md",
     "ACID Compliance.md",
     "Sources/Designing Data Intensive Applications.md",
     "Gossip Protocol.md",

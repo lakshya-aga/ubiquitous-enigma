@@ -137,3 +137,13 @@ Final questions to practice code implementations:
 - Shared memory management, read/write
 - How and when to use different allocation methods
 - dynamic allocation code is given, use std::pmr to optimise it/make it predictable
+
+
+- Drills:
+
+1. Implement `UniquePtr<T>`.
+2. Implement `FileHandle`.
+3. Implement `Buffer` owning `int*`.
+4. Implement `SocketFd`.
+5. Implement `ScopeGuard`.
+6. Rewrite each using Rule of Zero where possible.
