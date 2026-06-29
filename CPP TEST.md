@@ -555,7 +555,8 @@ A a6 = {10};
 
 ```
 
-  def, initializer_list, int, init_list, int (actually calls assignment operator which calls the constructor), initialiser list. if assignment operator is deleted -> compilation error
+  def, initializer_list, int, init_list, 
+  int (actually does not call assignment operator), initialiser list. if assignment operator is deleted -> still works fine
 
 Questions:
 
