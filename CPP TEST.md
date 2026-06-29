@@ -456,6 +456,7 @@ Follow-up:
   
 
 * When is pass-by-value-and-move a good constructor pattern?
+When performance is not critical or we are using primitives that have low copy cost. We may also want to use universal reference as it would 
 
 * When might `const std::string&` still be better?
 
