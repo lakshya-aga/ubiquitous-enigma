@@ -474,9 +474,9 @@ Write a function `call_twice` that forwards its arguments to a callable.
 
   ```cpp
   // Lakshya
-  template <typename... T>
-  void call_twice(T... &args){
-	  some_random_function(std::forward<T>(Args));
+  template <typename F, typename... T>
+  void call_twice(F callable, T... &args){
+	  callable(std::forward<T>(Args));
   }
   ```
 
@@ -549,7 +549,7 @@ A a6 = {10};
 
 ```
 
-  
+  def, initializer_list, int, init_list, int (actually calls assignment operator which calls the constructor), initialiser list. if assignment operator is deleted -> compilation error
 
 Questions:
 
@@ -557,7 +557,7 @@ Questions:
 
 * Which constructors are selected?
 
-* Why does braced initialization prefer `initializer_list`?
+* Why does braced initialization prefer `initializer_list`? because type deduction deduces {} as initializer list and it has exact match in constructors
 
 * How can this surprise API users?
 
