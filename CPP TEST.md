@@ -336,9 +336,9 @@ Follow-ups:
 
 * Why is move constructor `noexcept`? Move is noexcept because that signals to the compiler ==that this type can be safely moved during reallocation (optimisation) and becasie stealing a raw== pointer cannot throw
 
-* Should `get()` return `FILE*` or `const FILE*`? const makes sense as we don't want to modify the file handler itself.
+* Should `get()` return `FILE*` or `const FILE*`? const makes sense as we don't want to modify the file handler itself. return `FILE*` because of C API expecting FILE
 
-* What invariant does the class maintain? file is not deleted that is being pointed to.
+* What invariant does the class maintain? file is not deleted that is being pointed to. Only one pointer points to the FILE*
 
   
 
