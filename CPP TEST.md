@@ -589,37 +589,25 @@ class Buffer {
 public:
 
     Buffer(size_t n) : size_(n), data_(new int[n]) {}
-
-  
-
+    
     ~Buffer() {
 
         delete[] data_;
 
     }
 
-  
-
     Buffer& operator=(const Buffer& rhs) {
-
         delete[] data_;
-
         size_ = rhs.size_;
-
         data_ = new int[size_];
-
         std::copy(rhs.data_, rhs.data_ + size_, data_);
-
         return *this;
-
     }
 
   
 
 private:
-
     size_t size_;
-
     int* data_;
 
 };
