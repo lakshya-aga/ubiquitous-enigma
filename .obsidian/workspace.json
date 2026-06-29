@@ -162,16 +162,6 @@
             }
           },
           {
-            "id": "f521cbe80ecfeb3c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "33fab936f6ea5d15",
             "type": "leaf",
             "state": {
@@ -200,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "61f2b25a85d02352",
+  "active": "33fab936f6ea5d15",
   "lastOpenFiles": [
     "ChatGPT.md",
     "CPP TEST.md",
