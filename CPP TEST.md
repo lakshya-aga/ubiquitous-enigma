@@ -338,7 +338,7 @@ Follow-ups:
 
 * Should `get()` return `FILE*` or `const FILE*`? const makes sense as we don't want to modify the file handler itself. return `FILE*` because of C API expecting FILE
 
-* What invariant does the class maintain? file is not deleted that is being pointed to. Only one pointer points to the FILE*
+* What invariant does the class maintain? file is not deleted that is being pointed to. Only one pointer points to the FILE*. `_file!=nullptr`
 
   
 
