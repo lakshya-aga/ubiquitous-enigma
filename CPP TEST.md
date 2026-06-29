@@ -465,7 +465,7 @@ Follow-up:
 When performance is not critical or we are using primitives that have low copy cost. We may also want to use universal reference as it would allow both lvalue and rvalue reference to be used for move
 
 * When might `const std::string&` still be better?
-When copying is desired
+===const std::string& usage would just lead to copy though right?===
   
 
 ---
