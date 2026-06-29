@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb215a6130041427",
+        "id": "8e9af002d45f10d7",
         "type": "tabs",
         "children": [
           {
-            "id": "61f2b25a85d02352",
+            "id": "902e8c89e144ef3c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Return Value optimisation C++.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Return Value optimisation C++"
             }
           }
         ]
@@ -166,9 +170,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Return Value optimisation C++.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Return Value optimisation C++"
             }
           }
         ],
@@ -190,8 +196,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33fab936f6ea5d15",
+  "active": "902e8c89e144ef3c",
   "lastOpenFiles": [
+    "Return Value optimisation C++.md",
+    "MolecularNotes-master/_attachments/Screenshot 2026-06-30 at 5.55.16 AM.png",
+    "MolecularNotes-master/_attachments/Screenshot 2026-06-30 at 5.54.45 AM.png",
     "ChatGPT.md",
     "CPP TEST.md",
     "Betweenness.md",
@@ -222,8 +231,6 @@
     "_attachments/Pasted image 20260625110030.png",
     "_attachments/Pasted image 20260604162418.png",
     "_attachments/ImpressionsResist Change.png",
-    "_attachments/IMG_20260510_175036965.jpg",
-    "_attachments/IMG_20260306_003556517.jpg",
     "Variational Autoencoders.md",
     "Topics/Volatility Trading.md",
     "Topics/Stochastic Calculus and Modelling.md",
@@ -235,8 +242,6 @@
     "Topics/Machine Learning.md",
     "Topics/ML for Finance.md",
     "Topics/ML and operating systems.md",
-    "Topics/Linux.md",
-    "Topics/Linear Algebra For Finance.md",
-    "Topics/Learning.md"
+    "Topics/Linux.md"
   ]
 }
