@@ -472,26 +472,17 @@ When copying is desired
 
 Write a function `call_twice` that forwards its arguments to a callable.
 
-  
-
-```cpp
-
-template <typename F, typename... Args>
-
-void call_twice(F&& f, Args&&... args) {
-
-    std::forward<F>(f)(std::forward<Args>(args)...);
-
-    std::forward<F>(f)(std::forward<Args>(args)...);
-
-}
-
-```
+  ```cpp
+  // Lakshya
+  template <typename... T>
+  void call_twice(T... &args){
+	  some_random_function(std::forward<T>(Args));
+  }
+  ```
 
   
-
 Then discuss what may be wrong with it.
-
+No idea
   
 
 Important issue: if an argument is moved during the first call, forwarding it again can reuse a moved-from object.
