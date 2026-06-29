@@ -462,7 +462,7 @@ Follow-up:
   
 
 * When is pass-by-value-and-move a good constructor pattern?
-When performance is not critical or we are using primitives that have low copy cost. We may also want to use universal reference as it would allow both lvalue and rvalue reference to be used for move
+When performance is not critical or we are using primitives that have low copy cost. We may also want to use universal reference as it would allow both lvalue and rvalue reference to be used for move. Overloading is another alternative. Universal reference is just dangerous because of unexpected highjacking.
 
 * When might `const std::string&` still be better?
 ===const std::string& usage would just lead to copy though right?===
