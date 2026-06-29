@@ -711,7 +711,7 @@ Follow-up:
   
 
 * Why does `operator=(Buffer other)` handle both copy and move assignment?
-
+because of no constructor overloading, this becomes the closest match
 * Is `noexcept` correct here?
 
   
