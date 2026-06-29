@@ -657,10 +657,8 @@ public:
   
 
     Buffer(const Buffer& other)
-
-        : size_(other.size_),
-
-          data_(std::make_unique<int[]>(other.size_)) {
+	:   size_(other.size_),
+		data_(std::make_unique<int[]>(other.size_)) {
 
         std::copy(other.data_.get(), other.data_.get() + size_, data_.get());
 
