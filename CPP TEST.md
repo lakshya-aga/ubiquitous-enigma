@@ -409,7 +409,7 @@ Single producer, single consumer, fixed capacity, power-of-two size. Requirement
 
   
 
-Write `push` and `pop`. Then defend: which loads/stores are `relaxed`, which `acquire`/`release`, and why each can be relaxed.
+Write `push` and `pop`. Then defend: which loads/stores are `relaxed`, which `acquire` / `release`, and why each can be relaxed.
 
   
 
