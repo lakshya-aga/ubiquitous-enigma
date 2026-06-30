@@ -388,12 +388,12 @@ r1 = y.load(???);      r2 = x.load(???);
 ```
 
 With all relaxed, can `r1 == 0 && r2 == 0`? With seq_cst? Explain via the store buffer. This is the canonical "why StoreLoad matters" question.
-
+if we put release in x.store and acquire in x.load and same in y, we can ensure, bith store happen before both load even in relaxed ordering.
   
 
 **2.4 `[core]` Acquire/release pairing**
 
-Explain the message-passing pattern: producer fills `data` then `flag.store(true, release)`; consumer spins on `flag.load(acquire)` then reads `data`. Why is this correct? What breaks with `relaxed` on either side?
+Explain the message-passing pattern: producer fills `data` then `flag.store(true, release)`; consumer spins on `flag.load(acquire)` then reads `data`. Why is this correct? What breaks with `relaxed` on either side? 
 
   
 
