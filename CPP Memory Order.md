@@ -2,7 +2,8 @@ implemented as enum
 
 ```cpp
 enum class memory_order{
-relaxed, consume, acquire, release, acq_rel}
+	relaxed, consume, acquire, release, acq_rel, seq_cast
+};
 ```
 ---
 
