@@ -363,7 +363,7 @@ consume -> reorder after the release (same as acquire so deprecated)
 acquire -> after release
 release -> before consume and acquire if reading writing same atomic variable
 #### ==Sequentially-consistent ordering==
-  
+  #todo todo: `memory_order_seq_cst`
 
 **2.2 `[core]` x86 is "almost" sequentially consistent**
 
