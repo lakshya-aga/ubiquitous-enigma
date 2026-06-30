@@ -171,7 +171,7 @@ std::visit([](auto &v){
 
   }, input)
 
-```  
+```
 
   
 
@@ -241,7 +241,7 @@ class Comparable{
 
 - What is the runtime cost of a `try` block on the *happy path* with zero-cost (table-based) exception handling?  
 
--> Nothing. It stores most information in the tables outside whcih translates to vv heavy penalties on exceptions, but little to no cost on main path.  
+-> Nothing. It stores most information in the tables outside which translates to vv heavy penalties on exceptions, but little to no cost on main path.  
 
 - Why do many HFT shops compile with `-fno-exceptions`? What replaces error handling?
 
@@ -358,6 +358,10 @@ This section is where C++ HFT interviews are won or lost. Be able to *draw* the 
 **2.1 `[core]` The six memory orders**
 
 For each of `relaxed`, `consume` (and why it's effectively dead), `acquire`, `release`, `acq_rel`, `seq_cst`: state (a) what reordering it permits/forbids, (b) a concrete use, (c) rough hardware cost on x86 vs ARM.
+relaxed -> within its block scope, free reordering
+consume -> reorder after the release (same as acquire so deprecated)
+acquire -> after release
+release -> before consume and acquire if reading writing same atomic variable
 
   
 

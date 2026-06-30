@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Return Value optimisation C++.md",
+                "file": "CPP TEST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Return Value optimisation C++"
+              "title": "CPP TEST"
             }
           }
         ]
@@ -171,14 +171,24 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Return Value optimisation C++.md"
+                "file": "CPP TEST.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Return Value optimisation C++"
+              "title": "File properties for CPP TEST"
+            }
+          },
+          {
+            "id": "6aabaa20503df088",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
