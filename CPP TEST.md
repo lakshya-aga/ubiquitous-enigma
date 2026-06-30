@@ -362,7 +362,7 @@ relaxed -> within its block scope, free reordering
 consume -> reorder after the release (same as acquire so deprecated)
 acquire -> after release
 release -> before consume and acquire if reading writing same atomic variable
-
+#### ==Sequentially-consistent ordering==
   
 
 **2.2 `[core]` x86 is "almost" sequentially consistent**
