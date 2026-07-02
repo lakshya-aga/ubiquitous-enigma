@@ -496,6 +496,94 @@ the CPU simply drops the reservation for implementation reasons
 **2.9 `[core]` Spinlock**
 
 Implement a TTAS (test-and-test-and-set) spinlock with `_mm_pause()` / `__builtin_ia32_pause` backoff. Then answer: why TTAS over plain TAS? Why `PAUSE`? When is even a perfect spinlock the *wrong* choice vs a futex/mutex?
+```cpp
+#include <atomic>
+
+#include <iostream>
+
+#include <thread>
+
+using namespace std;
+
+  
+
+std::atomic_flag flag = true;
+
+  
+
+void thread1(){
+
+    // while(std::atomic_flag_test(&flag) == true){
+
+    while(std::atomic_flag_test_and_set(&flag) == true){
+
+  
+
+        // if(std::atomic_flag_test_and_set(&flag) == false)
+
+        // break;
+
+    }
+
+    cout<<"THREAD1 detected"<<endl;
+
+    std::atomic_flag_clear(&flag);
+
+}
+
+  
+
+void thread2(){
+
+    while(true){
+
+        while(std::atomic_flag_test(&flag) == true){
+
+            __builtin_ia32_pause();
+
+        }
+
+        if(std::atomic_flag_test_and_set(&flag) == false){
+
+            break;
+
+        }
+
+    }
+
+    cout<<"THREAD2 detected"<<endl;
+
+    std::atomic_flag_clear(&flag);
+
+  
+  
+
+}
+
+  
+
+int main(){
+
+    std::thread t1(thread1);
+
+    std::thread t2(thread2);
+
+  
+
+    for(int i=1; i<1000000; i++){
+
+    }
+
+    std::atomic_flag_clear(&flag);
+
+  
+
+    t1.join();
+
+    t2.join();
+
+}
+```
 
   
 
