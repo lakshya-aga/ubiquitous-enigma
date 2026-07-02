@@ -706,7 +706,7 @@ Next element is likely to be in cache for SoA. AoS is faster when we want to acc
 **3.4 `[core]` Hot/cold path splitting**
 
 What does it mean to move error handling / logging / rare branches "off the hot path"? How do `[[unlikely]]` and `__attribute__((cold))` help the layout? Why does this improve i-cache and branch prediction?
-
+Marking unlikely helps compiler generate code that aids branch prediction and purge it / not load it into i-cache 
   
 
 **3.5 `[hard]` Avoiding allocation on the hot path**
