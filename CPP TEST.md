@@ -719,7 +719,7 @@ Name five sources of hidden allocation in "normal" C++ and the replacement:
 
 - `std::function` → when using copy instead of move, or pass by value, function can have allocations ?
 
-- `std::map`/`std::unordered_map` node allocation → ?
+- `std::map`/`std::unordered_map` node allocation → referencing a node which has not been created will allocate a node for you to perform modifications, by value?
 
 - exceptions / `std::shared_ptr` control block → ?
 
