@@ -233,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,6 +249,11 @@
   },
   "active": "84b036896d151494",
   "lastOpenFiles": [
+    "NIC (Network Interface Controller).md",
+    "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
+    "MolecularNotes-master/_attachments/Pasted image 20260625110030.png",
+    "CPP questions for performance.md",
+    "Contracts C++.md",
     "CPP TEST.md",
     "CPP Memory Order.md",
     "Topics/CPP.md",
@@ -275,17 +279,12 @@
     "Authors/Richard Heur.md",
     "Authors/Ray Dalio.md",
     "Authors/Nassim Nicholas Taleb.md",
-    "Authors/Martin Kleppmann.md",
-    "Authors/Lopez de Prado.md",
-    "Authors/Dr. Stephen Hawking.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
     "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
     "_attachments/Pasted image 20260625113711.png",
-    "_attachments/Pasted image 20260625110030.png",
-    "_attachments/Pasted image 20260604162418.png",
     "_templates",
     "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
     "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
