@@ -690,7 +690,7 @@ Recite the latency ladder (rough, order-of-magnitude): register, L1, L2, L3, mai
 **3.2 `[core]` AoS vs SoA**
 
 Given you process one field across a million records, why is structure-of-arrays faster? Tie it to cache lines and the prefetcher and SIMD. When is AoS actually better?
-
+Next element is likely to be in cache for SoA. AoS is faster when we want to access the same struct different elements. so cache would be better utilised this way.
   
 
 **3.3 `[hard]` Branchless programming**
