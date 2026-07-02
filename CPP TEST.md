@@ -478,7 +478,7 @@ This disables false sharing. The Padding allows us to give the variables each a 
 **2.7 `[core]` CAS, compare_exchange_weak vs strong**
 
 - When does `compare_exchange_weak` spuriously fail and why does that make it *faster* in a loop?
-Does not fail spuriously on x86, but on machines like ARM which use load-linked/store-conditional system (LL/SC)
+Does not fail spuriously on x86, but on machines like ARM which use load-linked/store-conditional system (LL/SC). When 
 - Write the canonical CAS loop for an atomic max: `while(!a.compare_exchange_weak(expected, std::max(expected, val)))`.
 
   
