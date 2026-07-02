@@ -411,7 +411,7 @@ Single producer, single consumer, fixed capacity, power-of-two size. Requirement
 #include <atomic>
 #include <array>
 #include <cstddef>
-
+#include <new>
 template <typename T, size_t capacity>
 class Spsc{
 public:
@@ -452,9 +452,9 @@ bool pop(T& item) noexcept{
 private:
 
 std::array<T, capacity> queue;
-alignas(64) std::atomic<size_t> head;
+alignas(std::hardware_destructive_intereference) std::atomic<size_t> head;
 size_t cached_tail;
-alignas(64) std::atomic<size_t> tail;
+alignas(std::hardware_destructive_intereference) std::atomic<size_t> tail;
 size_t cached_head;
 
 };
