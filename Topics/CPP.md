@@ -15,7 +15,7 @@ Actual list
 1.  SPSC queues/lock free programming (lock free queus :'(, hazard ptr eww things in lockless stack and stuff)
 
 2.  Exception-free programming(why are exceptions garbage in C++)
-`Have to call destructors, stack unwinding, more generated binary`
+`Have to call destructors, stack unwinding, more generated binary. For allocations such as move for vector<T>.push_back() -> causes reallocation to copy rather than move objects for exception handling`
 
 
 3.  stack unwiniding - 
@@ -27,7 +27,7 @@ Actual list
 
 
 5.  TSO in x86 
-I did not come across this naturally during my research -> ask Harsh where he found this topic
+
 
 
 6. Meyer's Pattern for static local initialization
