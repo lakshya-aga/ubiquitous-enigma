@@ -585,7 +585,7 @@ int main(){
 }
 ```
 
-  
+  any practically long job will keep the spinlock occupied and polling for the flag. This can cause unnecessary traffic. We may want to use it to detect extremely small and quick sections getting finished
 
 **2.10 `[stretch]` Why `std::mutex` is banned on the hot path**
 
