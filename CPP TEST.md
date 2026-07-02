@@ -737,7 +737,7 @@ You already did the pmr deep-dive — here's the interview version: explain the 
 Because of jitter and variability we care more about the exceptional case latencies.
 
 - `rdtsc`/`rdtscp` vs `std::chrono::steady_clock` — when do you need the former and what are its hazards (out-of-order, invariant TSC, core migration)?
-
+RDTSC is to count the number of CPU cycles. It is unaffected by frequency throttling etc.
 - What is coordinated omission and why does it wreck naive benchmarks?
 
   
