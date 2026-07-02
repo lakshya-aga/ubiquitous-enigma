@@ -717,7 +717,7 @@ Name five sources of hidden allocation in "normal" C++ and the replacement:
 
 - `std::vector` push past capacity → cause reallocation and subsequently a move which may copy each object?
 
-- `std::function` → unwinding tables ?
+- `std::function` → when using copy instead of move, or pass by value, function can have allocations ?
 
 - `std::map`/`std::unordered_map` node allocation → ?
 
