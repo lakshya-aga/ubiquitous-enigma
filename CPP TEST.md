@@ -479,7 +479,7 @@ This disables false sharing. The Padding allows us to give the variables each a 
 
 - When does `compare_exchange_weak` spuriously fail and why does that make it *faster* in a loop?
 Does not fail spuriously on x86, but on machines like ARM which use load-linked/store-conditional system (LL/SC). Store-conditional can fail because reservation was lost. reservation lost can refer to cache unexpectedly dirty. too much time or too many instructions pass between LL and SC.
-the CPU simply drops the reservation for implementation reasons
+the CPU simply drops the reservation for implementation reasons 
 
 - Write the canonical CAS loop for an atomic max: `while(!a.compare_exchange_weak(expected, std::max(expected, val)))`.
 
