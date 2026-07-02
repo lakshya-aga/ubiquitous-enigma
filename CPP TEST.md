@@ -472,7 +472,7 @@ Write `push` and `pop`. Then defend: which loads/stores are `relaxed`, which `ac
 - How do you fix it? (`alignas(std::hardware_destructive_interference_size)` / pad to 64B.)
 
 - Why does padding the SPSC head/tail to separate lines give a real throughput jump? Estimate the cost of a cross-core cache line bounce (~tens to ~100+ ns).
-
+This disables false sharing. The Padding allows us to give the variables each a new line in the cache so one write does not invalidate the cache for the other variable.
   
 
 **2.7 `[core]` CAS, compare_exchange_weak vs strong**
