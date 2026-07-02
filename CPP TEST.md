@@ -728,7 +728,7 @@ Name five sources of hidden allocation in "normal" C++ and the replacement:
 **3.6 `[stretch]` Arena / monotonic allocator and `std::pmr`**
 
 You already did the pmr deep-dive — here's the interview version: explain the two-layer (allocator interface vs memory_resource) design, when `monotonic_buffer_resource` is the right tool (per-message-burst, reset between events), and the type-erasure cost vs a templated allocator. When would you *not* use pmr and hand-roll instead?
-
+- Use allocator interface when we want short lived objects and prefer to use / reuse same allocated memory. Memory resource design is better when we don't want so much control / the lifetime may be complex.
   
 
 **3.7 `[core]` Measuring latency correctly**
