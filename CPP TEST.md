@@ -734,6 +734,7 @@ You already did the pmr deep-dive — here's the interview version: explain the 
 **3.7 `[core]` Measuring latency correctly**
 
 - Why is mean latency a lie? What do you report instead? (p50/p99/p99.9/max, and *why tail*.)
+Because of jitter and variability we care more about the exceptional case latencies.
 
 - `rdtsc`/`rdtscp` vs `std::chrono::steady_clock` — when do you need the former and what are its hazards (out-of-order, invariant TSC, core migration)?
 
