@@ -452,9 +452,9 @@ bool pop(T& item) noexcept{
 private:
 
 std::array<T, capacity> queue;
-alignas(std::hardware_destructive_intereference) std::atomic<size_t> head;
+alignas(std::hardware_destructive_interference_size) std::atomic<size_t> head;
 size_t cached_tail;
-alignas(std::hardware_destructive_intereference) std::atomic<size_t> tail;
+alignas(std::hardware_destructive_interference_size) std::atomic<size_t> tail;
 size_t cached_head;
 
 };
