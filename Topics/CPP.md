@@ -34,7 +34,11 @@ Actual list
 I did not come across this naturally during my research -> ask Harsh where he found this topic
 
 7. std::call_once and it's cost attached 
-I did not come across this naturally during my research -> ask Harsh where he found this topic
+```cpp
+#inlcude <thread>
+#inlcude <mutex>
+
+```
 
 8. C++ syntax for shm and syncronization constructs!
 ```cpp
