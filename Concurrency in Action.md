@@ -9,4 +9,5 @@ Topics:
 Difference between concurrency and parallelism
 Why to use concurrency: separation of concern, performance
 
-## 2 - (Chapter 2 title)
+## 2 - Managing Threads
+
