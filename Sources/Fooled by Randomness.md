@@ -7,8 +7,7 @@ A saying Aimad Taleb during my time at Astignes said aligns with this -> there a
 Key takeaway: When seeing success, try to model the probability of things changing and what would success have looked like then.
 ## Theme 2
 
-- Key idea 3
-- Key idea 4
+Always lookout for survivorship bias. A good ru
 
 ---
 Author: [[Nassim Nicholas Taleb]]
