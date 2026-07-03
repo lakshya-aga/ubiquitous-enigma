@@ -4,7 +4,7 @@ Topics:
 
 ---
 
-## 1 - (Chapter 1 title)
+## 1 - Hello World
 
 - What the note is about:
 	- First point: organising notes this way makes them easier to read in retrospect
