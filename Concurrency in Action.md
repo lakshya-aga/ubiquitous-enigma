@@ -14,5 +14,5 @@ Why to use concurrency: separation of concern, performance
 - get_id()
 - ownership is transferred
 - How to implement joining thread - gets joined during destruction
-- 
+- `jthread` in C++20
 
