@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP Memory Order.md",
+                "file": "Concurrency in Action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPP Memory Order"
+              "title": "Concurrency in Action"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fooled",
+                "query": "concurr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -247,8 +247,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05f9e7017120580e",
+  "active": "19cc6adc50fe503f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Sources/Fooled by Randomness.md",
     "Concurrency in Action.md",
     "Anthony Williams.md",
     "Topics/CPP.md",
@@ -277,8 +279,6 @@
     "Molecules/Amazon and autocannibalism.md",
     "Molecules/Portfolio Construction.md",
     "Marchenko-Pastur Law.md",
-    "Copula.md",
-    "Authors/Terry Burnham.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",

@@ -9,6 +9,7 @@ Key takeaway: When seeing success, try to model the probability of things changi
 
 Always lookout for survivorship bias. A good rule of thumb would be to sniff out how many started out -> billion monkeys on billion typewriters for billions of hours -> one will produce the Iliad. But if 1 out of 10 monkeys does the same, we might be forgiven to believe that the monkey really might be special
 
+
 ---
 Author: [[Nassim Nicholas Taleb]]
 Type: #source #book
