@@ -208,6 +208,7 @@
   },
   "active": "902e8c89e144ef3c",
   "lastOpenFiles": [
+    "Volatility Trading.md",
     "Untitled.md",
     "Concurrency in Action.md",
     "Anthony Williams.md",
@@ -252,7 +253,6 @@
     "Topics/Probability and Statistics for Finance.md",
     "Topics/Physics.md",
     "Topics/Neural Networks.md",
-    "Topics/Microservices.md",
-    "Topics/Machine Learning.md"
+    "Topics/Microservices.md"
   ]
 }
