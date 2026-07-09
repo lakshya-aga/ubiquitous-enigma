@@ -406,7 +406,59 @@ Single producer, single consumer, fixed capacity, power-of-two size. Requirement
 - Correct memory orders (this is the graded part).
 
 - Avoid false sharing between head and tail.
+```cpp
+#pragma once
+#include <atomic>
+#include <array>
+#include <cstddef>
+#include <new>
+template <typename T, size_t capacity>
+class Spsc{
+public:
 
+Spsc(): head{0}, tail{0}, cached_head{0}, cached_tail{0} {}
+
+bool push(const T& entry) noexcept{
+
+	auto h_ = head.load(std::memory_order_relaxed);
+	if (h_ - cached_tail == capacity) { // cache says full?
+		cached_tail = tail.load(std::memory_order_acquire); // refresh from real tail
+		if (h_ - cached_tail == capacity) return false; // really full
+	}
+	
+	queue[h_%(capacity)]=entry;
+	head.store(h_+1, std::memory_order_release);
+	return true;
+}
+
+// template <typename T, size_t capacity>
+
+bool pop(T& item) noexcept{
+	auto t_=tail.load(std::memory_order_relaxed);
+	
+	if(0 == cached_head - t_) {
+		cached_head = head.load(std::memory_order_acquire);
+		if(cached_head-t_==0)
+		return false;
+	}
+	
+	item = std::move(queue[t_%(capacity)]);
+	tail.store(1+t_, std::memory_order_release);
+	return true;
+}
+
+  
+
+private:
+
+std::array<T, capacity> queue;
+alignas(std::hardware_destructive_interference_size) std::atomic<size_t> head;
+size_t cached_tail;
+alignas(std::hardware_destructive_interference_size) std::atomic<size_t> tail;
+size_t cached_head;
+
+};
+```
   
 
 Write `push` and `pop`. Then defend: which loads/stores are `relaxed`, which `acquire` / `release`, and why each can be relaxed.
@@ -420,12 +472,14 @@ Write `push` and `pop`. Then defend: which loads/stores are `relaxed`, which `ac
 - How do you fix it? (`alignas(std::hardware_destructive_interference_size)` / pad to 64B.)
 
 - Why does padding the SPSC head/tail to separate lines give a real throughput jump? Estimate the cost of a cross-core cache line bounce (~tens to ~100+ ns).
-
+This disables false sharing. The Padding allows us to give the variables each a new line in the cache so one write does not invalidate the cache for the other variable.
   
 
 **2.7 `[core]` CAS, compare_exchange_weak vs strong**
 
 - When does `compare_exchange_weak` spuriously fail and why does that make it *faster* in a loop?
+Does not fail spuriously on x86, but on machines like ARM which use load-linked/store-conditional system (LL/SC). Store-conditional can fail because reservation was lost. reservation lost can refer to cache unexpectedly dirty. too much time or too many instructions pass between LL and SC.
+the CPU simply drops the reservation for implementation reasons 
 
 - Write the canonical CAS loop for an atomic max: `while(!a.compare_exchange_weak(expected, std::max(expected, val)))`.
 
@@ -442,8 +496,96 @@ Write `push` and `pop`. Then defend: which loads/stores are `relaxed`, which `ac
 **2.9 `[core]` Spinlock**
 
 Implement a TTAS (test-and-test-and-set) spinlock with `_mm_pause()` / `__builtin_ia32_pause` backoff. Then answer: why TTAS over plain TAS? Why `PAUSE`? When is even a perfect spinlock the *wrong* choice vs a futex/mutex?
+```cpp
+#include <atomic>
+
+#include <iostream>
+
+#include <thread>
+
+using namespace std;
 
   
+
+std::atomic_flag flag = true;
+
+  
+
+void thread1(){
+
+    // while(std::atomic_flag_test(&flag) == true){
+
+    while(std::atomic_flag_test_and_set(&flag) == true){
+
+  
+
+        // if(std::atomic_flag_test_and_set(&flag) == false)
+
+        // break;
+
+    }
+
+    cout<<"THREAD1 detected"<<endl;
+
+    std::atomic_flag_clear(&flag);
+
+}
+
+  
+
+void thread2(){
+
+    while(true){
+
+        while(std::atomic_flag_test(&flag) == true){
+
+            __builtin_ia32_pause();
+
+        }
+
+        if(std::atomic_flag_test_and_set(&flag) == false){
+
+            break;
+
+        }
+
+    }
+
+    cout<<"THREAD2 detected"<<endl;
+
+    std::atomic_flag_clear(&flag);
+
+  
+  
+
+}
+
+  
+
+int main(){
+
+    std::thread t1(thread1);
+
+    std::thread t2(thread2);
+
+  
+
+    for(int i=1; i<1000000; i++){
+
+    }
+
+    std::atomic_flag_clear(&flag);
+
+  
+
+    t1.join();
+
+    t2.join();
+
+}
+```
+
+  any practically long job will keep the spinlock occupied and polling for the flag. This can cause unnecessary traffic. We may want to use it to detect extremely small and quick sections getting finished
 
 **2.10 `[stretch]` Why `std::mutex` is banned on the hot path**
 
@@ -548,7 +690,7 @@ Recite the latency ladder (rough, order-of-magnitude): register, L1, L2, L3, mai
 **3.2 `[core]` AoS vs SoA**
 
 Given you process one field across a million records, why is structure-of-arrays faster? Tie it to cache lines and the prefetcher and SIMD. When is AoS actually better?
-
+Next element is likely to be in cache for SoA. AoS is faster when we want to access the same struct different elements. so cache would be better utilised this way.
   
 
 **3.3 `[hard]` Branchless programming**
@@ -564,7 +706,7 @@ Given you process one field across a million records, why is structure-of-arrays
 **3.4 `[core]` Hot/cold path splitting**
 
 What does it mean to move error handling / logging / rare branches "off the hot path"? How do `[[unlikely]]` and `__attribute__((cold))` help the layout? Why does this improve i-cache and branch prediction?
-
+Marking unlikely helps compiler generate code that aids branch prediction and purge it / not load it into i-cache more proactively/with higher probability.
   
 
 **3.5 `[hard]` Avoiding allocation on the hot path**
@@ -573,11 +715,11 @@ Name five sources of hidden allocation in "normal" C++ and the replacement:
 
 - `std::string` → ?
 
-- `std::vector` push past capacity → ?
+- `std::vector` push past capacity → cause reallocation and subsequently a move which may copy each object?
 
-- `std::function` → ?
+- `std::function` → when using copy instead of move, or pass by value, function can have allocations ?
 
-- `std::map`/`std::unordered_map` node allocation → ?
+- `std::map`/`std::unordered_map` node allocation → referencing a node which has not been created will allocate a node for you to perform modifications, by value?
 
 - exceptions / `std::shared_ptr` control block → ?
 
@@ -586,15 +728,16 @@ Name five sources of hidden allocation in "normal" C++ and the replacement:
 **3.6 `[stretch]` Arena / monotonic allocator and `std::pmr`**
 
 You already did the pmr deep-dive — here's the interview version: explain the two-layer (allocator interface vs memory_resource) design, when `monotonic_buffer_resource` is the right tool (per-message-burst, reset between events), and the type-erasure cost vs a templated allocator. When would you *not* use pmr and hand-roll instead?
-
+- Use allocator interface when we want short lived objects and prefer to use / reuse same allocated memory. Memory resource design is better when we don't want so much control / the lifetime may be complex.
   
 
 **3.7 `[core]` Measuring latency correctly**
 
 - Why is mean latency a lie? What do you report instead? (p50/p99/p99.9/max, and *why tail*.)
+Because of jitter and variability we care more about the exceptional case latencies.
 
 - `rdtsc`/`rdtscp` vs `std::chrono::steady_clock` — when do you need the former and what are its hazards (out-of-order, invariant TSC, core migration)?
-
+RDTSC is to count the number of CPU cycles. It is unaffected by frequency throttling etc.
 - What is coordinated omission and why does it wreck naive benchmarks?
 
   

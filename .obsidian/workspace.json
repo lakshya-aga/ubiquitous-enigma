@@ -208,6 +208,9 @@
   },
   "active": "902e8c89e144ef3c",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Concurrency in Action.md",
+    "Anthony Williams.md",
     "CPP Memory Order.md",
     "Return Value optimisation C++.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-30 at 5.55.16 AM.png",
@@ -250,9 +253,6 @@
     "Topics/Physics.md",
     "Topics/Neural Networks.md",
     "Topics/Microservices.md",
-    "Topics/Machine Learning.md",
-    "Topics/ML for Finance.md",
-    "Topics/ML and operating systems.md",
-    "Topics/Linux.md"
+    "Topics/Machine Learning.md"
   ]
 }
