@@ -13,8 +13,10 @@ $$
 Q = \frac{Ns^{2}}{\sigma^{2}} 
 $$
 $$
-Z = \frac{X_{i}- \mu}{}
+Z_i = \frac{X_{i}- \mu}{\sigma}
 $$
+To find:
+
 
 ---
 
