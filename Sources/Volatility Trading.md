@@ -32,9 +32,10 @@ $$
 Rogers Stachell
 
 $$
-ln(\frac{h}{o}).ln\left(\frac{h}{c}\right)+ ln(\frac{l}{c}).ln(\frac{l}{o})
+\sigma^2 = \frac{1}{N}\sum\limits{ln(\frac{h}{o}).ln\left(\frac{h}{c}\right)+ ln(\frac{l}{c}).ln(\frac{l}{o})}
 $$
 Yang Zhang
+
 
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
 #todo How to identify bias in estimators
