@@ -28,6 +28,9 @@ But summation of $Z^{2}$ is Chi squared distribution with $k$ degrees of freedom
 
 Let 
 Z = a vector
+$$
+Z \sim N(0, I_n)
+$$
 
 Form an orthogonal matrix with row = 1/\sqrt{N} on top and fill in the rest anyhow using [Helmert Matrix](https://search.r-project.org/CRAN/refmans/fastmatrix/html/helmert.html) or something else
 Multiply vector by this matrix to get Y
@@ -37,7 +40,7 @@ Y = AZ
 Now Y also follows normal distribution as it is simply linear combination of Z.
 
 $$
-Y \sim N
+Y \sim N(0, I_n)
 $$
 
 So
