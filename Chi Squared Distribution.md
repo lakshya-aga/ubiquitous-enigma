@@ -15,10 +15,15 @@ $$
 $$
 Z_i = \frac{X_{i}- \mu}{\sigma}
 $$
-To find:
+
 $$
-\sum(Z-\bar{Z})^{2} = \frac{(X_i-\bar{X})^2}{\sigma ^2}
+\sum(Z-\bar{Z})^{2} = \frac{\sum\limits{(X_i-\bar{X})^2}}{\sigma ^{2}}=\frac{N s^2}{\sigma ^{2}}=Q
 $$
+
+$$
+\sum{Z^{2}+ \bar Z ^{2}-2Z\bar Z} = \Sigma{ Z^{2}} -N\bar Z 
+$$
+
 
 ---
 
