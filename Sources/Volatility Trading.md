@@ -38,11 +38,12 @@ Yang Zhang: some weighted average formula, will likely be unable to remember unl
 
 
 
-#todo $\chi^2$ distribution derivation of sample volatility as a function of N
+#todo $\chi^2$ distribution derivation of sample volatility as a function of N [[Chi Squared Distribution]]
 #todo How to identify bias in estimators
 #todo Jensen's inequality for concave functions
 #todo Derive Parkinson's estimators and build intuition about them
-#todo Derive Garman Klass's estimators and build intuition about them
+#todo Derive Garman Klass' estimators and build intuition about them
+#todo Derive Yang Zhang estimators and build intuition about them
 
 
 ## Volatility Forecasting
