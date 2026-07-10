@@ -10,7 +10,8 @@ Exercise: What distribution does sample variance follow as a function of k (size
 
 Let:
 $$
-Q = \frac{Ns^2}{\sigma^2}
+Q = \frac{Ns^{2}}{\sigma^{2}}  \linebreak 
+
 $$
 
 ---
