@@ -6,7 +6,7 @@ $$
 \sum_{i=1}^{k} N_{i} \sim \chi^{2}(k)
 $$
 
-Exercise: What distribution does sample variance follow as a function of k (size of sample)?
+## Exercise: What distribution does sample variance follow as a function of k (size of sample)?
 
 Let:
 $$
@@ -15,10 +15,44 @@ $$
 $$
 Z_i = \frac{X_{i}- \mu}{\sigma}
 $$
-To find:
+
 $$
-\sum(Z-\bar{Z})^{2} = \frac{(X_i-\bar{X})^2}{\sigma ^2}
+\sum(Z-\bar{Z})^{2} = \frac{\sum\limits{(X_i-\bar{X})^2}}{\sigma ^{2}}=\frac{N s^2}{\sigma ^{2}}=Q
 $$
+
+$$
+\sum(Z-\bar{Z})^{2} = \sum{Z^{2}+ \bar Z ^{2}-2Z\bar Z} = \Sigma{ Z^{2}} -N\bar Z 
+$$
+
+But summation of $Z^{2}$ is Chi squared distribution with $k$ degrees of freedom by definition, this is intuitively there already but formally:
+
+Let 
+Z = a vector
+$$
+Z \sim N(0, I_n)
+$$
+
+Form an orthogonal matrix with row = $1/\sqrt{N}$ on top and fill in the rest anyhow using [Helmert Matrix](https://search.r-project.org/CRAN/refmans/fastmatrix/html/helmert.html) or something else
+Multiply vector by this matrix to get Y
+
+$Y = AZ$
+
+Now Y also follows normal distribution as it is simply linear combination of Z.
+
+$$
+Y \sim N(0, I_n)
+$$
+
+So
+$$
+Y_i = A_{1 1}.Z_{1}+... +A_{1 n} Z_n
+$$
+But $A_{1i}$ is fixed to $\frac{1}{\sqrt N}$
+$Y_{1}=\sqrt{N}.\bar{Z}$ -> 
+$$
+Q=\sum\limits_{i=1}^{N}{Y} - Y_1
+$$
+
 
 ---
 
