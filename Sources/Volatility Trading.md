@@ -27,9 +27,11 @@ $$
 $$
 Garman Klass
 $$
-\sigma ^{2}= \frac{1}{N}\sum\limits_{i=1}^{N}{\frac{1}{2}(ln\frac{h}{l})^2} - \frac{1}{N}\sum\limits_{i=1}^{N}(2ln2-1)ln(\frac{c}{c_{i-1}})^2
+\sigma ^{2}= \frac{1}{N}\sum\limits_{i=1}^{N}{\frac{1}{2}(ln\frac{h}{l})^2} - \frac{1}{N}\sum\limits_{i=1}^{N}(2ln2-1)(ln\frac{c}{c_{i-1}})^2
 $$
 Rogers Stachell
+
+
 Yang Zhang
 
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
