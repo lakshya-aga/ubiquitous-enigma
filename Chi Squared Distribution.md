@@ -6,6 +6,7 @@ $$
 \sum_{i=1}^{k} N_{i} \sim \chi^{2}(k)
 $$
 
+Excercise: What distribution d
 ---
 
 Topics:
