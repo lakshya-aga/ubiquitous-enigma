@@ -16,7 +16,9 @@ $$
 Z_i = \frac{X_{i}- \mu}{\sigma}
 $$
 To find:
-
+$$
+\sum(Z-\bar{Z})^{2} = \frac{(X_i-\bar{X})^2}{\sigma ^2}
+$$
 
 ---
 
