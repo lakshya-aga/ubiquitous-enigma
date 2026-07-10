@@ -18,7 +18,7 @@ Types of historical vols
 
 Close close:
 $$
-
+\frac{1}{N-1}\sum\limits_{i=1}^N(x_{i-\barx})
 $$
 Parkinson
 Garman Klass
