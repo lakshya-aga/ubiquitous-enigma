@@ -3,7 +3,7 @@ A Chi-squared random variable with k degrees of freedom is defined as sum of k i
 More formally:
 
 $$
-\sum_{i=1}^{k} N_{i}  \chi^{2}(k)
+\sum_{i=1}^{k} N_{i} \sim \chi^{2}(k)
 $$
 
 ---
