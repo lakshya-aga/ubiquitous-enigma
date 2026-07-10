@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -246,10 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66b6084cdd5f74de",
+  "active": "05f9e7017120580e",
   "lastOpenFiles": [
-    "Sources/Volatility Trading.md",
     "Chi Squared Distribution.md",
+    "Sources/Volatility Trading.md",
     "Untitled 1.md",
     "Authors/Euan Sinclair.md",
     "Untitled.md",
