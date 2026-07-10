@@ -31,7 +31,9 @@ $$
 $$
 Rogers Stachell
 
-
+$$
+ln(\frac{h}{o}).ln\left(\frac{h}{c}\right)+ ln(\frac{l}{c}).ln(\frac{l}{o})
+$$
 Yang Zhang
 
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
