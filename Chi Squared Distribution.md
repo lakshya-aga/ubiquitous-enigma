@@ -24,9 +24,15 @@ $$
 \sum(Z-\bar{Z})^{2} = \sum{Z^{2}+ \bar Z ^{2}-2Z\bar Z} = \Sigma{ Z^{2}} -N\bar Z 
 $$
 
-But summation of $Z^{2}$ is Chi squared distribution by definition
+But summation of $Z^{2}$ is Chi squared distribution with $k$ degrees of freedom by definition, this is intuitively there already but formally:
 
-So $S^2$  follows 
+Let 
+Z = a vector
+
+Form an orthogonal matrix with row = 1/\sqrt{N} on top and fill in the rest anyhow using [Helmert Matrix](https://search.r-project.org/CRAN/refmans/fastmatrix/html/helmert.html) or something else
+Multiply vector by this matrix to get Y
+
+Now Y also follows
 
 ---
 
