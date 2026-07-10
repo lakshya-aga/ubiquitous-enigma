@@ -41,7 +41,8 @@ Yang Zhang: some weighted average formula, will likely be unable to remember unl
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
 #todo How to identify bias in estimators
 #todo Jensen's inequality for concave functions
-#todo Derive All of these estimators and build intuition about them
+#todo Derive Parkinson's estimators and build intuition about them
+#todo Derive Garman Klass's estimators and build intuition about them
 
 
 ## Volatility Forecasting
@@ -55,3 +56,6 @@ $$
 $$
 $\alpha+\beta+\gamma=1$
 here V = long term variance, sigma and r are volatility and returns respectively
+
+#todo understand the rationale behind the overlap adjustment formula
+
