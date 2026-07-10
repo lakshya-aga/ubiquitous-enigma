@@ -8,6 +8,10 @@ $$
 
 Exercise: What distribution does sample variance follow as a function of k (size of sample)?
 
+Let:
+$$
+Q = \frac{Ns^2}{\sigma^2}
+$$
 
 ---
 
