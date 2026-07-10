@@ -44,3 +44,14 @@ Yang Zhang: some weighted average formula, will likely be unable to remember unl
 #todo Derive All of these estimators and build intuition about them
 
 
+## Volatility Forecasting
+
+For forecasting 
+- Take mean of last N days -> plateaued vols until jump slides out of window -> bad
+- EWMA -> doesn't make any sense for earnings release as it implies something like that will happen again in smaller magnitude such as a small earnings release, followed by a smaller and smaller one each day. More correct way would be to take it out or price it in properly.
+- GARCH:
+$$
+\sigma_t^{2}= \gamma V + \alpha \sigma_{t-1}^{2}+ \beta r_{t-1}^{2}
+$$
+$\alpha+\beta+\gamma=1$
+here V = long term variance, sigma and r are volatility and returns respectively
