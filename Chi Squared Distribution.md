@@ -3,7 +3,7 @@ A Chi-squared random variable with k degrees of freedom is defined as sum of k i
 More formally:
 
 $$
-\Sigma (N_i) = \chi^{2}(k)
+\sum_{lower}^{upper} (N_i) = \chi^{2}(k)
 $$
 
 ---
