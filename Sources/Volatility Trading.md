@@ -18,7 +18,7 @@ Types of historical vols
 
 Close close:
 $$
-\sigma^\frac{1}{N-1}\sum\limits_{i=1}^N(x_i-\bar{x})
+\sigma^{2}= \frac{1}{N-1}\sum\limits_{i=1}^N(x_i-\bar{x})
 $$
 
 Parkinson
@@ -26,6 +26,9 @@ $$
 \sigma  =\sqrt{\frac{1}{4N .ln(2)}\sum\limits_{i=1}^{N}{(ln\frac{h_i}{l_{i}}})^2}
 $$
 Garman Klass
+$$
+\sigma ^{2}= \frac{1}{N}\sum\limits_{i=1}^{N}
+$$
 Rogers Stachell
 Yang Zhang
 
