@@ -18,9 +18,13 @@ Types of historical vols
 
 Close close:
 $$
-\frac{1}{N-1}\sum\limits_{i=1}^N(x_{i-\barx})
+\frac{1}{N-1}\sum\limits_{i=1}^N(x_i-\bar{x})
 $$
+
 Parkinson
+$$
+\frac{1}{4N .ln(2)}\sum\limits
+$$
 Garman Klass
 Rogers Stachell
 Yang Zhang
