@@ -23,7 +23,7 @@ $$
 
 Parkinson
 $$
-\frac{1}{4N .ln(2)}\sum\limits
+\frac{1}{4N .ln(2)}\sum\limits{ln\frac{h_i}{l_{i}}}}^2
 $$
 Garman Klass
 Rogers Stachell
