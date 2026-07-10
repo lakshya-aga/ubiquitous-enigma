@@ -37,7 +37,7 @@ Y = AZ
 Now Y also follows normal distribution as it is simply linear combination of Z.
 
 $$
-Y \
+Y \sim N
 $$
 
 So
