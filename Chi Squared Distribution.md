@@ -34,7 +34,14 @@ Multiply vector by this matrix to get Y
 
 Y = AZ
 
-Now Y also follows
+Now Y also follows normal distribution as it is simply linear combination of Z.
+
+So
+$$
+Y_i = A_{1 1}.Z_{1}+... +A_{1 n} Z_n
+$$
+But $A_{11}$ is fixed 
+
 
 ---
 
