@@ -21,9 +21,12 @@ $$
 $$
 
 $$
-\sum{Z^{2}+ \bar Z ^{2}-2Z\bar Z} = \Sigma{ Z^{2}} -N\bar Z 
+\sum(Z-\bar{Z})^{2} = \sum{Z^{2}+ \bar Z ^{2}-2Z\bar Z} = \Sigma{ Z^{2}} -N\bar Z 
 $$
 
+But summation of $Z^{2}$ is Chi squared distribution by definition
+
+So $S^2$  follows 
 
 ---
 
