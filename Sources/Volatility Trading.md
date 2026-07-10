@@ -34,10 +34,13 @@ Rogers Stachell
 $$
 \sigma^2 = \frac{1}{N}\sum\limits{ln(\frac{h}{o}).ln\left(\frac{h}{c}\right)+ ln(\frac{l}{c}).ln(\frac{l}{o})}
 $$
-Yang Zhang: some weighted average f
+Yang Zhang: some weighted average formula, will likely be unable to remember unless derived
+
 
 
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
 #todo How to identify bias in estimators
 #todo Jensen's inequality for concave functions
+#todo Derive All of these estimators and build intuition about them
+
 
