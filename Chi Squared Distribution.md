@@ -32,6 +32,8 @@ Z = a vector
 Form an orthogonal matrix with row = 1/\sqrt{N} on top and fill in the rest anyhow using [Helmert Matrix](https://search.r-project.org/CRAN/refmans/fastmatrix/html/helmert.html) or something else
 Multiply vector by this matrix to get Y
 
+Y = AZ
+
 Now Y also follows
 
 ---
