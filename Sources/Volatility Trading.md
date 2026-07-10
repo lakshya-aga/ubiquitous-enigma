@@ -34,7 +34,7 @@ Rogers Stachell
 $$
 \sigma^2 = \frac{1}{N}\sum\limits{ln(\frac{h}{o}).ln\left(\frac{h}{c}\right)+ ln(\frac{l}{c}).ln(\frac{l}{o})}
 $$
-Yang Zhang
+Yang Zhang: some weighted average f
 
 
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
