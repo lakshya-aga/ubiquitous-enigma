@@ -43,7 +43,7 @@ $$
 But $A_{1i}$ is fixed to 1/sqrt(n) 
 $Y_{1}=\sqrt{N}.\bar{Z}$ -> 
 $$
-Q=\sum{Y} - Y_1
+Q=\sum\limits_{i=1}^N{Y} - Y_1
 $$
 
 
