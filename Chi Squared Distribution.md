@@ -32,10 +32,10 @@ $$
 Z \sim N(0, I_n)
 $$
 
-Form an orthogonal matrix with row = 1/\sqrt{N} on top and fill in the rest anyhow using [Helmert Matrix](https://search.r-project.org/CRAN/refmans/fastmatrix/html/helmert.html) or something else
+Form an orthogonal matrix with row = $1/\sqrt{N}$ on top and fill in the rest anyhow using [Helmert Matrix](https://search.r-project.org/CRAN/refmans/fastmatrix/html/helmert.html) or something else
 Multiply vector by this matrix to get Y
 
-Y = AZ
+$Y = AZ$
 
 Now Y also follows normal distribution as it is simply linear combination of Z.
 
@@ -47,7 +47,7 @@ So
 $$
 Y_i = A_{1 1}.Z_{1}+... +A_{1 n} Z_n
 $$
-But $A_{1i}$ is fixed to 1/sqrt(n) 
+But $A_{1i}$ is fixed to $\frac{1}{\sqrt N}$
 $Y_{1}=\sqrt{N}.\bar{Z}$ -> 
 $$
 Q=\sum\limits_{i=1}^{N}{Y} - Y_1
