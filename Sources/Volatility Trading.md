@@ -16,8 +16,14 @@ It is a good pricing method to translate price to factor and to compare options 
 
 Types of historical vols
 
-Close close
+Close close:
+$$
+
+$$
 Parkinson
+Garman Klass
+Rogers Stachell
+Yang Zhang
 
 #todo $\chi^2$ distribution derivation of sample volatility as a function of N
 #todo How to identify bias in estimators
