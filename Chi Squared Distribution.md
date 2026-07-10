@@ -6,11 +6,11 @@ $$
 \sum_{i=1}^{k} N_{i} \sim \chi^{2}(k)
 $$
 
-Excercise: What distribution does sample variance follow as a function of k?
+Excercise: What distribution does sample variance follow as a function of k (size of sample)?
 
 
 ---
 
-Topics:
-Reference:
+Topics: [[Probability and Statistics for Finance]]
+Reference: [[ChatGPT]]
 Type: #atom
