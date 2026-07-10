@@ -40,7 +40,8 @@ So
 $$
 Y_i = A_{1 1}.Z_{1}+... +A_{1 n} Z_n
 $$
-But $A_{11}$ is fixed 
+But $A_{1i}$ is fixed to 1/sqrt(n) 
+$Y_{1=\sqrt{N}\bar{Z}$ 
 
 
 ---
