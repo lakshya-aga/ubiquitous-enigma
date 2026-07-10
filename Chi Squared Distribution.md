@@ -41,7 +41,10 @@ $$
 Y_i = A_{1 1}.Z_{1}+... +A_{1 n} Z_n
 $$
 But $A_{1i}$ is fixed to 1/sqrt(n) 
-$Y_{1=\sqrt{N}\bar{Z}$ 
+$Y_{1}=\sqrt{N}.\bar{Z}$ -> 
+$$
+Q=\sum{Y} - Y_1
+$$
 
 
 ---
