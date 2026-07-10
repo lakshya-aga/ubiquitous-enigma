@@ -18,12 +18,12 @@ Types of historical vols
 
 Close close:
 $$
-\frac{1}{N-1}\sum\limits_{i=1}^N(x_i-\bar{x})
+\sigma^\frac{1}{N-1}\sum\limits_{i=1}^N(x_i-\bar{x})
 $$
 
 Parkinson
 $$
-\frac{1}{4N .ln(2)}\sum\limits{ln\frac{h_i}{l_{i}}}}^2
+\sigma  =\sqrt{\frac{1}{4N .ln(2)}\sum\limits_{i=1}^{N}{(ln\frac{h_i}{l_{i}}})^2}
 $$
 Garman Klass
 Rogers Stachell
