@@ -7,6 +7,10 @@ to specify events to monitor with modifiers
 
 -C 1,2-3 to specify CPUs to monitor
 
+-p to monitor a specific thread with PID
+
+-i to limit inheritance effect
+
 ---
 
 Topics: [[High Performance Computing]]
