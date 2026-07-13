@@ -3,7 +3,7 @@
 
 to specify events to monitor with modifiers
 
--a to group by cpu
+-a to group by cpu, default is by thread
 
 -C 1,2-3 to specify CPUs to monitor
 
