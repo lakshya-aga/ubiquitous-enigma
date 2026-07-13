@@ -19,6 +19,6 @@ $$
 
 ---
 
-Topics:
-Reference:
+Topics: [[Competitve Programming]]
+Reference: https://www.geeksforgeeks.org/dsa/modular-division/
 Type: #atom
