@@ -19,7 +19,7 @@ $$
 But if gcd is 1;
 $$
 xa + my = 1 (MOD m)
-$$$$
+$$
 ```cpp
 int gcdExtended(int a, int b, int&x, int&y){
 
