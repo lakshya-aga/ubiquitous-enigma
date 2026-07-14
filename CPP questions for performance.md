@@ -16,7 +16,12 @@
 				- CPU feature identification
 				- Interrupt Handling
 				- Alarms
-			- **1**
+			- **`rte_timer`** 
+			- **`rte_mempool`** 
+			- **`rte_mbuf`** 
+			- **`rte_ring`** 
+			- **`rte_malloc`** 
+			- **`rte_debug`** 
 
 
 
