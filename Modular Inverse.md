@@ -20,7 +20,8 @@ But if gcd is 1;
 $$
 xa + my = 1 (MOD m)
 $$
-ax red
+ax reduces to 1 (mod m)
+which is definition of modulo inverse
 
 ```cpp
 int gcdExtended(int a, int b, int&x, int&y){
