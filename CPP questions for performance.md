@@ -10,7 +10,7 @@
 			- DPDK launching and loading
 			- Core affinity and assignment procedures
 			- System memory allocation/de-allocation
-			- Atomic / lock ops
+			- Atomic / lock ops and other utils
 			- Timings
 			- PCI bus access
 			- Trace and debug functions
