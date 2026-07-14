@@ -22,11 +22,10 @@
 There are 2 packet forwarding mechanisms
 hash and longest prefix match
 
-
-
-			- lcore 
+			- lcore: logical core
 			- port 
-			- RX queue
+			- IOCTL: system call to allow applications to communicate with device drivers to perform specific i/o ops
+			- RX queue: Reciever queue
 			- TX queue
 			- descriptor
 			- mempool 
@@ -36,6 +35,10 @@ hash and longest prefix match
 			- RX: receiver
 			- RSS: Receive side scaling
 			- Ring sizing
+		- L1: Physicl layer reponsible for sending and recieving signals to transmit bits
+		- L2: Datalink layer reponsible for local delivery of frames between nodes. eg ethernet
+		- L3: network layer reponsible for packet routing, eg. IP
+		- L4 Transport layer reponsible for datagram or segment communication (TCP/UDP)
 		- kernel networking
 		- NIC drivers
 		- packet analyzers
