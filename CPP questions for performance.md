@@ -19,8 +19,8 @@
 			- **`rte_timer`** : Timer facilities
 			- **`rte_mempool`**: Handles a pool of objects stored in a ring buffer. allows bulk enqueue/deque and per-CPU cache.
 			- **`rte_mbuf`**: Manipulation of packet buffers carrying network data
-			- **`rte_ring`**: Fixed 
-			- **`rte_malloc`** 
+			- **`rte_ring`**: Fixed-size lockless FIFO for storing objects in a table
+			- **`rte_malloc`**: Allocation of names memory zones using `libc` malloc
 			- **`rte_debug`** 
 
 
