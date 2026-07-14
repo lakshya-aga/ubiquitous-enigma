@@ -48,6 +48,6 @@ hash and longest prefix match
 		- NIC drivers
 		- packet analyzers
 		- srTCM: Single rate 3 color marking - marking packets one of RGY
-		- trTCM: two rate 4 color marking based on committed and peak rates
+		- trTCM: two rate 3 color marking is a metering technique based on committed and peak rates
 		- SRTD: Scheduled round trip delay
-		- 
+		- TUN/TAP: virtual network kernel devi
