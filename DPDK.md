@@ -24,13 +24,16 @@ hash and longest prefix match
 
 			- lcore: logical core
 			- port 
+			- socket: in DPDK it refers to both the physical sockets as well as NUMA nodes
 			- IOCTL: system call to allow applications to communicate with device drivers to perform specific i/o ops
 			- RX queue: Reciever queue
 			- TX queue
 			- descriptor
 			- mempool 
-			- rte_mbuf: mbuf is a data structure used internally to carry messages(mainly network packets). 
-			- PMD
+			- mbuf: mbuf is a data structure used internally to carry messages(mainly network packets). 
+			- pkt_mbuf: mbuf carrying a netwok packet
+			- PMD: Poll Mode driver is a driver in DPDK, continuously polling as default behaviour instead of waiting for a HW interrupt.
+			- PMD: performance monitoring unit
 			- TX: transmitter
 			- RX: receiver
 			- RSS: Receive side scaling
