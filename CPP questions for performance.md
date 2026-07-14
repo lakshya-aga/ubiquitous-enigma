@@ -4,7 +4,7 @@
 	- ### High-performance packet processing
 		Examples:
 		
-		- DPDK:
+		- DPDK: The aim of Data Plane Dev Kit is to provide a framework for fast packet processing in data plane applications. Some Common terms to be used throughout
 			- EAL: Environment Abstraction Layer (EAL) is responsible for gaining access to low level resources such as hardware and memory space. It provides a generic interface that hides the environment specifics from the applications and libraries. It is the responsibility of the initialisation routine to decide how to allocate these resources.
 			- lcore 
 			- port 
