@@ -53,17 +53,14 @@
             "id": "840268f3e444ed9a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "DPDK.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "DPDK"
             }
           },
           {
@@ -264,10 +261,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73fa907c93919dc5",
+  "active": "840268f3e444ed9a",
   "lastOpenFiles": [
-    "DPDK.md",
     "Untitled.canvas",
+    "DPDK.md",
     "perf.md",
     "Modular Inverse.md",
     "Competitve Programming.md",

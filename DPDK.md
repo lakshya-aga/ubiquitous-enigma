@@ -20,7 +20,6 @@
 	- **`rte_debug`**: Provides debug helpers
 
 
-
 			- lcore 
 			- port 
 			- RX queue
