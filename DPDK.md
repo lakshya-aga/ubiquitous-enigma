@@ -64,3 +64,4 @@ to access the lcore variable for a particular lcore id, use `RTE_LCORE_VAR_LCORE
 Or to access own lcore variable use `RTE_LCORE_VAR`
 RTE_LCORE_FOREACH may be used to iterate over all values of the lcore variable
 
+generally, no need to use RTE_CACHE_GUARD or __rte_cache_aligned to avid false sharing as it is done so by other mechanisms
