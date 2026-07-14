@@ -11,6 +11,10 @@ to specify events to monitor with modifiers
 
 -i to limit inheritance effect
 
+```
+perf record ./noploop -
+perf annotate -d ./noploop
+```
 ---
 
 Topics: [[High Performance Computing]]
