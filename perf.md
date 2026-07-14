@@ -12,7 +12,7 @@ to specify events to monitor with modifiers
 -i to limit inheritance effect
 
 ```
-perf record ./noploop -
+perf record ./noploop -5
 perf annotate -d ./noploop
 ```
 ---
