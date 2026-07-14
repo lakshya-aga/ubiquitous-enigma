@@ -1,22 +1,22 @@
 
 - Do we ever use dynamic cast? seems to have another direction at runtime -> performance bad
 - `reinterpret_cast` realistic use case? maybe in network packets
-	- ### High-performance packet processing
-		Examples:
-		
-		- DPDK: The aim of Data Plane Dev Kit is to provide a framework for fast packet processing in data plane applications. Some Common terms to be used throughout
-			- EAL: Environment Abstraction Layer (EAL) is responsible for gaining access to low level resources such as hardware and memory space. It provides a generic interface that hides the environment specifics from the applications and libraries. It is the responsibility of the initialisation routine to decide how to allocate these resources.
-			It provides the interface for the following services:
-			- DPDK launching and loading
-			- Core affinity and assignment procedures
-			- System memory allocation/de-allocation
-			- Atomic / lock ops and other utils
-			- Timings
-			- PCI bus access
-			- Trace and debug functions
-			- CPU feature identification
-			- Interrupt Handling
-			- Alarms
+	- 
+	- ### DPDK:
+		- The aim of Data Plane Dev Kit is to provide a framework for fast packet processing in data plane applications. Some Common terms to be used throughout
+			- **EAL:** Environment Abstraction Layer (EAL) is responsible for gaining access to low level resources such as hardware and memory space. It provides a generic interface that hides the environment specifics from the applications and libraries. It is the responsibility of the initialisation routine to decide how to allocate these resources.
+				It provides the interface for the following services:
+				- DPDK launching and loading
+				- Core affinity and assignment procedures
+				- System memory allocation/de-allocation
+				- Atomic / lock ops and other utils
+				- Timings
+				- PCI bus access
+				- Trace and debug functions
+				- CPU feature identification
+				- Interrupt Handling
+				- Alarms
+			- **1**
 
 
 
