@@ -53,14 +53,17 @@
             "id": "840268f3e444ed9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DPDK.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "DPDK"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           },
           {
@@ -131,13 +134,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -263,8 +264,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "840268f3e444ed9a",
+  "active": "73fa907c93919dc5",
   "lastOpenFiles": [
+    "DPDK.md",
+    "Untitled.canvas",
     "perf.md",
     "Modular Inverse.md",
     "Competitve Programming.md",
@@ -285,7 +288,6 @@
     "NIC (Network Interface Controller).md",
     "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
     "MolecularNotes-master/_attachments/Pasted image 20260625110030.png",
-    "DPDK.md",
     "Contracts C++.md",
     "CPP Memory Order.md",
     "Return Value optimisation C++.md",
@@ -294,7 +296,6 @@
     "Sources/Designing Data Intensive Applications.md",
     "Gossip Protocol.md",
     "Raft consensus protocol.md",
-    "Consensus Algorithms.md",
     "_attachments/IMG_20260306_003556517.jpg",
     "_attachments/IMG_20260510_175036965.jpg",
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
