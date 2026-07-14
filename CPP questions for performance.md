@@ -17,9 +17,9 @@
 				- Interrupt Handling
 				- Alarms
 			- **`rte_timer`** : Timer facilities
-			- **`rte_mempool`**: Handles a pool of objects stored in a ring buffer. 
-			- **`rte_mbuf`** 
-			- **`rte_ring`** 
+			- **`rte_mempool`**: Handles a pool of objects stored in a ring buffer. allows bulk enqueue/deque and per-CPU cache.
+			- **`rte_mbuf`**: Manipulation of packet buffers carrying network data
+			- **`rte_ring`**: Fixed 
 			- **`rte_malloc`** 
 			- **`rte_debug`** 
 
