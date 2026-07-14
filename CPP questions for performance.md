@@ -17,7 +17,6 @@
 			- CPU feature identification
 			- Interrupt Handling
 			- Alarms
-			- Memory management (malloc)
 
 
 
