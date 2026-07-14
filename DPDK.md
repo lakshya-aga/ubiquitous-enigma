@@ -61,3 +61,6 @@ hash and longest prefix match
 A per-lcore id varibale holds a unique value for each EAL thread and registered non-EAL thread. `RTE_MAX_LCORE` is the max number of lcores that can be there. Each lcore-id equipped thread is unique and will never would have that id before or after.
 
 to access the lcore variable for a particular lcore id, use `RTE_LCORE_VAR_LCORE` 
+Or to access own lcore variable use `RTE_LCORE_VAR`
+RTE_LCORE_FOREACH may be used to iterate over all values of the lcore variable
+
