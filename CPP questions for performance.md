@@ -4,7 +4,7 @@
 	- 
 	- ### DPDK:
 		- The aim of Data Plane Dev Kit is to provide a framework for fast packet processing in data plane applications. Some Common terms to be used throughout
-			- **EAL:** Environment Abstraction Layer (EAL) is responsible for gaining access to low level resources such as hardware and memory space. It provides a generic interface that hides the environment specifics from the applications and libraries. It is the responsibility of the initialisation routine to decide how to allocate these resources.
+			- **EAL/`rte_eal`:** Environment Abstraction Layer (EAL) is responsible for gaining access to low level resources such as hardware and memory space. It provides a generic interface that hides the environment specifics from the applications and libraries. It is the responsibility of the initialisation routine to decide how to allocate these resources.
 				It provides the interface for the following services:
 				- DPDK launching and loading
 				- Core affinity and assignment procedures
@@ -16,8 +16,8 @@
 				- CPU feature identification
 				- Interrupt Handling
 				- Alarms
-			- **`rte_timer`** 
-			- **`rte_mempool`** 
+			- **`rte_timer`** : Timer facilities
+			- **`rte_mempool`**: Handles a pool of objects stored in a ring buffer. 
 			- **`rte_mbuf`** 
 			- **`rte_ring`** 
 			- **`rte_malloc`** 
