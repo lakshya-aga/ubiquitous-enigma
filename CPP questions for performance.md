@@ -14,7 +14,10 @@
 			- Timings
 			- PCI bus access
 			- Trace and debug functions
-			- 
+			- CPU feature identification
+			- Interrupt Handling
+			- Alarms
+			- Memory management (malloc)
 
 
 
