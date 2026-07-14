@@ -47,6 +47,7 @@ hash and longest prefix match
 		- kernel networking
 		- NIC drivers
 		- packet analyzers
-		- scTCM: Single rate 3 color marking - marking packets one of RGY
+		- srTCM: Single rate 3 color marking - marking packets one of RGY
+		- trTCM: two rate 4 color marking based on committed and peak rates
 		- SRTD: Scheduled round trip delay
 		- 
