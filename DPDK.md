@@ -29,12 +29,14 @@ hash and longest prefix match
 			- TX queue
 			- descriptor
 			- mempool 
-			- rte_mbuf 
+			- rte_mbuf: mbuf is a data structure used internally to carry messages(mainly network packets). 
 			- PMD
 			- TX: transmitter
 			- RX: receiver
 			- RSS: Receive side scaling
 			- Ring sizing
+			- main lcore: lcore that stars the main()
+			- MTU: maximum transfer Unit is the size of the largest protocol data unit PDU that can be communicated in a single network layer transactions. In general, it relates to ethernet frame size.
 		- L1: Physicl layer reponsible for sending and recieving signals to transmit bits
 		- L2: Datalink layer reponsible for local delivery of frames between nodes. eg ethernet
 		- L3: network layer reponsible for packet routing, eg. IP
