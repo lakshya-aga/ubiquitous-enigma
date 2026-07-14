@@ -19,6 +19,7 @@
 	- **`rte_malloc`**: Allocation of names memory zones using `libc malloc()`
 	- **`rte_debug`**: Provides debug helpers
 
+There are 2 packet forwarding 
 
 			- lcore 
 			- port 
