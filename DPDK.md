@@ -22,6 +22,8 @@
 There are 2 packet forwarding mechanisms
 hash and longest prefix match
 
+
+
 			- lcore 
 			- port 
 			- RX queue
