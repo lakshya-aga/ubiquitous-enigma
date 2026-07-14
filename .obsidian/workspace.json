@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "perf.md",
+                "file": "CPP questions for performance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "perf"
+              "title": "CPP questions for performance"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "concurr",
+                "query": "NIC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,11 +131,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 411.5,
+    "collapsed": true
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -246,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 476.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,8 +265,8 @@
   },
   "active": "840268f3e444ed9a",
   "lastOpenFiles": [
-    "Modular Inverse.md",
     "perf.md",
+    "Modular Inverse.md",
     "Competitve Programming.md",
     "Sources/Volatility Trading.md",
     "Chi Squared Distribution.md",

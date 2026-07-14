@@ -4,7 +4,12 @@
 	- ### High-performance packet processing
 		Examples:
 		
-		- DPDK
+		- DPDK:
+			- EAL: Environment Abstraction Layer (EAL) is responsible for gaining acc
+			- TX: transmitter
+			- RX: receiver
+			- RSS: Receive side scaling
+			- Ring sizing
 		- kernel networking
 		- NIC drivers
 		- packet analyzers
