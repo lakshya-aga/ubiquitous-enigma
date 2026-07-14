@@ -50,4 +50,7 @@ hash and longest prefix match
 		- srTCM: Single rate 3 color marking - marking packets one of RGY
 		- trTCM: two rate 3 color marking is a metering technique based on committed and peak rates
 		- SRTD: Scheduled round trip delay
-		- TUN/TAP: virtual network kernel devi
+		- TUN/TAP: virtual network kernel devices
+		- Worker lcore: any lcore that is not the main lcore
+		- WRED: weighted random early detection
+		- WRR: Weighted Round robin is a scheduling algorithm used to distri
