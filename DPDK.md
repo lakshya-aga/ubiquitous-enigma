@@ -54,3 +54,8 @@ hash and longest prefix match
 		- Worker lcore: any lcore that is not the main lcore
 		- WRED: weighted random early detection
 		- WRR: Weighted Round robin is a scheduling algorithm used to distribute workloads across multiple resources based on assigned weights.
+
+
+## Lcore
+
+A per-lcore id varibale holds a unique value for each EAL thread and registered non-EAL thread. `RTE_MAX_LCORE` is the max number of lcores that can be there. Each lcore-id equipped thread is unique and will never would have that id before or after.
