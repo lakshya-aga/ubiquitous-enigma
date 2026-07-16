@@ -25,5 +25,6 @@
     "editor:copy",
     "editor:paste"
   ],
-  "mobilePullAction": "insert-template"
+  "mobilePullAction": "insert-template",
+  "readableLineLength": false
 }
