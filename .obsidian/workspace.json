@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top Down.md",
+                "file": "Top Down Analysis Profiling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top Down"
+              "title": "Top Down Analysis Profiling"
             }
           },
           {
@@ -279,7 +279,7 @@
   "active": "d9c1a12db44cee53",
   "lastOpenFiles": [
     "DPDK.md",
-    "Top Down.md",
+    "Top Down Analysis Profiling.md",
     "Untitled.canvas",
     "perf.md",
     "Modular Inverse.md",
