@@ -154,4 +154,33 @@ Final questions to practice code implementations:
 6. Rewrite each using Rule of Zero where possible.
 
 
-Implementing 
+Implementing a custom pointer wrapper
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+template <typename T>
+class Pointer{
+    private:
+        T& _obj;
+
+    public:
+        Pointer(T& obj): _obj(obj){};
+        auto operator->(){
+            return &_obj;
+        }
+};
+
+  
+
+int main(){
+    vector<int> arr;
+    Pointer p(arr);
+    p->push_back(10);
+    cout<<p->size()<<endl;
+    cout<<arr.size()<<endl;
+
+}
+```
+
+-> calls -> recursively
