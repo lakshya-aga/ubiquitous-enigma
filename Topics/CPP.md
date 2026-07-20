@@ -152,3 +152,6 @@ Final questions to practice code implementations:
 4. Implement `SocketFd`.
 5. Implement `ScopeGuard`.
 6. Rewrite each using Rule of Zero where possible.
+
+
+Implementing 

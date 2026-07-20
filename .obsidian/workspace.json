@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top Down Analysis Profiling.md",
+                "file": "Topics/CPP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top Down Analysis Profiling"
+              "title": "CPP"
             }
           },
           {
@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -278,9 +277,9 @@
   },
   "active": "d9c1a12db44cee53",
   "lastOpenFiles": [
+    "Top Down Analysis Profiling.md",
     "MolecularNotes-master/_attachments/Pasted image 20260716172918.png",
     "DPDK.md",
-    "Top Down Analysis Profiling.md",
     "Untitled.canvas",
     "perf.md",
     "Modular Inverse.md",
@@ -314,7 +313,6 @@
     "_attachments/Screenshot 2026-06-07 at 7.49.58 PM.png",
     "_attachments/Screenshot 2026-06-07 at 7.11.51 PM.png",
     "_attachments/Screenshot 2026-02-15 at 9.09.41 PM.png",
-    "_attachments/Pasted image 20260625113711.png",
     "_templates",
     "_scripts copy/__pycache__/test_obsidian_util.cpython-310.pyc",
     "_scripts copy/__pycache__/obsidian_util.cpython-310.pyc",
