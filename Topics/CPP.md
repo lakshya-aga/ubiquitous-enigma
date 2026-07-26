@@ -25,14 +25,12 @@ Actual list
 4.  memory fences in c++ (atomic_flag and atomic_fences)
 
 
-$$\underbrace{P(S_t = i \mid y_{1:t-1}) = \sum_j P(S_{t-1}=j \mid y_{1:t-1}), A_{ji}}_{\textbf{predict — where the chain says I'll be}}$$
 
-$$\underbrace{P(S_t = i \mid y_{1:t}) ;\propto; b_i(y_t)\cdot P(S_t = i \mid y_{1:t-1})}_{\textbf{update — what today's observation says}}$$
-3.  TSO in x86 
+5.  TSO in x86 
 
 
 
-4. Meyer's Pattern for static local initialization
+6. Meyer's Pattern for static local initialization
 I did not come across this naturally during my research -> ask Harsh where he found this topic
 
 7. std::call_once and it's cost attached 
