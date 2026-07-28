@@ -11,7 +11,7 @@ Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
 - Business Cycles
 - Fiscal Policy
 - FX
-- FX Caclculations
+- FX Calculations
 
 
 ### *Business Cycles*
