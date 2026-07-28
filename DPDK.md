@@ -74,3 +74,9 @@ lcore variables vs thread local storage
 | LCORE variables are safely accessible by other threads | TLS access by other threads is implementation defined. in GCC, it is allowed. |
 | It relies on TLS to get the lcore id                   | keeps all thread data including lcore id                                      |
 | Only exist for threads with an existing lcore ID       | TLS may be duplicated across threads in a process                             |
+
+---
+
+Topics: [[CPP]]
+Reference: 
+Type: #atom

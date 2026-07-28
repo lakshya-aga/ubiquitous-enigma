@@ -251,4 +251,4 @@ auto f = [](auto&&... xs)
 - Lock free queues
 - Shared memory and synchronisation
 - Benchmarking
-- 
+

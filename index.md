@@ -1,4 +1,3 @@
-
 ---
 Topics: Introduction
 Reference: https://reasonabledeviations.com/
