@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Volatility Trading.md",
+                "file": "Topics/CFA Level 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Volatility Trading"
+              "title": "CFA Level 1"
             }
           }
         ],
@@ -272,6 +272,7 @@
   },
   "active": "19911e4e4c119e16",
   "lastOpenFiles": [
+    "Sources/Volatility Trading.md",
     "Hidden Markov Models.md",
     "Topics/CFA Level 1.md",
     "Topics/Calculus, Bonds, Options, Finance, Math.md",
@@ -297,7 +298,6 @@
     "Sources/Essentials - How to Excercise Effectively.md",
     "Sources/Essentials - How to Set Goals and Achieve Them.md",
     "Sources/Fooled by Randomness.md",
-    "Sources/Gumbel Sinkhorn.md",
     "MolecularNotes-master/_attachments/Pasted image 20260716172918.png",
     "Untitled.canvas",
     "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
