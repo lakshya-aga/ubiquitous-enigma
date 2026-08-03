@@ -1,7 +1,7 @@
 Type: #topic
 [[Finance 1]]
 ## Derivatives
-Nothing new just simple payoffs, when to use which. Tested 5/10 module avg 80%
+Nothing new just simple payoffs, when to use which. Tested 5/10. module avg 80%
 ## Financial Statement Analysis
 
 ## Economics
