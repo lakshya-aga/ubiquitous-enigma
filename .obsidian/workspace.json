@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/CFA Level 1.md",
+                "file": "Topics/Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CFA Level 1"
+              "title": "Machine Learning"
             }
           }
         ],
@@ -108,7 +108,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -272,13 +274,13 @@
   },
   "active": "19911e4e4c119e16",
   "lastOpenFiles": [
-    "Sources/Gumbel Sinkhorn.md",
+    "Topics/CPP.md",
+    "Topics/Computer Networks.md",
     "Topics/CFA Level 1.md",
+    "Sources/Gumbel Sinkhorn.md",
     "Sources/Volatility Trading.md",
     "Hidden Markov Models.md",
     "Topics/Calculus, Bonds, Options, Finance, Math.md",
-    "Topics/Computer Networks.md",
-    "Topics/CPP.md",
     "Topics/Derivative Pricing.md",
     "Topics/Finance.md",
     "Topics/High Performance Computing.md",
