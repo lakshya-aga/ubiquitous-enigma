@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Machine Learning.md",
+                "file": "Sources/Advances in Financial Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
+              "title": "Advances in Financial Machine Learning"
             }
           }
         ],
@@ -274,6 +274,7 @@
   },
   "active": "19911e4e4c119e16",
   "lastOpenFiles": [
+    "Topics/Machine Learning.md",
     "Topics/CPP.md",
     "Topics/Computer Networks.md",
     "Topics/CFA Level 1.md",
@@ -299,7 +300,6 @@
     "Sources/Effective C++.md",
     "Sources/Effective modern C++.md",
     "Sources/Essentials - How to Excercise Effectively.md",
-    "Sources/Essentials - How to Set Goals and Achieve Them.md",
     "MolecularNotes-master/_attachments/Pasted image 20260716172918.png",
     "Untitled.canvas",
     "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
