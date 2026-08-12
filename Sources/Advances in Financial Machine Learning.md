@@ -22,5 +22,7 @@ The positive side can be flipped to trigger a negative CUSUM filter and combined
 
 Labeling
 
+
+The novel sampling techniques to build bars using dollars and volumes, did not stabilise much for me. I would attribute it to constant threshold however. [article [https://hudsonthames.org/machine-learning-trading-essentials-part-1-financial-data-structures/]] from Hudson and thames dicusses dynamic thresholding. Some techniques are  
 ## Why cusum filtering?
 [[Lopez de Prado]] argues that financial data needs to be filtered using these methods to down sample to relevant observations.
