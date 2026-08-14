@@ -46,3 +46,6 @@ $$
 $$
 
 We can write the factorial part as a w_k to make this a dot product. 
+
+But, $\frac{w_k}{w_{k-1}}$
+= 
