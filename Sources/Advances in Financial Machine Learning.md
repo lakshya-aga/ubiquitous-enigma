@@ -37,4 +37,12 @@ The idea is instead of using d = 1 for differencing to make the series stationar
 *How to derive fractional differencing values*
 Let $B$ be a shift operator which shifts a value from $X_t$ to $X_{t-1}$ i.e. $B(X_t) = X_{t-1}$ . Thus, $B^2 = X_{t-2}$ and so on
 
-A differenced Series can be written as $B^{0}- B^1$. a second order would be (B^0 - B^1)
+A differenced Series can be written as $B^{0}- B^1$. a second order would be $(B^0 - B^1) - (B^1 - B^2) = (1-B)^2$
+
+It is not hard to see for a $d$ order differencing, we get $(1-B)^d$ as the formula which can be expanded using the binomial theorem.
+
+$$
+(1-B)^d = \sum\limits(-1)^{d-k}*\frac{d!}{k!(d-k)!}*B^k
+$$
+
+We can write the factorial part as a w_k to make this a dot product. 
