@@ -45,7 +45,8 @@ $$
 (1-B)^d = \sum\limits(-1)^{d-k}*\frac{d!}{k!(d-k)!}*B^k
 $$
 
-We can write the factorial part as a w_k to make this a dot product. 
+We can write the factorial part as a $w_k$ to make this a dot product. 
 
-But, $\frac{w_k}{w_{k-1}}$
-= 
+But, $\frac{w_k}{w_{k-1}}= -\frac{d-k+1}{k}$ (expand and cancel)
+
+
