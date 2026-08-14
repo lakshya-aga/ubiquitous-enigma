@@ -28,3 +28,6 @@ The novel sampling techniques to build bars using dollars and volumes, did not s
 After following this article, I found more normality in 20 bars per day, non splitting mid tick, and day end cutoff. These properties make volume bars possibly more informative than time bars.
 ## Why cusum filtering?
 [[Lopez de Prado]] argues that financial data needs to be filtered using these methods to down sample to relevant observations.
+
+
+Fractional Differenc
