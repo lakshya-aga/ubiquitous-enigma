@@ -53,7 +53,7 @@ But, $\frac{w_k}{w_{k-1}}= -\frac{d-k+1}{k}$ (expand and cancel) $w_k = w_{k-1}\
 if we iteratively (or binary search) try all d values from 0 - 1, we can find the min d where ADF has unit root and pass the series as stationary. (Practically, I found to go just one more step of 0.05 very useful for testing as fractional differencing parameter becomes more stable this way)
 Caveats: This becomes an infinite series for each w_k, so we truncate with a threshold e.g. $w_\theta<0.01$ is collapsed to 0.
 
-There are a few claims where this method is claimed to have significantly improved predictive power. https://arxiv.org/pdf/2505.19243 It does seem like a good idea and is definitely novel. I am yet to try to build and fit a model on this system.
+There are a few claims where this method is claimed to have significantly improved predictive power. https://arxiv.org/pdf/2505.19243 It does seem like a good idea and is definitely novel. I am yet to try to build and fit a model on this feature.
 
 
 
