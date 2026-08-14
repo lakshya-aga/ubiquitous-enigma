@@ -47,6 +47,7 @@ $$
 
 We can write the factorial part as a $w_k$ to make this a dot product. 
 
-But, $\frac{w_k}{w_{k-1}}= -\frac{d-k+1}{k}$ (expand and cancel)
+#todo spot mistake, my fraction is flipped from the book's version
+But, $\frac{w_k}{w_{k-1}}= -\frac{d-k+1}{k}$ (expand and cancel) w_k = 
 
 
