@@ -51,3 +51,4 @@ We can write the factorial part as a $w_k$ to make this a dot product.
 But, $\frac{w_k}{w_{k-1}}= -\frac{d-k+1}{k}$ (expand and cancel) $w_k = w_{k-1}\frac{d-k+1}{k}$
 
 
+This becomes an infinite series for each w_k, so we truncate with a threshold e.g. $w_\theta<0.01$ is collapsed to 0.
