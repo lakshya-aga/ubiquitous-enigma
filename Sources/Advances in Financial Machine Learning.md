@@ -30,4 +30,11 @@ After following this article, I found more normality in 20 bars per day, non spl
 [[Lopez de Prado]] argues that financial data needs to be filtered using these methods to down sample to relevant observations.
 
 
-Fractional Differenc
+### Fractional Differencing
+
+This was a particularly new trick which I found here. It seems no one else has even come up with this idea and De Prado takes the credit for this.
+The idea is instead of using d = 1 for differencing to make the series stationary, use a fractional value like d = 0.4 for it. But the question is what does this even mean.
+*How to derive fractional differencing values*
+Let $B$ be a shift operator which shifts a value from $X_t$ to $X_{t-1}$ i.e. $B(X_t) = X_{t-1}$ . Thus, $B^2 = X_{t-2}$ and so on
+
+A differenced Series can be written as $B^{0}- B^1$. a second order would be (B^0 - B^1)
