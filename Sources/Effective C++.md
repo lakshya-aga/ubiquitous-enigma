@@ -138,7 +138,10 @@ template <typename T>
 class SmartPointer{
 public:
 	template <typename U>
-	SmartPointer(const SmartPointer<U>& obj);
+	SmartPointer(const SmartPointer<U>& obj):heldPtr(obj.getPtr());
+	T* get(){return heldPtr;}
+private:
+	T* heldPtr;
 	
 };
 ```
