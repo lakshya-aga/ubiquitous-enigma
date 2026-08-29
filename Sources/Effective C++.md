@@ -129,6 +129,16 @@ This may have the compiler generate code that calls priority between `Widget` cr
 
 ---
 
-# Design and Declarations
+Generalised copy constructors:
 
-## 18. Make interfaces easy to use correctly and hard to use incorrectly
+Allowing smart pointers to inherit from a base class smart pointer:
+```cpp
+
+template <typename T>
+class SmartPointer{
+public:
+	template <typename U>
+	SmartPointer(const SmartPointer<U>& obj);
+	
+};
+```
