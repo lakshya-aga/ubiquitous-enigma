@@ -65,3 +65,18 @@ Or to access own lcore variable use `RTE_LCORE_VAR`
 RTE_LCORE_FOREACH may be used to iterate over all values of the lcore variable
 
 generally, no need to use `RTE_CACHE_GUARD` or `__rte_cache_aligned` to avoid false sharing as it is done so by other mechanisms
+
+
+lcore variables vs thread local storage
+
+| LCORE variables                                        | TLS                                                                           |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| LCORE variables are safely accessible by other threads | TLS access by other threads is implementation defined. in GCC, it is allowed. |
+| It relies on TLS to get the lcore id                   | keeps all thread data including lcore id                                      |
+| Only exist for threads with an existing lcore ID       | TLS may be duplicated across threads in a process                             |
+
+---
+
+Topics: [[CPP]]
+Reference: 
+Type: #atom

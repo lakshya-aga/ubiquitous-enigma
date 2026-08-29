@@ -5,14 +5,14 @@ Topics: [[Topics/Volatility Trading|Volatility Trading]]
 
 ---
 
-## Chapter 1 - Option Pricing
+## Option Pricing
 
 Chapter 1 introduces how to use models.
 Generally identify the assumptions. Most importantly it helps to use models for intuition building rather than quantitative risk control.
 For tail risks, either trade far out of the money options or trade a small portion. Hedging will fail when jumps occur otherwise and you are left a sitting duck.
 It is a good pricing method to translate price to factor and to compare options to more interpretable parameters. Also good for comparing options. AGAIN NO RISK MEASURE.
 
-## Chapter 2 - Volatility Measurement
+## Volatility Measurement
 
 Types of historical vols
 
@@ -59,4 +59,12 @@ $\alpha+\beta+\gamma=1$
 here V = long term variance, sigma and r are volatility and returns respectively
 
 #todo understand the rationale behind the overlap adjustment formula
+
+## Trade Logging
+
+Taking trade logs and regularly adjusting for the target is important. It is also important to have your backtest data well defined with different risk params that you can check whether the observed drawdowns and volatility in returns is within expectations. Use a variety of metrics - Hurst exponential, Calmar ratio, Sharpe, MDD and Sortino.
+Regularly check your systems, brokerage fees etc. edge is but a haircut.
+## Psychology
+
+Sinclair does a great job here to flip the script. Traders are nervous or under confident usually because of lack of preparedness. There is no trader who will master psychology but be bad at trading that can make money either. The biases are important indicators. Additionally, always have "good" trades. i.e. well-reasoned trades that may not necessarily make profits. As long as trades are well-reasoned, they may be scrutinised and reviewed for improvements or can more correctly be attributed to bad luck if applicable.
 
