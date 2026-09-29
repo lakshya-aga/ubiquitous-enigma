@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fourier Transform.md",
+                "file": "Characteristic Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fourier Transform"
+              "title": "Characteristic Functions"
             }
           }
         ],
@@ -288,8 +288,8 @@
   },
   "active": "17297427332003ad",
   "lastOpenFiles": [
-    "Characteristic Functions.md",
     "Fourier Transform.md",
+    "Characteristic Functions.md",
     "Sources/Advances in Financial Machine Learning.md",
     "Topics/Machine Learning.md",
     "Topics/CPP.md",

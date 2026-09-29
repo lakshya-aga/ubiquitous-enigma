@@ -14,7 +14,7 @@ But this is equal to
 $$
 \int_{-\infty}^{\infty}f(x)e^{iux}dx
 $$
-where $f(x)$ is probability distribution function and this entire thing is [[Fourier Transform]]
+where $f(x)$ is probability distribution function and this entire thing is [[Fourier Transform]] of this function. That is **characteristic function is the Fourier transform of the probability density function**.
 
 ---
 
