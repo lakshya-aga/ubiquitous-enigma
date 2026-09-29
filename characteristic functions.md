@@ -2,7 +2,12 @@ These are functions that let us describe the probability distribution using comp
 
 for a random variable X, its characteristic function is:
 $$
-\phi(X) = E[e^{iuX}]
+\phi(X) = E[e^{iuX}] 
+
+
+$$
+$$
+e^{iuX}=cos⁡(uX)+{i}.{sin⁡(uX)},
 $$
 
 But this is equal to 
