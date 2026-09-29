@@ -12,6 +12,15 @@ $$
 $e^{iux}$ is the phase factor
 
 - $u$ may be imaginary or real
+
+Additional notes:
+
+The constant coefficient changes in different references. e.g
+$\frac{1}{\sqrt{2\pi}}$ in both Fourier transform and inverse
+
+Why is it used in financial derivatives pricing?
+It is useful in calibrating 
+
 ---
 
 Topics:
