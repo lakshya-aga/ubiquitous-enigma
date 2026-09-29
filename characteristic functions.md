@@ -14,12 +14,10 @@ But this is equal to
 $$
 \int_{-\infty}^{\infty}f(x)e^{iux}dx
 $$
-where $f(x)$ is probability distribution function
-
-and this entire thing is [[Fourier Transform]]
+where $f(x)$ is probability distribution function and this entire thing is [[Fourier Transform]]
 
 ---
 
-Topics:
+Topics: [[Stochastic Calculus and Modelling]]
 Reference:
 Type: #atom
