@@ -11,7 +11,7 @@ $$
 
 $e^{iux}$ is the phase factor
 
-- $u$ may be 
+- $u$ may be imaginary or real
 ---
 
 Topics:
