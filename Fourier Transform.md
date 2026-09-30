@@ -21,6 +21,10 @@ $\frac{1}{\sqrt{2\pi}}$ in both Fourier transform and inverse
 Why is it used in financial derivatives pricing?
 It is useful in calibrating and pricing options. This is because it lets us use [[Characteristic Functions]] instead of prob. density functions and integrating the PDF. This is "generally" harder and more expensive computationally.
 
+## Semantically
+
+Semantically it breaks down each of the 
+
 ---
 
 Topics: [[Stochastic Calculus and Modelling]]
