@@ -23,11 +23,11 @@ It is useful in calibrating and pricing options. This is because it lets us use 
 
 ## Semantically
 
-Semantically it breaks down a function into sin and cos waves say
+Semantically say a function is represented as follows
 $$
 A_1cos(w_1x)+A_2sin(w_2x)...A_ncos(w_nx)
 $$
-
+So now we can plot function values and omega
 ---
 
 Topics: [[Stochastic Calculus and Modelling]]
