@@ -27,7 +27,17 @@ Semantically say a function is represented as follows
 $$
 A_1cos(w_1x)+A_2sin(w_2x)...A_ncos(w_nx)
 $$
-So now we can plot function values and omega
+
+So now we can plot amplitude values and omega. For combining sin and cos, we can use 
+$$
+a.cos(f_1x)+b.sin(f_{1x)}= \sqrt{a^2+b^{2}}.(\frac{a.cos(f_1x)+b.sin(f_{1x)}}{\sqrt{a^{2+b^{2}})}}
+
+$$
+$$
+= \sqrt{a^2+b^2}.cos(f_1x-\phi)
+$$
+
+
 ---
 
 Topics: [[Stochastic Calculus and Modelling]]
