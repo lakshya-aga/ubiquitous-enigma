@@ -23,7 +23,10 @@ It is useful in calibrating and pricing options. This is because it lets us use 
 
 ## Semantically
 
-Semantically it breaks down each of the 
+Semantically it breaks down a function into sin and cos waves say
+$$
+A_1cos(w_1x)+A_2sin(w_2x)...A_ncos(w_nx)
+$$
 
 ---
 
