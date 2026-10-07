@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#source",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 411.5,
+    "collapsed": true
   },
   "right": {
     "id": "c4e69628e3567807",
@@ -315,7 +316,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f521cbe80ecfeb3c",
+  "active": "043e931f22a5bd63",
   "lastOpenFiles": [
     "Fourier Transform for Option Pricing.md",
     "Carr Madan Option Pricing.md",
