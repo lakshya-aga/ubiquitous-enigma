@@ -9,11 +9,18 @@ Here we need $q_c(s)$ - the pdf in order to do the pricing
 Let s=log S and k = log K
 
 $$
-C = e^{-rT} \int_{k}^{\infty}{q(s).(e^s−e^k)}ds
+C = e^{-rT} \int_{k}^{\infty}{q_{T}(s).(e^s−e^k)}ds
 $$
 lower limit is taken as k since otherwise option price is 0
+Note: The $e^s$ produced due to the change in varibles is absorbed into q(s) as $$
+p_T(e^s)e^s=q_T(s).
+$$
+This is somewhat hard to evaluate, thus we take C(k) to be equal to c(k) with an additional dampening factor $e^{\alpha k}$ 
+$$
+c(k) = e^{\alpha k}C(k)
+$$
+Then apply the [[Fourier Transform]] to get
 
-This is somewhat hard to evaluate, thus we
 
 
 ---
