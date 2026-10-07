@@ -21,7 +21,9 @@ c(k) = e^{\alpha k}C(k)
 $$
 Then apply the [[Fourier Transform]] to get
 
-
+$$
+ψ(v)=∫_{−∞}^∞e^{ivk}c(k) dk
+$$
 
 ---
 
