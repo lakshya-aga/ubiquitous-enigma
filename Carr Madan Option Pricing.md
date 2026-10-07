@@ -50,6 +50,8 @@ $$
 {C(k_j)}_{j=0}^{N−1}
 $$
 
+The method to discretise may be continued. We can use Trapezoid or Simpson's rule to evaluate the integral
+
 ---
 
 
