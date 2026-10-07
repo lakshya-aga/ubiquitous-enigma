@@ -114,9 +114,23 @@
               "icon": "lucide-file",
               "title": "Fourier Transform for Option Pricing"
             }
+          },
+          {
+            "id": "043e931f22a5bd63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carr Madan Option Pricing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Carr Madan Option Pricing"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -150,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NIC",
+                "query": "tag:#source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +185,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -300,10 +315,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a4a671f37a84f92",
+  "active": "043e931f22a5bd63",
   "lastOpenFiles": [
-    "Fourier Transform.md",
     "Fourier Transform for Option Pricing.md",
+    "Carr Madan Option Pricing.md",
+    "Fourier Transform.md",
     "Sources/Effective C++.md",
     "Characteristic Functions.md",
     "Sources/Advances in Financial Machine Learning.md",
@@ -327,7 +343,6 @@
     "Topics/Finance 1.md",
     "Sources/A Tour of CPP.md",
     "Raft consensus protocol.md",
-    "Sources/Brief History of Time.md",
     "MolecularNotes-master/_attachments/Pasted image 20260716172918.png",
     "Untitled.canvas",
     "MolecularNotes-master/_attachments/Pasted image 20260625113711.png",
