@@ -45,3 +45,18 @@ For secondary indexes use Global / local secondary index. Personally, local does
 
 
 
+# Chapter 8 - Transactions
+
+![[Screenshot 2026-10-11 at 7.46.05 PM.png]]
+
+Dirty Reads: One client reads another client's writes before the write had been committed.
+
+Dirty Writes: Race condition such as 2 increments collapsing into 1 due to concurrency issues
+
+Read Skews: A client sees different parts of the database at different points in time. Some cases of read
+skew are also known as nonrepeatable reads. Prevented with snapshot isolation
+
+Phantom Reads: 
+
+Lost Updates
+
