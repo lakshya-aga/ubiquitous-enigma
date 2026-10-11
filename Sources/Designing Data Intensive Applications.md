@@ -63,5 +63,9 @@ Lost Updates: Two concurrent read-modify-write where one overwrites the other
 
 Write Skew: A transaction reads something, makes a decision based on the value it saw, and writes based on the decision to the database. However, by the time the write is made, the premise of the decision is no longer true.
 
+3 ways to implement serialisable transactions
+- Actual Serial Execution: Just remove concurrency altogether and execute serially.
+- 2 phase locking: Just like Mutex
+- Serializable snapshot isolation: First try then check if violation has happened and do rollback
 
-
+2 phase commit was another interesting one. You have one coordinator and other followers. One transaction is broadcasted and the coordinator waits for each "I do". Once all are I do - coordinator sends commit or abort which is binding. No failure is allowed at this point i.e. failures will see a retry only. If coorinator goes down - the "in doubt" state needs to be resolved manually or needs to have heuristics for resolution otherwise database will likely be locked as followers are in the middle of a transaction.
