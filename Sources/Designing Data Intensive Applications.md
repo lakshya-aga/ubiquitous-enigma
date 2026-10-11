@@ -56,9 +56,12 @@ Dirty Writes: Race condition such as 2 increments collapsing into 1 due to concu
 Read Skews: A client sees different parts of the database at different points in time. Some cases of read
 skew are also known as nonrepeatable reads. Prevented with snapshot isolation
 
-Phantom Reads: 
+Phantom Reads: A transaction reads objects that match a search condition. Another client makes a write that
+affects the results of that search.
 
-Lost Updates
+Lost Updates: Two concurrent read-modify-write where one overwrites the other
 
 Write Skew: A transaction reads something, makes a decision based on the value it saw, and writes based on the decision to the database. However, by the time the write is made, the premise of the decision is no longer true.
+
+
 
