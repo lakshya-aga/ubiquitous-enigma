@@ -60,3 +60,5 @@ Phantom Reads:
 
 Lost Updates
 
+Write Skew: A transaction reads something, makes a decision based on the value it saw, and writes based on the decision to the database. However, by the time the write is made, the premise of the decision is no longer true.
+
