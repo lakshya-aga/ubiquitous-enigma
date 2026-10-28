@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gumbel",
+                "query": "cfa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "902e8c89e144ef3c",
+  "active": "7532902be0142393",
   "lastOpenFiles": [
     "MolecularNotes-master/_attachments/Screenshot 2026-10-11 at 7.46.05 PM.png",
     "Sources/Effective C++.md",
