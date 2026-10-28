@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CFA.md",
+                "file": "CFA Level 2 - Financial Statement Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CFA"
+              "title": "CFA Level 2 - Financial Statement Analysis"
             }
           }
         ],
@@ -227,7 +227,7 @@
   "active": "9b632b0f1ea30871",
   "lastOpenFiles": [
     "Sources/Designing Data Intensive Applications.md",
-    "CFA.md",
+    "CFA Level 2 - Financial Statement Analysis.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-10-11 at 7.46.05 PM.png",
     "Sources/Effective C++.md",
     "characteristic functions.md",
