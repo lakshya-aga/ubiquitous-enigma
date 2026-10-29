@@ -9,3 +9,6 @@ total amount recognized by XYZ on the income statement related to its DB plan
 $$
 Beginning(obligations - assets) - End(onligations - assets)
 $$
+total P&L pension cost = 
+
+Current service cost +  Interest cost (rate% × obligation) - Expected Return (e.g. 8% of assets) 
