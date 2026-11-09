@@ -16,3 +16,7 @@ Current service cost +  Interest cost (rate% × obligation) - Expected Return (e
 
 ## Temporal method of accounting
  Using the temporal method, monetary assets (i.e., cash) are translated using the current exchange rate and non-monetary assets are translated using the historical exchange rate when acquired
+
+
+Quantitative methods:
+
