@@ -20,3 +20,6 @@ Current service cost +  Interest cost (rate% × obligation) - Expected Return (e
 
 Quantitative methods:
 
+$$
+F_{stat} = (SSE_{restricted} - SSE_{unrestricted})/
+$$
