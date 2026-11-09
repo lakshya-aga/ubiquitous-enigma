@@ -21,5 +21,8 @@ Current service cost +  Interest cost (rate% × obligation) - Expected Return (e
 Quantitative methods:
 
 $$
-F_{stat} = (SSE_{restricted} - SSE_{unrestricted})/
+F_{stat} = \frac{(SSE_{restricted} - SSE_{unrestricted})/(q)}{SSE_{unresreicted}/(n-k-1)}
 $$
+
+n-k-1 = degrees of freedom
+q = difference in no. of variables
