@@ -18,7 +18,7 @@ Current service cost +  Interest cost (rate% × obligation) - Expected Return (e
  Using the temporal method, monetary assets (i.e., cash) are translated using the current exchange rate and non-monetary assets are translated using the historical exchange rate when acquired
 
 
-Quantitative methods:
+## Quantitative methods:
 
 $$
 F_{stat} = \frac{(SSE_{restricted} - SSE_{unrestricted})/(q)}{SSE_{unresreicted}/(n-k-1)}
@@ -26,3 +26,8 @@ $$
 
 n-k-1 = degrees of freedom
 q = difference in no. of variables
+
+# Equity
+
+EVA = NOPAT - (WACC * Beginning Book Value of Assets)
+
