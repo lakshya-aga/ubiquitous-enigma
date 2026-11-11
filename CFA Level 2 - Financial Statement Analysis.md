@@ -30,4 +30,4 @@ q = difference in no. of variables
 # Equity
 
 EVA = NOPAT - (WACC * Beginning Book Value of Assets)
-
+MVA = Market value of Shares - Book Value of Equity
