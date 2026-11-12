@@ -38,9 +38,13 @@ $$
 P =B_{0}+ \sum\limits^{T-1}_{t=1}\frac{E_t-rB_{t-1}}{(1+r)^t}-\frac{E_T-rB_{T-1}}{(1+r)^{t-1}(1+r-\omega)}
 $$
 
-Redidual Income valuation:
+Residual Income valuation:
 
 $$
 P = B_0+\frac{(ROE-r)}{r-g}B_0
 $$
 
+Discount for Lack of Control (DLOC):
+$$
+DLOC = 1-\frac{1}{1+Control\ Premium}
+$$
