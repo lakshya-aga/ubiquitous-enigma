@@ -52,3 +52,15 @@ Discount for Lack of marketability (DLOM):
 $$
 DLOM = \frac{Put\ premium}{Current\ Share\ price}
 $$
+## Valuing private equity
+### Market based approach
+Three types:
+- GPCM: Guideline Public Company method. Via observed trading activity of comparable public companies
+- GTM: Guideline Transaction Method. Via acquisition of comparable public companies
+- Prior Transaction: Trades of the shares of private company in question
+#### GPCM: 
+$$
+\beta_{levered} = \beta_{unlevered}(1+\frac{Debt}{Equity}(1-t))
+$$
+
+
