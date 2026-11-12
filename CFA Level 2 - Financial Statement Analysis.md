@@ -48,3 +48,4 @@ Discount for Lack of Control (DLOC):
 $$
 DLOC = 1-\frac{1}{1+Control\ Premium}
 $$
+Discount for Lack of marketability (DLOM):
