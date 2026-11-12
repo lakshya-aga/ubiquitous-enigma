@@ -34,3 +34,6 @@ MVA = Market value of Shares - Book Value of Equity
 
 Declining Residual income:
 
+$$
+P =B_{0}+ \sum\limits^{T-1}_{t=1}\frac{E_t-rB_{t-1}}{(1+r)^t}-\frac{E_T-rB_{T-1}}{(1+r)^{t-1}(1+r-\omega)}
+$$
