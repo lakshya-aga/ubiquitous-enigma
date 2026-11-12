@@ -31,3 +31,6 @@ q = difference in no. of variables
 
 EVA = NOPAT - (WACC * Beginning Book Value of Assets)
 MVA = Market value of Shares - Book Value of Equity
+
+Declining Residual income:
+
