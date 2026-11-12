@@ -49,3 +49,6 @@ $$
 DLOC = 1-\frac{1}{1+Control\ Premium}
 $$
 Discount for Lack of marketability (DLOM):
+$$
+DLOM = \frac{Put\ premium}{Current\ Share\ price}
+$$
