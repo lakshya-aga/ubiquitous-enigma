@@ -62,5 +62,6 @@ Three types:
 $$
 \beta_{levered} = \beta_{unlevered}(1+\frac{Debt}{Equity}(1-t))
 $$
-
-
+$$
+Firm\ value = \frac{FCFF_{t+1}(1-Tax\%)(1-ReInvestmentRatio)}{WACC-g}
+$$
