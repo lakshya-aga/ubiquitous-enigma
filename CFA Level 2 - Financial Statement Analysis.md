@@ -68,9 +68,25 @@ $$
 
 ## DuPont Model
 
+$$
+ROE = \frac{Net\ Income}{Sales}*\frac{Sales}{TotlaAssets}*\frac{TotoalAssets}{Equity}
+$$
+$$
+ROE = NetProfitMargin*AssetTurnover*Leverage
+$$
+Extended Dupont Model:
+$$
+ROE = \frac{NetIncome}{EBT}\frac{EBT}{EBIT}\frac{EBIT}{Sales}\frac{Sales}{TotalAssets}\frac{TotalAssets}{Equity}
+
+$$
+$$
+ROE = TaxBurden*InterestBurden*EBIT\ margin*AssetTurnover*Leverage
+$$
+
 CDS premium
 
 cash-flow-based accruals ratio
 
 Beneish _M_-scores and Altman _Z_-scores
+
 
