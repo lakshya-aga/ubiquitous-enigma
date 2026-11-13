@@ -69,3 +69,8 @@ $$
 ## DuPont Model
 
 CDS premium
+
+cash-flow-based accruals ratio
+
+Beneish _M_-scores and Altman _Z_-scores
+
