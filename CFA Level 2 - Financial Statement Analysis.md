@@ -65,3 +65,5 @@ $$
 $$
 Firm\ value = \frac{FCFF_{t+1}(1-Tax\%)(1-ReInvestmentRatio)}{WACC-g}
 $$
+
+## DuPont Model
