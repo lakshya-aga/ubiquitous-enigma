@@ -31,7 +31,12 @@ q = difference in no. of variables
 
 $$
 FCFF = NetIncome + NetNoncashCharges+Interest(1-Tax\%)-FCInv-WCInv
+
 $$
+$$
+FCFF = CFO+Int(1-T\%)-FixCapInv
+$$
+
 $$
 FCFE=CFO-FCInv+NetBorrowing
 $$
