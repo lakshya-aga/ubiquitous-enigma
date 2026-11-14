@@ -29,6 +29,10 @@ q = difference in no. of variables
 
 # Equity
 
+$$
+FCFF = NetIncome + NetNoncashCharges+Interest(1-Tax\%)-FCInv-WCInv
+$$
+
 EVA = NOPAT - (WACC * Beginning Book Value of Assets)
 MVA = Market value of Shares - Book Value of Equity
 
@@ -133,3 +137,4 @@ Pension expense = ServiceCost+InterestExpense-ExpectedReturn
 $$
 MeabReversionLevel = \frac{\beta_0}{1-\beta_1}
 $$
+
