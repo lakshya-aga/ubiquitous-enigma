@@ -129,3 +129,7 @@ $$
 - Credit unions, cooperative and mutual banks are depository institutions that function like banks and offer many of the same services as banks
 
 Pension expense = ServiceCost+InterestExpense-ExpectedReturn
+
+$$
+MeabReversionLevel = \frac{\beta_0}{1-\beta_1}
+$$
