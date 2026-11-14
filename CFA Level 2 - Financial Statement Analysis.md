@@ -92,7 +92,7 @@ $$
 
 cash-flow-based accruals ratio
 $$
-\frac{NI-(CFO-CFI)}{Average\ NOA}
+\frac{NI-(CFO+CFI)}{Average\ NOA}
 $$
 
 Beneish _M_-scores and Altman _Z_-scores
