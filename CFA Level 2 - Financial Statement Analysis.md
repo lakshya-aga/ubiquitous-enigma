@@ -127,3 +127,5 @@ DividendToPolicyHolders/NetPremiumsEarned
 $$
 - For asset Quality check LiquidAsset/TotalAsset
 - Credit unions, cooperative and mutual banks are depository institutions that function like banks and offer many of the same services as banks
+
+Pension expense = ServiceCost+InterestExpense-ExpectedReturn
