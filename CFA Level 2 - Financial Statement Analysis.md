@@ -98,3 +98,16 @@ $$
 Beneish _M_-scores and Altman _Z_-scores
 
 
+### Analysis of Financial institutions
+$$
+LCR = \frac{Highly LiquidAssets}{Expected Cash Outflows}
+$$
+$$
+NSFR = \frac{AvailabeStableFunding}{RequiredStableFunding}
+$$
+$$
+Available Stable Funding = Capital+Deposits+OtherLiabilities
+$$
+$$
+Required StableFunding = BankAssets
+$$
