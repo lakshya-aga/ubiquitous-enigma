@@ -32,7 +32,21 @@ q = difference in no. of variables
 $$
 FCFF = NetIncome + NetNoncashCharges+Interest(1-Tax\%)-FCInv-WCInv
 $$
+---
+## Non-Cash Adjustments
+Amortization: Added
+Restructuring Expense: AddedBack
+RestructuringIncome: Subtracted
+CapitalGains: Subtracted
+CapitalLoss: Added
+Employee Option Exercise: Added
+DeferredTax: Added
+Tax Asset: Subtracted
 
+---
+$$
+FCFE = FCFF - Interest(1-T)+NetBorrowing
+$$
 EVA = NOPAT - (WACC * Beginning Book Value of Assets)
 MVA = Market value of Shares - Book Value of Equity
 
