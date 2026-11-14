@@ -40,6 +40,10 @@ $$
 $$
 FCFE=CFO-FCInv+NetBorrowing
 $$
+
+$$
+FCFE = FCFF+Int(1-T)+NetBorrowing
+$$
 ---
 ## Non-Cash Adjustments
 Amortization: Added
