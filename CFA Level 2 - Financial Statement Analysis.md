@@ -111,3 +111,17 @@ $$
 $$
 Required StableFunding = BankAssets
 $$
+$$
+Combined Ratio = \frac{TotalInsuranceExpenses}{NetPremiums}
+$$
+$>100\%$ of Combined ratio implies underwriting loss
+
+$$
+LossAndLossAdjustmentRatio = \frac{LossExpense+LossAdjustmentExpense}{NetPremiumsEarned}
+$$
+$$
+UnderwritingExpenseRatio = \frac{UnderwritingExpense}{NetPremiumsWritten}
+$$
+$$
+DividendToPolicyHolders/NetPremiumsEarned
+$$
