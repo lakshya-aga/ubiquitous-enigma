@@ -32,6 +32,9 @@ q = difference in no. of variables
 $$
 FCFF = NetIncome + NetNoncashCharges+Interest(1-Tax\%)-FCInv-WCInv
 $$
+$$
+FCFE=CFO-FCInv+NetBorrowing
+$$
 ---
 ## Non-Cash Adjustments
 Amortization: Added
