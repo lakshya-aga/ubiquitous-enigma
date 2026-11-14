@@ -125,3 +125,4 @@ $$
 $$
 DividendToPolicyHolders/NetPremiumsEarned
 $$
+For asset Quality check LiquidAsset/TotalAsset
