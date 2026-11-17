@@ -131,9 +131,9 @@ f''(x) = \frac{f(x+h)+f(x-h)-2f(x)}{h^2}
 
 
 $$
-$$
+
 Use: +h and -h in first and second order to get to the formula
-$$
+
 
 
 Price changes due to convexity and duration can be calculated using Taylor Formula
