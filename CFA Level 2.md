@@ -165,3 +165,4 @@ MeabReversionLevel = \frac{\beta_0}{1-\beta_1}
 $$
 
 6.4
+6.8
