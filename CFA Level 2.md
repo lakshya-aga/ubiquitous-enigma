@@ -163,4 +163,4 @@ $$
 MeabReversionLevel = \frac{\beta_0}{1-\beta_1}
 $$
 
-Steady state growth = $\frac{\Delta Y}{Y} = \frac{\theta}{1-\alpha}+n$ where  
+Steady state growth = $\frac{\Delta Y}{Y} = \frac{\theta}{1-\alpha}+n$ where  $\theta$ is growth rate of Total Factor Production and n is growth rate of labour
