@@ -163,4 +163,4 @@ $$
 MeabReversionLevel = \frac{\beta_0}{1-\beta_1}
 $$
 
-Steady state growth = $\frac{\theta}{}$
+Steady state growth = $\frac{\theta}{1-\alpha}+n$ where  
