@@ -3,4 +3,4 @@ Type: #source #academic
 Topics: [[ML Optimisations]]
 
 ---
-The aim of this paper is to show that we can 
+The aim of this paper is to show that we can reduce the number of HBM read cycles by determining whether 
