@@ -25,6 +25,6 @@ def f(x: Tensor[N]):
 ```
 With a Fusion compiler like NVFuser.
 We can change different `repeat` values to see how it scales with operations. A crude way to put it is: take `repeat` value of 1, and 2. Difference it. You get the time spent in computation. The rest of it is memory bandwidth cost.
-## [Colab](https://colab.research.google.com/drive/1Ao0GorwaNh88Y5hiGI74A5TSDQMu97oY) Notebook for measuing compute Intensity
+## [Colab](https://colab.research.google.com/drive/1Ao0GorwaNh88Y5hiGI74A5TSDQMu97oY) Notebook for measuring compute Intensity
 
 
