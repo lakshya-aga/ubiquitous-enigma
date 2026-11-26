@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FlashAttention - Fast and Memory Efficient Exact Attention with IO Awareness.md",
+                "file": "Online softmax.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FlashAttention - Fast and Memory Efficient Exact Attention with IO Awareness"
+              "title": "Online softmax"
             }
           }
         ],
@@ -267,9 +267,10 @@
   },
   "active": "53ba927a431e9b1c",
   "lastOpenFiles": [
-    "ML Optimisations.md",
-    "Making Deep Learning Go Brrrr from First Principles.md",
     "FlashAttention - Fast and Memory Efficient Exact Attention with IO Awareness.md",
+    "Online softmax.md",
+    "Making Deep Learning Go Brrrr from First Principles.md",
+    "ML Optimisations.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-11-26 at 2.36.20 PM.png",
     "Horace He.md",
     "PredictIO- Decoupling Workload Prediction fromOS-Controlled Storage Prefetching.md",
@@ -295,7 +296,6 @@
     "CPP TEST.md",
     "Modular Inverse.md",
     "Competitve Programming.md",
-    "Untitled 1.md",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-30 at 5.55.16 AM.png",
     "MolecularNotes-master/_attachments/Screenshot 2026-06-30 at 5.54.45 AM.png",
     "_templates",
