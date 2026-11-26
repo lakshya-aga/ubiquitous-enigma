@@ -1,7 +1,7 @@
 Author: [[Horace He]]
 Type: #source #
 Link: https://horace.io/brrr_intro.html 
-Topics:
+Topics: [[ML Optimisations]]
 
 ---
 GPU computations are divided into 2 main components:
